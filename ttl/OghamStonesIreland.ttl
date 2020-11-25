@@ -1,5 +1,5 @@
 # create triples from C:\git\Ogham\data_raw\CIIC_Ireland\csv\OghamStonesIreland.csv 
-# on 2020-11-25 12:15
+# on 2020-11-25 12:24
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
 PREFIX owl: <http://www.w3.org/2002/07/owl#> 
@@ -8,7 +8,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX geosparql: <http://www.opengis.net/ont/geosparql#> 
 PREFIX dc: <http://purl.org/dc/elements/1.1/> 
 PREFIX sf: <http://www.opengis.net/ont/sf#> 
-PREFIX oghamonto: <http://ontology.archaeology.link#> 
+PREFIX oghamonto: <http://ontology.ogham.link#> 
 PREFIX ogham: <http://lod.ogham.link/data/> 
 
 ogham:stone_ciic_1 rdf:type oghamonto:Stone .
