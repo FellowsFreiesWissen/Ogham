@@ -32,7 +32,7 @@ data = pd.read_csv(
     file_in,
     encoding='utf-8',
     sep='|',
-    usecols=['label_en', 'P1545_ciic'],
+    usecols=['label_en', 'P1545_ciic', 'P625_coord'],
     na_values=['.', '??']  # take any '.' or '??' values as NA
 )
 print(data.info())
@@ -47,9 +47,16 @@ for index, row in data.iterrows():
     if tmpno % 10 == 0:
         print(tmpno)
     lineNo += 1
-    lines.append("ogham:stone_" + str(row['P1545_ciic']) + " " + "rdf:type" + " oghamonto:Stone .")
-    lines.append("ogham:stone_" + str(row['P1545_ciic']) + " " + "rdfs:label" + " " + "'" + str(row['label_en']).replace('\'', '`') + "'@en" + ".")
-    lines.append("ogham:stone_" + str(row['P1545_ciic']) + " " + "dc:identifier" + " " + "" + str(row['P1545_ciic']) + "" + ".")
+    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "rdf:type" + " oghamonto:Stone .")
+    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "rdfs:label" + " " + "'" + str(row['label_en']).replace('\'', '`') + "'@en" + ".")
+    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "dc:identifier" + " " + "" + str(row['P1545_ciic']) + "" + ".")
+    # geom
+    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "geosparql:hasGeometry" + " ogham:stone_ciic_" + str(row['P1545_ciic']) + "_geom .")
+    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + "_geom " + "rdf:type" + " sf:the_geom .")
+    split = str(row['P625_coord']).split(",")
+    point = "POINT(" + str(split[1]) + " " + str(split[0]) + ")"
+    point = "\"<http://www.opengis.net/def/crs/EPSG/0/4326> " + point + "\"^^geosparql:wktLiteral"
+    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + "_geom " + "geosparql:asWKT " + point + ".")
     lines.append("")
 
 files = (len(lines) / 100000) + 1
