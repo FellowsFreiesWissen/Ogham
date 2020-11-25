@@ -1,5 +1,5 @@
 # create triples from C:\git\Ogham\data_raw\CIIC_Ireland\csv\OghamStonesIreland.csv 
-# on 2020-11-25 08:58
+# on 2020-11-25 09:00
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
 PREFIX owl: <http://www.w3.org/2002/07/owl#> 
@@ -14,969 +14,1292 @@ PREFIX ogham: <http://lod.ogham.link/data/>
 ogham:stone_1 rdf:type oghamonto:Stone .
 ogham:stone_1 rdfs:label 'CIIC 1'@en.
 ogham:stone_1 dc:identifier 1.
+
 ogham:stone_2 rdf:type oghamonto:Stone .
 ogham:stone_2 rdfs:label 'CIIC 2'@en.
 ogham:stone_2 dc:identifier 2.
+
 ogham:stone_3 rdf:type oghamonto:Stone .
 ogham:stone_3 rdfs:label 'CIIC 3'@en.
 ogham:stone_3 dc:identifier 3.
+
 ogham:stone_4 rdf:type oghamonto:Stone .
 ogham:stone_4 rdfs:label 'CIIC 4'@en.
 ogham:stone_4 dc:identifier 4.
+
 ogham:stone_5 rdf:type oghamonto:Stone .
 ogham:stone_5 rdfs:label 'CIIC 5'@en.
 ogham:stone_5 dc:identifier 5.
+
 ogham:stone_6 rdf:type oghamonto:Stone .
 ogham:stone_6 rdfs:label 'CIIC 6'@en.
 ogham:stone_6 dc:identifier 6.
+
 ogham:stone_7 rdf:type oghamonto:Stone .
 ogham:stone_7 rdfs:label 'CIIC 7'@en.
 ogham:stone_7 dc:identifier 7.
+
 ogham:stone_8 rdf:type oghamonto:Stone .
 ogham:stone_8 rdfs:label 'CIIC 8'@en.
 ogham:stone_8 dc:identifier 8.
+
 ogham:stone_9 rdf:type oghamonto:Stone .
 ogham:stone_9 rdfs:label 'CIIC 9'@en.
 ogham:stone_9 dc:identifier 9.
+
 ogham:stone_10 rdf:type oghamonto:Stone .
 ogham:stone_10 rdfs:label 'CIIC 10'@en.
 ogham:stone_10 dc:identifier 10.
+
 ogham:stone_11 rdf:type oghamonto:Stone .
 ogham:stone_11 rdfs:label 'CIIC 11'@en.
 ogham:stone_11 dc:identifier 11.
+
 ogham:stone_12 rdf:type oghamonto:Stone .
 ogham:stone_12 rdfs:label 'CIIC 12'@en.
 ogham:stone_12 dc:identifier 12.
+
 ogham:stone_13 rdf:type oghamonto:Stone .
 ogham:stone_13 rdfs:label 'CIIC 13'@en.
 ogham:stone_13 dc:identifier 13.
+
 ogham:stone_14 rdf:type oghamonto:Stone .
 ogham:stone_14 rdfs:label 'CIIC 14'@en.
 ogham:stone_14 dc:identifier 14.
+
 ogham:stone_15 rdf:type oghamonto:Stone .
 ogham:stone_15 rdfs:label 'CIIC 15'@en.
 ogham:stone_15 dc:identifier 15.
+
 ogham:stone_16 rdf:type oghamonto:Stone .
 ogham:stone_16 rdfs:label 'CIIC 16'@en.
 ogham:stone_16 dc:identifier 16.
+
 ogham:stone_17 rdf:type oghamonto:Stone .
 ogham:stone_17 rdfs:label 'CIIC 17'@en.
 ogham:stone_17 dc:identifier 17.
+
 ogham:stone_18 rdf:type oghamonto:Stone .
 ogham:stone_18 rdfs:label 'CIIC 18'@en.
 ogham:stone_18 dc:identifier 18.
+
 ogham:stone_19 rdf:type oghamonto:Stone .
 ogham:stone_19 rdfs:label 'CIIC 19'@en.
 ogham:stone_19 dc:identifier 19.
+
 ogham:stone_20 rdf:type oghamonto:Stone .
 ogham:stone_20 rdfs:label 'CIIC 20'@en.
 ogham:stone_20 dc:identifier 20.
+
 ogham:stone_21 rdf:type oghamonto:Stone .
 ogham:stone_21 rdfs:label 'CIIC 21'@en.
 ogham:stone_21 dc:identifier 21.
+
 ogham:stone_22 rdf:type oghamonto:Stone .
 ogham:stone_22 rdfs:label 'CIIC 22'@en.
 ogham:stone_22 dc:identifier 22.
+
 ogham:stone_23 rdf:type oghamonto:Stone .
 ogham:stone_23 rdfs:label 'CIIC 23'@en.
 ogham:stone_23 dc:identifier 23.
+
 ogham:stone_24 rdf:type oghamonto:Stone .
 ogham:stone_24 rdfs:label 'CIIC 24'@en.
 ogham:stone_24 dc:identifier 24.
+
 ogham:stone_25 rdf:type oghamonto:Stone .
 ogham:stone_25 rdfs:label 'CIIC 25'@en.
 ogham:stone_25 dc:identifier 25.
+
 ogham:stone_26 rdf:type oghamonto:Stone .
 ogham:stone_26 rdfs:label 'CIIC 26'@en.
 ogham:stone_26 dc:identifier 26.
+
 ogham:stone_27 rdf:type oghamonto:Stone .
 ogham:stone_27 rdfs:label 'CIIC 27'@en.
 ogham:stone_27 dc:identifier 27.
+
 ogham:stone_28 rdf:type oghamonto:Stone .
 ogham:stone_28 rdfs:label 'CIIC 28'@en.
 ogham:stone_28 dc:identifier 28.
+
 ogham:stone_29 rdf:type oghamonto:Stone .
 ogham:stone_29 rdfs:label 'CIIC 29'@en.
 ogham:stone_29 dc:identifier 29.
+
 ogham:stone_30 rdf:type oghamonto:Stone .
 ogham:stone_30 rdfs:label 'CIIC 30'@en.
 ogham:stone_30 dc:identifier 30.
+
 ogham:stone_31 rdf:type oghamonto:Stone .
 ogham:stone_31 rdfs:label 'CIIC 31'@en.
 ogham:stone_31 dc:identifier 31.
+
 ogham:stone_32 rdf:type oghamonto:Stone .
 ogham:stone_32 rdfs:label 'CIIC 32'@en.
 ogham:stone_32 dc:identifier 32.
+
 ogham:stone_33 rdf:type oghamonto:Stone .
 ogham:stone_33 rdfs:label 'CIIC 33'@en.
 ogham:stone_33 dc:identifier 33.
+
 ogham:stone_34 rdf:type oghamonto:Stone .
 ogham:stone_34 rdfs:label 'CIIC 34'@en.
 ogham:stone_34 dc:identifier 34.
+
 ogham:stone_35 rdf:type oghamonto:Stone .
 ogham:stone_35 rdfs:label 'CIIC 35'@en.
 ogham:stone_35 dc:identifier 35.
+
 ogham:stone_36 rdf:type oghamonto:Stone .
 ogham:stone_36 rdfs:label 'CIIC 36'@en.
 ogham:stone_36 dc:identifier 36.
+
 ogham:stone_37 rdf:type oghamonto:Stone .
 ogham:stone_37 rdfs:label 'CIIC 37'@en.
 ogham:stone_37 dc:identifier 37.
+
 ogham:stone_38 rdf:type oghamonto:Stone .
 ogham:stone_38 rdfs:label 'CIIC 38'@en.
 ogham:stone_38 dc:identifier 38.
+
 ogham:stone_39 rdf:type oghamonto:Stone .
 ogham:stone_39 rdfs:label 'CIIC 39'@en.
 ogham:stone_39 dc:identifier 39.
+
 ogham:stone_40 rdf:type oghamonto:Stone .
 ogham:stone_40 rdfs:label 'CIIC 40'@en.
 ogham:stone_40 dc:identifier 40.
+
 ogham:stone_41 rdf:type oghamonto:Stone .
 ogham:stone_41 rdfs:label 'CIIC 41'@en.
 ogham:stone_41 dc:identifier 41.
+
 ogham:stone_42 rdf:type oghamonto:Stone .
 ogham:stone_42 rdfs:label 'CIIC 42'@en.
 ogham:stone_42 dc:identifier 42.
+
 ogham:stone_43 rdf:type oghamonto:Stone .
 ogham:stone_43 rdfs:label 'CIIC 43'@en.
 ogham:stone_43 dc:identifier 43.
+
 ogham:stone_44 rdf:type oghamonto:Stone .
 ogham:stone_44 rdfs:label 'CIIC 44'@en.
 ogham:stone_44 dc:identifier 44.
+
 ogham:stone_45 rdf:type oghamonto:Stone .
 ogham:stone_45 rdfs:label 'CIIC 45'@en.
 ogham:stone_45 dc:identifier 45.
+
 ogham:stone_46 rdf:type oghamonto:Stone .
 ogham:stone_46 rdfs:label 'CIIC 46'@en.
 ogham:stone_46 dc:identifier 46.
+
 ogham:stone_47 rdf:type oghamonto:Stone .
 ogham:stone_47 rdfs:label 'CIIC 47'@en.
 ogham:stone_47 dc:identifier 47.
+
 ogham:stone_48 rdf:type oghamonto:Stone .
 ogham:stone_48 rdfs:label 'CIIC 48'@en.
 ogham:stone_48 dc:identifier 48.
+
 ogham:stone_49 rdf:type oghamonto:Stone .
 ogham:stone_49 rdfs:label 'CIIC 49'@en.
 ogham:stone_49 dc:identifier 49.
+
 ogham:stone_50 rdf:type oghamonto:Stone .
 ogham:stone_50 rdfs:label 'CIIC 50'@en.
 ogham:stone_50 dc:identifier 50.
+
 ogham:stone_51 rdf:type oghamonto:Stone .
 ogham:stone_51 rdfs:label 'CIIC 51'@en.
 ogham:stone_51 dc:identifier 51.
+
 ogham:stone_52 rdf:type oghamonto:Stone .
 ogham:stone_52 rdfs:label 'CIIC 52'@en.
 ogham:stone_52 dc:identifier 52.
+
 ogham:stone_53 rdf:type oghamonto:Stone .
 ogham:stone_53 rdfs:label 'CIIC 53'@en.
 ogham:stone_53 dc:identifier 53.
+
 ogham:stone_54 rdf:type oghamonto:Stone .
 ogham:stone_54 rdfs:label 'CIIC 54'@en.
 ogham:stone_54 dc:identifier 54.
+
 ogham:stone_55 rdf:type oghamonto:Stone .
 ogham:stone_55 rdfs:label 'CIIC 55'@en.
 ogham:stone_55 dc:identifier 55.
+
 ogham:stone_56 rdf:type oghamonto:Stone .
 ogham:stone_56 rdfs:label 'CIIC 56'@en.
 ogham:stone_56 dc:identifier 56.
+
 ogham:stone_57 rdf:type oghamonto:Stone .
 ogham:stone_57 rdfs:label 'CIIC 57'@en.
 ogham:stone_57 dc:identifier 57.
+
 ogham:stone_58 rdf:type oghamonto:Stone .
 ogham:stone_58 rdfs:label 'CIIC 58'@en.
 ogham:stone_58 dc:identifier 58.
+
 ogham:stone_59 rdf:type oghamonto:Stone .
 ogham:stone_59 rdfs:label 'CIIC 59'@en.
 ogham:stone_59 dc:identifier 59.
+
 ogham:stone_60 rdf:type oghamonto:Stone .
 ogham:stone_60 rdfs:label 'CIIC 60'@en.
 ogham:stone_60 dc:identifier 60.
+
 ogham:stone_61 rdf:type oghamonto:Stone .
 ogham:stone_61 rdfs:label 'CIIC 61'@en.
 ogham:stone_61 dc:identifier 61.
+
 ogham:stone_62 rdf:type oghamonto:Stone .
 ogham:stone_62 rdfs:label 'CIIC 62'@en.
 ogham:stone_62 dc:identifier 62.
+
 ogham:stone_63 rdf:type oghamonto:Stone .
 ogham:stone_63 rdfs:label 'CIIC 63'@en.
 ogham:stone_63 dc:identifier 63.
+
 ogham:stone_64 rdf:type oghamonto:Stone .
 ogham:stone_64 rdfs:label 'CIIC 64'@en.
 ogham:stone_64 dc:identifier 64.
+
 ogham:stone_65 rdf:type oghamonto:Stone .
 ogham:stone_65 rdfs:label 'CIIC 65'@en.
 ogham:stone_65 dc:identifier 65.
+
 ogham:stone_66 rdf:type oghamonto:Stone .
 ogham:stone_66 rdfs:label 'CIIC 66'@en.
 ogham:stone_66 dc:identifier 66.
+
 ogham:stone_67 rdf:type oghamonto:Stone .
 ogham:stone_67 rdfs:label 'CIIC 67'@en.
 ogham:stone_67 dc:identifier 67.
+
 ogham:stone_68 rdf:type oghamonto:Stone .
 ogham:stone_68 rdfs:label 'CIIC 68'@en.
 ogham:stone_68 dc:identifier 68.
+
 ogham:stone_69 rdf:type oghamonto:Stone .
 ogham:stone_69 rdfs:label 'CIIC 69'@en.
 ogham:stone_69 dc:identifier 69.
+
 ogham:stone_70 rdf:type oghamonto:Stone .
 ogham:stone_70 rdfs:label 'CIIC 70'@en.
 ogham:stone_70 dc:identifier 70.
+
 ogham:stone_71 rdf:type oghamonto:Stone .
 ogham:stone_71 rdfs:label 'CIIC 71'@en.
 ogham:stone_71 dc:identifier 71.
+
 ogham:stone_72 rdf:type oghamonto:Stone .
 ogham:stone_72 rdfs:label 'CIIC 72'@en.
 ogham:stone_72 dc:identifier 72.
+
 ogham:stone_73 rdf:type oghamonto:Stone .
 ogham:stone_73 rdfs:label 'CIIC 73'@en.
 ogham:stone_73 dc:identifier 73.
+
 ogham:stone_74 rdf:type oghamonto:Stone .
 ogham:stone_74 rdfs:label 'CIIC 74'@en.
 ogham:stone_74 dc:identifier 74.
+
 ogham:stone_75 rdf:type oghamonto:Stone .
 ogham:stone_75 rdfs:label 'CIIC 75'@en.
 ogham:stone_75 dc:identifier 75.
+
 ogham:stone_76 rdf:type oghamonto:Stone .
 ogham:stone_76 rdfs:label 'CIIC 76'@en.
 ogham:stone_76 dc:identifier 76.
+
 ogham:stone_77 rdf:type oghamonto:Stone .
 ogham:stone_77 rdfs:label 'CIIC 77'@en.
 ogham:stone_77 dc:identifier 77.
+
 ogham:stone_78 rdf:type oghamonto:Stone .
 ogham:stone_78 rdfs:label 'CIIC 78'@en.
 ogham:stone_78 dc:identifier 78.
+
 ogham:stone_79 rdf:type oghamonto:Stone .
 ogham:stone_79 rdfs:label 'CIIC 79'@en.
 ogham:stone_79 dc:identifier 79.
+
 ogham:stone_80 rdf:type oghamonto:Stone .
 ogham:stone_80 rdfs:label 'CIIC 80'@en.
 ogham:stone_80 dc:identifier 80.
+
 ogham:stone_81 rdf:type oghamonto:Stone .
 ogham:stone_81 rdfs:label 'CIIC 81'@en.
 ogham:stone_81 dc:identifier 81.
+
 ogham:stone_82 rdf:type oghamonto:Stone .
 ogham:stone_82 rdfs:label 'CIIC 82'@en.
 ogham:stone_82 dc:identifier 82.
+
 ogham:stone_83 rdf:type oghamonto:Stone .
 ogham:stone_83 rdfs:label 'CIIC 83'@en.
 ogham:stone_83 dc:identifier 83.
+
 ogham:stone_84 rdf:type oghamonto:Stone .
 ogham:stone_84 rdfs:label 'CIIC 84'@en.
 ogham:stone_84 dc:identifier 84.
+
 ogham:stone_85 rdf:type oghamonto:Stone .
 ogham:stone_85 rdfs:label 'CIIC 85'@en.
 ogham:stone_85 dc:identifier 85.
+
 ogham:stone_86 rdf:type oghamonto:Stone .
 ogham:stone_86 rdfs:label 'CIIC 86'@en.
 ogham:stone_86 dc:identifier 86.
+
 ogham:stone_87 rdf:type oghamonto:Stone .
 ogham:stone_87 rdfs:label 'CIIC 87'@en.
 ogham:stone_87 dc:identifier 87.
+
 ogham:stone_88 rdf:type oghamonto:Stone .
 ogham:stone_88 rdfs:label 'CIIC 88'@en.
 ogham:stone_88 dc:identifier 88.
+
 ogham:stone_89 rdf:type oghamonto:Stone .
 ogham:stone_89 rdfs:label 'CIIC 89'@en.
 ogham:stone_89 dc:identifier 89.
+
 ogham:stone_90 rdf:type oghamonto:Stone .
 ogham:stone_90 rdfs:label 'CIIC 90'@en.
 ogham:stone_90 dc:identifier 90.
+
 ogham:stone_91 rdf:type oghamonto:Stone .
 ogham:stone_91 rdfs:label 'CIIC 91'@en.
 ogham:stone_91 dc:identifier 91.
+
 ogham:stone_92 rdf:type oghamonto:Stone .
 ogham:stone_92 rdfs:label 'CIIC 92'@en.
 ogham:stone_92 dc:identifier 92.
+
 ogham:stone_93 rdf:type oghamonto:Stone .
 ogham:stone_93 rdfs:label 'CIIC 93'@en.
 ogham:stone_93 dc:identifier 93.
+
 ogham:stone_94 rdf:type oghamonto:Stone .
 ogham:stone_94 rdfs:label 'CIIC 94'@en.
 ogham:stone_94 dc:identifier 94.
+
 ogham:stone_95 rdf:type oghamonto:Stone .
 ogham:stone_95 rdfs:label 'CIIC 95'@en.
 ogham:stone_95 dc:identifier 95.
+
 ogham:stone_96 rdf:type oghamonto:Stone .
 ogham:stone_96 rdfs:label 'CIIC 96'@en.
 ogham:stone_96 dc:identifier 96.
+
 ogham:stone_97 rdf:type oghamonto:Stone .
 ogham:stone_97 rdfs:label 'CIIC 97'@en.
 ogham:stone_97 dc:identifier 97.
+
 ogham:stone_98 rdf:type oghamonto:Stone .
 ogham:stone_98 rdfs:label 'CIIC 98'@en.
 ogham:stone_98 dc:identifier 98.
+
 ogham:stone_99 rdf:type oghamonto:Stone .
 ogham:stone_99 rdfs:label 'CIIC 99'@en.
 ogham:stone_99 dc:identifier 99.
+
 ogham:stone_100 rdf:type oghamonto:Stone .
 ogham:stone_100 rdfs:label 'CIIC 100'@en.
 ogham:stone_100 dc:identifier 100.
+
 ogham:stone_101 rdf:type oghamonto:Stone .
 ogham:stone_101 rdfs:label 'CIIC 101'@en.
 ogham:stone_101 dc:identifier 101.
+
 ogham:stone_102 rdf:type oghamonto:Stone .
 ogham:stone_102 rdfs:label 'CIIC 102'@en.
 ogham:stone_102 dc:identifier 102.
+
 ogham:stone_103 rdf:type oghamonto:Stone .
 ogham:stone_103 rdfs:label 'CIIC 103'@en.
 ogham:stone_103 dc:identifier 103.
+
 ogham:stone_104 rdf:type oghamonto:Stone .
 ogham:stone_104 rdfs:label 'CIIC 104'@en.
 ogham:stone_104 dc:identifier 104.
+
 ogham:stone_105 rdf:type oghamonto:Stone .
 ogham:stone_105 rdfs:label 'CIIC 105'@en.
 ogham:stone_105 dc:identifier 105.
+
 ogham:stone_106 rdf:type oghamonto:Stone .
 ogham:stone_106 rdfs:label 'CIIC 106'@en.
 ogham:stone_106 dc:identifier 106.
+
 ogham:stone_107 rdf:type oghamonto:Stone .
 ogham:stone_107 rdfs:label 'CIIC 107'@en.
 ogham:stone_107 dc:identifier 107.
+
 ogham:stone_108 rdf:type oghamonto:Stone .
 ogham:stone_108 rdfs:label 'CIIC 108'@en.
 ogham:stone_108 dc:identifier 108.
+
 ogham:stone_109 rdf:type oghamonto:Stone .
 ogham:stone_109 rdfs:label 'CIIC 109'@en.
 ogham:stone_109 dc:identifier 109.
+
 ogham:stone_110 rdf:type oghamonto:Stone .
 ogham:stone_110 rdfs:label 'CIIC 110'@en.
 ogham:stone_110 dc:identifier 110.
+
 ogham:stone_111 rdf:type oghamonto:Stone .
 ogham:stone_111 rdfs:label 'CIIC 111'@en.
 ogham:stone_111 dc:identifier 111.
+
 ogham:stone_112 rdf:type oghamonto:Stone .
 ogham:stone_112 rdfs:label 'CIIC 112'@en.
 ogham:stone_112 dc:identifier 112.
+
 ogham:stone_113 rdf:type oghamonto:Stone .
 ogham:stone_113 rdfs:label 'CIIC 113'@en.
 ogham:stone_113 dc:identifier 113.
+
 ogham:stone_114 rdf:type oghamonto:Stone .
 ogham:stone_114 rdfs:label 'CIIC 114'@en.
 ogham:stone_114 dc:identifier 114.
+
 ogham:stone_115 rdf:type oghamonto:Stone .
 ogham:stone_115 rdfs:label 'CIIC 115'@en.
 ogham:stone_115 dc:identifier 115.
+
 ogham:stone_116 rdf:type oghamonto:Stone .
 ogham:stone_116 rdfs:label 'CIIC 116'@en.
 ogham:stone_116 dc:identifier 116.
+
 ogham:stone_117 rdf:type oghamonto:Stone .
 ogham:stone_117 rdfs:label 'CIIC 117'@en.
 ogham:stone_117 dc:identifier 117.
+
 ogham:stone_118 rdf:type oghamonto:Stone .
 ogham:stone_118 rdfs:label 'CIIC 118'@en.
 ogham:stone_118 dc:identifier 118.
+
 ogham:stone_119 rdf:type oghamonto:Stone .
 ogham:stone_119 rdfs:label 'CIIC 119'@en.
 ogham:stone_119 dc:identifier 119.
+
 ogham:stone_120 rdf:type oghamonto:Stone .
 ogham:stone_120 rdfs:label 'CIIC 120'@en.
 ogham:stone_120 dc:identifier 120.
+
 ogham:stone_121 rdf:type oghamonto:Stone .
 ogham:stone_121 rdfs:label 'CIIC 121'@en.
 ogham:stone_121 dc:identifier 121.
+
 ogham:stone_122 rdf:type oghamonto:Stone .
 ogham:stone_122 rdfs:label 'CIIC 122'@en.
 ogham:stone_122 dc:identifier 122.
+
 ogham:stone_123 rdf:type oghamonto:Stone .
 ogham:stone_123 rdfs:label 'CIIC 123'@en.
 ogham:stone_123 dc:identifier 123.
+
 ogham:stone_124 rdf:type oghamonto:Stone .
 ogham:stone_124 rdfs:label 'CIIC 124'@en.
 ogham:stone_124 dc:identifier 124.
+
 ogham:stone_125 rdf:type oghamonto:Stone .
 ogham:stone_125 rdfs:label 'CIIC 125'@en.
 ogham:stone_125 dc:identifier 125.
+
 ogham:stone_126 rdf:type oghamonto:Stone .
 ogham:stone_126 rdfs:label 'CIIC 126'@en.
 ogham:stone_126 dc:identifier 126.
+
 ogham:stone_127 rdf:type oghamonto:Stone .
 ogham:stone_127 rdfs:label 'CIIC 127'@en.
 ogham:stone_127 dc:identifier 127.
+
 ogham:stone_128 rdf:type oghamonto:Stone .
 ogham:stone_128 rdfs:label 'CIIC 128'@en.
 ogham:stone_128 dc:identifier 128.
+
 ogham:stone_129 rdf:type oghamonto:Stone .
 ogham:stone_129 rdfs:label 'CIIC 129'@en.
 ogham:stone_129 dc:identifier 129.
+
 ogham:stone_130 rdf:type oghamonto:Stone .
 ogham:stone_130 rdfs:label 'CIIC 130'@en.
 ogham:stone_130 dc:identifier 130.
+
 ogham:stone_131 rdf:type oghamonto:Stone .
 ogham:stone_131 rdfs:label 'CIIC 131'@en.
 ogham:stone_131 dc:identifier 131.
+
 ogham:stone_132 rdf:type oghamonto:Stone .
 ogham:stone_132 rdfs:label 'CIIC 132'@en.
 ogham:stone_132 dc:identifier 132.
+
 ogham:stone_133 rdf:type oghamonto:Stone .
 ogham:stone_133 rdfs:label 'CIIC 133'@en.
 ogham:stone_133 dc:identifier 133.
+
 ogham:stone_134 rdf:type oghamonto:Stone .
 ogham:stone_134 rdfs:label 'CIIC 134'@en.
 ogham:stone_134 dc:identifier 134.
+
 ogham:stone_135 rdf:type oghamonto:Stone .
 ogham:stone_135 rdfs:label 'CIIC 135'@en.
 ogham:stone_135 dc:identifier 135.
+
 ogham:stone_136 rdf:type oghamonto:Stone .
 ogham:stone_136 rdfs:label 'CIIC 136'@en.
 ogham:stone_136 dc:identifier 136.
+
 ogham:stone_137 rdf:type oghamonto:Stone .
 ogham:stone_137 rdfs:label 'CIIC 137'@en.
 ogham:stone_137 dc:identifier 137.
+
 ogham:stone_138 rdf:type oghamonto:Stone .
 ogham:stone_138 rdfs:label 'CIIC 138'@en.
 ogham:stone_138 dc:identifier 138.
+
 ogham:stone_139 rdf:type oghamonto:Stone .
 ogham:stone_139 rdfs:label 'CIIC 139'@en.
 ogham:stone_139 dc:identifier 139.
+
 ogham:stone_140 rdf:type oghamonto:Stone .
 ogham:stone_140 rdfs:label 'CIIC 140'@en.
 ogham:stone_140 dc:identifier 140.
+
 ogham:stone_141 rdf:type oghamonto:Stone .
 ogham:stone_141 rdfs:label 'CIIC 141'@en.
 ogham:stone_141 dc:identifier 141.
+
 ogham:stone_142 rdf:type oghamonto:Stone .
 ogham:stone_142 rdfs:label 'CIIC 142'@en.
 ogham:stone_142 dc:identifier 142.
+
 ogham:stone_143 rdf:type oghamonto:Stone .
 ogham:stone_143 rdfs:label 'CIIC 143'@en.
 ogham:stone_143 dc:identifier 143.
+
 ogham:stone_144 rdf:type oghamonto:Stone .
 ogham:stone_144 rdfs:label 'CIIC 144'@en.
 ogham:stone_144 dc:identifier 144.
+
 ogham:stone_145 rdf:type oghamonto:Stone .
 ogham:stone_145 rdfs:label 'CIIC 145'@en.
 ogham:stone_145 dc:identifier 145.
+
 ogham:stone_146 rdf:type oghamonto:Stone .
 ogham:stone_146 rdfs:label 'CIIC 146'@en.
 ogham:stone_146 dc:identifier 146.
+
 ogham:stone_147 rdf:type oghamonto:Stone .
 ogham:stone_147 rdfs:label 'CIIC 147'@en.
 ogham:stone_147 dc:identifier 147.
+
 ogham:stone_148 rdf:type oghamonto:Stone .
 ogham:stone_148 rdfs:label 'CIIC 148'@en.
 ogham:stone_148 dc:identifier 148.
+
 ogham:stone_149 rdf:type oghamonto:Stone .
 ogham:stone_149 rdfs:label 'CIIC 149'@en.
 ogham:stone_149 dc:identifier 149.
+
 ogham:stone_150 rdf:type oghamonto:Stone .
 ogham:stone_150 rdfs:label 'CIIC 150'@en.
 ogham:stone_150 dc:identifier 150.
+
 ogham:stone_151 rdf:type oghamonto:Stone .
 ogham:stone_151 rdfs:label 'CIIC 151'@en.
 ogham:stone_151 dc:identifier 151.
+
 ogham:stone_152 rdf:type oghamonto:Stone .
 ogham:stone_152 rdfs:label 'CIIC 152'@en.
 ogham:stone_152 dc:identifier 152.
+
 ogham:stone_153 rdf:type oghamonto:Stone .
 ogham:stone_153 rdfs:label 'CIIC 153'@en.
 ogham:stone_153 dc:identifier 153.
+
 ogham:stone_154 rdf:type oghamonto:Stone .
 ogham:stone_154 rdfs:label 'CIIC 154'@en.
 ogham:stone_154 dc:identifier 154.
+
 ogham:stone_155 rdf:type oghamonto:Stone .
 ogham:stone_155 rdfs:label 'CIIC 155'@en.
 ogham:stone_155 dc:identifier 155.
+
 ogham:stone_156 rdf:type oghamonto:Stone .
 ogham:stone_156 rdfs:label 'CIIC 156'@en.
 ogham:stone_156 dc:identifier 156.
+
 ogham:stone_157 rdf:type oghamonto:Stone .
 ogham:stone_157 rdfs:label 'CIIC 157'@en.
 ogham:stone_157 dc:identifier 157.
+
 ogham:stone_158 rdf:type oghamonto:Stone .
 ogham:stone_158 rdfs:label 'CIIC 158'@en.
 ogham:stone_158 dc:identifier 158.
+
 ogham:stone_159 rdf:type oghamonto:Stone .
 ogham:stone_159 rdfs:label 'CIIC 159'@en.
 ogham:stone_159 dc:identifier 159.
+
 ogham:stone_160 rdf:type oghamonto:Stone .
 ogham:stone_160 rdfs:label 'CIIC 160'@en.
 ogham:stone_160 dc:identifier 160.
+
 ogham:stone_161 rdf:type oghamonto:Stone .
 ogham:stone_161 rdfs:label 'CIIC 161'@en.
 ogham:stone_161 dc:identifier 161.
+
 ogham:stone_162 rdf:type oghamonto:Stone .
 ogham:stone_162 rdfs:label 'CIIC 162'@en.
 ogham:stone_162 dc:identifier 162.
+
 ogham:stone_163 rdf:type oghamonto:Stone .
 ogham:stone_163 rdfs:label 'CIIC 163'@en.
 ogham:stone_163 dc:identifier 163.
+
 ogham:stone_164 rdf:type oghamonto:Stone .
 ogham:stone_164 rdfs:label 'CIIC 164'@en.
 ogham:stone_164 dc:identifier 164.
+
 ogham:stone_165 rdf:type oghamonto:Stone .
 ogham:stone_165 rdfs:label 'CIIC 165'@en.
 ogham:stone_165 dc:identifier 165.
+
 ogham:stone_166 rdf:type oghamonto:Stone .
 ogham:stone_166 rdfs:label 'CIIC 166'@en.
 ogham:stone_166 dc:identifier 166.
+
 ogham:stone_167 rdf:type oghamonto:Stone .
 ogham:stone_167 rdfs:label 'CIIC 167'@en.
 ogham:stone_167 dc:identifier 167.
+
 ogham:stone_168 rdf:type oghamonto:Stone .
 ogham:stone_168 rdfs:label 'CIIC 168'@en.
 ogham:stone_168 dc:identifier 168.
+
 ogham:stone_169 rdf:type oghamonto:Stone .
 ogham:stone_169 rdfs:label 'CIIC 169'@en.
 ogham:stone_169 dc:identifier 169.
+
 ogham:stone_170 rdf:type oghamonto:Stone .
 ogham:stone_170 rdfs:label 'CIIC 170'@en.
 ogham:stone_170 dc:identifier 170.
+
 ogham:stone_171 rdf:type oghamonto:Stone .
 ogham:stone_171 rdfs:label 'CIIC 171'@en.
 ogham:stone_171 dc:identifier 171.
+
 ogham:stone_172 rdf:type oghamonto:Stone .
 ogham:stone_172 rdfs:label 'CIIC 172'@en.
 ogham:stone_172 dc:identifier 172.
+
 ogham:stone_173 rdf:type oghamonto:Stone .
 ogham:stone_173 rdfs:label 'CIIC 173'@en.
 ogham:stone_173 dc:identifier 173.
+
 ogham:stone_174 rdf:type oghamonto:Stone .
 ogham:stone_174 rdfs:label 'CIIC 174'@en.
 ogham:stone_174 dc:identifier 174.
+
 ogham:stone_175 rdf:type oghamonto:Stone .
 ogham:stone_175 rdfs:label 'CIIC 175'@en.
 ogham:stone_175 dc:identifier 175.
+
 ogham:stone_176 rdf:type oghamonto:Stone .
 ogham:stone_176 rdfs:label 'CIIC 176'@en.
 ogham:stone_176 dc:identifier 176.
+
 ogham:stone_177 rdf:type oghamonto:Stone .
 ogham:stone_177 rdfs:label 'CIIC 177'@en.
 ogham:stone_177 dc:identifier 177.
+
 ogham:stone_178 rdf:type oghamonto:Stone .
 ogham:stone_178 rdfs:label 'CIIC 178'@en.
 ogham:stone_178 dc:identifier 178.
+
 ogham:stone_179 rdf:type oghamonto:Stone .
 ogham:stone_179 rdfs:label 'CIIC 179'@en.
 ogham:stone_179 dc:identifier 179.
+
 ogham:stone_180 rdf:type oghamonto:Stone .
 ogham:stone_180 rdfs:label 'CIIC 180'@en.
 ogham:stone_180 dc:identifier 180.
+
 ogham:stone_181 rdf:type oghamonto:Stone .
 ogham:stone_181 rdfs:label 'CIIC 181'@en.
 ogham:stone_181 dc:identifier 181.
+
 ogham:stone_182 rdf:type oghamonto:Stone .
 ogham:stone_182 rdfs:label 'CIIC 182'@en.
 ogham:stone_182 dc:identifier 182.
+
 ogham:stone_183 rdf:type oghamonto:Stone .
 ogham:stone_183 rdfs:label 'CIIC 183'@en.
 ogham:stone_183 dc:identifier 183.
+
 ogham:stone_184 rdf:type oghamonto:Stone .
 ogham:stone_184 rdfs:label 'CIIC 184'@en.
 ogham:stone_184 dc:identifier 184.
+
 ogham:stone_185 rdf:type oghamonto:Stone .
 ogham:stone_185 rdfs:label 'CIIC 185'@en.
 ogham:stone_185 dc:identifier 185.
+
 ogham:stone_186 rdf:type oghamonto:Stone .
 ogham:stone_186 rdfs:label 'CIIC 186'@en.
 ogham:stone_186 dc:identifier 186.
+
 ogham:stone_187 rdf:type oghamonto:Stone .
 ogham:stone_187 rdfs:label 'CIIC 187'@en.
 ogham:stone_187 dc:identifier 187.
+
 ogham:stone_188 rdf:type oghamonto:Stone .
 ogham:stone_188 rdfs:label 'CIIC 188'@en.
 ogham:stone_188 dc:identifier 188.
+
 ogham:stone_189 rdf:type oghamonto:Stone .
 ogham:stone_189 rdfs:label 'CIIC 189'@en.
 ogham:stone_189 dc:identifier 189.
+
 ogham:stone_190 rdf:type oghamonto:Stone .
 ogham:stone_190 rdfs:label 'CIIC 190'@en.
 ogham:stone_190 dc:identifier 190.
+
 ogham:stone_191 rdf:type oghamonto:Stone .
 ogham:stone_191 rdfs:label 'CIIC 191'@en.
 ogham:stone_191 dc:identifier 191.
+
 ogham:stone_192 rdf:type oghamonto:Stone .
 ogham:stone_192 rdfs:label 'CIIC 192'@en.
 ogham:stone_192 dc:identifier 192.
+
 ogham:stone_193 rdf:type oghamonto:Stone .
 ogham:stone_193 rdfs:label 'CIIC 193'@en.
 ogham:stone_193 dc:identifier 193.
+
 ogham:stone_194 rdf:type oghamonto:Stone .
 ogham:stone_194 rdfs:label 'CIIC 194'@en.
 ogham:stone_194 dc:identifier 194.
+
 ogham:stone_194a rdf:type oghamonto:Stone .
 ogham:stone_194a rdfs:label 'CIIC 194a'@en.
 ogham:stone_194a dc:identifier 194a.
+
 ogham:stone_195 rdf:type oghamonto:Stone .
 ogham:stone_195 rdfs:label 'CIIC 195'@en.
 ogham:stone_195 dc:identifier 195.
+
 ogham:stone_196 rdf:type oghamonto:Stone .
 ogham:stone_196 rdfs:label 'CIIC 196'@en.
 ogham:stone_196 dc:identifier 196.
+
 ogham:stone_197 rdf:type oghamonto:Stone .
 ogham:stone_197 rdfs:label 'CIIC 197'@en.
 ogham:stone_197 dc:identifier 197.
+
 ogham:stone_198 rdf:type oghamonto:Stone .
 ogham:stone_198 rdfs:label 'CIIC 198'@en.
 ogham:stone_198 dc:identifier 198.
+
 ogham:stone_199 rdf:type oghamonto:Stone .
 ogham:stone_199 rdfs:label 'CIIC 199'@en.
 ogham:stone_199 dc:identifier 199.
+
 ogham:stone_200 rdf:type oghamonto:Stone .
 ogham:stone_200 rdfs:label 'CIIC 200'@en.
 ogham:stone_200 dc:identifier 200.
+
 ogham:stone_201 rdf:type oghamonto:Stone .
 ogham:stone_201 rdfs:label 'CIIC 201'@en.
 ogham:stone_201 dc:identifier 201.
+
 ogham:stone_202 rdf:type oghamonto:Stone .
 ogham:stone_202 rdfs:label 'CIIC 202'@en.
 ogham:stone_202 dc:identifier 202.
+
 ogham:stone_203 rdf:type oghamonto:Stone .
 ogham:stone_203 rdfs:label 'CIIC 203'@en.
 ogham:stone_203 dc:identifier 203.
+
 ogham:stone_204 rdf:type oghamonto:Stone .
 ogham:stone_204 rdfs:label 'CIIC 204'@en.
 ogham:stone_204 dc:identifier 204.
+
 ogham:stone_205 rdf:type oghamonto:Stone .
 ogham:stone_205 rdfs:label 'CIIC 205'@en.
 ogham:stone_205 dc:identifier 205.
+
 ogham:stone_206 rdf:type oghamonto:Stone .
 ogham:stone_206 rdfs:label 'CIIC 206'@en.
 ogham:stone_206 dc:identifier 206.
+
 ogham:stone_207 rdf:type oghamonto:Stone .
 ogham:stone_207 rdfs:label 'CIIC 207'@en.
 ogham:stone_207 dc:identifier 207.
+
 ogham:stone_208 rdf:type oghamonto:Stone .
 ogham:stone_208 rdfs:label 'CIIC 208'@en.
 ogham:stone_208 dc:identifier 208.
+
 ogham:stone_209 rdf:type oghamonto:Stone .
 ogham:stone_209 rdfs:label 'CIIC 209'@en.
 ogham:stone_209 dc:identifier 209.
+
 ogham:stone_210 rdf:type oghamonto:Stone .
 ogham:stone_210 rdfs:label 'CIIC 210'@en.
 ogham:stone_210 dc:identifier 210.
+
 ogham:stone_211 rdf:type oghamonto:Stone .
 ogham:stone_211 rdfs:label 'CIIC 211'@en.
 ogham:stone_211 dc:identifier 211.
+
 ogham:stone_212 rdf:type oghamonto:Stone .
 ogham:stone_212 rdfs:label 'CIIC 212'@en.
 ogham:stone_212 dc:identifier 212.
+
 ogham:stone_213 rdf:type oghamonto:Stone .
 ogham:stone_213 rdfs:label 'CIIC 213'@en.
 ogham:stone_213 dc:identifier 213.
+
 ogham:stone_214 rdf:type oghamonto:Stone .
 ogham:stone_214 rdfs:label 'CIIC 214'@en.
 ogham:stone_214 dc:identifier 214.
+
 ogham:stone_215 rdf:type oghamonto:Stone .
 ogham:stone_215 rdfs:label 'CIIC 215'@en.
 ogham:stone_215 dc:identifier 215.
+
 ogham:stone_216 rdf:type oghamonto:Stone .
 ogham:stone_216 rdfs:label 'CIIC 216'@en.
 ogham:stone_216 dc:identifier 216.
+
 ogham:stone_217 rdf:type oghamonto:Stone .
 ogham:stone_217 rdfs:label 'CIIC 217'@en.
 ogham:stone_217 dc:identifier 217.
+
 ogham:stone_218 rdf:type oghamonto:Stone .
 ogham:stone_218 rdfs:label 'CIIC 218'@en.
 ogham:stone_218 dc:identifier 218.
+
 ogham:stone_218a rdf:type oghamonto:Stone .
 ogham:stone_218a rdfs:label 'CIIC 218a'@en.
 ogham:stone_218a dc:identifier 218a.
+
 ogham:stone_219 rdf:type oghamonto:Stone .
 ogham:stone_219 rdfs:label 'CIIC 219'@en.
 ogham:stone_219 dc:identifier 219.
+
 ogham:stone_220 rdf:type oghamonto:Stone .
 ogham:stone_220 rdfs:label 'CIIC 220'@en.
 ogham:stone_220 dc:identifier 220.
+
 ogham:stone_221 rdf:type oghamonto:Stone .
 ogham:stone_221 rdfs:label 'CIIC 221'@en.
 ogham:stone_221 dc:identifier 221.
+
 ogham:stone_222 rdf:type oghamonto:Stone .
 ogham:stone_222 rdfs:label 'CIIC 222'@en.
 ogham:stone_222 dc:identifier 222.
+
 ogham:stone_223 rdf:type oghamonto:Stone .
 ogham:stone_223 rdfs:label 'CIIC 223'@en.
 ogham:stone_223 dc:identifier 223.
+
 ogham:stone_224 rdf:type oghamonto:Stone .
 ogham:stone_224 rdfs:label 'CIIC 224'@en.
 ogham:stone_224 dc:identifier 224.
+
 ogham:stone_225 rdf:type oghamonto:Stone .
 ogham:stone_225 rdfs:label 'CIIC 225'@en.
 ogham:stone_225 dc:identifier 225.
+
 ogham:stone_226 rdf:type oghamonto:Stone .
 ogham:stone_226 rdfs:label 'CIIC 226'@en.
 ogham:stone_226 dc:identifier 226.
+
 ogham:stone_227 rdf:type oghamonto:Stone .
 ogham:stone_227 rdfs:label 'CIIC 227'@en.
 ogham:stone_227 dc:identifier 227.
+
 ogham:stone_228 rdf:type oghamonto:Stone .
 ogham:stone_228 rdfs:label 'CIIC 228'@en.
 ogham:stone_228 dc:identifier 228.
+
 ogham:stone_229 rdf:type oghamonto:Stone .
 ogham:stone_229 rdfs:label 'CIIC 229'@en.
 ogham:stone_229 dc:identifier 229.
+
 ogham:stone_230 rdf:type oghamonto:Stone .
 ogham:stone_230 rdfs:label 'CIIC 230'@en.
 ogham:stone_230 dc:identifier 230.
+
 ogham:stone_231 rdf:type oghamonto:Stone .
 ogham:stone_231 rdfs:label 'CIIC 231'@en.
 ogham:stone_231 dc:identifier 231.
+
 ogham:stone_232 rdf:type oghamonto:Stone .
 ogham:stone_232 rdfs:label 'CIIC 232'@en.
 ogham:stone_232 dc:identifier 232.
+
 ogham:stone_233 rdf:type oghamonto:Stone .
 ogham:stone_233 rdfs:label 'CIIC 233'@en.
 ogham:stone_233 dc:identifier 233.
+
 ogham:stone_234 rdf:type oghamonto:Stone .
 ogham:stone_234 rdfs:label 'CIIC 234'@en.
 ogham:stone_234 dc:identifier 234.
+
 ogham:stone_235 rdf:type oghamonto:Stone .
 ogham:stone_235 rdfs:label 'CIIC 235'@en.
 ogham:stone_235 dc:identifier 235.
+
 ogham:stone_236 rdf:type oghamonto:Stone .
 ogham:stone_236 rdfs:label 'CIIC 236'@en.
 ogham:stone_236 dc:identifier 236.
+
 ogham:stone_237 rdf:type oghamonto:Stone .
 ogham:stone_237 rdfs:label 'CIIC 237'@en.
 ogham:stone_237 dc:identifier 237.
+
 ogham:stone_238 rdf:type oghamonto:Stone .
 ogham:stone_238 rdfs:label 'CIIC 238'@en.
 ogham:stone_238 dc:identifier 238.
+
 ogham:stone_239 rdf:type oghamonto:Stone .
 ogham:stone_239 rdfs:label 'CIIC 239'@en.
 ogham:stone_239 dc:identifier 239.
+
 ogham:stone_240 rdf:type oghamonto:Stone .
 ogham:stone_240 rdfs:label 'CIIC 240'@en.
 ogham:stone_240 dc:identifier 240.
+
 ogham:stone_241 rdf:type oghamonto:Stone .
 ogham:stone_241 rdfs:label 'CIIC 241'@en.
 ogham:stone_241 dc:identifier 241.
+
 ogham:stone_242 rdf:type oghamonto:Stone .
 ogham:stone_242 rdfs:label 'CIIC 242'@en.
 ogham:stone_242 dc:identifier 242.
+
 ogham:stone_242a rdf:type oghamonto:Stone .
 ogham:stone_242a rdfs:label 'CIIC 242a'@en.
 ogham:stone_242a dc:identifier 242a.
+
 ogham:stone_243 rdf:type oghamonto:Stone .
 ogham:stone_243 rdfs:label 'CIIC 243'@en.
 ogham:stone_243 dc:identifier 243.
+
 ogham:stone_244 rdf:type oghamonto:Stone .
 ogham:stone_244 rdfs:label 'CIIC 244'@en.
 ogham:stone_244 dc:identifier 244.
+
 ogham:stone_245 rdf:type oghamonto:Stone .
 ogham:stone_245 rdfs:label 'CIIC 245'@en.
 ogham:stone_245 dc:identifier 245.
+
 ogham:stone_246 rdf:type oghamonto:Stone .
 ogham:stone_246 rdfs:label 'CIIC 246'@en.
 ogham:stone_246 dc:identifier 246.
+
 ogham:stone_246a rdf:type oghamonto:Stone .
 ogham:stone_246a rdfs:label 'CIIC 246a'@en.
 ogham:stone_246a dc:identifier 246a.
+
 ogham:stone_246b rdf:type oghamonto:Stone .
 ogham:stone_246b rdfs:label 'CIIC 246b'@en.
 ogham:stone_246b dc:identifier 246b.
+
 ogham:stone_247 rdf:type oghamonto:Stone .
 ogham:stone_247 rdfs:label 'CIIC 247'@en.
 ogham:stone_247 dc:identifier 247.
+
 ogham:stone_248 rdf:type oghamonto:Stone .
 ogham:stone_248 rdfs:label 'CIIC 248'@en.
 ogham:stone_248 dc:identifier 248.
+
 ogham:stone_249 rdf:type oghamonto:Stone .
 ogham:stone_249 rdfs:label 'CIIC 249'@en.
 ogham:stone_249 dc:identifier 249.
+
 ogham:stone_250 rdf:type oghamonto:Stone .
 ogham:stone_250 rdfs:label 'CIIC 250'@en.
 ogham:stone_250 dc:identifier 250.
+
 ogham:stone_251 rdf:type oghamonto:Stone .
 ogham:stone_251 rdfs:label 'CIIC 251'@en.
 ogham:stone_251 dc:identifier 251.
+
 ogham:stone_252 rdf:type oghamonto:Stone .
 ogham:stone_252 rdfs:label 'CIIC 252'@en.
 ogham:stone_252 dc:identifier 252.
+
 ogham:stone_253 rdf:type oghamonto:Stone .
 ogham:stone_253 rdfs:label 'CIIC 253'@en.
 ogham:stone_253 dc:identifier 253.
+
 ogham:stone_254 rdf:type oghamonto:Stone .
 ogham:stone_254 rdfs:label 'CIIC 254'@en.
 ogham:stone_254 dc:identifier 254.
+
 ogham:stone_255 rdf:type oghamonto:Stone .
 ogham:stone_255 rdfs:label 'CIIC 255'@en.
 ogham:stone_255 dc:identifier 255.
+
 ogham:stone_256 rdf:type oghamonto:Stone .
 ogham:stone_256 rdfs:label 'CIIC 256'@en.
 ogham:stone_256 dc:identifier 256.
+
 ogham:stone_256a rdf:type oghamonto:Stone .
 ogham:stone_256a rdfs:label 'CIIC 256a'@en.
 ogham:stone_256a dc:identifier 256a.
+
 ogham:stone_257 rdf:type oghamonto:Stone .
 ogham:stone_257 rdfs:label 'CIIC 257'@en.
 ogham:stone_257 dc:identifier 257.
+
 ogham:stone_258 rdf:type oghamonto:Stone .
 ogham:stone_258 rdfs:label 'CIIC 258'@en.
 ogham:stone_258 dc:identifier 258.
+
 ogham:stone_259 rdf:type oghamonto:Stone .
 ogham:stone_259 rdfs:label 'CIIC 259'@en.
 ogham:stone_259 dc:identifier 259.
+
 ogham:stone_260 rdf:type oghamonto:Stone .
 ogham:stone_260 rdfs:label 'CIIC 260'@en.
 ogham:stone_260 dc:identifier 260.
+
 ogham:stone_261 rdf:type oghamonto:Stone .
 ogham:stone_261 rdfs:label 'CIIC 261'@en.
 ogham:stone_261 dc:identifier 261.
+
 ogham:stone_262 rdf:type oghamonto:Stone .
 ogham:stone_262 rdfs:label 'CIIC 262'@en.
 ogham:stone_262 dc:identifier 262.
+
 ogham:stone_263 rdf:type oghamonto:Stone .
 ogham:stone_263 rdfs:label 'CIIC 263'@en.
 ogham:stone_263 dc:identifier 263.
+
 ogham:stone_264 rdf:type oghamonto:Stone .
 ogham:stone_264 rdfs:label 'CIIC 264'@en.
 ogham:stone_264 dc:identifier 264.
+
 ogham:stone_265 rdf:type oghamonto:Stone .
 ogham:stone_265 rdfs:label 'CIIC 265'@en.
 ogham:stone_265 dc:identifier 265.
+
 ogham:stone_266 rdf:type oghamonto:Stone .
 ogham:stone_266 rdfs:label 'CIIC 266'@en.
 ogham:stone_266 dc:identifier 266.
+
 ogham:stone_267 rdf:type oghamonto:Stone .
 ogham:stone_267 rdfs:label 'CIIC 267'@en.
 ogham:stone_267 dc:identifier 267.
+
 ogham:stone_268 rdf:type oghamonto:Stone .
 ogham:stone_268 rdfs:label 'CIIC 268'@en.
 ogham:stone_268 dc:identifier 268.
+
 ogham:stone_269 rdf:type oghamonto:Stone .
 ogham:stone_269 rdfs:label 'CIIC 269'@en.
 ogham:stone_269 dc:identifier 269.
+
 ogham:stone_270 rdf:type oghamonto:Stone .
 ogham:stone_270 rdfs:label 'CIIC 270'@en.
 ogham:stone_270 dc:identifier 270.
+
 ogham:stone_271 rdf:type oghamonto:Stone .
 ogham:stone_271 rdfs:label 'CIIC 271'@en.
 ogham:stone_271 dc:identifier 271.
+
 ogham:stone_272 rdf:type oghamonto:Stone .
 ogham:stone_272 rdfs:label 'CIIC 272'@en.
 ogham:stone_272 dc:identifier 272.
+
 ogham:stone_273 rdf:type oghamonto:Stone .
 ogham:stone_273 rdfs:label 'CIIC 273'@en.
 ogham:stone_273 dc:identifier 273.
+
 ogham:stone_274 rdf:type oghamonto:Stone .
 ogham:stone_274 rdfs:label 'CIIC 274'@en.
 ogham:stone_274 dc:identifier 274.
+
 ogham:stone_275 rdf:type oghamonto:Stone .
 ogham:stone_275 rdfs:label 'CIIC 275'@en.
 ogham:stone_275 dc:identifier 275.
+
 ogham:stone_276 rdf:type oghamonto:Stone .
 ogham:stone_276 rdfs:label 'CIIC 276'@en.
 ogham:stone_276 dc:identifier 276.
+
 ogham:stone_277 rdf:type oghamonto:Stone .
 ogham:stone_277 rdfs:label 'CIIC 277'@en.
 ogham:stone_277 dc:identifier 277.
+
 ogham:stone_278 rdf:type oghamonto:Stone .
 ogham:stone_278 rdfs:label 'CIIC 278'@en.
 ogham:stone_278 dc:identifier 278.
+
 ogham:stone_279 rdf:type oghamonto:Stone .
 ogham:stone_279 rdfs:label 'CIIC 279'@en.
 ogham:stone_279 dc:identifier 279.
+
 ogham:stone_280 rdf:type oghamonto:Stone .
 ogham:stone_280 rdfs:label 'CIIC 280'@en.
 ogham:stone_280 dc:identifier 280.
+
 ogham:stone_281 rdf:type oghamonto:Stone .
 ogham:stone_281 rdfs:label 'CIIC 281'@en.
 ogham:stone_281 dc:identifier 281.
+
 ogham:stone_282 rdf:type oghamonto:Stone .
 ogham:stone_282 rdfs:label 'CIIC 282'@en.
 ogham:stone_282 dc:identifier 282.
+
 ogham:stone_283 rdf:type oghamonto:Stone .
 ogham:stone_283 rdfs:label 'CIIC 283'@en.
 ogham:stone_283 dc:identifier 283.
+
 ogham:stone_284 rdf:type oghamonto:Stone .
 ogham:stone_284 rdfs:label 'CIIC 284'@en.
 ogham:stone_284 dc:identifier 284.
+
 ogham:stone_285 rdf:type oghamonto:Stone .
 ogham:stone_285 rdfs:label 'CIIC 285'@en.
 ogham:stone_285 dc:identifier 285.
+
 ogham:stone_286 rdf:type oghamonto:Stone .
 ogham:stone_286 rdfs:label 'CIIC 286'@en.
 ogham:stone_286 dc:identifier 286.
+
 ogham:stone_287 rdf:type oghamonto:Stone .
 ogham:stone_287 rdfs:label 'CIIC 287'@en.
 ogham:stone_287 dc:identifier 287.
+
 ogham:stone_288 rdf:type oghamonto:Stone .
 ogham:stone_288 rdfs:label 'CIIC 288'@en.
 ogham:stone_288 dc:identifier 288.
+
 ogham:stone_289 rdf:type oghamonto:Stone .
 ogham:stone_289 rdfs:label 'CIIC 289'@en.
 ogham:stone_289 dc:identifier 289.
+
 ogham:stone_290 rdf:type oghamonto:Stone .
 ogham:stone_290 rdfs:label 'CIIC 290'@en.
 ogham:stone_290 dc:identifier 290.
+
 ogham:stone_291 rdf:type oghamonto:Stone .
 ogham:stone_291 rdfs:label 'CIIC 291'@en.
 ogham:stone_291 dc:identifier 291.
+
 ogham:stone_292 rdf:type oghamonto:Stone .
 ogham:stone_292 rdfs:label 'CIIC 292'@en.
 ogham:stone_292 dc:identifier 292.
+
 ogham:stone_293 rdf:type oghamonto:Stone .
 ogham:stone_293 rdfs:label 'CIIC 293'@en.
 ogham:stone_293 dc:identifier 293.
+
 ogham:stone_294 rdf:type oghamonto:Stone .
 ogham:stone_294 rdfs:label 'CIIC 294'@en.
 ogham:stone_294 dc:identifier 294.
+
 ogham:stone_295 rdf:type oghamonto:Stone .
 ogham:stone_295 rdfs:label 'CIIC 295'@en.
 ogham:stone_295 dc:identifier 295.
+
 ogham:stone_296 rdf:type oghamonto:Stone .
 ogham:stone_296 rdfs:label 'CIIC 296'@en.
 ogham:stone_296 dc:identifier 296.
+
 ogham:stone_297 rdf:type oghamonto:Stone .
 ogham:stone_297 rdfs:label 'CIIC 297'@en.
 ogham:stone_297 dc:identifier 297.
+
 ogham:stone_298 rdf:type oghamonto:Stone .
 ogham:stone_298 rdfs:label 'CIIC 298'@en.
 ogham:stone_298 dc:identifier 298.
+
 ogham:stone_299 rdf:type oghamonto:Stone .
 ogham:stone_299 rdfs:label 'CIIC 299'@en.
 ogham:stone_299 dc:identifier 299.
+
 ogham:stone_300 rdf:type oghamonto:Stone .
 ogham:stone_300 rdfs:label 'CIIC 300'@en.
 ogham:stone_300 dc:identifier 300.
+
 ogham:stone_301 rdf:type oghamonto:Stone .
 ogham:stone_301 rdfs:label 'CIIC 301'@en.
 ogham:stone_301 dc:identifier 301.
+
 ogham:stone_302 rdf:type oghamonto:Stone .
 ogham:stone_302 rdfs:label 'CIIC 302'@en.
 ogham:stone_302 dc:identifier 302.
+
 ogham:stone_303 rdf:type oghamonto:Stone .
 ogham:stone_303 rdfs:label 'CIIC 303'@en.
 ogham:stone_303 dc:identifier 303.
+
 ogham:stone_304 rdf:type oghamonto:Stone .
 ogham:stone_304 rdfs:label 'CIIC 304'@en.
 ogham:stone_304 dc:identifier 304.
+
 ogham:stone_305 rdf:type oghamonto:Stone .
 ogham:stone_305 rdfs:label 'CIIC 305'@en.
 ogham:stone_305 dc:identifier 305.
+
 ogham:stone_306 rdf:type oghamonto:Stone .
 ogham:stone_306 rdfs:label 'CIIC 306'@en.
 ogham:stone_306 dc:identifier 306.
+
 ogham:stone_307 rdf:type oghamonto:Stone .
 ogham:stone_307 rdfs:label 'CIIC 307'@en.
 ogham:stone_307 dc:identifier 307.
+
 ogham:stone_308 rdf:type oghamonto:Stone .
 ogham:stone_308 rdfs:label 'CIIC 308'@en.
 ogham:stone_308 dc:identifier 308.
+
 ogham:stone_309 rdf:type oghamonto:Stone .
 ogham:stone_309 rdfs:label 'CIIC 309'@en.
 ogham:stone_309 dc:identifier 309.
+
 ogham:stone_310 rdf:type oghamonto:Stone .
 ogham:stone_310 rdfs:label 'CIIC 310'@en.
 ogham:stone_310 dc:identifier 310.
+
 ogham:stone_311 rdf:type oghamonto:Stone .
 ogham:stone_311 rdfs:label 'CIIC 311'@en.
 ogham:stone_311 dc:identifier 311.
+
 ogham:stone_312 rdf:type oghamonto:Stone .
 ogham:stone_312 rdfs:label 'CIIC 312'@en.
 ogham:stone_312 dc:identifier 312.
+
 ogham:stone_313 rdf:type oghamonto:Stone .
 ogham:stone_313 rdfs:label 'CIIC 313'@en.
 ogham:stone_313 dc:identifier 313.
+
 ogham:stone_314 rdf:type oghamonto:Stone .
 ogham:stone_314 rdfs:label 'CIIC 314'@en.
 ogham:stone_314 dc:identifier 314.
+
 ogham:stone_315 rdf:type oghamonto:Stone .
 ogham:stone_315 rdfs:label 'CIIC 315'@en.
 ogham:stone_315 dc:identifier 315.
+
 ogham:stone_316 rdf:type oghamonto:Stone .
 ogham:stone_316 rdfs:label 'CIIC 316'@en.
 ogham:stone_316 dc:identifier 316.
+
 ogham:stone_317 rdf:type oghamonto:Stone .
 ogham:stone_317 rdfs:label 'CIIC 317'@en.
 ogham:stone_317 dc:identifier 317.
+

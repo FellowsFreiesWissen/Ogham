@@ -50,6 +50,7 @@ for index, row in data.iterrows():
     lines.append("ogham:stone_" + str(row['P1545_ciic']) + " " + "rdf:type" + " oghamonto:Stone .")
     lines.append("ogham:stone_" + str(row['P1545_ciic']) + " " + "rdfs:label" + " " + "'" + str(row['label_en']).replace('\'', '`') + "'@en" + ".")
     lines.append("ogham:stone_" + str(row['P1545_ciic']) + " " + "dc:identifier" + " " + "" + str(row['P1545_ciic']) + "" + ".")
+    lines.append("")
 
 files = (len(lines) / 100000) + 1
 print("lines", len(lines), "files", int(files))
