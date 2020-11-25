@@ -1,5 +1,5 @@
 # create triples from C:\git\Ogham\data_raw\CIIC_Ireland\csv\OghamStonesIreland.csv 
-# on 2020-11-25 12:24
+# on 2020-11-25 12:37
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
 PREFIX owl: <http://www.w3.org/2002/07/owl#> 
@@ -13,2261 +13,2261 @@ PREFIX ogham: <http://lod.ogham.link/data/>
 
 ogham:stone_ciic_1 rdf:type oghamonto:Stone .
 ogham:stone_ciic_1 rdfs:label 'CIIC 1'@en.
-ogham:stone_ciic_1 dc:identifier 1.
+ogham:stone_ciic_1 dc:identifier '1'.
 ogham:stone_ciic_1 geosparql:hasGeometry ogham:stone_ciic_1_geom .
 ogham:stone_ciic_1_geom rdf:type sf:the_geom .
 ogham:stone_ciic_1_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.316944444444443 53.4855556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_2 rdf:type oghamonto:Stone .
 ogham:stone_ciic_2 rdfs:label 'CIIC 2'@en.
-ogham:stone_ciic_2 dc:identifier 2.
+ogham:stone_ciic_2 dc:identifier '2'.
 ogham:stone_ciic_2 geosparql:hasGeometry ogham:stone_ciic_2_geom .
 ogham:stone_ciic_2_geom rdf:type sf:the_geom .
 ogham:stone_ciic_2_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.870555555555556 53.8163889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_3 rdf:type oghamonto:Stone .
 ogham:stone_ciic_3 rdfs:label 'CIIC 3'@en.
-ogham:stone_ciic_3 dc:identifier 3.
+ogham:stone_ciic_3 dc:identifier '3'.
 ogham:stone_ciic_3 geosparql:hasGeometry ogham:stone_ciic_3_geom .
 ogham:stone_ciic_3_geom rdf:type sf:the_geom .
 ogham:stone_ciic_3_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.805000000000001 53.7816667)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_4 rdf:type oghamonto:Stone .
 ogham:stone_ciic_4 rdfs:label 'CIIC 4'@en.
-ogham:stone_ciic_4 dc:identifier 4.
+ogham:stone_ciic_4 dc:identifier '4'.
 ogham:stone_ciic_4 geosparql:hasGeometry ogham:stone_ciic_4_geom .
 ogham:stone_ciic_4_geom rdf:type sf:the_geom .
 ogham:stone_ciic_4_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.765555555555556 53.7736111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_5 rdf:type oghamonto:Stone .
 ogham:stone_ciic_5 rdfs:label 'CIIC 5'@en.
-ogham:stone_ciic_5 dc:identifier 5.
+ogham:stone_ciic_5 dc:identifier '5'.
 ogham:stone_ciic_5 geosparql:hasGeometry ogham:stone_ciic_5_geom .
 ogham:stone_ciic_5_geom rdf:type sf:the_geom .
 ogham:stone_ciic_5_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.665277777777778 53.8961111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_6 rdf:type oghamonto:Stone .
 ogham:stone_ciic_6 rdfs:label 'CIIC 6'@en.
-ogham:stone_ciic_6 dc:identifier 6.
+ogham:stone_ciic_6 dc:identifier '6'.
 ogham:stone_ciic_6 geosparql:hasGeometry ogham:stone_ciic_6_geom .
 ogham:stone_ciic_6_geom rdf:type sf:the_geom .
 ogham:stone_ciic_6_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.709444444444443 53.7286111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_7 rdf:type oghamonto:Stone .
 ogham:stone_ciic_7 rdfs:label 'CIIC 7'@en.
-ogham:stone_ciic_7 dc:identifier 7.
+ogham:stone_ciic_7 dc:identifier '7'.
 ogham:stone_ciic_7 geosparql:hasGeometry ogham:stone_ciic_7_geom .
 ogham:stone_ciic_7_geom rdf:type sf:the_geom .
 ogham:stone_ciic_7_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.08388888888889 54.0744444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_8 rdf:type oghamonto:Stone .
 ogham:stone_ciic_8 rdfs:label 'CIIC 8'@en.
-ogham:stone_ciic_8 dc:identifier 8.
+ogham:stone_ciic_8 dc:identifier '8'.
 ogham:stone_ciic_8 geosparql:hasGeometry ogham:stone_ciic_8_geom .
 ogham:stone_ciic_8_geom rdf:type sf:the_geom .
 ogham:stone_ciic_8_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.870000000000001 53.7463889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_9 rdf:type oghamonto:Stone .
 ogham:stone_ciic_9 rdfs:label 'CIIC 9'@en.
-ogham:stone_ciic_9 dc:identifier 9.
+ogham:stone_ciic_9 dc:identifier '9'.
 ogham:stone_ciic_9 geosparql:hasGeometry ogham:stone_ciic_9_geom .
 ogham:stone_ciic_9_geom rdf:type sf:the_geom .
 ogham:stone_ciic_9_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.330833333333333 54.2602778)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_10 rdf:type oghamonto:Stone .
 ogham:stone_ciic_10 rdfs:label 'CIIC 10'@en.
-ogham:stone_ciic_10 dc:identifier 10.
+ogham:stone_ciic_10 dc:identifier '10'.
 ogham:stone_ciic_10 geosparql:hasGeometry ogham:stone_ciic_10_geom .
 ogham:stone_ciic_10_geom rdf:type sf:the_geom .
 ogham:stone_ciic_10_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.248055555555554 54.2486111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_11 rdf:type oghamonto:Stone .
 ogham:stone_ciic_11 rdfs:label 'CIIC 11'@en.
-ogham:stone_ciic_11 dc:identifier 11.
+ogham:stone_ciic_11 dc:identifier '11'.
 ogham:stone_ciic_11 geosparql:hasGeometry ogham:stone_ciic_11_geom .
 ogham:stone_ciic_11_geom rdf:type sf:the_geom .
 ogham:stone_ciic_11_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.362222222222222 53.84)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_12 rdf:type oghamonto:Stone .
 ogham:stone_ciic_12 rdfs:label 'CIIC 12'@en.
-ogham:stone_ciic_12 dc:identifier 12.
+ogham:stone_ciic_12 dc:identifier '12'.
 ogham:stone_ciic_12 geosparql:hasGeometry ogham:stone_ciic_12_geom .
 ogham:stone_ciic_12_geom rdf:type sf:the_geom .
 ogham:stone_ciic_12_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.297777777777778 53.8075)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_13 rdf:type oghamonto:Stone .
 ogham:stone_ciic_13 rdfs:label 'CIIC 13'@en.
-ogham:stone_ciic_13 dc:identifier 13.
+ogham:stone_ciic_13 dc:identifier '13'.
 ogham:stone_ciic_13 geosparql:hasGeometry ogham:stone_ciic_13_geom .
 ogham:stone_ciic_13_geom rdf:type sf:the_geom .
 ogham:stone_ciic_13_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.297777777777778 53.8075)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_14 rdf:type oghamonto:Stone .
 ogham:stone_ciic_14 rdfs:label 'CIIC 14'@en.
-ogham:stone_ciic_14 dc:identifier 14.
+ogham:stone_ciic_14 dc:identifier '14'.
 ogham:stone_ciic_14 geosparql:hasGeometry ogham:stone_ciic_14_geom .
 ogham:stone_ciic_14_geom rdf:type sf:the_geom .
 ogham:stone_ciic_14_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.956388888888889 52.6316667)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_15 rdf:type oghamonto:Stone .
 ogham:stone_ciic_15 rdfs:label 'CIIC 15'@en.
-ogham:stone_ciic_15 dc:identifier 15.
+ogham:stone_ciic_15 dc:identifier '15'.
 ogham:stone_ciic_15 geosparql:hasGeometry ogham:stone_ciic_15_geom .
 ogham:stone_ciic_15_geom rdf:type sf:the_geom .
 ogham:stone_ciic_15_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.573611111111111 52.8263889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_16 rdf:type oghamonto:Stone .
 ogham:stone_ciic_16 rdfs:label 'CIIC 16'@en.
-ogham:stone_ciic_16 dc:identifier 16.
+ogham:stone_ciic_16 dc:identifier '16'.
 ogham:stone_ciic_16 geosparql:hasGeometry ogham:stone_ciic_16_geom .
 ogham:stone_ciic_16_geom rdf:type sf:the_geom .
 ogham:stone_ciic_16_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.716666666666667 52.7819444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_17 rdf:type oghamonto:Stone .
 ogham:stone_ciic_17 rdfs:label 'CIIC 17'@en.
-ogham:stone_ciic_17 dc:identifier 17.
+ogham:stone_ciic_17 dc:identifier '17'.
 ogham:stone_ciic_17 geosparql:hasGeometry ogham:stone_ciic_17_geom .
 ogham:stone_ciic_17_geom rdf:type sf:the_geom .
 ogham:stone_ciic_17_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.727222222222222 52.8480556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_18 rdf:type oghamonto:Stone .
 ogham:stone_ciic_18 rdfs:label 'CIIC 18'@en.
-ogham:stone_ciic_18 dc:identifier 18.
+ogham:stone_ciic_18 dc:identifier '18'.
 ogham:stone_ciic_18 geosparql:hasGeometry ogham:stone_ciic_18_geom .
 ogham:stone_ciic_18_geom rdf:type sf:the_geom .
 ogham:stone_ciic_18_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.152500000000001 53.4197222)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_19 rdf:type oghamonto:Stone .
 ogham:stone_ciic_19 rdfs:label 'CIIC 19'@en.
-ogham:stone_ciic_19 dc:identifier 19.
+ogham:stone_ciic_19 dc:identifier '19'.
 ogham:stone_ciic_19 geosparql:hasGeometry ogham:stone_ciic_19_geom .
 ogham:stone_ciic_19_geom rdf:type sf:the_geom .
 ogham:stone_ciic_19_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.756388888888889 53.0311111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_20 rdf:type oghamonto:Stone .
 ogham:stone_ciic_20 rdfs:label 'CIIC 20'@en.
-ogham:stone_ciic_20 dc:identifier 20.
+ogham:stone_ciic_20 dc:identifier '20'.
 ogham:stone_ciic_20 geosparql:hasGeometry ogham:stone_ciic_20_geom .
 ogham:stone_ciic_20_geom rdf:type sf:the_geom .
 ogham:stone_ciic_20_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.756388888888889 53.0311111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_21 rdf:type oghamonto:Stone .
 ogham:stone_ciic_21 rdfs:label 'CIIC 21'@en.
-ogham:stone_ciic_21 dc:identifier 21.
+ogham:stone_ciic_21 dc:identifier '21'.
 ogham:stone_ciic_21 geosparql:hasGeometry ogham:stone_ciic_21_geom .
 ogham:stone_ciic_21_geom rdf:type sf:the_geom .
 ogham:stone_ciic_21_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.756388888888889 53.0311111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_22 rdf:type oghamonto:Stone .
 ogham:stone_ciic_22 rdfs:label 'CIIC 22'@en.
-ogham:stone_ciic_22 dc:identifier 22.
+ogham:stone_ciic_22 dc:identifier '22'.
 ogham:stone_ciic_22 geosparql:hasGeometry ogham:stone_ciic_22_geom .
 ogham:stone_ciic_22_geom rdf:type sf:the_geom .
 ogham:stone_ciic_22_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.756388888888889 53.0311111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_23 rdf:type oghamonto:Stone .
 ogham:stone_ciic_23 rdfs:label 'CIIC 23'@en.
-ogham:stone_ciic_23 dc:identifier 23.
+ogham:stone_ciic_23 dc:identifier '23'.
 ogham:stone_ciic_23 geosparql:hasGeometry ogham:stone_ciic_23_geom .
 ogham:stone_ciic_23_geom rdf:type sf:the_geom .
 ogham:stone_ciic_23_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.756388888888889 53.0311111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_24 rdf:type oghamonto:Stone .
 ogham:stone_ciic_24 rdfs:label 'CIIC 24'@en.
-ogham:stone_ciic_24 dc:identifier 24.
+ogham:stone_ciic_24 dc:identifier '24'.
 ogham:stone_ciic_24 geosparql:hasGeometry ogham:stone_ciic_24_geom .
 ogham:stone_ciic_24_geom rdf:type sf:the_geom .
 ogham:stone_ciic_24_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.756388888888889 53.0311111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_25 rdf:type oghamonto:Stone .
 ogham:stone_ciic_25 rdfs:label 'CIIC 25'@en.
-ogham:stone_ciic_25 dc:identifier 25.
+ogham:stone_ciic_25 dc:identifier '25'.
 ogham:stone_ciic_25 geosparql:hasGeometry ogham:stone_ciic_25_geom .
 ogham:stone_ciic_25_geom rdf:type sf:the_geom .
 ogham:stone_ciic_25_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.756388888888889 53.0311111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_26 rdf:type oghamonto:Stone .
 ogham:stone_ciic_26 rdfs:label 'CIIC 26'@en.
-ogham:stone_ciic_26 dc:identifier 26.
+ogham:stone_ciic_26 dc:identifier '26'.
 ogham:stone_ciic_26 geosparql:hasGeometry ogham:stone_ciic_26_geom .
 ogham:stone_ciic_26_geom rdf:type sf:the_geom .
 ogham:stone_ciic_26_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.551111111111111 53.3752778)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_27 rdf:type oghamonto:Stone .
 ogham:stone_ciic_27 rdfs:label 'CIIC 27'@en.
-ogham:stone_ciic_27 dc:identifier 27.
+ogham:stone_ciic_27 dc:identifier '27'.
 ogham:stone_ciic_27 geosparql:hasGeometry ogham:stone_ciic_27_geom .
 ogham:stone_ciic_27_geom rdf:type sf:the_geom .
 ogham:stone_ciic_27_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.524444444444445 52.76)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_28 rdf:type oghamonto:Stone .
 ogham:stone_ciic_28 rdfs:label 'CIIC 28'@en.
-ogham:stone_ciic_28 dc:identifier 28.
+ogham:stone_ciic_28 dc:identifier '28'.
 ogham:stone_ciic_28 geosparql:hasGeometry ogham:stone_ciic_28_geom .
 ogham:stone_ciic_28_geom rdf:type sf:the_geom .
 ogham:stone_ciic_28_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.150555555555556 52.6513889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_29 rdf:type oghamonto:Stone .
 ogham:stone_ciic_29 rdfs:label 'CIIC 29'@en.
-ogham:stone_ciic_29 dc:identifier 29.
+ogham:stone_ciic_29 dc:identifier '29'.
 ogham:stone_ciic_29 geosparql:hasGeometry ogham:stone_ciic_29_geom .
 ogham:stone_ciic_29_geom rdf:type sf:the_geom .
 ogham:stone_ciic_29_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.1722222222222225 52.6177778)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_30 rdf:type oghamonto:Stone .
 ogham:stone_ciic_30 rdfs:label 'CIIC 30'@en.
-ogham:stone_ciic_30 dc:identifier 30.
+ogham:stone_ciic_30 dc:identifier '30'.
 ogham:stone_ciic_30 geosparql:hasGeometry ogham:stone_ciic_30_geom .
 ogham:stone_ciic_30_geom rdf:type sf:the_geom .
 ogham:stone_ciic_30_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.1722222222222225 52.6177778)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_31 rdf:type oghamonto:Stone .
 ogham:stone_ciic_31 rdfs:label 'CIIC 31'@en.
-ogham:stone_ciic_31 dc:identifier 31.
+ogham:stone_ciic_31 dc:identifier '31'.
 ogham:stone_ciic_31 geosparql:hasGeometry ogham:stone_ciic_31_geom .
 ogham:stone_ciic_31_geom rdf:type sf:the_geom .
 ogham:stone_ciic_31_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.036388888888888 52.5188889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_32 rdf:type oghamonto:Stone .
 ogham:stone_ciic_32 rdfs:label 'CIIC 32'@en.
-ogham:stone_ciic_32 dc:identifier 32.
+ogham:stone_ciic_32 dc:identifier '32'.
 ogham:stone_ciic_32 geosparql:hasGeometry ogham:stone_ciic_32_geom .
 ogham:stone_ciic_32_geom rdf:type sf:the_geom .
 ogham:stone_ciic_32_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.066111111111111 52.6325)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_33 rdf:type oghamonto:Stone .
 ogham:stone_ciic_33 rdfs:label 'CIIC 33'@en.
-ogham:stone_ciic_33 dc:identifier 33.
+ogham:stone_ciic_33 dc:identifier '33'.
 ogham:stone_ciic_33 geosparql:hasGeometry ogham:stone_ciic_33_geom .
 ogham:stone_ciic_33_geom rdf:type sf:the_geom .
 ogham:stone_ciic_33_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.958055555555556 52.5425)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_34 rdf:type oghamonto:Stone .
 ogham:stone_ciic_34 rdfs:label 'CIIC 34'@en.
-ogham:stone_ciic_34 dc:identifier 34.
+ogham:stone_ciic_34 dc:identifier '34'.
 ogham:stone_ciic_34 geosparql:hasGeometry ogham:stone_ciic_34_geom .
 ogham:stone_ciic_34_geom rdf:type sf:the_geom .
 ogham:stone_ciic_34_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.158611111111111 52.5386111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_35 rdf:type oghamonto:Stone .
 ogham:stone_ciic_35 rdfs:label 'CIIC 35'@en.
-ogham:stone_ciic_35 dc:identifier 35.
+ogham:stone_ciic_35 dc:identifier '35'.
 ogham:stone_ciic_35 geosparql:hasGeometry ogham:stone_ciic_35_geom .
 ogham:stone_ciic_35_geom rdf:type sf:the_geom .
 ogham:stone_ciic_35_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.121388888888888 52.5775)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_36 rdf:type oghamonto:Stone .
 ogham:stone_ciic_36 rdfs:label 'CIIC 36'@en.
-ogham:stone_ciic_36 dc:identifier 36.
+ogham:stone_ciic_36 dc:identifier '36'.
 ogham:stone_ciic_36 geosparql:hasGeometry ogham:stone_ciic_36_geom .
 ogham:stone_ciic_36_geom rdf:type sf:the_geom .
 ogham:stone_ciic_36_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.360833333333333 52.4438889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_37 rdf:type oghamonto:Stone .
 ogham:stone_ciic_37 rdfs:label 'CIIC 37'@en.
-ogham:stone_ciic_37 dc:identifier 37.
+ogham:stone_ciic_37 dc:identifier '37'.
 ogham:stone_ciic_37 geosparql:hasGeometry ogham:stone_ciic_37_geom .
 ogham:stone_ciic_37_geom rdf:type sf:the_geom .
 ogham:stone_ciic_37_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.360833333333333 52.4438889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_38 rdf:type oghamonto:Stone .
 ogham:stone_ciic_38 rdfs:label 'CIIC 38'@en.
-ogham:stone_ciic_38 dc:identifier 38.
+ogham:stone_ciic_38 dc:identifier '38'.
 ogham:stone_ciic_38 geosparql:hasGeometry ogham:stone_ciic_38_geom .
 ogham:stone_ciic_38_geom rdf:type sf:the_geom .
 ogham:stone_ciic_38_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.231111111111111 52.4719444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_39 rdf:type oghamonto:Stone .
 ogham:stone_ciic_39 rdfs:label 'CIIC 39'@en.
-ogham:stone_ciic_39 dc:identifier 39.
+ogham:stone_ciic_39 dc:identifier '39'.
 ogham:stone_ciic_39 geosparql:hasGeometry ogham:stone_ciic_39_geom .
 ogham:stone_ciic_39_geom rdf:type sf:the_geom .
 ogham:stone_ciic_39_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.476666666666667 53.845)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_40 rdf:type oghamonto:Stone .
 ogham:stone_ciic_40 rdfs:label 'CIIC 40'@en.
-ogham:stone_ciic_40 dc:identifier 40.
+ogham:stone_ciic_40 dc:identifier '40'.
 ogham:stone_ciic_40 geosparql:hasGeometry ogham:stone_ciic_40_geom .
 ogham:stone_ciic_40_geom rdf:type sf:the_geom .
 ogham:stone_ciic_40_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.559166666666666 53.6733333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_41 rdf:type oghamonto:Stone .
 ogham:stone_ciic_41 rdfs:label 'CIIC 41'@en.
-ogham:stone_ciic_41 dc:identifier 41.
+ogham:stone_ciic_41 dc:identifier '41'.
 ogham:stone_ciic_41 geosparql:hasGeometry ogham:stone_ciic_41_geom .
 ogham:stone_ciic_41_geom rdf:type sf:the_geom .
 ogham:stone_ciic_41_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.96 53.7358333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_42 rdf:type oghamonto:Stone .
 ogham:stone_ciic_42 rdfs:label 'CIIC 42'@en.
-ogham:stone_ciic_42 dc:identifier 42.
+ogham:stone_ciic_42 dc:identifier '42'.
 ogham:stone_ciic_42 geosparql:hasGeometry ogham:stone_ciic_42_geom .
 ogham:stone_ciic_42_geom rdf:type sf:the_geom .
 ogham:stone_ciic_42_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.720555555555555 52.2505556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_43 rdf:type oghamonto:Stone .
 ogham:stone_ciic_43 rdfs:label 'CIIC 43'@en.
-ogham:stone_ciic_43 dc:identifier 43.
+ogham:stone_ciic_43 dc:identifier '43'.
 ogham:stone_ciic_43 geosparql:hasGeometry ogham:stone_ciic_43_geom .
 ogham:stone_ciic_43_geom rdf:type sf:the_geom .
 ogham:stone_ciic_43_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.6177 52.1173)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_44 rdf:type oghamonto:Stone .
 ogham:stone_ciic_44 rdfs:label 'CIIC 44'@en.
-ogham:stone_ciic_44 dc:identifier 44.
+ogham:stone_ciic_44 dc:identifier '44'.
 ogham:stone_ciic_44 geosparql:hasGeometry ogham:stone_ciic_44_geom .
 ogham:stone_ciic_44_geom rdf:type sf:the_geom .
 ogham:stone_ciic_44_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.4275 52.2152778)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_45 rdf:type oghamonto:Stone .
 ogham:stone_ciic_45 rdfs:label 'CIIC 45'@en.
-ogham:stone_ciic_45 dc:identifier 45.
+ogham:stone_ciic_45 dc:identifier '45'.
 ogham:stone_ciic_45 geosparql:hasGeometry ogham:stone_ciic_45_geom .
 ogham:stone_ciic_45_geom rdf:type sf:the_geom .
 ogham:stone_ciic_45_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.530277777777778 52.5436111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_46 rdf:type oghamonto:Stone .
 ogham:stone_ciic_46 rdfs:label 'CIIC 46'@en.
-ogham:stone_ciic_46 dc:identifier 46.
+ogham:stone_ciic_46 dc:identifier '46'.
 ogham:stone_ciic_46 geosparql:hasGeometry ogham:stone_ciic_46_geom .
 ogham:stone_ciic_46_geom rdf:type sf:the_geom .
 ogham:stone_ciic_46_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.887777777777777 52.1613889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_47 rdf:type oghamonto:Stone .
 ogham:stone_ciic_47 rdfs:label 'CIIC 47'@en.
-ogham:stone_ciic_47 dc:identifier 47.
+ogham:stone_ciic_47 dc:identifier '47'.
 ogham:stone_ciic_47 geosparql:hasGeometry ogham:stone_ciic_47_geom .
 ogham:stone_ciic_47_geom rdf:type sf:the_geom .
 ogham:stone_ciic_47_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.063611111111111 52.9091667)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_48 rdf:type oghamonto:Stone .
 ogham:stone_ciic_48 rdfs:label 'CIIC 48'@en.
-ogham:stone_ciic_48 dc:identifier 48.
+ogham:stone_ciic_48 dc:identifier '48'.
 ogham:stone_ciic_48 geosparql:hasGeometry ogham:stone_ciic_48_geom .
 ogham:stone_ciic_48_geom rdf:type sf:the_geom .
 ogham:stone_ciic_48_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.617777777777778 53.0169444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_49 rdf:type oghamonto:Stone .
 ogham:stone_ciic_49 rdfs:label 'CIIC 49'@en.
-ogham:stone_ciic_49 dc:identifier 49.
+ogham:stone_ciic_49 dc:identifier '49'.
 ogham:stone_ciic_49 geosparql:hasGeometry ogham:stone_ciic_49_geom .
 ogham:stone_ciic_49_geom rdf:type sf:the_geom .
 ogham:stone_ciic_49_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.624444444444445 52.9663889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_50 rdf:type oghamonto:Stone .
 ogham:stone_ciic_50 rdfs:label 'CIIC 50'@en.
-ogham:stone_ciic_50 dc:identifier 50.
+ogham:stone_ciic_50 dc:identifier '50'.
 ogham:stone_ciic_50 geosparql:hasGeometry ogham:stone_ciic_50_geom .
 ogham:stone_ciic_50_geom rdf:type sf:the_geom .
 ogham:stone_ciic_50_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.608888888888888 53.9469444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_51 rdf:type oghamonto:Stone .
 ogham:stone_ciic_51 rdfs:label 'CIIC 51'@en.
-ogham:stone_ciic_51 dc:identifier 51.
+ogham:stone_ciic_51 dc:identifier '51'.
 ogham:stone_ciic_51 geosparql:hasGeometry ogham:stone_ciic_51_geom .
 ogham:stone_ciic_51_geom rdf:type sf:the_geom .
 ogham:stone_ciic_51_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.535 52.9980556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_52 rdf:type oghamonto:Stone .
 ogham:stone_ciic_52 rdfs:label 'CIIC 52'@en.
-ogham:stone_ciic_52 dc:identifier 52.
+ogham:stone_ciic_52 dc:identifier '52'.
 ogham:stone_ciic_52 geosparql:hasGeometry ogham:stone_ciic_52_geom .
 ogham:stone_ciic_52_geom rdf:type sf:the_geom .
 ogham:stone_ciic_52_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.063611111111111 53.0222222)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_53 rdf:type oghamonto:Stone .
 ogham:stone_ciic_53 rdfs:label 'CIIC 53'@en.
-ogham:stone_ciic_53 dc:identifier 53.
+ogham:stone_ciic_53 dc:identifier '53'.
 ogham:stone_ciic_53 geosparql:hasGeometry ogham:stone_ciic_53_geom .
 ogham:stone_ciic_53_geom rdf:type sf:the_geom .
 ogham:stone_ciic_53_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.9807 52.8463)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_54 rdf:type oghamonto:Stone .
 ogham:stone_ciic_54 rdfs:label 'CIIC 54'@en.
-ogham:stone_ciic_54 dc:identifier 54.
+ogham:stone_ciic_54 dc:identifier '54'.
 ogham:stone_ciic_54 geosparql:hasGeometry ogham:stone_ciic_54_geom .
 ogham:stone_ciic_54_geom rdf:type sf:the_geom .
 ogham:stone_ciic_54_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.447777777777778 52.8033333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_55 rdf:type oghamonto:Stone .
 ogham:stone_ciic_55 rdfs:label 'CIIC 55'@en.
-ogham:stone_ciic_55 dc:identifier 55.
+ogham:stone_ciic_55 dc:identifier '55'.
 ogham:stone_ciic_55 geosparql:hasGeometry ogham:stone_ciic_55_geom .
 ogham:stone_ciic_55_geom rdf:type sf:the_geom .
 ogham:stone_ciic_55_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.28361111111111 51.7330556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_56 rdf:type oghamonto:Stone .
 ogham:stone_ciic_56 rdfs:label 'CIIC 56'@en.
-ogham:stone_ciic_56 dc:identifier 56.
+ogham:stone_ciic_56 dc:identifier '56'.
 ogham:stone_ciic_56 geosparql:hasGeometry ogham:stone_ciic_56_geom .
 ogham:stone_ciic_56_geom rdf:type sf:the_geom .
 ogham:stone_ciic_56_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.599444444444446 52.0680556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_57 rdf:type oghamonto:Stone .
 ogham:stone_ciic_57 rdfs:label 'CIIC 57'@en.
-ogham:stone_ciic_57 dc:identifier 57.
+ogham:stone_ciic_57 dc:identifier '57'.
 ogham:stone_ciic_57 geosparql:hasGeometry ogham:stone_ciic_57_geom .
 ogham:stone_ciic_57_geom rdf:type sf:the_geom .
 ogham:stone_ciic_57_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.601944444444444 52.0811111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_58 rdf:type oghamonto:Stone .
 ogham:stone_ciic_58 rdfs:label 'CIIC 58'@en.
-ogham:stone_ciic_58 dc:identifier 58.
+ogham:stone_ciic_58 dc:identifier '58'.
 ogham:stone_ciic_58 geosparql:hasGeometry ogham:stone_ciic_58_geom .
 ogham:stone_ciic_58_geom rdf:type sf:the_geom .
 ogham:stone_ciic_58_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.601944444444444 52.0811111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_59 rdf:type oghamonto:Stone .
 ogham:stone_ciic_59 rdfs:label 'CIIC 59'@en.
-ogham:stone_ciic_59 dc:identifier 59.
+ogham:stone_ciic_59 dc:identifier '59'.
 ogham:stone_ciic_59 geosparql:hasGeometry ogham:stone_ciic_59_geom .
 ogham:stone_ciic_59_geom rdf:type sf:the_geom .
 ogham:stone_ciic_59_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.453333333333333 52.0102778)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_60 rdf:type oghamonto:Stone .
 ogham:stone_ciic_60 rdfs:label 'CIIC 60'@en.
-ogham:stone_ciic_60 dc:identifier 60.
+ogham:stone_ciic_60 dc:identifier '60'.
 ogham:stone_ciic_60 geosparql:hasGeometry ogham:stone_ciic_60_geom .
 ogham:stone_ciic_60_geom rdf:type sf:the_geom .
 ogham:stone_ciic_60_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.453333333333333 52.0102778)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_61 rdf:type oghamonto:Stone .
 ogham:stone_ciic_61 rdfs:label 'CIIC 61'@en.
-ogham:stone_ciic_61 dc:identifier 61.
+ogham:stone_ciic_61 dc:identifier '61'.
 ogham:stone_ciic_61 geosparql:hasGeometry ogham:stone_ciic_61_geom .
 ogham:stone_ciic_61_geom rdf:type sf:the_geom .
 ogham:stone_ciic_61_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.360555555555555 52.0086111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_62 rdf:type oghamonto:Stone .
 ogham:stone_ciic_62 rdfs:label 'CIIC 62'@en.
-ogham:stone_ciic_62 dc:identifier 62.
+ogham:stone_ciic_62 dc:identifier '62'.
 ogham:stone_ciic_62 geosparql:hasGeometry ogham:stone_ciic_62_geom .
 ogham:stone_ciic_62_geom rdf:type sf:the_geom .
 ogham:stone_ciic_62_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.452777777777778 51.9808333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_63 rdf:type oghamonto:Stone .
 ogham:stone_ciic_63 rdfs:label 'CIIC 63'@en.
-ogham:stone_ciic_63 dc:identifier 63.
+ogham:stone_ciic_63 dc:identifier '63'.
 ogham:stone_ciic_63 geosparql:hasGeometry ogham:stone_ciic_63_geom .
 ogham:stone_ciic_63_geom rdf:type sf:the_geom .
 ogham:stone_ciic_63_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.175555555555555 51.9694444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_64 rdf:type oghamonto:Stone .
 ogham:stone_ciic_64 rdfs:label 'CIIC 64'@en.
-ogham:stone_ciic_64 dc:identifier 64.
+ogham:stone_ciic_64 dc:identifier '64'.
 ogham:stone_ciic_64 geosparql:hasGeometry ogham:stone_ciic_64_geom .
 ogham:stone_ciic_64_geom rdf:type sf:the_geom .
 ogham:stone_ciic_64_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.175555555555555 51.9694444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_65 rdf:type oghamonto:Stone .
 ogham:stone_ciic_65 rdfs:label 'CIIC 65'@en.
-ogham:stone_ciic_65 dc:identifier 65.
+ogham:stone_ciic_65 dc:identifier '65'.
 ogham:stone_ciic_65 geosparql:hasGeometry ogham:stone_ciic_65_geom .
 ogham:stone_ciic_65_geom rdf:type sf:the_geom .
 ogham:stone_ciic_65_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.24611111111111 52.0052778)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_66 rdf:type oghamonto:Stone .
 ogham:stone_ciic_66 rdfs:label 'CIIC 66'@en.
-ogham:stone_ciic_66 dc:identifier 66.
+ogham:stone_ciic_66 dc:identifier '66'.
 ogham:stone_ciic_66 geosparql:hasGeometry ogham:stone_ciic_66_geom .
 ogham:stone_ciic_66_geom rdf:type sf:the_geom .
 ogham:stone_ciic_66_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.935277777777777 51.7122222)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_67 rdf:type oghamonto:Stone .
 ogham:stone_ciic_67 rdfs:label 'CIIC 67'@en.
-ogham:stone_ciic_67 dc:identifier 67.
+ogham:stone_ciic_67 dc:identifier '67'.
 ogham:stone_ciic_67 geosparql:hasGeometry ogham:stone_ciic_67_geom .
 ogham:stone_ciic_67_geom rdf:type sf:the_geom .
 ogham:stone_ciic_67_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.981666666666667 51.6288889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_68 rdf:type oghamonto:Stone .
 ogham:stone_ciic_68 rdfs:label 'CIIC 68'@en.
-ogham:stone_ciic_68 dc:identifier 68.
+ogham:stone_ciic_68 dc:identifier '68'.
 ogham:stone_ciic_68 geosparql:hasGeometry ogham:stone_ciic_68_geom .
 ogham:stone_ciic_68_geom rdf:type sf:the_geom .
 ogham:stone_ciic_68_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.711944444444443 51.7275)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_69 rdf:type oghamonto:Stone .
 ogham:stone_ciic_69 rdfs:label 'CIIC 69'@en.
-ogham:stone_ciic_69 dc:identifier 69.
+ogham:stone_ciic_69 dc:identifier '69'.
 ogham:stone_ciic_69 geosparql:hasGeometry ogham:stone_ciic_69_geom .
 ogham:stone_ciic_69_geom rdf:type sf:the_geom .
 ogham:stone_ciic_69_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.846944444444444 51.6788889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_70 rdf:type oghamonto:Stone .
 ogham:stone_ciic_70 rdfs:label 'CIIC 70'@en.
-ogham:stone_ciic_70 dc:identifier 70.
+ogham:stone_ciic_70 dc:identifier '70'.
 ogham:stone_ciic_70 geosparql:hasGeometry ogham:stone_ciic_70_geom .
 ogham:stone_ciic_70_geom rdf:type sf:the_geom .
 ogham:stone_ciic_70_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.846944444444444 51.6788889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_71 rdf:type oghamonto:Stone .
 ogham:stone_ciic_71 rdfs:label 'CIIC 71'@en.
-ogham:stone_ciic_71 dc:identifier 71.
+ogham:stone_ciic_71 dc:identifier '71'.
 ogham:stone_ciic_71 geosparql:hasGeometry ogham:stone_ciic_71_geom .
 ogham:stone_ciic_71_geom rdf:type sf:the_geom .
 ogham:stone_ciic_71_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.846944444444444 51.6788889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_72 rdf:type oghamonto:Stone .
 ogham:stone_ciic_72 rdfs:label 'CIIC 72'@en.
-ogham:stone_ciic_72 dc:identifier 72.
+ogham:stone_ciic_72 dc:identifier '72'.
 ogham:stone_ciic_72 geosparql:hasGeometry ogham:stone_ciic_72_geom .
 ogham:stone_ciic_72_geom rdf:type sf:the_geom .
 ogham:stone_ciic_72_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.088055555555556 51.7708333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_73 rdf:type oghamonto:Stone .
 ogham:stone_ciic_73 rdfs:label 'CIIC 73'@en.
-ogham:stone_ciic_73 dc:identifier 73.
+ogham:stone_ciic_73 dc:identifier '73'.
 ogham:stone_ciic_73 geosparql:hasGeometry ogham:stone_ciic_73_geom .
 ogham:stone_ciic_73_geom rdf:type sf:the_geom .
 ogham:stone_ciic_73_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.95611111111111 51.6883333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_74 rdf:type oghamonto:Stone .
 ogham:stone_ciic_74 rdfs:label 'CIIC 74'@en.
-ogham:stone_ciic_74 dc:identifier 74.
+ogham:stone_ciic_74 dc:identifier '74'.
 ogham:stone_ciic_74 geosparql:hasGeometry ogham:stone_ciic_74_geom .
 ogham:stone_ciic_74_geom rdf:type sf:the_geom .
 ogham:stone_ciic_74_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.95611111111111 51.6883333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_75 rdf:type oghamonto:Stone .
 ogham:stone_ciic_75 rdfs:label 'CIIC 75'@en.
-ogham:stone_ciic_75 dc:identifier 75.
+ogham:stone_ciic_75 dc:identifier '75'.
 ogham:stone_ciic_75 geosparql:hasGeometry ogham:stone_ciic_75_geom .
 ogham:stone_ciic_75_geom rdf:type sf:the_geom .
 ogham:stone_ciic_75_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.185833333333333 51.7594444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_76 rdf:type oghamonto:Stone .
 ogham:stone_ciic_76 rdfs:label 'CIIC 76'@en.
-ogham:stone_ciic_76 dc:identifier 76.
+ogham:stone_ciic_76 dc:identifier '76'.
 ogham:stone_ciic_76 geosparql:hasGeometry ogham:stone_ciic_76_geom .
 ogham:stone_ciic_76_geom rdf:type sf:the_geom .
 ogham:stone_ciic_76_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.893055555555556 51.645)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_77 rdf:type oghamonto:Stone .
 ogham:stone_ciic_77 rdfs:label 'CIIC 77'@en.
-ogham:stone_ciic_77 dc:identifier 77.
+ogham:stone_ciic_77 dc:identifier '77'.
 ogham:stone_ciic_77 geosparql:hasGeometry ogham:stone_ciic_77_geom .
 ogham:stone_ciic_77_geom rdf:type sf:the_geom .
 ogham:stone_ciic_77_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.0125 51.5777778)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_78 rdf:type oghamonto:Stone .
 ogham:stone_ciic_78 rdfs:label 'CIIC 78'@en.
-ogham:stone_ciic_78 dc:identifier 78.
+ogham:stone_ciic_78 dc:identifier '78'.
 ogham:stone_ciic_78 geosparql:hasGeometry ogham:stone_ciic_78_geom .
 ogham:stone_ciic_78_geom rdf:type sf:the_geom .
 ogham:stone_ciic_78_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.539722222222222 51.9577778)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_79 rdf:type oghamonto:Stone .
 ogham:stone_ciic_79 rdfs:label 'CIIC 79'@en.
-ogham:stone_ciic_79 dc:identifier 79.
+ogham:stone_ciic_79 dc:identifier '79'.
 ogham:stone_ciic_79 geosparql:hasGeometry ogham:stone_ciic_79_geom .
 ogham:stone_ciic_79_geom rdf:type sf:the_geom .
 ogham:stone_ciic_79_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.075555555555555 51.9772222)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_80 rdf:type oghamonto:Stone .
 ogham:stone_ciic_80 rdfs:label 'CIIC 80'@en.
-ogham:stone_ciic_80 dc:identifier 80.
+ogham:stone_ciic_80 dc:identifier '80'.
 ogham:stone_ciic_80 geosparql:hasGeometry ogham:stone_ciic_80_geom .
 ogham:stone_ciic_80_geom rdf:type sf:the_geom .
 ogham:stone_ciic_80_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.075555555555555 51.9772222)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_81 rdf:type oghamonto:Stone .
 ogham:stone_ciic_81 rdfs:label 'CIIC 81'@en.
-ogham:stone_ciic_81 dc:identifier 81.
+ogham:stone_ciic_81 dc:identifier '81'.
 ogham:stone_ciic_81 geosparql:hasGeometry ogham:stone_ciic_81_geom .
 ogham:stone_ciic_81_geom rdf:type sf:the_geom .
 ogham:stone_ciic_81_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.761666666666667 51.8163889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_82 rdf:type oghamonto:Stone .
 ogham:stone_ciic_82 rdfs:label 'CIIC 82'@en.
-ogham:stone_ciic_82 dc:identifier 82.
+ogham:stone_ciic_82 dc:identifier '82'.
 ogham:stone_ciic_82 geosparql:hasGeometry ogham:stone_ciic_82_geom .
 ogham:stone_ciic_82_geom rdf:type sf:the_geom .
 ogham:stone_ciic_82_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.071111111111112 52.0269444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_83 rdf:type oghamonto:Stone .
 ogham:stone_ciic_83 rdfs:label 'CIIC 83'@en.
-ogham:stone_ciic_83 dc:identifier 83.
+ogham:stone_ciic_83 dc:identifier '83'.
 ogham:stone_ciic_83 geosparql:hasGeometry ogham:stone_ciic_83_geom .
 ogham:stone_ciic_83_geom rdf:type sf:the_geom .
 ogham:stone_ciic_83_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.071111111111112 52.0269444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_84 rdf:type oghamonto:Stone .
 ogham:stone_ciic_84 rdfs:label 'CIIC 84'@en.
-ogham:stone_ciic_84 dc:identifier 84.
+ogham:stone_ciic_84 dc:identifier '84'.
 ogham:stone_ciic_84 geosparql:hasGeometry ogham:stone_ciic_84_geom .
 ogham:stone_ciic_84_geom rdf:type sf:the_geom .
 ogham:stone_ciic_84_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.071111111111112 52.0269444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_85 rdf:type oghamonto:Stone .
 ogham:stone_ciic_85 rdfs:label 'CIIC 85'@en.
-ogham:stone_ciic_85 dc:identifier 85.
+ogham:stone_ciic_85 dc:identifier '85'.
 ogham:stone_ciic_85 geosparql:hasGeometry ogham:stone_ciic_85_geom .
 ogham:stone_ciic_85_geom rdf:type sf:the_geom .
 ogham:stone_ciic_85_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.071111111111112 52.0269444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_86 rdf:type oghamonto:Stone .
 ogham:stone_ciic_86 rdfs:label 'CIIC 86'@en.
-ogham:stone_ciic_86 dc:identifier 86.
+ogham:stone_ciic_86 dc:identifier '86'.
 ogham:stone_ciic_86 geosparql:hasGeometry ogham:stone_ciic_86_geom .
 ogham:stone_ciic_86_geom rdf:type sf:the_geom .
 ogham:stone_ciic_86_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.071111111111112 52.0269444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_87 rdf:type oghamonto:Stone .
 ogham:stone_ciic_87 rdfs:label 'CIIC 87'@en.
-ogham:stone_ciic_87 dc:identifier 87.
+ogham:stone_ciic_87 dc:identifier '87'.
 ogham:stone_ciic_87 geosparql:hasGeometry ogham:stone_ciic_87_geom .
 ogham:stone_ciic_87_geom rdf:type sf:the_geom .
 ogham:stone_ciic_87_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.071111111111112 52.0269444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_88 rdf:type oghamonto:Stone .
 ogham:stone_ciic_88 rdfs:label 'CIIC 88'@en.
-ogham:stone_ciic_88 dc:identifier 88.
+ogham:stone_ciic_88 dc:identifier '88'.
 ogham:stone_ciic_88 geosparql:hasGeometry ogham:stone_ciic_88_geom .
 ogham:stone_ciic_88_geom rdf:type sf:the_geom .
 ogham:stone_ciic_88_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.071111111111112 52.0269444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_89 rdf:type oghamonto:Stone .
 ogham:stone_ciic_89 rdfs:label 'CIIC 89'@en.
-ogham:stone_ciic_89 dc:identifier 89.
+ogham:stone_ciic_89 dc:identifier '89'.
 ogham:stone_ciic_89 geosparql:hasGeometry ogham:stone_ciic_89_geom .
 ogham:stone_ciic_89_geom rdf:type sf:the_geom .
 ogham:stone_ciic_89_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.071111111111112 52.0269444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_90 rdf:type oghamonto:Stone .
 ogham:stone_ciic_90 rdfs:label 'CIIC 90'@en.
-ogham:stone_ciic_90 dc:identifier 90.
+ogham:stone_ciic_90 dc:identifier '90'.
 ogham:stone_ciic_90 geosparql:hasGeometry ogham:stone_ciic_90_geom .
 ogham:stone_ciic_90_geom rdf:type sf:the_geom .
 ogham:stone_ciic_90_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.071111111111112 52.0269444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_91 rdf:type oghamonto:Stone .
 ogham:stone_ciic_91 rdfs:label 'CIIC 91'@en.
-ogham:stone_ciic_91 dc:identifier 91.
+ogham:stone_ciic_91 dc:identifier '91'.
 ogham:stone_ciic_91 geosparql:hasGeometry ogham:stone_ciic_91_geom .
 ogham:stone_ciic_91_geom rdf:type sf:the_geom .
 ogham:stone_ciic_91_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.071111111111112 52.0269444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_92 rdf:type oghamonto:Stone .
 ogham:stone_ciic_92 rdfs:label 'CIIC 92'@en.
-ogham:stone_ciic_92 dc:identifier 92.
+ogham:stone_ciic_92 dc:identifier '92'.
 ogham:stone_ciic_92 geosparql:hasGeometry ogham:stone_ciic_92_geom .
 ogham:stone_ciic_92_geom rdf:type sf:the_geom .
 ogham:stone_ciic_92_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.071111111111112 52.0269444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_93 rdf:type oghamonto:Stone .
 ogham:stone_ciic_93 rdfs:label 'CIIC 93'@en.
-ogham:stone_ciic_93 dc:identifier 93.
+ogham:stone_ciic_93 dc:identifier '93'.
 ogham:stone_ciic_93 geosparql:hasGeometry ogham:stone_ciic_93_geom .
 ogham:stone_ciic_93_geom rdf:type sf:the_geom .
 ogham:stone_ciic_93_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.071111111111112 52.0269444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_94 rdf:type oghamonto:Stone .
 ogham:stone_ciic_94 rdfs:label 'CIIC 94'@en.
-ogham:stone_ciic_94 dc:identifier 94.
+ogham:stone_ciic_94 dc:identifier '94'.
 ogham:stone_ciic_94 geosparql:hasGeometry ogham:stone_ciic_94_geom .
 ogham:stone_ciic_94_geom rdf:type sf:the_geom .
 ogham:stone_ciic_94_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.071111111111112 52.0269444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_95 rdf:type oghamonto:Stone .
 ogham:stone_ciic_95 rdfs:label 'CIIC 95'@en.
-ogham:stone_ciic_95 dc:identifier 95.
+ogham:stone_ciic_95 dc:identifier '95'.
 ogham:stone_ciic_95 geosparql:hasGeometry ogham:stone_ciic_95_geom .
 ogham:stone_ciic_95_geom rdf:type sf:the_geom .
 ogham:stone_ciic_95_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.071111111111112 52.0269444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_96 rdf:type oghamonto:Stone .
 ogham:stone_ciic_96 rdfs:label 'CIIC 96'@en.
-ogham:stone_ciic_96 dc:identifier 96.
+ogham:stone_ciic_96 dc:identifier '96'.
 ogham:stone_ciic_96 geosparql:hasGeometry ogham:stone_ciic_96_geom .
 ogham:stone_ciic_96_geom rdf:type sf:the_geom .
 ogham:stone_ciic_96_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.071111111111112 52.0269444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_97 rdf:type oghamonto:Stone .
 ogham:stone_ciic_97 rdfs:label 'CIIC 97'@en.
-ogham:stone_ciic_97 dc:identifier 97.
+ogham:stone_ciic_97 dc:identifier '97'.
 ogham:stone_ciic_97 geosparql:hasGeometry ogham:stone_ciic_97_geom .
 ogham:stone_ciic_97_geom rdf:type sf:the_geom .
 ogham:stone_ciic_97_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.608333333333333 51.8386111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_98 rdf:type oghamonto:Stone .
 ogham:stone_ciic_98 rdfs:label 'CIIC 98'@en.
-ogham:stone_ciic_98 dc:identifier 98.
+ogham:stone_ciic_98 dc:identifier '98'.
 ogham:stone_ciic_98 geosparql:hasGeometry ogham:stone_ciic_98_geom .
 ogham:stone_ciic_98_geom rdf:type sf:the_geom .
 ogham:stone_ciic_98_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.608333333333333 51.8386111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_99 rdf:type oghamonto:Stone .
 ogham:stone_ciic_99 rdfs:label 'CIIC 99'@en.
-ogham:stone_ciic_99 dc:identifier 99.
+ogham:stone_ciic_99 dc:identifier '99'.
 ogham:stone_ciic_99 geosparql:hasGeometry ogham:stone_ciic_99_geom .
 ogham:stone_ciic_99_geom rdf:type sf:the_geom .
 ogham:stone_ciic_99_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.608333333333333 51.8386111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_100 rdf:type oghamonto:Stone .
 ogham:stone_ciic_100 rdfs:label 'CIIC 100'@en.
-ogham:stone_ciic_100 dc:identifier 100.
+ogham:stone_ciic_100 dc:identifier '100'.
 ogham:stone_ciic_100 geosparql:hasGeometry ogham:stone_ciic_100_geom .
 ogham:stone_ciic_100_geom rdf:type sf:the_geom .
 ogham:stone_ciic_100_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.608333333333333 51.8386111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_101 rdf:type oghamonto:Stone .
 ogham:stone_ciic_101 rdfs:label 'CIIC 101'@en.
-ogham:stone_ciic_101 dc:identifier 101.
+ogham:stone_ciic_101 dc:identifier '101'.
 ogham:stone_ciic_101 geosparql:hasGeometry ogham:stone_ciic_101_geom .
 ogham:stone_ciic_101_geom rdf:type sf:the_geom .
 ogham:stone_ciic_101_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.608333333333333 51.8386111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_102 rdf:type oghamonto:Stone .
 ogham:stone_ciic_102 rdfs:label 'CIIC 102'@en.
-ogham:stone_ciic_102 dc:identifier 102.
+ogham:stone_ciic_102 dc:identifier '102'.
 ogham:stone_ciic_102 geosparql:hasGeometry ogham:stone_ciic_102_geom .
 ogham:stone_ciic_102_geom rdf:type sf:the_geom .
 ogham:stone_ciic_102_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.608333333333333 51.8386111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_103 rdf:type oghamonto:Stone .
 ogham:stone_ciic_103 rdfs:label 'CIIC 103'@en.
-ogham:stone_ciic_103 dc:identifier 103.
+ogham:stone_ciic_103 dc:identifier '103'.
 ogham:stone_ciic_103 geosparql:hasGeometry ogham:stone_ciic_103_geom .
 ogham:stone_ciic_103_geom rdf:type sf:the_geom .
 ogham:stone_ciic_103_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.818333333333333 52.0158333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_104 rdf:type oghamonto:Stone .
 ogham:stone_ciic_104 rdfs:label 'CIIC 104'@en.
-ogham:stone_ciic_104 dc:identifier 104.
+ogham:stone_ciic_104 dc:identifier '104'.
 ogham:stone_ciic_104 geosparql:hasGeometry ogham:stone_ciic_104_geom .
 ogham:stone_ciic_104_geom rdf:type sf:the_geom .
 ogham:stone_ciic_104_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.823888888888888 51.9558333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_105 rdf:type oghamonto:Stone .
 ogham:stone_ciic_105 rdfs:label 'CIIC 105'@en.
-ogham:stone_ciic_105 dc:identifier 105.
+ogham:stone_ciic_105 dc:identifier '105'.
 ogham:stone_ciic_105 geosparql:hasGeometry ogham:stone_ciic_105_geom .
 ogham:stone_ciic_105_geom rdf:type sf:the_geom .
 ogham:stone_ciic_105_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.823888888888888 51.9558333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_106 rdf:type oghamonto:Stone .
 ogham:stone_ciic_106 rdfs:label 'CIIC 106'@en.
-ogham:stone_ciic_106 dc:identifier 106.
+ogham:stone_ciic_106 dc:identifier '106'.
 ogham:stone_ciic_106 geosparql:hasGeometry ogham:stone_ciic_106_geom .
 ogham:stone_ciic_106_geom rdf:type sf:the_geom .
 ogham:stone_ciic_106_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.887777777777778 51.9408333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_107 rdf:type oghamonto:Stone .
 ogham:stone_ciic_107 rdfs:label 'CIIC 107'@en.
-ogham:stone_ciic_107 dc:identifier 107.
+ogham:stone_ciic_107 dc:identifier '107'.
 ogham:stone_ciic_107 geosparql:hasGeometry ogham:stone_ciic_107_geom .
 ogham:stone_ciic_107_geom rdf:type sf:the_geom .
 ogham:stone_ciic_107_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.866111111111111 51.9911111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_108 rdf:type oghamonto:Stone .
 ogham:stone_ciic_108 rdfs:label 'CIIC 108'@en.
-ogham:stone_ciic_108 dc:identifier 108.
+ogham:stone_ciic_108 dc:identifier '108'.
 ogham:stone_ciic_108 geosparql:hasGeometry ogham:stone_ciic_108_geom .
 ogham:stone_ciic_108_geom rdf:type sf:the_geom .
 ogham:stone_ciic_108_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.81 51.9875)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_109 rdf:type oghamonto:Stone .
 ogham:stone_ciic_109 rdfs:label 'CIIC 109'@en.
-ogham:stone_ciic_109 dc:identifier 109.
+ogham:stone_ciic_109 dc:identifier '109'.
 ogham:stone_ciic_109 geosparql:hasGeometry ogham:stone_ciic_109_geom .
 ogham:stone_ciic_109_geom rdf:type sf:the_geom .
 ogham:stone_ciic_109_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.789444444444444 51.9855556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_110 rdf:type oghamonto:Stone .
 ogham:stone_ciic_110 rdfs:label 'CIIC 110'@en.
-ogham:stone_ciic_110 dc:identifier 110.
+ogham:stone_ciic_110 dc:identifier '110'.
 ogham:stone_ciic_110 geosparql:hasGeometry ogham:stone_ciic_110_geom .
 ogham:stone_ciic_110_geom rdf:type sf:the_geom .
 ogham:stone_ciic_110_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.83888888888889 51.9575)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_111 rdf:type oghamonto:Stone .
 ogham:stone_ciic_111 rdfs:label 'CIIC 111'@en.
-ogham:stone_ciic_111 dc:identifier 111.
+ogham:stone_ciic_111 dc:identifier '111'.
 ogham:stone_ciic_111 geosparql:hasGeometry ogham:stone_ciic_111_geom .
 ogham:stone_ciic_111_geom rdf:type sf:the_geom .
 ogham:stone_ciic_111_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.83888888888889 51.9575)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_112 rdf:type oghamonto:Stone .
 ogham:stone_ciic_112 rdfs:label 'CIIC 112'@en.
-ogham:stone_ciic_112 dc:identifier 112.
+ogham:stone_ciic_112 dc:identifier '112'.
 ogham:stone_ciic_112 geosparql:hasGeometry ogham:stone_ciic_112_geom .
 ogham:stone_ciic_112_geom rdf:type sf:the_geom .
 ogham:stone_ciic_112_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.794722222222221 51.8680556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_113 rdf:type oghamonto:Stone .
 ogham:stone_ciic_113 rdfs:label 'CIIC 113'@en.
-ogham:stone_ciic_113 dc:identifier 113.
+ogham:stone_ciic_113 dc:identifier '113'.
 ogham:stone_ciic_113 geosparql:hasGeometry ogham:stone_ciic_113_geom .
 ogham:stone_ciic_113_geom rdf:type sf:the_geom .
 ogham:stone_ciic_113_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.794722222222221 51.8680556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_114 rdf:type oghamonto:Stone .
 ogham:stone_ciic_114 rdfs:label 'CIIC 114'@en.
-ogham:stone_ciic_114 dc:identifier 114.
+ogham:stone_ciic_114 dc:identifier '114'.
 ogham:stone_ciic_114 geosparql:hasGeometry ogham:stone_ciic_114_geom .
 ogham:stone_ciic_114_geom rdf:type sf:the_geom .
 ogham:stone_ciic_114_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.794722222222221 51.8680556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_115 rdf:type oghamonto:Stone .
 ogham:stone_ciic_115 rdfs:label 'CIIC 115'@en.
-ogham:stone_ciic_115 dc:identifier 115.
+ogham:stone_ciic_115 dc:identifier '115'.
 ogham:stone_ciic_115 geosparql:hasGeometry ogham:stone_ciic_115_geom .
 ogham:stone_ciic_115_geom rdf:type sf:the_geom .
 ogham:stone_ciic_115_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.794722222222221 51.8680556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_116 rdf:type oghamonto:Stone .
 ogham:stone_ciic_116 rdfs:label 'CIIC 116'@en.
-ogham:stone_ciic_116 dc:identifier 116.
+ogham:stone_ciic_116 dc:identifier '116'.
 ogham:stone_ciic_116 geosparql:hasGeometry ogham:stone_ciic_116_geom .
 ogham:stone_ciic_116_geom rdf:type sf:the_geom .
 ogham:stone_ciic_116_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.794722222222221 51.8680556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_117 rdf:type oghamonto:Stone .
 ogham:stone_ciic_117 rdfs:label 'CIIC 117'@en.
-ogham:stone_ciic_117 dc:identifier 117.
+ogham:stone_ciic_117 dc:identifier '117'.
 ogham:stone_ciic_117 geosparql:hasGeometry ogham:stone_ciic_117_geom .
 ogham:stone_ciic_117_geom rdf:type sf:the_geom .
 ogham:stone_ciic_117_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.794722222222221 51.8680556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_118 rdf:type oghamonto:Stone .
 ogham:stone_ciic_118 rdfs:label 'CIIC 118'@en.
-ogham:stone_ciic_118 dc:identifier 118.
+ogham:stone_ciic_118 dc:identifier '118'.
 ogham:stone_ciic_118 geosparql:hasGeometry ogham:stone_ciic_118_geom .
 ogham:stone_ciic_118_geom rdf:type sf:the_geom .
 ogham:stone_ciic_118_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.779444444444445 51.9744444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_119 rdf:type oghamonto:Stone .
 ogham:stone_ciic_119 rdfs:label 'CIIC 119'@en.
-ogham:stone_ciic_119 dc:identifier 119.
+ogham:stone_ciic_119 dc:identifier '119'.
 ogham:stone_ciic_119 geosparql:hasGeometry ogham:stone_ciic_119_geom .
 ogham:stone_ciic_119_geom rdf:type sf:the_geom .
 ogham:stone_ciic_119_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.779444444444445 51.9744444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_120 rdf:type oghamonto:Stone .
 ogham:stone_ciic_120 rdfs:label 'CIIC 120'@en.
-ogham:stone_ciic_120 dc:identifier 120.
+ogham:stone_ciic_120 dc:identifier '120'.
 ogham:stone_ciic_120 geosparql:hasGeometry ogham:stone_ciic_120_geom .
 ogham:stone_ciic_120_geom rdf:type sf:the_geom .
 ogham:stone_ciic_120_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.779444444444445 51.9744444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_121 rdf:type oghamonto:Stone .
 ogham:stone_ciic_121 rdfs:label 'CIIC 121'@en.
-ogham:stone_ciic_121 dc:identifier 121.
+ogham:stone_ciic_121 dc:identifier '121'.
 ogham:stone_ciic_121 geosparql:hasGeometry ogham:stone_ciic_121_geom .
 ogham:stone_ciic_121_geom rdf:type sf:the_geom .
 ogham:stone_ciic_121_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.779444444444445 51.9744444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_122 rdf:type oghamonto:Stone .
 ogham:stone_ciic_122 rdfs:label 'CIIC 122'@en.
-ogham:stone_ciic_122 dc:identifier 122.
+ogham:stone_ciic_122 dc:identifier '122'.
 ogham:stone_ciic_122 geosparql:hasGeometry ogham:stone_ciic_122_geom .
 ogham:stone_ciic_122_geom rdf:type sf:the_geom .
 ogham:stone_ciic_122_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.829444444444444 51.9708333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_123 rdf:type oghamonto:Stone .
 ogham:stone_ciic_123 rdfs:label 'CIIC 123'@en.
-ogham:stone_ciic_123 dc:identifier 123.
+ogham:stone_ciic_123 dc:identifier '123'.
 ogham:stone_ciic_123 geosparql:hasGeometry ogham:stone_ciic_123_geom .
 ogham:stone_ciic_123_geom rdf:type sf:the_geom .
 ogham:stone_ciic_123_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.829444444444444 51.9708333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_124 rdf:type oghamonto:Stone .
 ogham:stone_ciic_124 rdfs:label 'CIIC 124'@en.
-ogham:stone_ciic_124 dc:identifier 124.
+ogham:stone_ciic_124 dc:identifier '124'.
 ogham:stone_ciic_124 geosparql:hasGeometry ogham:stone_ciic_124_geom .
 ogham:stone_ciic_124_geom rdf:type sf:the_geom .
 ogham:stone_ciic_124_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.784166666666666 51.8866667)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_125 rdf:type oghamonto:Stone .
 ogham:stone_ciic_125 rdfs:label 'CIIC 125'@en.
-ogham:stone_ciic_125 dc:identifier 125.
+ogham:stone_ciic_125 dc:identifier '125'.
 ogham:stone_ciic_125 geosparql:hasGeometry ogham:stone_ciic_125_geom .
 ogham:stone_ciic_125_geom rdf:type sf:the_geom .
 ogham:stone_ciic_125_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.784166666666666 51.8866667)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_126 rdf:type oghamonto:Stone .
 ogham:stone_ciic_126 rdfs:label 'CIIC 126'@en.
-ogham:stone_ciic_126 dc:identifier 126.
+ogham:stone_ciic_126 dc:identifier '126'.
 ogham:stone_ciic_126 geosparql:hasGeometry ogham:stone_ciic_126_geom .
 ogham:stone_ciic_126_geom rdf:type sf:the_geom .
 ogham:stone_ciic_126_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.784166666666666 51.8866667)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_127 rdf:type oghamonto:Stone .
 ogham:stone_ciic_127 rdfs:label 'CIIC 127'@en.
-ogham:stone_ciic_127 dc:identifier 127.
+ogham:stone_ciic_127 dc:identifier '127'.
 ogham:stone_ciic_127 geosparql:hasGeometry ogham:stone_ciic_127_geom .
 ogham:stone_ciic_127_geom rdf:type sf:the_geom .
 ogham:stone_ciic_127_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.757222222222222 51.9463889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_128 rdf:type oghamonto:Stone .
 ogham:stone_ciic_128 rdfs:label 'CIIC 128'@en.
-ogham:stone_ciic_128 dc:identifier 128.
+ogham:stone_ciic_128 dc:identifier '128'.
 ogham:stone_ciic_128 geosparql:hasGeometry ogham:stone_ciic_128_geom .
 ogham:stone_ciic_128_geom rdf:type sf:the_geom .
 ogham:stone_ciic_128_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.909166666666668 52.0075)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_129 rdf:type oghamonto:Stone .
 ogham:stone_ciic_129 rdfs:label 'CIIC 129'@en.
-ogham:stone_ciic_129 dc:identifier 129.
+ogham:stone_ciic_129 dc:identifier '129'.
 ogham:stone_ciic_129 geosparql:hasGeometry ogham:stone_ciic_129_geom .
 ogham:stone_ciic_129_geom rdf:type sf:the_geom .
 ogham:stone_ciic_129_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.02638888888889 51.5086111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_130 rdf:type oghamonto:Stone .
 ogham:stone_ciic_130 rdfs:label 'CIIC 130'@en.
-ogham:stone_ciic_130 dc:identifier 130.
+ogham:stone_ciic_130 dc:identifier '130'.
 ogham:stone_ciic_130 geosparql:hasGeometry ogham:stone_ciic_130_geom .
 ogham:stone_ciic_130_geom rdf:type sf:the_geom .
 ogham:stone_ciic_130_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.928055555555554 52.0666667)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_131 rdf:type oghamonto:Stone .
 ogham:stone_ciic_131 rdfs:label 'CIIC 131'@en.
-ogham:stone_ciic_131 dc:identifier 131.
+ogham:stone_ciic_131 dc:identifier '131'.
 ogham:stone_ciic_131 geosparql:hasGeometry ogham:stone_ciic_131_geom .
 ogham:stone_ciic_131_geom rdf:type sf:the_geom .
 ogham:stone_ciic_131_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT( -9.115 51.8494444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_132 rdf:type oghamonto:Stone .
 ogham:stone_ciic_132 rdfs:label 'CIIC 132'@en.
-ogham:stone_ciic_132 dc:identifier 132.
+ogham:stone_ciic_132 dc:identifier '132'.
 ogham:stone_ciic_132 geosparql:hasGeometry ogham:stone_ciic_132_geom .
 ogham:stone_ciic_132_geom rdf:type sf:the_geom .
 ogham:stone_ciic_132_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT( -9.115 51.8494444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_133 rdf:type oghamonto:Stone .
 ogham:stone_ciic_133 rdfs:label 'CIIC 133'@en.
-ogham:stone_ciic_133 dc:identifier 133.
+ogham:stone_ciic_133 dc:identifier '133'.
 ogham:stone_ciic_133 geosparql:hasGeometry ogham:stone_ciic_133_geom .
 ogham:stone_ciic_133_geom rdf:type sf:the_geom .
 ogham:stone_ciic_133_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT( -9.115 51.8494444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_134 rdf:type oghamonto:Stone .
 ogham:stone_ciic_134 rdfs:label 'CIIC 134'@en.
-ogham:stone_ciic_134 dc:identifier 134.
+ogham:stone_ciic_134 dc:identifier '134'.
 ogham:stone_ciic_134 geosparql:hasGeometry ogham:stone_ciic_134_geom .
 ogham:stone_ciic_134_geom rdf:type sf:the_geom .
 ogham:stone_ciic_134_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.228055555555555 51.8283333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_135 rdf:type oghamonto:Stone .
 ogham:stone_ciic_135 rdfs:label 'CIIC 135'@en.
-ogham:stone_ciic_135 dc:identifier 135.
+ogham:stone_ciic_135 dc:identifier '135'.
 ogham:stone_ciic_135 geosparql:hasGeometry ogham:stone_ciic_135_geom .
 ogham:stone_ciic_135_geom rdf:type sf:the_geom .
 ogham:stone_ciic_135_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.08388888888889 51.9261111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_136 rdf:type oghamonto:Stone .
 ogham:stone_ciic_136 rdfs:label 'CIIC 136'@en.
-ogham:stone_ciic_136 dc:identifier 136.
+ogham:stone_ciic_136 dc:identifier '136'.
 ogham:stone_ciic_136 geosparql:hasGeometry ogham:stone_ciic_136_geom .
 ogham:stone_ciic_136_geom rdf:type sf:the_geom .
 ogham:stone_ciic_136_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.772777777777778 52.3288889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_137 rdf:type oghamonto:Stone .
 ogham:stone_ciic_137 rdfs:label 'CIIC 137'@en.
-ogham:stone_ciic_137 dc:identifier 137.
+ogham:stone_ciic_137 dc:identifier '137'.
 ogham:stone_ciic_137 geosparql:hasGeometry ogham:stone_ciic_137_geom .
 ogham:stone_ciic_137_geom rdf:type sf:the_geom .
 ogham:stone_ciic_137_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.724166666666667 52.3627778)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_138 rdf:type oghamonto:Stone .
 ogham:stone_ciic_138 rdfs:label 'CIIC 138'@en.
-ogham:stone_ciic_138 dc:identifier 138.
+ogham:stone_ciic_138 dc:identifier '138'.
 ogham:stone_ciic_138 geosparql:hasGeometry ogham:stone_ciic_138_geom .
 ogham:stone_ciic_138_geom rdf:type sf:the_geom .
 ogham:stone_ciic_138_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.17611111111111 52.1294444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_139 rdf:type oghamonto:Stone .
 ogham:stone_ciic_139 rdfs:label 'CIIC 139'@en.
-ogham:stone_ciic_139 dc:identifier 139.
+ogham:stone_ciic_139 dc:identifier '139'.
 ogham:stone_ciic_139 geosparql:hasGeometry ogham:stone_ciic_139_geom .
 ogham:stone_ciic_139_geom rdf:type sf:the_geom .
 ogham:stone_ciic_139_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.17611111111111 52.1294444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_140 rdf:type oghamonto:Stone .
 ogham:stone_ciic_140 rdfs:label 'CIIC 140'@en.
-ogham:stone_ciic_140 dc:identifier 140.
+ogham:stone_ciic_140 dc:identifier '140'.
 ogham:stone_ciic_140 geosparql:hasGeometry ogham:stone_ciic_140_geom .
 ogham:stone_ciic_140_geom rdf:type sf:the_geom .
 ogham:stone_ciic_140_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.17611111111111 52.1294444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_141 rdf:type oghamonto:Stone .
 ogham:stone_ciic_141 rdfs:label 'CIIC 141'@en.
-ogham:stone_ciic_141 dc:identifier 141.
+ogham:stone_ciic_141 dc:identifier '141'.
 ogham:stone_ciic_141 geosparql:hasGeometry ogham:stone_ciic_141_geom .
 ogham:stone_ciic_141_geom rdf:type sf:the_geom .
 ogham:stone_ciic_141_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.138055555555555 52.1330556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_142 rdf:type oghamonto:Stone .
 ogham:stone_ciic_142 rdfs:label 'CIIC 142'@en.
-ogham:stone_ciic_142 dc:identifier 142.
+ogham:stone_ciic_142 dc:identifier '142'.
 ogham:stone_ciic_142 geosparql:hasGeometry ogham:stone_ciic_142_geom .
 ogham:stone_ciic_142_geom rdf:type sf:the_geom .
 ogham:stone_ciic_142_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.138055555555555 52.1330556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_143 rdf:type oghamonto:Stone .
 ogham:stone_ciic_143 rdfs:label 'CIIC 143'@en.
-ogham:stone_ciic_143 dc:identifier 143.
+ogham:stone_ciic_143 dc:identifier '143'.
 ogham:stone_ciic_143 geosparql:hasGeometry ogham:stone_ciic_143_geom .
 ogham:stone_ciic_143_geom rdf:type sf:the_geom .
 ogham:stone_ciic_143_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.063055555555556 52.1591667)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_144 rdf:type oghamonto:Stone .
 ogham:stone_ciic_144 rdfs:label 'CIIC 144'@en.
-ogham:stone_ciic_144 dc:identifier 144.
+ogham:stone_ciic_144 dc:identifier '144'.
 ogham:stone_ciic_144 geosparql:hasGeometry ogham:stone_ciic_144_geom .
 ogham:stone_ciic_144_geom rdf:type sf:the_geom .
 ogham:stone_ciic_144_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.049166666666666 52.1430556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_145 rdf:type oghamonto:Stone .
 ogham:stone_ciic_145 rdfs:label 'CIIC 145'@en.
-ogham:stone_ciic_145 dc:identifier 145.
+ogham:stone_ciic_145 dc:identifier '145'.
 ogham:stone_ciic_145 geosparql:hasGeometry ogham:stone_ciic_145_geom .
 ogham:stone_ciic_145_geom rdf:type sf:the_geom .
 ogham:stone_ciic_145_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.236944444444443 52.2675)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_146 rdf:type oghamonto:Stone .
 ogham:stone_ciic_146 rdfs:label 'CIIC 146'@en.
-ogham:stone_ciic_146 dc:identifier 146.
+ogham:stone_ciic_146 dc:identifier '146'.
 ogham:stone_ciic_146 geosparql:hasGeometry ogham:stone_ciic_146_geom .
 ogham:stone_ciic_146_geom rdf:type sf:the_geom .
 ogham:stone_ciic_146_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.382222222222223 52.1666667)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_147 rdf:type oghamonto:Stone .
 ogham:stone_ciic_147 rdfs:label 'CIIC 147'@en.
-ogham:stone_ciic_147 dc:identifier 147.
+ogham:stone_ciic_147 dc:identifier '147'.
 ogham:stone_ciic_147 geosparql:hasGeometry ogham:stone_ciic_147_geom .
 ogham:stone_ciic_147_geom rdf:type sf:the_geom .
 ogham:stone_ciic_147_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.2075 52.1405556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_148 rdf:type oghamonto:Stone .
 ogham:stone_ciic_148 rdfs:label 'CIIC 148'@en.
-ogham:stone_ciic_148 dc:identifier 148.
+ogham:stone_ciic_148 dc:identifier '148'.
 ogham:stone_ciic_148 geosparql:hasGeometry ogham:stone_ciic_148_geom .
 ogham:stone_ciic_148_geom rdf:type sf:the_geom .
 ogham:stone_ciic_148_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.386111111111111 52.1761111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_149 rdf:type oghamonto:Stone .
 ogham:stone_ciic_149 rdfs:label 'CIIC 149'@en.
-ogham:stone_ciic_149 dc:identifier 149.
+ogham:stone_ciic_149 dc:identifier '149'.
 ogham:stone_ciic_149 geosparql:hasGeometry ogham:stone_ciic_149_geom .
 ogham:stone_ciic_149_geom rdf:type sf:the_geom .
 ogham:stone_ciic_149_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.386111111111111 52.1761111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_150 rdf:type oghamonto:Stone .
 ogham:stone_ciic_150 rdfs:label 'CIIC 150'@en.
-ogham:stone_ciic_150 dc:identifier 150.
+ogham:stone_ciic_150 dc:identifier '150'.
 ogham:stone_ciic_150 geosparql:hasGeometry ogham:stone_ciic_150_geom .
 ogham:stone_ciic_150_geom rdf:type sf:the_geom .
 ogham:stone_ciic_150_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.386111111111111 52.1761111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_151 rdf:type oghamonto:Stone .
 ogham:stone_ciic_151 rdfs:label 'CIIC 151'@en.
-ogham:stone_ciic_151 dc:identifier 151.
+ogham:stone_ciic_151 dc:identifier '151'.
 ogham:stone_ciic_151 geosparql:hasGeometry ogham:stone_ciic_151_geom .
 ogham:stone_ciic_151_geom rdf:type sf:the_geom .
 ogham:stone_ciic_151_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.386111111111111 52.1761111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_152 rdf:type oghamonto:Stone .
 ogham:stone_ciic_152 rdfs:label 'CIIC 152'@en.
-ogham:stone_ciic_152 dc:identifier 152.
+ogham:stone_ciic_152 dc:identifier '152'.
 ogham:stone_ciic_152 geosparql:hasGeometry ogham:stone_ciic_152_geom .
 ogham:stone_ciic_152_geom rdf:type sf:the_geom .
 ogham:stone_ciic_152_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.386111111111111 52.1761111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_153 rdf:type oghamonto:Stone .
 ogham:stone_ciic_153 rdfs:label 'CIIC 153'@en.
-ogham:stone_ciic_153 dc:identifier 153.
+ogham:stone_ciic_153 dc:identifier '153'.
 ogham:stone_ciic_153 geosparql:hasGeometry ogham:stone_ciic_153_geom .
 ogham:stone_ciic_153_geom rdf:type sf:the_geom .
 ogham:stone_ciic_153_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.386111111111111 52.1761111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_154 rdf:type oghamonto:Stone .
 ogham:stone_ciic_154 rdfs:label 'CIIC 154'@en.
-ogham:stone_ciic_154 dc:identifier 154.
+ogham:stone_ciic_154 dc:identifier '154'.
 ogham:stone_ciic_154 geosparql:hasGeometry ogham:stone_ciic_154_geom .
 ogham:stone_ciic_154_geom rdf:type sf:the_geom .
 ogham:stone_ciic_154_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.386111111111111 52.1761111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_155 rdf:type oghamonto:Stone .
 ogham:stone_ciic_155 rdfs:label 'CIIC 155'@en.
-ogham:stone_ciic_155 dc:identifier 155.
+ogham:stone_ciic_155 dc:identifier '155'.
 ogham:stone_ciic_155 geosparql:hasGeometry ogham:stone_ciic_155_geom .
 ogham:stone_ciic_155_geom rdf:type sf:the_geom .
 ogham:stone_ciic_155_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.031111111111112 52.1725)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_156 rdf:type oghamonto:Stone .
 ogham:stone_ciic_156 rdfs:label 'CIIC 156'@en.
-ogham:stone_ciic_156 dc:identifier 156.
+ogham:stone_ciic_156 dc:identifier '156'.
 ogham:stone_ciic_156 geosparql:hasGeometry ogham:stone_ciic_156_geom .
 ogham:stone_ciic_156_geom rdf:type sf:the_geom .
 ogham:stone_ciic_156_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.031111111111112 52.1725)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_157 rdf:type oghamonto:Stone .
 ogham:stone_ciic_157 rdfs:label 'CIIC 157'@en.
-ogham:stone_ciic_157 dc:identifier 157.
+ogham:stone_ciic_157 dc:identifier '157'.
 ogham:stone_ciic_157 geosparql:hasGeometry ogham:stone_ciic_157_geom .
 ogham:stone_ciic_157_geom rdf:type sf:the_geom .
 ogham:stone_ciic_157_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.031111111111112 52.1725)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_158 rdf:type oghamonto:Stone .
 ogham:stone_ciic_158 rdfs:label 'CIIC 158'@en.
-ogham:stone_ciic_158 dc:identifier 158.
+ogham:stone_ciic_158 dc:identifier '158'.
 ogham:stone_ciic_158 geosparql:hasGeometry ogham:stone_ciic_158_geom .
 ogham:stone_ciic_158_geom rdf:type sf:the_geom .
 ogham:stone_ciic_158_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.031111111111112 52.1725)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_159 rdf:type oghamonto:Stone .
 ogham:stone_ciic_159 rdfs:label 'CIIC 159'@en.
-ogham:stone_ciic_159 dc:identifier 159.
+ogham:stone_ciic_159 dc:identifier '159'.
 ogham:stone_ciic_159 geosparql:hasGeometry ogham:stone_ciic_159_geom .
 ogham:stone_ciic_159_geom rdf:type sf:the_geom .
 ogham:stone_ciic_159_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.031111111111112 52.1725)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_160 rdf:type oghamonto:Stone .
 ogham:stone_ciic_160 rdfs:label 'CIIC 160'@en.
-ogham:stone_ciic_160 dc:identifier 160.
+ogham:stone_ciic_160 dc:identifier '160'.
 ogham:stone_ciic_160 geosparql:hasGeometry ogham:stone_ciic_160_geom .
 ogham:stone_ciic_160_geom rdf:type sf:the_geom .
 ogham:stone_ciic_160_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.031111111111112 52.1725)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_161 rdf:type oghamonto:Stone .
 ogham:stone_ciic_161 rdfs:label 'CIIC 161'@en.
-ogham:stone_ciic_161 dc:identifier 161.
+ogham:stone_ciic_161 dc:identifier '161'.
 ogham:stone_ciic_161 geosparql:hasGeometry ogham:stone_ciic_161_geom .
 ogham:stone_ciic_161_geom rdf:type sf:the_geom .
 ogham:stone_ciic_161_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.031111111111112 52.1725)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_162 rdf:type oghamonto:Stone .
 ogham:stone_ciic_162 rdfs:label 'CIIC 162'@en.
-ogham:stone_ciic_162 dc:identifier 162.
+ogham:stone_ciic_162 dc:identifier '162'.
 ogham:stone_ciic_162 geosparql:hasGeometry ogham:stone_ciic_162_geom .
 ogham:stone_ciic_162_geom rdf:type sf:the_geom .
 ogham:stone_ciic_162_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.031111111111112 52.1725)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_163 rdf:type oghamonto:Stone .
 ogham:stone_ciic_163 rdfs:label 'CIIC 163'@en.
-ogham:stone_ciic_163 dc:identifier 163.
+ogham:stone_ciic_163 dc:identifier '163'.
 ogham:stone_ciic_163 geosparql:hasGeometry ogham:stone_ciic_163_geom .
 ogham:stone_ciic_163_geom rdf:type sf:the_geom .
 ogham:stone_ciic_163_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.031111111111112 52.1725)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_164 rdf:type oghamonto:Stone .
 ogham:stone_ciic_164 rdfs:label 'CIIC 164'@en.
-ogham:stone_ciic_164 dc:identifier 164.
+ogham:stone_ciic_164 dc:identifier '164'.
 ogham:stone_ciic_164 geosparql:hasGeometry ogham:stone_ciic_164_geom .
 ogham:stone_ciic_164_geom rdf:type sf:the_geom .
 ogham:stone_ciic_164_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.03138888888889 52.1552778)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_165 rdf:type oghamonto:Stone .
 ogham:stone_ciic_165 rdfs:label 'CIIC 165'@en.
-ogham:stone_ciic_165 dc:identifier 165.
+ogham:stone_ciic_165 dc:identifier '165'.
 ogham:stone_ciic_165 geosparql:hasGeometry ogham:stone_ciic_165_geom .
 ogham:stone_ciic_165_geom rdf:type sf:the_geom .
 ogham:stone_ciic_165_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.03138888888889 52.1552778)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_166 rdf:type oghamonto:Stone .
 ogham:stone_ciic_166 rdfs:label 'CIIC 166'@en.
-ogham:stone_ciic_166 dc:identifier 166.
+ogham:stone_ciic_166 dc:identifier '166'.
 ogham:stone_ciic_166 geosparql:hasGeometry ogham:stone_ciic_166_geom .
 ogham:stone_ciic_166_geom rdf:type sf:the_geom .
 ogham:stone_ciic_166_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.159444444444444 52.1869444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_167 rdf:type oghamonto:Stone .
 ogham:stone_ciic_167 rdfs:label 'CIIC 167'@en.
-ogham:stone_ciic_167 dc:identifier 167.
+ogham:stone_ciic_167 dc:identifier '167'.
 ogham:stone_ciic_167 geosparql:hasGeometry ogham:stone_ciic_167_geom .
 ogham:stone_ciic_167_geom rdf:type sf:the_geom .
 ogham:stone_ciic_167_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.0375 52.1658333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_168 rdf:type oghamonto:Stone .
 ogham:stone_ciic_168 rdfs:label 'CIIC 168'@en.
-ogham:stone_ciic_168 dc:identifier 168.
+ogham:stone_ciic_168 dc:identifier '168'.
 ogham:stone_ciic_168 geosparql:hasGeometry ogham:stone_ciic_168_geom .
 ogham:stone_ciic_168_geom rdf:type sf:the_geom .
 ogham:stone_ciic_168_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.0375 52.1658333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_169 rdf:type oghamonto:Stone .
 ogham:stone_ciic_169 rdfs:label 'CIIC 169'@en.
-ogham:stone_ciic_169 dc:identifier 169.
+ogham:stone_ciic_169 dc:identifier '169'.
 ogham:stone_ciic_169 geosparql:hasGeometry ogham:stone_ciic_169_geom .
 ogham:stone_ciic_169_geom rdf:type sf:the_geom .
 ogham:stone_ciic_169_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.323333333333332 52.1605556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_170 rdf:type oghamonto:Stone .
 ogham:stone_ciic_170 rdfs:label 'CIIC 170'@en.
-ogham:stone_ciic_170 dc:identifier 170.
+ogham:stone_ciic_170 dc:identifier '170'.
 ogham:stone_ciic_170 geosparql:hasGeometry ogham:stone_ciic_170_geom .
 ogham:stone_ciic_170_geom rdf:type sf:the_geom .
 ogham:stone_ciic_170_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.3275 52.1513889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_171 rdf:type oghamonto:Stone .
 ogham:stone_ciic_171 rdfs:label 'CIIC 171'@en.
-ogham:stone_ciic_171 dc:identifier 171.
+ogham:stone_ciic_171 dc:identifier '171'.
 ogham:stone_ciic_171 geosparql:hasGeometry ogham:stone_ciic_171_geom .
 ogham:stone_ciic_171_geom rdf:type sf:the_geom .
 ogham:stone_ciic_171_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.029722222222222 52.1875)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_172 rdf:type oghamonto:Stone .
 ogham:stone_ciic_172 rdfs:label 'CIIC 172'@en.
-ogham:stone_ciic_172 dc:identifier 172.
+ogham:stone_ciic_172 dc:identifier '172'.
 ogham:stone_ciic_172 geosparql:hasGeometry ogham:stone_ciic_172_geom .
 ogham:stone_ciic_172_geom rdf:type sf:the_geom .
 ogham:stone_ciic_172_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.400833333333333 52.1558333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_173 rdf:type oghamonto:Stone .
 ogham:stone_ciic_173 rdfs:label 'CIIC 173'@en.
-ogham:stone_ciic_173 dc:identifier 173.
+ogham:stone_ciic_173 dc:identifier '173'.
 ogham:stone_ciic_173 geosparql:hasGeometry ogham:stone_ciic_173_geom .
 ogham:stone_ciic_173_geom rdf:type sf:the_geom .
 ogham:stone_ciic_173_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.036388888888888 52.1469444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_174 rdf:type oghamonto:Stone .
 ogham:stone_ciic_174 rdfs:label 'CIIC 174'@en.
-ogham:stone_ciic_174 dc:identifier 174.
+ogham:stone_ciic_174 dc:identifier '174'.
 ogham:stone_ciic_174 geosparql:hasGeometry ogham:stone_ciic_174_geom .
 ogham:stone_ciic_174_geom rdf:type sf:the_geom .
 ogham:stone_ciic_174_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.159444444444444 52.1869444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_175 rdf:type oghamonto:Stone .
 ogham:stone_ciic_175 rdfs:label 'CIIC 175'@en.
-ogham:stone_ciic_175 dc:identifier 175.
+ogham:stone_ciic_175 dc:identifier '175'.
 ogham:stone_ciic_175 geosparql:hasGeometry ogham:stone_ciic_175_geom .
 ogham:stone_ciic_175_geom rdf:type sf:the_geom .
 ogham:stone_ciic_175_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.306944444444445 52.1258333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_176 rdf:type oghamonto:Stone .
 ogham:stone_ciic_176 rdfs:label 'CIIC 176'@en.
-ogham:stone_ciic_176 dc:identifier 176.
+ogham:stone_ciic_176 dc:identifier '176'.
 ogham:stone_ciic_176 geosparql:hasGeometry ogham:stone_ciic_176_geom .
 ogham:stone_ciic_176_geom rdf:type sf:the_geom .
 ogham:stone_ciic_176_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.910277777777779 52.215)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_177 rdf:type oghamonto:Stone .
 ogham:stone_ciic_177 rdfs:label 'CIIC 177'@en.
-ogham:stone_ciic_177 dc:identifier 177.
+ogham:stone_ciic_177 dc:identifier '177'.
 ogham:stone_ciic_177 geosparql:hasGeometry ogham:stone_ciic_177_geom .
 ogham:stone_ciic_177_geom rdf:type sf:the_geom .
 ogham:stone_ciic_177_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.910277777777779 52.215)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_178 rdf:type oghamonto:Stone .
 ogham:stone_ciic_178 rdfs:label 'CIIC 178'@en.
-ogham:stone_ciic_178 dc:identifier 178.
+ogham:stone_ciic_178 dc:identifier '178'.
 ogham:stone_ciic_178 geosparql:hasGeometry ogham:stone_ciic_178_geom .
 ogham:stone_ciic_178_geom rdf:type sf:the_geom .
 ogham:stone_ciic_178_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.458333333333332 52.1119444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_179 rdf:type oghamonto:Stone .
 ogham:stone_ciic_179 rdfs:label 'CIIC 179'@en.
-ogham:stone_ciic_179 dc:identifier 179.
+ogham:stone_ciic_179 dc:identifier '179'.
 ogham:stone_ciic_179 geosparql:hasGeometry ogham:stone_ciic_179_geom .
 ogham:stone_ciic_179_geom rdf:type sf:the_geom .
 ogham:stone_ciic_179_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.270000000000001 52.14)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_180 rdf:type oghamonto:Stone .
 ogham:stone_ciic_180 rdfs:label 'CIIC 180'@en.
-ogham:stone_ciic_180 dc:identifier 180.
+ogham:stone_ciic_180 dc:identifier '180'.
 ogham:stone_ciic_180 geosparql:hasGeometry ogham:stone_ciic_180_geom .
 ogham:stone_ciic_180_geom rdf:type sf:the_geom .
 ogham:stone_ciic_180_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.228055555555555 52.1330556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_181 rdf:type oghamonto:Stone .
 ogham:stone_ciic_181 rdfs:label 'CIIC 181'@en.
-ogham:stone_ciic_181 dc:identifier 181.
+ogham:stone_ciic_181 dc:identifier '181'.
 ogham:stone_ciic_181 geosparql:hasGeometry ogham:stone_ciic_181_geom .
 ogham:stone_ciic_181_geom rdf:type sf:the_geom .
 ogham:stone_ciic_181_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.270555555555557 52.1352778)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_182 rdf:type oghamonto:Stone .
 ogham:stone_ciic_182 rdfs:label 'CIIC 182'@en.
-ogham:stone_ciic_182 dc:identifier 182.
+ogham:stone_ciic_182 dc:identifier '182'.
 ogham:stone_ciic_182 geosparql:hasGeometry ogham:stone_ciic_182_geom .
 ogham:stone_ciic_182_geom rdf:type sf:the_geom .
 ogham:stone_ciic_182_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.159444444444444 52.1869444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_183 rdf:type oghamonto:Stone .
 ogham:stone_ciic_183 rdfs:label 'CIIC 183'@en.
-ogham:stone_ciic_183 dc:identifier 183.
+ogham:stone_ciic_183 dc:identifier '183'.
 ogham:stone_ciic_183 geosparql:hasGeometry ogham:stone_ciic_183_geom .
 ogham:stone_ciic_183_geom rdf:type sf:the_geom .
 ogham:stone_ciic_183_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.437222222222223 52.1033333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_184 rdf:type oghamonto:Stone .
 ogham:stone_ciic_184 rdfs:label 'CIIC 184'@en.
-ogham:stone_ciic_184 dc:identifier 184.
+ogham:stone_ciic_184 dc:identifier '184'.
 ogham:stone_ciic_184 geosparql:hasGeometry ogham:stone_ciic_184_geom .
 ogham:stone_ciic_184_geom rdf:type sf:the_geom .
 ogham:stone_ciic_184_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.126666666666667 52.1408333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_185 rdf:type oghamonto:Stone .
 ogham:stone_ciic_185 rdfs:label 'CIIC 185'@en.
-ogham:stone_ciic_185 dc:identifier 185.
+ogham:stone_ciic_185 dc:identifier '185'.
 ogham:stone_ciic_185 geosparql:hasGeometry ogham:stone_ciic_185_geom .
 ogham:stone_ciic_185_geom rdf:type sf:the_geom .
 ogham:stone_ciic_185_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.607777777777777 52.0444444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_186 rdf:type oghamonto:Stone .
 ogham:stone_ciic_186 rdfs:label 'CIIC 186'@en.
-ogham:stone_ciic_186 dc:identifier 186.
+ogham:stone_ciic_186 dc:identifier '186'.
 ogham:stone_ciic_186 geosparql:hasGeometry ogham:stone_ciic_186_geom .
 ogham:stone_ciic_186_geom rdf:type sf:the_geom .
 ogham:stone_ciic_186_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.300555555555556 52.1533333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_187 rdf:type oghamonto:Stone .
 ogham:stone_ciic_187 rdfs:label 'CIIC 187'@en.
-ogham:stone_ciic_187 dc:identifier 187.
+ogham:stone_ciic_187 dc:identifier '187'.
 ogham:stone_ciic_187 geosparql:hasGeometry ogham:stone_ciic_187_geom .
 ogham:stone_ciic_187_geom rdf:type sf:the_geom .
 ogham:stone_ciic_187_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.333055555555555 52.1883333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_188 rdf:type oghamonto:Stone .
 ogham:stone_ciic_188 rdfs:label 'CIIC 188'@en.
-ogham:stone_ciic_188 dc:identifier 188.
+ogham:stone_ciic_188 dc:identifier '188'.
 ogham:stone_ciic_188 geosparql:hasGeometry ogham:stone_ciic_188_geom .
 ogham:stone_ciic_188_geom rdf:type sf:the_geom .
 ogham:stone_ciic_188_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.194444444444445 52.1205556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_189 rdf:type oghamonto:Stone .
 ogham:stone_ciic_189 rdfs:label 'CIIC 189'@en.
-ogham:stone_ciic_189 dc:identifier 189.
+ogham:stone_ciic_189 dc:identifier '189'.
 ogham:stone_ciic_189 geosparql:hasGeometry ogham:stone_ciic_189_geom .
 ogham:stone_ciic_189_geom rdf:type sf:the_geom .
 ogham:stone_ciic_189_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.194444444444445 52.1205556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_190 rdf:type oghamonto:Stone .
 ogham:stone_ciic_190 rdfs:label 'CIIC 190'@en.
-ogham:stone_ciic_190 dc:identifier 190.
+ogham:stone_ciic_190 dc:identifier '190'.
 ogham:stone_ciic_190 geosparql:hasGeometry ogham:stone_ciic_190_geom .
 ogham:stone_ciic_190_geom rdf:type sf:the_geom .
 ogham:stone_ciic_190_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.124722222222223 52.1358333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_191 rdf:type oghamonto:Stone .
 ogham:stone_ciic_191 rdfs:label 'CIIC 191'@en.
-ogham:stone_ciic_191 dc:identifier 191.
+ogham:stone_ciic_191 dc:identifier '191'.
 ogham:stone_ciic_191 geosparql:hasGeometry ogham:stone_ciic_191_geom .
 ogham:stone_ciic_191_geom rdf:type sf:the_geom .
 ogham:stone_ciic_191_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.124722222222223 52.1358333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_192 rdf:type oghamonto:Stone .
 ogham:stone_ciic_192 rdfs:label 'CIIC 192'@en.
-ogham:stone_ciic_192 dc:identifier 192.
+ogham:stone_ciic_192 dc:identifier '192'.
 ogham:stone_ciic_192 geosparql:hasGeometry ogham:stone_ciic_192_geom .
 ogham:stone_ciic_192_geom rdf:type sf:the_geom .
 ogham:stone_ciic_192_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.023333333333333 52.2519444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_193 rdf:type oghamonto:Stone .
 ogham:stone_ciic_193 rdfs:label 'CIIC 193'@en.
-ogham:stone_ciic_193 dc:identifier 193.
+ogham:stone_ciic_193 dc:identifier '193'.
 ogham:stone_ciic_193 geosparql:hasGeometry ogham:stone_ciic_193_geom .
 ogham:stone_ciic_193_geom rdf:type sf:the_geom .
 ogham:stone_ciic_193_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.359444444444444 52.1447222)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_194 rdf:type oghamonto:Stone .
 ogham:stone_ciic_194 rdfs:label 'CIIC 194'@en.
-ogham:stone_ciic_194 dc:identifier 194.
+ogham:stone_ciic_194 dc:identifier '194'.
 ogham:stone_ciic_194 geosparql:hasGeometry ogham:stone_ciic_194_geom .
 ogham:stone_ciic_194_geom rdf:type sf:the_geom .
 ogham:stone_ciic_194_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.024444444444445 52.1677778)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_194a rdf:type oghamonto:Stone .
 ogham:stone_ciic_194a rdfs:label 'CIIC 194a'@en.
-ogham:stone_ciic_194a dc:identifier 194a.
+ogham:stone_ciic_194a dc:identifier '194a'.
 ogham:stone_ciic_194a geosparql:hasGeometry ogham:stone_ciic_194a_geom .
 ogham:stone_ciic_194a_geom rdf:type sf:the_geom .
 ogham:stone_ciic_194a_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.024444444444445 52.1677778)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_195 rdf:type oghamonto:Stone .
 ogham:stone_ciic_195 rdfs:label 'CIIC 195'@en.
-ogham:stone_ciic_195 dc:identifier 195.
+ogham:stone_ciic_195 dc:identifier '195'.
 ogham:stone_ciic_195 geosparql:hasGeometry ogham:stone_ciic_195_geom .
 ogham:stone_ciic_195_geom rdf:type sf:the_geom .
 ogham:stone_ciic_195_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.990555555555554 52.1725)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_196 rdf:type oghamonto:Stone .
 ogham:stone_ciic_196 rdfs:label 'CIIC 196'@en.
-ogham:stone_ciic_196 dc:identifier 196.
+ogham:stone_ciic_196 dc:identifier '196'.
 ogham:stone_ciic_196 geosparql:hasGeometry ogham:stone_ciic_196_geom .
 ogham:stone_ciic_196_geom rdf:type sf:the_geom .
 ogham:stone_ciic_196_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.990555555555554 52.1725)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_197 rdf:type oghamonto:Stone .
 ogham:stone_ciic_197 rdfs:label 'CIIC 197'@en.
-ogham:stone_ciic_197 dc:identifier 197.
+ogham:stone_ciic_197 dc:identifier '197'.
 ogham:stone_ciic_197 geosparql:hasGeometry ogham:stone_ciic_197_geom .
 ogham:stone_ciic_197_geom rdf:type sf:the_geom .
 ogham:stone_ciic_197_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.642777777777777 52.0611111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_198 rdf:type oghamonto:Stone .
 ogham:stone_ciic_198 rdfs:label 'CIIC 198'@en.
-ogham:stone_ciic_198 dc:identifier 198.
+ogham:stone_ciic_198 dc:identifier '198'.
 ogham:stone_ciic_198 geosparql:hasGeometry ogham:stone_ciic_198_geom .
 ogham:stone_ciic_198_geom rdf:type sf:the_geom .
 ogham:stone_ciic_198_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.642777777777777 52.0611111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_199 rdf:type oghamonto:Stone .
 ogham:stone_ciic_199 rdfs:label 'CIIC 199'@en.
-ogham:stone_ciic_199 dc:identifier 199.
+ogham:stone_ciic_199 dc:identifier '199'.
 ogham:stone_ciic_199 geosparql:hasGeometry ogham:stone_ciic_199_geom .
 ogham:stone_ciic_199_geom rdf:type sf:the_geom .
 ogham:stone_ciic_199_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.642777777777777 52.0611111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_200 rdf:type oghamonto:Stone .
 ogham:stone_ciic_200 rdfs:label 'CIIC 200'@en.
-ogham:stone_ciic_200 dc:identifier 200.
+ogham:stone_ciic_200 dc:identifier '200'.
 ogham:stone_ciic_200 geosparql:hasGeometry ogham:stone_ciic_200_geom .
 ogham:stone_ciic_200_geom rdf:type sf:the_geom .
 ogham:stone_ciic_200_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.642777777777777 52.0611111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_201 rdf:type oghamonto:Stone .
 ogham:stone_ciic_201 rdfs:label 'CIIC 201'@en.
-ogham:stone_ciic_201 dc:identifier 201.
+ogham:stone_ciic_201 dc:identifier '201'.
 ogham:stone_ciic_201 geosparql:hasGeometry ogham:stone_ciic_201_geom .
 ogham:stone_ciic_201_geom rdf:type sf:the_geom .
 ogham:stone_ciic_201_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.642777777777777 52.0611111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_202 rdf:type oghamonto:Stone .
 ogham:stone_ciic_202 rdfs:label 'CIIC 202'@en.
-ogham:stone_ciic_202 dc:identifier 202.
+ogham:stone_ciic_202 dc:identifier '202'.
 ogham:stone_ciic_202 geosparql:hasGeometry ogham:stone_ciic_202_geom .
 ogham:stone_ciic_202_geom rdf:type sf:the_geom .
 ogham:stone_ciic_202_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.642777777777777 52.0611111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_203 rdf:type oghamonto:Stone .
 ogham:stone_ciic_203 rdfs:label 'CIIC 203'@en.
-ogham:stone_ciic_203 dc:identifier 203.
+ogham:stone_ciic_203 dc:identifier '203'.
 ogham:stone_ciic_203 geosparql:hasGeometry ogham:stone_ciic_203_geom .
 ogham:stone_ciic_203_geom rdf:type sf:the_geom .
 ogham:stone_ciic_203_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.642777777777777 52.0611111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_204 rdf:type oghamonto:Stone .
 ogham:stone_ciic_204 rdfs:label 'CIIC 204'@en.
-ogham:stone_ciic_204 dc:identifier 204.
+ogham:stone_ciic_204 dc:identifier '204'.
 ogham:stone_ciic_204 geosparql:hasGeometry ogham:stone_ciic_204_geom .
 ogham:stone_ciic_204_geom rdf:type sf:the_geom .
 ogham:stone_ciic_204_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.621666666666668 52.2086111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_205 rdf:type oghamonto:Stone .
 ogham:stone_ciic_205 rdfs:label 'CIIC 205'@en.
-ogham:stone_ciic_205 dc:identifier 205.
+ogham:stone_ciic_205 dc:identifier '205'.
 ogham:stone_ciic_205 geosparql:hasGeometry ogham:stone_ciic_205_geom .
 ogham:stone_ciic_205_geom rdf:type sf:the_geom .
 ogham:stone_ciic_205_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.665000000000001 51.9744444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_206 rdf:type oghamonto:Stone .
 ogham:stone_ciic_206 rdfs:label 'CIIC 206'@en.
-ogham:stone_ciic_206 dc:identifier 206.
+ogham:stone_ciic_206 dc:identifier '206'.
 ogham:stone_ciic_206 geosparql:hasGeometry ogham:stone_ciic_206_geom .
 ogham:stone_ciic_206_geom rdf:type sf:the_geom .
 ogham:stone_ciic_206_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.747222222222222 52.0719444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_207 rdf:type oghamonto:Stone .
 ogham:stone_ciic_207 rdfs:label 'CIIC 207'@en.
-ogham:stone_ciic_207 dc:identifier 207.
+ogham:stone_ciic_207 dc:identifier '207'.
 ogham:stone_ciic_207 geosparql:hasGeometry ogham:stone_ciic_207_geom .
 ogham:stone_ciic_207_geom rdf:type sf:the_geom .
 ogham:stone_ciic_207_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.747222222222222 52.0719444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_208 rdf:type oghamonto:Stone .
 ogham:stone_ciic_208 rdfs:label 'CIIC 208'@en.
-ogham:stone_ciic_208 dc:identifier 208.
+ogham:stone_ciic_208 dc:identifier '208'.
 ogham:stone_ciic_208 geosparql:hasGeometry ogham:stone_ciic_208_geom .
 ogham:stone_ciic_208_geom rdf:type sf:the_geom .
 ogham:stone_ciic_208_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.747222222222222 52.0719444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_209 rdf:type oghamonto:Stone .
 ogham:stone_ciic_209 rdfs:label 'CIIC 209'@en.
-ogham:stone_ciic_209 dc:identifier 209.
+ogham:stone_ciic_209 dc:identifier '209'.
 ogham:stone_ciic_209 geosparql:hasGeometry ogham:stone_ciic_209_geom .
 ogham:stone_ciic_209_geom rdf:type sf:the_geom .
 ogham:stone_ciic_209_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.747222222222222 52.0719444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_210 rdf:type oghamonto:Stone .
 ogham:stone_ciic_210 rdfs:label 'CIIC 210'@en.
-ogham:stone_ciic_210 dc:identifier 210.
+ogham:stone_ciic_210 dc:identifier '210'.
 ogham:stone_ciic_210 geosparql:hasGeometry ogham:stone_ciic_210_geom .
 ogham:stone_ciic_210_geom rdf:type sf:the_geom .
 ogham:stone_ciic_210_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.747222222222222 52.0719444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_211 rdf:type oghamonto:Stone .
 ogham:stone_ciic_211 rdfs:label 'CIIC 211'@en.
-ogham:stone_ciic_211 dc:identifier 211.
+ogham:stone_ciic_211 dc:identifier '211'.
 ogham:stone_ciic_211 geosparql:hasGeometry ogham:stone_ciic_211_geom .
 ogham:stone_ciic_211_geom rdf:type sf:the_geom .
 ogham:stone_ciic_211_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.747222222222222 52.0719444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_212 rdf:type oghamonto:Stone .
 ogham:stone_ciic_212 rdfs:label 'CIIC 212'@en.
-ogham:stone_ciic_212 dc:identifier 212.
+ogham:stone_ciic_212 dc:identifier '212'.
 ogham:stone_ciic_212 geosparql:hasGeometry ogham:stone_ciic_212_geom .
 ogham:stone_ciic_212_geom rdf:type sf:the_geom .
 ogham:stone_ciic_212_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.747222222222222 52.0719444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_213 rdf:type oghamonto:Stone .
 ogham:stone_ciic_213 rdfs:label 'CIIC 213'@en.
-ogham:stone_ciic_213 dc:identifier 213.
+ogham:stone_ciic_213 dc:identifier '213'.
 ogham:stone_ciic_213 geosparql:hasGeometry ogham:stone_ciic_213_geom .
 ogham:stone_ciic_213_geom rdf:type sf:the_geom .
 ogham:stone_ciic_213_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.747222222222222 52.0719444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_214 rdf:type oghamonto:Stone .
 ogham:stone_ciic_214 rdfs:label 'CIIC 214'@en.
-ogham:stone_ciic_214 dc:identifier 214.
+ogham:stone_ciic_214 dc:identifier '214'.
 ogham:stone_ciic_214 geosparql:hasGeometry ogham:stone_ciic_214_geom .
 ogham:stone_ciic_214_geom rdf:type sf:the_geom .
 ogham:stone_ciic_214_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.71888888888889 52.0680556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_215 rdf:type oghamonto:Stone .
 ogham:stone_ciic_215 rdfs:label 'CIIC 215'@en.
-ogham:stone_ciic_215 dc:identifier 215.
+ogham:stone_ciic_215 dc:identifier '215'.
 ogham:stone_ciic_215 geosparql:hasGeometry ogham:stone_ciic_215_geom .
 ogham:stone_ciic_215_geom rdf:type sf:the_geom .
 ogham:stone_ciic_215_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.703055555555554 52.0805556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_216 rdf:type oghamonto:Stone .
 ogham:stone_ciic_216 rdfs:label 'CIIC 216'@en.
-ogham:stone_ciic_216 dc:identifier 216.
+ogham:stone_ciic_216 dc:identifier '216'.
 ogham:stone_ciic_216 geosparql:hasGeometry ogham:stone_ciic_216_geom .
 ogham:stone_ciic_216_geom rdf:type sf:the_geom .
 ogham:stone_ciic_216_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.703055555555554 52.0805556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_217 rdf:type oghamonto:Stone .
 ogham:stone_ciic_217 rdfs:label 'CIIC 217'@en.
-ogham:stone_ciic_217 dc:identifier 217.
+ogham:stone_ciic_217 dc:identifier '217'.
 ogham:stone_ciic_217 geosparql:hasGeometry ogham:stone_ciic_217_geom .
 ogham:stone_ciic_217_geom rdf:type sf:the_geom .
 ogham:stone_ciic_217_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.703055555555554 52.0805556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_218 rdf:type oghamonto:Stone .
 ogham:stone_ciic_218 rdfs:label 'CIIC 218'@en.
-ogham:stone_ciic_218 dc:identifier 218.
+ogham:stone_ciic_218 dc:identifier '218'.
 ogham:stone_ciic_218 geosparql:hasGeometry ogham:stone_ciic_218_geom .
 ogham:stone_ciic_218_geom rdf:type sf:the_geom .
 ogham:stone_ciic_218_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.703055555555554 52.0805556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_218a rdf:type oghamonto:Stone .
 ogham:stone_ciic_218a rdfs:label 'CIIC 218a'@en.
-ogham:stone_ciic_218a dc:identifier 218a.
+ogham:stone_ciic_218a dc:identifier '218a'.
 ogham:stone_ciic_218a geosparql:hasGeometry ogham:stone_ciic_218a_geom .
 ogham:stone_ciic_218a_geom rdf:type sf:the_geom .
 ogham:stone_ciic_218a_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.703055555555554 52.0805556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_219 rdf:type oghamonto:Stone .
 ogham:stone_ciic_219 rdfs:label 'CIIC 219'@en.
-ogham:stone_ciic_219 dc:identifier 219.
+ogham:stone_ciic_219 dc:identifier '219'.
 ogham:stone_ciic_219 geosparql:hasGeometry ogham:stone_ciic_219_geom .
 ogham:stone_ciic_219_geom rdf:type sf:the_geom .
 ogham:stone_ciic_219_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.746666666666666 51.91)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_220 rdf:type oghamonto:Stone .
 ogham:stone_ciic_220 rdfs:label 'CIIC 220'@en.
-ogham:stone_ciic_220 dc:identifier 220.
+ogham:stone_ciic_220 dc:identifier '220'.
 ogham:stone_ciic_220 geosparql:hasGeometry ogham:stone_ciic_220_geom .
 ogham:stone_ciic_220_geom rdf:type sf:the_geom .
 ogham:stone_ciic_220_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.122222222222224 51.7730556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_221 rdf:type oghamonto:Stone .
 ogham:stone_ciic_221 rdfs:label 'CIIC 221'@en.
-ogham:stone_ciic_221 dc:identifier 221.
+ogham:stone_ciic_221 dc:identifier '221'.
 ogham:stone_ciic_221 geosparql:hasGeometry ogham:stone_ciic_221_geom .
 ogham:stone_ciic_221_geom rdf:type sf:the_geom .
 ogham:stone_ciic_221_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.786666666666667 51.8811111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_222 rdf:type oghamonto:Stone .
 ogham:stone_ciic_222 rdfs:label 'CIIC 222'@en.
-ogham:stone_ciic_222 dc:identifier 222.
+ogham:stone_ciic_222 dc:identifier '222'.
 ogham:stone_ciic_222 geosparql:hasGeometry ogham:stone_ciic_222_geom .
 ogham:stone_ciic_222_geom rdf:type sf:the_geom .
 ogham:stone_ciic_222_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.875 51.8586111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_223 rdf:type oghamonto:Stone .
 ogham:stone_ciic_223 rdfs:label 'CIIC 223'@en.
-ogham:stone_ciic_223 dc:identifier 223.
+ogham:stone_ciic_223 dc:identifier '223'.
 ogham:stone_ciic_223 geosparql:hasGeometry ogham:stone_ciic_223_geom .
 ogham:stone_ciic_223_geom rdf:type sf:the_geom .
 ogham:stone_ciic_223_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.875 51.8586111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_224 rdf:type oghamonto:Stone .
 ogham:stone_ciic_224 rdfs:label 'CIIC 224'@en.
-ogham:stone_ciic_224 dc:identifier 224.
+ogham:stone_ciic_224 dc:identifier '224'.
 ogham:stone_ciic_224 geosparql:hasGeometry ogham:stone_ciic_224_geom .
 ogham:stone_ciic_224_geom rdf:type sf:the_geom .
 ogham:stone_ciic_224_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.525833333333335 51.8852778)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_225 rdf:type oghamonto:Stone .
 ogham:stone_ciic_225 rdfs:label 'CIIC 225'@en.
-ogham:stone_ciic_225 dc:identifier 225.
+ogham:stone_ciic_225 dc:identifier '225'.
 ogham:stone_ciic_225 geosparql:hasGeometry ogham:stone_ciic_225_geom .
 ogham:stone_ciic_225_geom rdf:type sf:the_geom .
 ogham:stone_ciic_225_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.551666666666668 51.8475)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_226 rdf:type oghamonto:Stone .
 ogham:stone_ciic_226 rdfs:label 'CIIC 226'@en.
-ogham:stone_ciic_226 dc:identifier 226.
+ogham:stone_ciic_226 dc:identifier '226'.
 ogham:stone_ciic_226 geosparql:hasGeometry ogham:stone_ciic_226_geom .
 ogham:stone_ciic_226_geom rdf:type sf:the_geom .
 ogham:stone_ciic_226_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.389166666666666 51.8394444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_227 rdf:type oghamonto:Stone .
 ogham:stone_ciic_227 rdfs:label 'CIIC 227'@en.
-ogham:stone_ciic_227 dc:identifier 227.
+ogham:stone_ciic_227 dc:identifier '227'.
 ogham:stone_ciic_227 geosparql:hasGeometry ogham:stone_ciic_227_geom .
 ogham:stone_ciic_227_geom rdf:type sf:the_geom .
 ogham:stone_ciic_227_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.413611111111111 51.8833333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_228 rdf:type oghamonto:Stone .
 ogham:stone_ciic_228 rdfs:label 'CIIC 228'@en.
-ogham:stone_ciic_228 dc:identifier 228.
+ogham:stone_ciic_228 dc:identifier '228'.
 ogham:stone_ciic_228 geosparql:hasGeometry ogham:stone_ciic_228_geom .
 ogham:stone_ciic_228_geom rdf:type sf:the_geom .
 ogham:stone_ciic_228_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.421388888888888 52.5666667)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_229 rdf:type oghamonto:Stone .
 ogham:stone_ciic_229 rdfs:label 'CIIC 229'@en.
-ogham:stone_ciic_229 dc:identifier 229.
+ogham:stone_ciic_229 dc:identifier '229'.
 ogham:stone_ciic_229 geosparql:hasGeometry ogham:stone_ciic_229_geom .
 ogham:stone_ciic_229_geom rdf:type sf:the_geom .
 ogham:stone_ciic_229_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.166666666666666 51.9211111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_230 rdf:type oghamonto:Stone .
 ogham:stone_ciic_230 rdfs:label 'CIIC 230'@en.
-ogham:stone_ciic_230 dc:identifier 230.
+ogham:stone_ciic_230 dc:identifier '230'.
 ogham:stone_ciic_230 geosparql:hasGeometry ogham:stone_ciic_230_geom .
 ogham:stone_ciic_230_geom rdf:type sf:the_geom .
 ogham:stone_ciic_230_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.176944444444445 51.8941667)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_231 rdf:type oghamonto:Stone .
 ogham:stone_ciic_231 rdfs:label 'CIIC 231'@en.
-ogham:stone_ciic_231 dc:identifier 231.
+ogham:stone_ciic_231 dc:identifier '231'.
 ogham:stone_ciic_231 geosparql:hasGeometry ogham:stone_ciic_231_geom .
 ogham:stone_ciic_231_geom rdf:type sf:the_geom .
 ogham:stone_ciic_231_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.365555555555556 51.9122222)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_232 rdf:type oghamonto:Stone .
 ogham:stone_ciic_232 rdfs:label 'CIIC 232'@en.
-ogham:stone_ciic_232 dc:identifier 232.
+ogham:stone_ciic_232 dc:identifier '232'.
 ogham:stone_ciic_232 geosparql:hasGeometry ogham:stone_ciic_232_geom .
 ogham:stone_ciic_232_geom rdf:type sf:the_geom .
 ogham:stone_ciic_232_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.365555555555556 51.9122222)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_233 rdf:type oghamonto:Stone .
 ogham:stone_ciic_233 rdfs:label 'CIIC 233'@en.
-ogham:stone_ciic_233 dc:identifier 233.
+ogham:stone_ciic_233 dc:identifier '233'.
 ogham:stone_ciic_233 geosparql:hasGeometry ogham:stone_ciic_233_geom .
 ogham:stone_ciic_233_geom rdf:type sf:the_geom .
 ogham:stone_ciic_233_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.11361111111111 51.8480556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_234 rdf:type oghamonto:Stone .
 ogham:stone_ciic_234 rdfs:label 'CIIC 234'@en.
-ogham:stone_ciic_234 dc:identifier 234.
+ogham:stone_ciic_234 dc:identifier '234'.
 ogham:stone_ciic_234 geosparql:hasGeometry ogham:stone_ciic_234_geom .
 ogham:stone_ciic_234_geom rdf:type sf:the_geom .
 ogham:stone_ciic_234_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.029166666666667 52.0311111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_235 rdf:type oghamonto:Stone .
 ogham:stone_ciic_235 rdfs:label 'CIIC 235'@en.
-ogham:stone_ciic_235 dc:identifier 235.
+ogham:stone_ciic_235 dc:identifier '235'.
 ogham:stone_ciic_235 geosparql:hasGeometry ogham:stone_ciic_235_geom .
 ogham:stone_ciic_235_geom rdf:type sf:the_geom .
 ogham:stone_ciic_235_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.175833333333333 51.9133333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_236 rdf:type oghamonto:Stone .
 ogham:stone_ciic_236 rdfs:label 'CIIC 236'@en.
-ogham:stone_ciic_236 dc:identifier 236.
+ogham:stone_ciic_236 dc:identifier '236'.
 ogham:stone_ciic_236 geosparql:hasGeometry ogham:stone_ciic_236_geom .
 ogham:stone_ciic_236_geom rdf:type sf:the_geom .
 ogham:stone_ciic_236_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.301944444444445 51.8433333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_237 rdf:type oghamonto:Stone .
 ogham:stone_ciic_237 rdfs:label 'CIIC 237'@en.
-ogham:stone_ciic_237 dc:identifier 237.
+ogham:stone_ciic_237 dc:identifier '237'.
 ogham:stone_ciic_237 geosparql:hasGeometry ogham:stone_ciic_237_geom .
 ogham:stone_ciic_237_geom rdf:type sf:the_geom .
 ogham:stone_ciic_237_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.301944444444445 51.8433333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_238 rdf:type oghamonto:Stone .
 ogham:stone_ciic_238 rdfs:label 'CIIC 238'@en.
-ogham:stone_ciic_238 dc:identifier 238.
+ogham:stone_ciic_238 dc:identifier '238'.
 ogham:stone_ciic_238 geosparql:hasGeometry ogham:stone_ciic_238_geom .
 ogham:stone_ciic_238_geom rdf:type sf:the_geom .
 ogham:stone_ciic_238_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.220833333333333 51.9233333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_239 rdf:type oghamonto:Stone .
 ogham:stone_ciic_239 rdfs:label 'CIIC 239'@en.
-ogham:stone_ciic_239 dc:identifier 239.
+ogham:stone_ciic_239 dc:identifier '239'.
 ogham:stone_ciic_239 geosparql:hasGeometry ogham:stone_ciic_239_geom .
 ogham:stone_ciic_239_geom rdf:type sf:the_geom .
 ogham:stone_ciic_239_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.025277777777779 52.0136111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_240 rdf:type oghamonto:Stone .
 ogham:stone_ciic_240 rdfs:label 'CIIC 240'@en.
-ogham:stone_ciic_240 dc:identifier 240.
+ogham:stone_ciic_240 dc:identifier '240'.
 ogham:stone_ciic_240 geosparql:hasGeometry ogham:stone_ciic_240_geom .
 ogham:stone_ciic_240_geom rdf:type sf:the_geom .
 ogham:stone_ciic_240_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-10.05888888888889 51.9708333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_241 rdf:type oghamonto:Stone .
 ogham:stone_ciic_241 rdfs:label 'CIIC 241'@en.
-ogham:stone_ciic_241 dc:identifier 241.
+ogham:stone_ciic_241 dc:identifier '241'.
 ogham:stone_ciic_241 geosparql:hasGeometry ogham:stone_ciic_241_geom .
 ogham:stone_ciic_241_geom rdf:type sf:the_geom .
 ogham:stone_ciic_241_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.67361111111111 52.0861111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_242 rdf:type oghamonto:Stone .
 ogham:stone_ciic_242 rdfs:label 'CIIC 242'@en.
-ogham:stone_ciic_242 dc:identifier 242.
+ogham:stone_ciic_242 dc:identifier '242'.
 ogham:stone_ciic_242 geosparql:hasGeometry ogham:stone_ciic_242_geom .
 ogham:stone_ciic_242_geom rdf:type sf:the_geom .
 ogham:stone_ciic_242_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.558333333333334 52.0777778)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_242a rdf:type oghamonto:Stone .
 ogham:stone_ciic_242a rdfs:label 'CIIC 242a'@en.
-ogham:stone_ciic_242a dc:identifier 242a.
+ogham:stone_ciic_242a dc:identifier '242a'.
 ogham:stone_ciic_242a geosparql:hasGeometry ogham:stone_ciic_242a_geom .
 ogham:stone_ciic_242a_geom rdf:type sf:the_geom .
 ogham:stone_ciic_242a_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.558333333333334 52.0777778)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_243 rdf:type oghamonto:Stone .
 ogham:stone_ciic_243 rdfs:label 'CIIC 243'@en.
-ogham:stone_ciic_243 dc:identifier 243.
+ogham:stone_ciic_243 dc:identifier '243'.
 ogham:stone_ciic_243 geosparql:hasGeometry ogham:stone_ciic_243_geom .
 ogham:stone_ciic_243_geom rdf:type sf:the_geom .
 ogham:stone_ciic_243_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.631666666666668 52.1288889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_244 rdf:type oghamonto:Stone .
 ogham:stone_ciic_244 rdfs:label 'CIIC 244'@en.
-ogham:stone_ciic_244 dc:identifier 244.
+ogham:stone_ciic_244 dc:identifier '244'.
 ogham:stone_ciic_244 geosparql:hasGeometry ogham:stone_ciic_244_geom .
 ogham:stone_ciic_244_geom rdf:type sf:the_geom .
 ogham:stone_ciic_244_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.631666666666668 52.1288889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_245 rdf:type oghamonto:Stone .
 ogham:stone_ciic_245 rdfs:label 'CIIC 245'@en.
-ogham:stone_ciic_245 dc:identifier 245.
+ogham:stone_ciic_245 dc:identifier '245'.
 ogham:stone_ciic_245 geosparql:hasGeometry ogham:stone_ciic_245_geom .
 ogham:stone_ciic_245_geom rdf:type sf:the_geom .
 ogham:stone_ciic_245_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.631666666666668 52.1288889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_246 rdf:type oghamonto:Stone .
 ogham:stone_ciic_246 rdfs:label 'CIIC 246'@en.
-ogham:stone_ciic_246 dc:identifier 246.
+ogham:stone_ciic_246 dc:identifier '246'.
 ogham:stone_ciic_246 geosparql:hasGeometry ogham:stone_ciic_246_geom .
 ogham:stone_ciic_246_geom rdf:type sf:the_geom .
 ogham:stone_ciic_246_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.631666666666668 52.1288889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_246a rdf:type oghamonto:Stone .
 ogham:stone_ciic_246a rdfs:label 'CIIC 246a'@en.
-ogham:stone_ciic_246a dc:identifier 246a.
+ogham:stone_ciic_246a dc:identifier '246a'.
 ogham:stone_ciic_246a geosparql:hasGeometry ogham:stone_ciic_246a_geom .
 ogham:stone_ciic_246a_geom rdf:type sf:the_geom .
 ogham:stone_ciic_246a_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.73361111111111 52.1655556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_246b rdf:type oghamonto:Stone .
 ogham:stone_ciic_246b rdfs:label 'CIIC 246b'@en.
-ogham:stone_ciic_246b dc:identifier 246b.
+ogham:stone_ciic_246b dc:identifier '246b'.
 ogham:stone_ciic_246b geosparql:hasGeometry ogham:stone_ciic_246b_geom .
 ogham:stone_ciic_246b_geom rdf:type sf:the_geom .
 ogham:stone_ciic_246b_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.73361111111111 52.1655556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_247 rdf:type oghamonto:Stone .
 ogham:stone_ciic_247 rdfs:label 'CIIC 247'@en.
-ogham:stone_ciic_247 dc:identifier 247.
+ogham:stone_ciic_247 dc:identifier '247'.
 ogham:stone_ciic_247 geosparql:hasGeometry ogham:stone_ciic_247_geom .
 ogham:stone_ciic_247_geom rdf:type sf:the_geom .
 ogham:stone_ciic_247_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.6627780 52.1477780)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_248 rdf:type oghamonto:Stone .
 ogham:stone_ciic_248 rdfs:label 'CIIC 248'@en.
-ogham:stone_ciic_248 dc:identifier 248.
+ogham:stone_ciic_248 dc:identifier '248'.
 ogham:stone_ciic_248 geosparql:hasGeometry ogham:stone_ciic_248_geom .
 ogham:stone_ciic_248_geom rdf:type sf:the_geom .
 ogham:stone_ciic_248_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.43888888888889 52.1425)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_249 rdf:type oghamonto:Stone .
 ogham:stone_ciic_249 rdfs:label 'CIIC 249'@en.
-ogham:stone_ciic_249 dc:identifier 249.
+ogham:stone_ciic_249 dc:identifier '249'.
 ogham:stone_ciic_249 geosparql:hasGeometry ogham:stone_ciic_249_geom .
 ogham:stone_ciic_249_geom rdf:type sf:the_geom .
 ogham:stone_ciic_249_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.687777777777779 52.1619444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_250 rdf:type oghamonto:Stone .
 ogham:stone_ciic_250 rdfs:label 'CIIC 250'@en.
-ogham:stone_ciic_250 dc:identifier 250.
+ogham:stone_ciic_250 dc:identifier '250'.
 ogham:stone_ciic_250 geosparql:hasGeometry ogham:stone_ciic_250_geom .
 ogham:stone_ciic_250_geom rdf:type sf:the_geom .
 ogham:stone_ciic_250_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.771944444444445 52.1658333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_251 rdf:type oghamonto:Stone .
 ogham:stone_ciic_251 rdfs:label 'CIIC 251'@en.
-ogham:stone_ciic_251 dc:identifier 251.
+ogham:stone_ciic_251 dc:identifier '251'.
 ogham:stone_ciic_251 geosparql:hasGeometry ogham:stone_ciic_251_geom .
 ogham:stone_ciic_251_geom rdf:type sf:the_geom .
 ogham:stone_ciic_251_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.5325 52.1916667)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_252 rdf:type oghamonto:Stone .
 ogham:stone_ciic_252 rdfs:label 'CIIC 252'@en.
-ogham:stone_ciic_252 dc:identifier 252.
+ogham:stone_ciic_252 dc:identifier '252'.
 ogham:stone_ciic_252 geosparql:hasGeometry ogham:stone_ciic_252_geom .
 ogham:stone_ciic_252_geom rdf:type sf:the_geom .
 ogham:stone_ciic_252_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.581944444444444 52.2266667)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_253 rdf:type oghamonto:Stone .
 ogham:stone_ciic_253 rdfs:label 'CIIC 253'@en.
-ogham:stone_ciic_253 dc:identifier 253.
+ogham:stone_ciic_253 dc:identifier '253'.
 ogham:stone_ciic_253 geosparql:hasGeometry ogham:stone_ciic_253_geom .
 ogham:stone_ciic_253_geom rdf:type sf:the_geom .
 ogham:stone_ciic_253_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.540833333333333 52.2336111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_254 rdf:type oghamonto:Stone .
 ogham:stone_ciic_254 rdfs:label 'CIIC 254'@en.
-ogham:stone_ciic_254 dc:identifier 254.
+ogham:stone_ciic_254 dc:identifier '254'.
 ogham:stone_ciic_254 geosparql:hasGeometry ogham:stone_ciic_254_geom .
 ogham:stone_ciic_254_geom rdf:type sf:the_geom .
 ogham:stone_ciic_254_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.540833333333333 52.2336111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_255 rdf:type oghamonto:Stone .
 ogham:stone_ciic_255 rdfs:label 'CIIC 255'@en.
-ogham:stone_ciic_255 dc:identifier 255.
+ogham:stone_ciic_255 dc:identifier '255'.
 ogham:stone_ciic_255 geosparql:hasGeometry ogham:stone_ciic_255_geom .
 ogham:stone_ciic_255_geom rdf:type sf:the_geom .
 ogham:stone_ciic_255_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.7575 52.1247222)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_256 rdf:type oghamonto:Stone .
 ogham:stone_ciic_256 rdfs:label 'CIIC 256'@en.
-ogham:stone_ciic_256 dc:identifier 256.
+ogham:stone_ciic_256 dc:identifier '256'.
 ogham:stone_ciic_256 geosparql:hasGeometry ogham:stone_ciic_256_geom .
 ogham:stone_ciic_256_geom rdf:type sf:the_geom .
 ogham:stone_ciic_256_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.7575 52.1247222)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_256a rdf:type oghamonto:Stone .
 ogham:stone_ciic_256a rdfs:label 'CIIC 256a'@en.
-ogham:stone_ciic_256a dc:identifier 256a.
+ogham:stone_ciic_256a dc:identifier '256a'.
 ogham:stone_ciic_256a geosparql:hasGeometry ogham:stone_ciic_256a_geom .
 ogham:stone_ciic_256a_geom rdf:type sf:the_geom .
 ogham:stone_ciic_256a_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-9.710277777777778 52.2680556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_257 rdf:type oghamonto:Stone .
 ogham:stone_ciic_257 rdfs:label 'CIIC 257'@en.
-ogham:stone_ciic_257 dc:identifier 257.
+ogham:stone_ciic_257 dc:identifier '257'.
 ogham:stone_ciic_257 geosparql:hasGeometry ogham:stone_ciic_257_geom .
 ogham:stone_ciic_257_geom rdf:type sf:the_geom .
 ogham:stone_ciic_257_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.823888888888888 52.4575)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_258 rdf:type oghamonto:Stone .
 ogham:stone_ciic_258 rdfs:label 'CIIC 258'@en.
-ogham:stone_ciic_258 dc:identifier 258.
+ogham:stone_ciic_258 dc:identifier '258'.
 ogham:stone_ciic_258 geosparql:hasGeometry ogham:stone_ciic_258_geom .
 ogham:stone_ciic_258_geom rdf:type sf:the_geom .
 ogham:stone_ciic_258_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.377222222222223 52.3819444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_259 rdf:type oghamonto:Stone .
 ogham:stone_ciic_259 rdfs:label 'CIIC 259'@en.
-ogham:stone_ciic_259 dc:identifier 259.
+ogham:stone_ciic_259 dc:identifier '259'.
 ogham:stone_ciic_259 geosparql:hasGeometry ogham:stone_ciic_259_geom .
 ogham:stone_ciic_259_geom rdf:type sf:the_geom .
 ogham:stone_ciic_259_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.562777777777779 52.3286111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_260 rdf:type oghamonto:Stone .
 ogham:stone_ciic_260 rdfs:label 'CIIC 260'@en.
-ogham:stone_ciic_260 dc:identifier 260.
+ogham:stone_ciic_260 dc:identifier '260'.
 ogham:stone_ciic_260 geosparql:hasGeometry ogham:stone_ciic_260_geom .
 ogham:stone_ciic_260_geom rdf:type sf:the_geom .
 ogham:stone_ciic_260_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-8.105277777777777 52.2758333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_261 rdf:type oghamonto:Stone .
 ogham:stone_ciic_261 rdfs:label 'CIIC 261'@en.
-ogham:stone_ciic_261 dc:identifier 261.
+ogham:stone_ciic_261 dc:identifier '261'.
 ogham:stone_ciic_261 geosparql:hasGeometry ogham:stone_ciic_261_geom .
 ogham:stone_ciic_261_geom rdf:type sf:the_geom .
 ogham:stone_ciic_261_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.758055555555556 52.2216667)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_262 rdf:type oghamonto:Stone .
 ogham:stone_ciic_262 rdfs:label 'CIIC 262'@en.
-ogham:stone_ciic_262 dc:identifier 262.
+ogham:stone_ciic_262 dc:identifier '262'.
 ogham:stone_ciic_262 geosparql:hasGeometry ogham:stone_ciic_262_geom .
 ogham:stone_ciic_262_geom rdf:type sf:the_geom .
 ogham:stone_ciic_262_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.998888888888889 52.1994444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_263 rdf:type oghamonto:Stone .
 ogham:stone_ciic_263 rdfs:label 'CIIC 263'@en.
-ogham:stone_ciic_263 dc:identifier 263.
+ogham:stone_ciic_263 dc:identifier '263'.
 ogham:stone_ciic_263 geosparql:hasGeometry ogham:stone_ciic_263_geom .
 ogham:stone_ciic_263_geom rdf:type sf:the_geom .
 ogham:stone_ciic_263_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT( -7.729166666666667 51.9441667)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_264 rdf:type oghamonto:Stone .
 ogham:stone_ciic_264 rdfs:label 'CIIC 264'@en.
-ogham:stone_ciic_264 dc:identifier 264.
+ogham:stone_ciic_264 dc:identifier '264'.
 ogham:stone_ciic_264 geosparql:hasGeometry ogham:stone_ciic_264_geom .
 ogham:stone_ciic_264_geom rdf:type sf:the_geom .
 ogham:stone_ciic_264_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT( -7.729166666666667 51.9441667)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_265 rdf:type oghamonto:Stone .
 ogham:stone_ciic_265 rdfs:label 'CIIC 265'@en.
-ogham:stone_ciic_265 dc:identifier 265.
+ogham:stone_ciic_265 dc:identifier '265'.
 ogham:stone_ciic_265 geosparql:hasGeometry ogham:stone_ciic_265_geom .
 ogham:stone_ciic_265_geom rdf:type sf:the_geom .
 ogham:stone_ciic_265_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT( -7.729166666666667 51.9441667)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_266 rdf:type oghamonto:Stone .
 ogham:stone_ciic_266 rdfs:label 'CIIC 266'@en.
-ogham:stone_ciic_266 dc:identifier 266.
+ogham:stone_ciic_266 dc:identifier '266'.
 ogham:stone_ciic_266 geosparql:hasGeometry ogham:stone_ciic_266_geom .
 ogham:stone_ciic_266_geom rdf:type sf:the_geom .
 ogham:stone_ciic_266_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.848888888888888 52.0644444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_267 rdf:type oghamonto:Stone .
 ogham:stone_ciic_267 rdfs:label 'CIIC 267'@en.
-ogham:stone_ciic_267 dc:identifier 267.
+ogham:stone_ciic_267 dc:identifier '267'.
 ogham:stone_ciic_267 geosparql:hasGeometry ogham:stone_ciic_267_geom .
 ogham:stone_ciic_267_geom rdf:type sf:the_geom .
 ogham:stone_ciic_267_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.848888888888888 52.0644444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_268 rdf:type oghamonto:Stone .
 ogham:stone_ciic_268 rdfs:label 'CIIC 268'@en.
-ogham:stone_ciic_268 dc:identifier 268.
+ogham:stone_ciic_268 dc:identifier '268'.
 ogham:stone_ciic_268 geosparql:hasGeometry ogham:stone_ciic_268_geom .
 ogham:stone_ciic_268_geom rdf:type sf:the_geom .
 ogham:stone_ciic_268_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.848888888888888 52.0644444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_269 rdf:type oghamonto:Stone .
 ogham:stone_ciic_269 rdfs:label 'CIIC 269'@en.
-ogham:stone_ciic_269 dc:identifier 269.
+ogham:stone_ciic_269 dc:identifier '269'.
 ogham:stone_ciic_269 geosparql:hasGeometry ogham:stone_ciic_269_geom .
 ogham:stone_ciic_269_geom rdf:type sf:the_geom .
 ogham:stone_ciic_269_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.755833333333333 51.9883333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_270 rdf:type oghamonto:Stone .
 ogham:stone_ciic_270 rdfs:label 'CIIC 270'@en.
-ogham:stone_ciic_270 dc:identifier 270.
+ogham:stone_ciic_270 dc:identifier '270'.
 ogham:stone_ciic_270 geosparql:hasGeometry ogham:stone_ciic_270_geom .
 ogham:stone_ciic_270_geom rdf:type sf:the_geom .
 ogham:stone_ciic_270_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.439166666666667 52.1333333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_271 rdf:type oghamonto:Stone .
 ogham:stone_ciic_271 rdfs:label 'CIIC 271'@en.
-ogham:stone_ciic_271 dc:identifier 271.
+ogham:stone_ciic_271 dc:identifier '271'.
 ogham:stone_ciic_271 geosparql:hasGeometry ogham:stone_ciic_271_geom .
 ogham:stone_ciic_271_geom rdf:type sf:the_geom .
 ogham:stone_ciic_271_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.439166666666667 52.1333333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_272 rdf:type oghamonto:Stone .
 ogham:stone_ciic_272 rdfs:label 'CIIC 272'@en.
-ogham:stone_ciic_272 dc:identifier 272.
+ogham:stone_ciic_272 dc:identifier '272'.
 ogham:stone_ciic_272 geosparql:hasGeometry ogham:stone_ciic_272_geom .
 ogham:stone_ciic_272_geom rdf:type sf:the_geom .
 ogham:stone_ciic_272_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.468055555555556 52.1630556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_273 rdf:type oghamonto:Stone .
 ogham:stone_ciic_273 rdfs:label 'CIIC 273'@en.
-ogham:stone_ciic_273 dc:identifier 273.
+ogham:stone_ciic_273 dc:identifier '273'.
 ogham:stone_ciic_273 geosparql:hasGeometry ogham:stone_ciic_273_geom .
 ogham:stone_ciic_273_geom rdf:type sf:the_geom .
 ogham:stone_ciic_273_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.468055555555556 52.1630556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_274 rdf:type oghamonto:Stone .
 ogham:stone_ciic_274 rdfs:label 'CIIC 274'@en.
-ogham:stone_ciic_274 dc:identifier 274.
+ogham:stone_ciic_274 dc:identifier '274'.
 ogham:stone_ciic_274 geosparql:hasGeometry ogham:stone_ciic_274_geom .
 ogham:stone_ciic_274_geom rdf:type sf:the_geom .
 ogham:stone_ciic_274_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.468055555555556 52.1630556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_275 rdf:type oghamonto:Stone .
 ogham:stone_ciic_275 rdfs:label 'CIIC 275'@en.
-ogham:stone_ciic_275 dc:identifier 275.
+ogham:stone_ciic_275 dc:identifier '275'.
 ogham:stone_ciic_275 geosparql:hasGeometry ogham:stone_ciic_275_geom .
 ogham:stone_ciic_275_geom rdf:type sf:the_geom .
 ogham:stone_ciic_275_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.468055555555556 52.1630556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_276 rdf:type oghamonto:Stone .
 ogham:stone_ciic_276 rdfs:label 'CIIC 276'@en.
-ogham:stone_ciic_276 dc:identifier 276.
+ogham:stone_ciic_276 dc:identifier '276'.
 ogham:stone_ciic_276 geosparql:hasGeometry ogham:stone_ciic_276_geom .
 ogham:stone_ciic_276_geom rdf:type sf:the_geom .
 ogham:stone_ciic_276_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.468055555555556 52.1630556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_277 rdf:type oghamonto:Stone .
 ogham:stone_ciic_277 rdfs:label 'CIIC 277'@en.
-ogham:stone_ciic_277 dc:identifier 277.
+ogham:stone_ciic_277 dc:identifier '277'.
 ogham:stone_ciic_277 geosparql:hasGeometry ogham:stone_ciic_277_geom .
 ogham:stone_ciic_277_geom rdf:type sf:the_geom .
 ogham:stone_ciic_277_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.468055555555556 52.1630556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_278 rdf:type oghamonto:Stone .
 ogham:stone_ciic_278 rdfs:label 'CIIC 278'@en.
-ogham:stone_ciic_278 dc:identifier 278.
+ogham:stone_ciic_278 dc:identifier '278'.
 ogham:stone_ciic_278 geosparql:hasGeometry ogham:stone_ciic_278_geom .
 ogham:stone_ciic_278_geom rdf:type sf:the_geom .
 ogham:stone_ciic_278_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.468055555555556 52.1630556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_279 rdf:type oghamonto:Stone .
 ogham:stone_ciic_279 rdfs:label 'CIIC 279'@en.
-ogham:stone_ciic_279 dc:identifier 279.
+ogham:stone_ciic_279 dc:identifier '279'.
 ogham:stone_ciic_279 geosparql:hasGeometry ogham:stone_ciic_279_geom .
 ogham:stone_ciic_279_geom rdf:type sf:the_geom .
 ogham:stone_ciic_279_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.468055555555556 52.1630556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_280 rdf:type oghamonto:Stone .
 ogham:stone_ciic_280 rdfs:label 'CIIC 280'@en.
-ogham:stone_ciic_280 dc:identifier 280.
+ogham:stone_ciic_280 dc:identifier '280'.
 ogham:stone_ciic_280 geosparql:hasGeometry ogham:stone_ciic_280_geom .
 ogham:stone_ciic_280_geom rdf:type sf:the_geom .
 ogham:stone_ciic_280_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.468055555555556 52.1630556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_281 rdf:type oghamonto:Stone .
 ogham:stone_ciic_281 rdfs:label 'CIIC 281'@en.
-ogham:stone_ciic_281 dc:identifier 281.
+ogham:stone_ciic_281 dc:identifier '281'.
 ogham:stone_ciic_281 geosparql:hasGeometry ogham:stone_ciic_281_geom .
 ogham:stone_ciic_281_geom rdf:type sf:the_geom .
 ogham:stone_ciic_281_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.468055555555556 52.1630556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_282 rdf:type oghamonto:Stone .
 ogham:stone_ciic_282 rdfs:label 'CIIC 282'@en.
-ogham:stone_ciic_282 dc:identifier 282.
+ogham:stone_ciic_282 dc:identifier '282'.
 ogham:stone_ciic_282 geosparql:hasGeometry ogham:stone_ciic_282_geom .
 ogham:stone_ciic_282_geom rdf:type sf:the_geom .
 ogham:stone_ciic_282_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.495 52.1552778)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_283 rdf:type oghamonto:Stone .
 ogham:stone_ciic_283 rdfs:label 'CIIC 283'@en.
-ogham:stone_ciic_283 dc:identifier 283.
+ogham:stone_ciic_283 dc:identifier '283'.
 ogham:stone_ciic_283 geosparql:hasGeometry ogham:stone_ciic_283_geom .
 ogham:stone_ciic_283_geom rdf:type sf:the_geom .
 ogham:stone_ciic_283_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.483333333333333 52.1913889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_284 rdf:type oghamonto:Stone .
 ogham:stone_ciic_284 rdfs:label 'CIIC 284'@en.
-ogham:stone_ciic_284 dc:identifier 284.
+ogham:stone_ciic_284 dc:identifier '284'.
 ogham:stone_ciic_284 geosparql:hasGeometry ogham:stone_ciic_284_geom .
 ogham:stone_ciic_284_geom rdf:type sf:the_geom .
 ogham:stone_ciic_284_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.483333333333333 52.1913889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_285 rdf:type oghamonto:Stone .
 ogham:stone_ciic_285 rdfs:label 'CIIC 285'@en.
-ogham:stone_ciic_285 dc:identifier 285.
+ogham:stone_ciic_285 dc:identifier '285'.
 ogham:stone_ciic_285 geosparql:hasGeometry ogham:stone_ciic_285_geom .
 ogham:stone_ciic_285_geom rdf:type sf:the_geom .
 ogham:stone_ciic_285_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.544722222222222 52.1102778)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_286 rdf:type oghamonto:Stone .
 ogham:stone_ciic_286 rdfs:label 'CIIC 286'@en.
-ogham:stone_ciic_286 dc:identifier 286.
+ogham:stone_ciic_286 dc:identifier '286'.
 ogham:stone_ciic_286 geosparql:hasGeometry ogham:stone_ciic_286_geom .
 ogham:stone_ciic_286_geom rdf:type sf:the_geom .
 ogham:stone_ciic_286_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.549722222222222 52.0905556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_287 rdf:type oghamonto:Stone .
 ogham:stone_ciic_287 rdfs:label 'CIIC 287'@en.
-ogham:stone_ciic_287 dc:identifier 287.
+ogham:stone_ciic_287 dc:identifier '287'.
 ogham:stone_ciic_287 geosparql:hasGeometry ogham:stone_ciic_287_geom .
 ogham:stone_ciic_287_geom rdf:type sf:the_geom .
 ogham:stone_ciic_287_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.549722222222222 52.0905556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_288 rdf:type oghamonto:Stone .
 ogham:stone_ciic_288 rdfs:label 'CIIC 288'@en.
-ogham:stone_ciic_288 dc:identifier 288.
+ogham:stone_ciic_288 dc:identifier '288'.
 ogham:stone_ciic_288 geosparql:hasGeometry ogham:stone_ciic_288_geom .
 ogham:stone_ciic_288_geom rdf:type sf:the_geom .
 ogham:stone_ciic_288_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.549722222222222 52.0905556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_289 rdf:type oghamonto:Stone .
 ogham:stone_ciic_289 rdfs:label 'CIIC 289'@en.
-ogham:stone_ciic_289 dc:identifier 289.
+ogham:stone_ciic_289 dc:identifier '289'.
 ogham:stone_ciic_289 geosparql:hasGeometry ogham:stone_ciic_289_geom .
 ogham:stone_ciic_289_geom rdf:type sf:the_geom .
 ogham:stone_ciic_289_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.549722222222222 52.0905556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_290 rdf:type oghamonto:Stone .
 ogham:stone_ciic_290 rdfs:label 'CIIC 290'@en.
-ogham:stone_ciic_290 dc:identifier 290.
+ogham:stone_ciic_290 dc:identifier '290'.
 ogham:stone_ciic_290 geosparql:hasGeometry ogham:stone_ciic_290_geom .
 ogham:stone_ciic_290_geom rdf:type sf:the_geom .
 ogham:stone_ciic_290_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.549722222222222 52.0905556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_291 rdf:type oghamonto:Stone .
 ogham:stone_ciic_291 rdfs:label 'CIIC 291'@en.
-ogham:stone_ciic_291 dc:identifier 291.
+ogham:stone_ciic_291 dc:identifier '291'.
 ogham:stone_ciic_291 geosparql:hasGeometry ogham:stone_ciic_291_geom .
 ogham:stone_ciic_291_geom rdf:type sf:the_geom .
 ogham:stone_ciic_291_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.804444444444444 52.1025)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_292 rdf:type oghamonto:Stone .
 ogham:stone_ciic_292 rdfs:label 'CIIC 292'@en.
-ogham:stone_ciic_292 dc:identifier 292.
+ogham:stone_ciic_292 dc:identifier '292'.
 ogham:stone_ciic_292 geosparql:hasGeometry ogham:stone_ciic_292_geom .
 ogham:stone_ciic_292_geom rdf:type sf:the_geom .
 ogham:stone_ciic_292_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.6 52.1113889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_293 rdf:type oghamonto:Stone .
 ogham:stone_ciic_293 rdfs:label 'CIIC 293'@en.
-ogham:stone_ciic_293 dc:identifier 293.
+ogham:stone_ciic_293 dc:identifier '293'.
 ogham:stone_ciic_293 geosparql:hasGeometry ogham:stone_ciic_293_geom .
 ogham:stone_ciic_293_geom rdf:type sf:the_geom .
 ogham:stone_ciic_293_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.6 52.1113889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_294 rdf:type oghamonto:Stone .
 ogham:stone_ciic_294 rdfs:label 'CIIC 294'@en.
-ogham:stone_ciic_294 dc:identifier 294.
+ogham:stone_ciic_294 dc:identifier '294'.
 ogham:stone_ciic_294 geosparql:hasGeometry ogham:stone_ciic_294_geom .
 ogham:stone_ciic_294_geom rdf:type sf:the_geom .
 ogham:stone_ciic_294_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.6 52.1113889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_295 rdf:type oghamonto:Stone .
 ogham:stone_ciic_295 rdfs:label 'CIIC 295'@en.
-ogham:stone_ciic_295 dc:identifier 295.
+ogham:stone_ciic_295 dc:identifier '295'.
 ogham:stone_ciic_295 geosparql:hasGeometry ogham:stone_ciic_295_geom .
 ogham:stone_ciic_295_geom rdf:type sf:the_geom .
 ogham:stone_ciic_295_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.6 52.1113889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_296 rdf:type oghamonto:Stone .
 ogham:stone_ciic_296 rdfs:label 'CIIC 296'@en.
-ogham:stone_ciic_296 dc:identifier 296.
+ogham:stone_ciic_296 dc:identifier '296'.
 ogham:stone_ciic_296 geosparql:hasGeometry ogham:stone_ciic_296_geom .
 ogham:stone_ciic_296_geom rdf:type sf:the_geom .
 ogham:stone_ciic_296_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.6 52.1113889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_297 rdf:type oghamonto:Stone .
 ogham:stone_ciic_297 rdfs:label 'CIIC 297'@en.
-ogham:stone_ciic_297 dc:identifier 297.
+ogham:stone_ciic_297 dc:identifier '297'.
 ogham:stone_ciic_297 geosparql:hasGeometry ogham:stone_ciic_297_geom .
 ogham:stone_ciic_297_geom rdf:type sf:the_geom .
 ogham:stone_ciic_297_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.6 52.1113889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_298 rdf:type oghamonto:Stone .
 ogham:stone_ciic_298 rdfs:label 'CIIC 298'@en.
-ogham:stone_ciic_298 dc:identifier 298.
+ogham:stone_ciic_298 dc:identifier '298'.
 ogham:stone_ciic_298 geosparql:hasGeometry ogham:stone_ciic_298_geom .
 ogham:stone_ciic_298_geom rdf:type sf:the_geom .
 ogham:stone_ciic_298_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.6 52.1113889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_299 rdf:type oghamonto:Stone .
 ogham:stone_ciic_299 rdfs:label 'CIIC 299'@en.
-ogham:stone_ciic_299 dc:identifier 299.
+ogham:stone_ciic_299 dc:identifier '299'.
 ogham:stone_ciic_299 geosparql:hasGeometry ogham:stone_ciic_299_geom .
 ogham:stone_ciic_299_geom rdf:type sf:the_geom .
 ogham:stone_ciic_299_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.6 52.1113889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_300 rdf:type oghamonto:Stone .
 ogham:stone_ciic_300 rdfs:label 'CIIC 300'@en.
-ogham:stone_ciic_300 dc:identifier 300.
+ogham:stone_ciic_300 dc:identifier '300'.
 ogham:stone_ciic_300 geosparql:hasGeometry ogham:stone_ciic_300_geom .
 ogham:stone_ciic_300_geom rdf:type sf:the_geom .
 ogham:stone_ciic_300_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.59 52.1608333)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_301 rdf:type oghamonto:Stone .
 ogham:stone_ciic_301 rdfs:label 'CIIC 301'@en.
-ogham:stone_ciic_301 dc:identifier 301.
+ogham:stone_ciic_301 dc:identifier '301'.
 ogham:stone_ciic_301 geosparql:hasGeometry ogham:stone_ciic_301_geom .
 ogham:stone_ciic_301_geom rdf:type sf:the_geom .
 ogham:stone_ciic_301_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.746944444444445 52.2672222)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_302 rdf:type oghamonto:Stone .
 ogham:stone_ciic_302 rdfs:label 'CIIC 302'@en.
-ogham:stone_ciic_302 dc:identifier 302.
+ogham:stone_ciic_302 dc:identifier '302'.
 ogham:stone_ciic_302 geosparql:hasGeometry ogham:stone_ciic_302_geom .
 ogham:stone_ciic_302_geom rdf:type sf:the_geom .
 ogham:stone_ciic_302_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.226666666666667 52.185)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_303 rdf:type oghamonto:Stone .
 ogham:stone_ciic_303 rdfs:label 'CIIC 303'@en.
-ogham:stone_ciic_303 dc:identifier 303.
+ogham:stone_ciic_303 dc:identifier '303'.
 ogham:stone_ciic_303 geosparql:hasGeometry ogham:stone_ciic_303_geom .
 ogham:stone_ciic_303_geom rdf:type sf:the_geom .
 ogham:stone_ciic_303_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.385000000000001 52.3111111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_304 rdf:type oghamonto:Stone .
 ogham:stone_ciic_304 rdfs:label 'CIIC 304'@en.
-ogham:stone_ciic_304 dc:identifier 304.
+ogham:stone_ciic_304 dc:identifier '304'.
 ogham:stone_ciic_304 geosparql:hasGeometry ogham:stone_ciic_304_geom .
 ogham:stone_ciic_304_geom rdf:type sf:the_geom .
 ogham:stone_ciic_304_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.391111111111112 52.3305556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_305 rdf:type oghamonto:Stone .
 ogham:stone_ciic_305 rdfs:label 'CIIC 305'@en.
-ogham:stone_ciic_305 dc:identifier 305.
+ogham:stone_ciic_305 dc:identifier '305'.
 ogham:stone_ciic_305 geosparql:hasGeometry ogham:stone_ciic_305_geom .
 ogham:stone_ciic_305_geom rdf:type sf:the_geom .
 ogham:stone_ciic_305_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.379166666666666 52.3241667)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_306 rdf:type oghamonto:Stone .
 ogham:stone_ciic_306 rdfs:label 'CIIC 306'@en.
-ogham:stone_ciic_306 dc:identifier 306.
+ogham:stone_ciic_306 dc:identifier '306'.
 ogham:stone_ciic_306 geosparql:hasGeometry ogham:stone_ciic_306_geom .
 ogham:stone_ciic_306_geom rdf:type sf:the_geom .
 ogham:stone_ciic_306_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.511666666666667 52.3263889)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_307 rdf:type oghamonto:Stone .
 ogham:stone_ciic_307 rdfs:label 'CIIC 307'@en.
-ogham:stone_ciic_307 dc:identifier 307.
+ogham:stone_ciic_307 dc:identifier '307'.
 ogham:stone_ciic_307 geosparql:hasGeometry ogham:stone_ciic_307_geom .
 ogham:stone_ciic_307_geom rdf:type sf:the_geom .
 ogham:stone_ciic_307_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.487777777777778 52.3419444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_308 rdf:type oghamonto:Stone .
 ogham:stone_ciic_308 rdfs:label 'CIIC 308'@en.
-ogham:stone_ciic_308 dc:identifier 308.
+ogham:stone_ciic_308 dc:identifier '308'.
 ogham:stone_ciic_308 geosparql:hasGeometry ogham:stone_ciic_308_geom .
 ogham:stone_ciic_308_geom rdf:type sf:the_geom .
 ogham:stone_ciic_308_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.487777777777778 52.3419444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_309 rdf:type oghamonto:Stone .
 ogham:stone_ciic_309 rdfs:label 'CIIC 309'@en.
-ogham:stone_ciic_309 dc:identifier 309.
+ogham:stone_ciic_309 dc:identifier '309'.
 ogham:stone_ciic_309 geosparql:hasGeometry ogham:stone_ciic_309_geom .
 ogham:stone_ciic_309_geom rdf:type sf:the_geom .
 ogham:stone_ciic_309_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.183333333333334 54.8030556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_310 rdf:type oghamonto:Stone .
 ogham:stone_ciic_310 rdfs:label 'CIIC 310'@en.
-ogham:stone_ciic_310 dc:identifier 310.
+ogham:stone_ciic_310 dc:identifier '310'.
 ogham:stone_ciic_310 geosparql:hasGeometry ogham:stone_ciic_310_geom .
 ogham:stone_ciic_310_geom rdf:type sf:the_geom .
 ogham:stone_ciic_310_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.183333333333334 54.8030556)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_311 rdf:type oghamonto:Stone .
 ogham:stone_ciic_311 rdfs:label 'CIIC 311'@en.
-ogham:stone_ciic_311 dc:identifier 311.
+ogham:stone_ciic_311 dc:identifier '311'.
 ogham:stone_ciic_311 geosparql:hasGeometry ogham:stone_ciic_311_geom .
 ogham:stone_ciic_311_geom rdf:type sf:the_geom .
 ogham:stone_ciic_311_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.655277777777778 54.3072222)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_312 rdf:type oghamonto:Stone .
 ogham:stone_ciic_312 rdfs:label 'CIIC 312'@en.
-ogham:stone_ciic_312 dc:identifier 312.
+ogham:stone_ciic_312 dc:identifier '312'.
 ogham:stone_ciic_312 geosparql:hasGeometry ogham:stone_ciic_312_geom .
 ogham:stone_ciic_312_geom rdf:type sf:the_geom .
 ogham:stone_ciic_312_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.954444444444444 53.805)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_313 rdf:type oghamonto:Stone .
 ogham:stone_ciic_313 rdfs:label 'CIIC 313'@en.
-ogham:stone_ciic_313 dc:identifier 313.
+ogham:stone_ciic_313 dc:identifier '313'.
 ogham:stone_ciic_313 geosparql:hasGeometry ogham:stone_ciic_313_geom .
 ogham:stone_ciic_313_geom rdf:type sf:the_geom .
 ogham:stone_ciic_313_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.209444444444444 53.7944444)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_314 rdf:type oghamonto:Stone .
 ogham:stone_ciic_314 rdfs:label 'CIIC 314'@en.
-ogham:stone_ciic_314 dc:identifier 314.
+ogham:stone_ciic_314 dc:identifier '314'.
 ogham:stone_ciic_314 geosparql:hasGeometry ogham:stone_ciic_314_geom .
 ogham:stone_ciic_314_geom rdf:type sf:the_geom .
 ogham:stone_ciic_314_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.871111111111111 54.6086111)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_315 rdf:type oghamonto:Stone .
 ogham:stone_ciic_315 rdfs:label 'CIIC 315'@en.
-ogham:stone_ciic_315 dc:identifier 315.
+ogham:stone_ciic_315 dc:identifier '315'.
 ogham:stone_ciic_315 geosparql:hasGeometry ogham:stone_ciic_315_geom .
 ogham:stone_ciic_315_geom rdf:type sf:the_geom .
 ogham:stone_ciic_315_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.5175 54.3622222)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_316 rdf:type oghamonto:Stone .
 ogham:stone_ciic_316 rdfs:label 'CIIC 316'@en.
-ogham:stone_ciic_316 dc:identifier 316.
+ogham:stone_ciic_316 dc:identifier '316'.
 ogham:stone_ciic_316 geosparql:hasGeometry ogham:stone_ciic_316_geom .
 ogham:stone_ciic_316_geom rdf:type sf:the_geom .
 ogham:stone_ciic_316_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-6.7444444444444445 55.1166667)"^^geosparql:wktLiteral.
 
 ogham:stone_ciic_317 rdf:type oghamonto:Stone .
 ogham:stone_ciic_317 rdfs:label 'CIIC 317'@en.
-ogham:stone_ciic_317 dc:identifier 317.
+ogham:stone_ciic_317 dc:identifier '317'.
 ogham:stone_ciic_317 geosparql:hasGeometry ogham:stone_ciic_317_geom .
 ogham:stone_ciic_317_geom rdf:type sf:the_geom .
 ogham:stone_ciic_317_geom geosparql:asWKT "<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(-7.047777777777777 54.6994444)"^^geosparql:wktLiteral.

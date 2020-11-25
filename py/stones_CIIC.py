@@ -49,7 +49,7 @@ for index, row in data.iterrows():
     lineNo += 1
     lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "rdf:type" + " oghamonto:Stone .")
     lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "rdfs:label" + " " + "'" + str(row['label_en']).replace('\'', '`') + "'@en" + ".")
-    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "dc:identifier" + " " + "" + str(row['P1545_ciic']) + "" + ".")
+    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "dc:identifier" + " " + "'" + str(row['P1545_ciic']) + "'" + ".")
     # geom
     lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "geosparql:hasGeometry" + " ogham:stone_ciic_" + str(row['P1545_ciic']) + "_geom .")
     lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + "_geom " + "rdf:type" + " sf:the_geom .")
