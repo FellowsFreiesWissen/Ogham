@@ -214,6 +214,24 @@
     
 
 
+    <!-- http://ontology.ogham.link/Actor -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/Actor">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+        <rdfs:label xml:lang="en">Actor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/ActorEntity -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/ActorEntity">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Actor"/>
+        <rdfs:label xml:lang="en">Actor Entity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://ontology.ogham.link/Barony -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/Barony">
@@ -394,11 +412,29 @@
     
 
 
+    <!-- http://ontology.ogham.link/Sandstone -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/Sandstone">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Stone"/>
+        <rdfs:label xml:lang="en">Sandstone</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://ontology.ogham.link/State -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/State">
         <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/GeographicLocation"/>
         <rdfs:label xml:lang="en">State</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/Stone -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/Stone">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Material"/>
+        <rdfs:label xml:lang="en">Stone</rdfs:label>
     </owl:Class>
     
 
