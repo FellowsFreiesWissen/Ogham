@@ -286,6 +286,15 @@
     
 
 
+    <!-- http://ontology.ogham.link/InformationCarrier -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/InformationCarrier">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:label xml:lang="en">Information Carrier</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://ontology.ogham.link/Material -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/Material">
@@ -406,6 +415,7 @@
     <!-- http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity -->
 
     <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
         <rdfs:comment>This class comprises all things in the universe of discourse of the CIDOC Conceptual Reference Model.
     It is an abstract concept providing for three general properties:
     1.	Identification by name or appellation, and in particular by a preferred identifier
@@ -630,6 +640,14 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
     <owl:Class rdf:about="http://www.w3.org/ns/prov#Agent">
         <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q1773840"/>
         <rdfs:label xml:lang="en">Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Entity -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Entity">
+        <rdfs:label xml:lang="en">Entity</rdfs:label>
     </owl:Class>
     
 
