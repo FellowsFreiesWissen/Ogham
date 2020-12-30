@@ -12,6 +12,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+     xmlns:geonames="http://sws.geonames.org/"
      xmlns:ontology="http://ontology.ogham.link/"
      xmlns:pleiades="https://pleiades.stoa.org/places/vocab#"
      xmlns:geosparql="http://www.opengis.net/ont/geosparql#">
@@ -250,15 +251,6 @@
     
 
 
-    <!-- http://ontology.ogham.link/Collection -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/Collection">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/GeographicLocation"/>
-        <rdfs:label xml:lang="en">Collection</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://ontology.ogham.link/County -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/County">
@@ -361,7 +353,7 @@
     <!-- http://ontology.ogham.link/OghamSite -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/OghamSite">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Collection"/>
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/PlaceCollection"/>
         <rdfs:label xml:lang="en">Ogham Site</rdfs:label>
     </owl:Class>
     
@@ -398,7 +390,16 @@
 
     <owl:Class rdf:about="http://ontology.ogham.link/Place">
         <rdfs:subClassOf rdf:resource="https://pleiades.stoa.org/places/vocab#Place"/>
-        <rdfs:label xml:lang="de">Place Concept</rdfs:label>
+        <rdfs:label xml:lang="de">Place</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/PlaceCollection -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/PlaceCollection">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/GeographicLocation"/>
+        <rdfs:label xml:lang="en">Place Collection</rdfs:label>
     </owl:Class>
     
 
@@ -453,6 +454,69 @@
     <owl:Class rdf:about="http://ontology.ogham.link/Word">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:label xml:lang="en">Word</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sws.geonames.org/2634895 -->
+
+    <owl:Class rdf:about="http://sws.geonames.org/2634895">
+        <rdfs:subClassOf rdf:resource="http://sws.geonames.org/2635167"/>
+        <rdfs:label xml:lang="en">Wales</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sws.geonames.org/2635167 -->
+
+    <owl:Class rdf:about="http://sws.geonames.org/2635167">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/State"/>
+        <rdfs:label xml:lang="en">United Kingdom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sws.geonames.org/2638360 -->
+
+    <owl:Class rdf:about="http://sws.geonames.org/2638360">
+        <rdfs:subClassOf rdf:resource="http://sws.geonames.org/2635167"/>
+        <rdfs:label xml:lang="en">Scotland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sws.geonames.org/2641364 -->
+
+    <owl:Class rdf:about="http://sws.geonames.org/2641364">
+        <rdfs:subClassOf rdf:resource="http://sws.geonames.org/2635167"/>
+        <rdfs:label xml:lang="en">Northern Ireland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sws.geonames.org/2963597 -->
+
+    <owl:Class rdf:about="http://sws.geonames.org/2963597">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/State"/>
+        <rdfs:label xml:lang="en">Ireland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sws.geonames.org/3042225 -->
+
+    <owl:Class rdf:about="http://sws.geonames.org/3042225">
+        <rdfs:subClassOf rdf:resource="http://sws.geonames.org/2635167"/>
+        <rdfs:label xml:lang="en">Isle of Man</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sws.geonames.org/6269131 -->
+
+    <owl:Class rdf:about="http://sws.geonames.org/6269131">
+        <rdfs:subClassOf rdf:resource="http://sws.geonames.org/2635167"/>
+        <rdfs:label xml:lang="en">England</rdfs:label>
     </owl:Class>
     
 
