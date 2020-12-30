@@ -754,7 +754,7 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
     <!-- http://xmlns.com/foaf/0.1/Group -->
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Group">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/ActorEntity"/>
         <rdfs:comment xml:lang="en">The Group class represents a collection of individual agents (and may itself play the role of a Agent, ie. something that can perform actions).</rdfs:comment>
         <rdfs:label xml:lang="en">Group</rdfs:label>
     </owl:Class>
@@ -773,7 +773,7 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
     <!-- http://xmlns.com/foaf/0.1/Person -->
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/ActorEntity"/>
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
         <rdfs:comment xml:lang="en">The Person class represents people. Something is a Person if it is a person. We don&apos;t nitpic about whether they&apos;re alive, dead, real, or imaginary. The Person class is a sub-class of the Agent class, since all people are considered &apos;agents&apos; in FOAF.</rdfs:comment>
         <rdfs:label xml:lang="en">Person</rdfs:label>
