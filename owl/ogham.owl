@@ -12,18 +12,19 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+     xmlns:ontology="http://ontology.ogham.link/"
      xmlns:pleiades="https://pleiades.stoa.org/places/vocab#"
      xmlns:geosparql="http://www.opengis.net/ont/geosparql#">
-    <owl:Ontology rdf:about="http://ogham.link/ontology#">
+    <owl:Ontology rdf:about="http://ontology.ogham.link/">
         <dc:contributor>Florian Thiery</dc:contributor>
         <dc:creator>Florian Thiery</dc:creator>
-        <dc:description xml:lang="en">This ontology contains classes to describe data from the Ogi Ogham Project.</dc:description>
+        <dc:description xml:lang="en">This ontology contains classes to describe data from Linked Ogham Data.</dc:description>
         <dc:publisher>Florian Thiery</dc:publisher>
         <dc:rights>CC BY 4.0</dc:rights>
         <dc:subject>ogham</dc:subject>
-        <rdfs:comment xml:lang="en">This ontology contains classes to describe data from the Ogi Ogham Project.</rdfs:comment>
-        <rdfs:label xml:lang="en">Ogi-Ogham Ontology</rdfs:label>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</owl:versionInfo>
+        <rdfs:comment xml:lang="en">This ontology contains classes to describe data from Linked Ogham Data.</rdfs:comment>
+        <rdfs:label xml:lang="en">Ogham Ontology</rdfs:label>
+        <owl:versionInfo xml:lang="en">0.2</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -39,9 +40,9 @@
     
 
 
-    <!-- http://ogham.link/ontology#alias -->
+    <!-- http://ontology.ogham.link/alias -->
 
-    <owl:AnnotationProperty rdf:about="http://ogham.link/ontology#alias">
+    <owl:AnnotationProperty rdf:about="http://ontology.ogham.link/alias">
         <rdfs:label xml:lang="de">alias</rdfs:label>
         <rdfs:label xml:lang="en">alias</rdfs:label>
     </owl:AnnotationProperty>
@@ -185,180 +186,217 @@
     
 
 
-    <!-- http://ogham.link/ontology#Barony -->
+    <!-- http://academic-meta-tool.xyz/vocab#Concept -->
 
-    <owl:Class rdf:about="http://ogham.link/ontology#Barony">
-        <rdfs:subClassOf rdf:resource="http://ogham.link/ontology#County"/>
+    <owl:Class rdf:about="http://academic-meta-tool.xyz/vocab#Concept">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:comment xml:lang="en">A node which is part of a triple with a vague edge.</rdfs:comment>
+        <rdfs:label xml:lang="en">Concept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://academic-meta-tool.xyz/vocab#Role -->
+
+    <owl:Class rdf:about="http://academic-meta-tool.xyz/vocab#Role">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:comment xml:lang="en">A vague edge which is part of a triple.</rdfs:comment>
+        <rdfs:label xml:lang="en">Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/AMT_Entity -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/AMT_Entity">
+        <rdfs:label xml:lang="en">Academic Meta Tool Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/Barony -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/Barony">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/County"/>
         <rdfs:label xml:lang="en">Barony</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ogham.link/ontology#CivilParish -->
+    <!-- http://ontology.ogham.link/CivilParish -->
 
-    <owl:Class rdf:about="http://ogham.link/ontology#CivilParish">
-        <rdfs:subClassOf rdf:resource="http://ogham.link/ontology#Barony"/>
+    <owl:Class rdf:about="http://ontology.ogham.link/CivilParish">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Barony"/>
         <rdfs:label xml:lang="en">Civil Parish</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ogham.link/ontology#Collection -->
+    <!-- http://ontology.ogham.link/Collection -->
 
-    <owl:Class rdf:about="http://ogham.link/ontology#Collection">
-        <rdfs:subClassOf rdf:resource="http://ogham.link/ontology#GeographicLocation"/>
+    <owl:Class rdf:about="http://ontology.ogham.link/Collection">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/GeographicLocation"/>
         <rdfs:label xml:lang="en">Collection</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ogham.link/ontology#County -->
+    <!-- http://ontology.ogham.link/County -->
 
-    <owl:Class rdf:about="http://ogham.link/ontology#County">
-        <rdfs:subClassOf rdf:resource="http://ogham.link/ontology#Province"/>
+    <owl:Class rdf:about="http://ontology.ogham.link/County">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Province"/>
         <rdfs:label xml:lang="en">County</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ogham.link/ontology#CountyTown -->
+    <!-- http://ontology.ogham.link/CountyTown -->
 
-    <owl:Class rdf:about="http://ogham.link/ontology#CountyTown">
-        <rdfs:subClassOf rdf:resource="http://ogham.link/ontology#ElectoralDevision"/>
+    <owl:Class rdf:about="http://ontology.ogham.link/CountyTown">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/ElectoralDevision"/>
         <rdfs:label xml:lang="en">Country Town</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ogham.link/ontology#ElectoralDevision -->
+    <!-- http://ontology.ogham.link/ElectoralDevision -->
 
-    <owl:Class rdf:about="http://ogham.link/ontology#ElectoralDevision">
-        <rdfs:subClassOf rdf:resource="http://ogham.link/ontology#CivilParish"/>
+    <owl:Class rdf:about="http://ontology.ogham.link/ElectoralDevision">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/CivilParish"/>
         <rdfs:label xml:lang="en">Electoral Devision</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ogham.link/ontology#FormulaWord -->
+    <!-- http://ontology.ogham.link/FormulaWord -->
 
-    <owl:Class rdf:about="http://ogham.link/ontology#FormulaWord">
-        <rdfs:subClassOf rdf:resource="http://ogham.link/ontology#Word"/>
+    <owl:Class rdf:about="http://ontology.ogham.link/FormulaWord">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Word"/>
         <rdfs:label xml:lang="en">Formula Word</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ogham.link/ontology#GeographicLocation -->
+    <!-- http://ontology.ogham.link/GeographicLocation -->
 
-    <owl:Class rdf:about="http://ogham.link/ontology#GeographicLocation">
-        <rdfs:subClassOf rdf:resource="http://ogham.link/ontology#Place"/>
+    <owl:Class rdf:about="http://ontology.ogham.link/GeographicLocation">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Place"/>
         <rdfs:label xml:lang="en">Geographic Location</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ogham.link/ontology#Material -->
+    <!-- http://ontology.ogham.link/Material -->
 
-    <owl:Class rdf:about="http://ogham.link/ontology#Material">
+    <owl:Class rdf:about="http://ontology.ogham.link/Material">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:label xml:lang="en">Material</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ogham.link/ontology#NomenclatureWord -->
+    <!-- http://ontology.ogham.link/Namespace -->
 
-    <owl:Class rdf:about="http://ogham.link/ontology#NomenclatureWord">
-        <rdfs:subClassOf rdf:resource="http://ogham.link/ontology#Word"/>
+    <owl:Class rdf:about="http://ontology.ogham.link/Namespace">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+        <rdfs:label xml:lang="en">Namespace</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/NomenclatureWord -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/NomenclatureWord">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Word"/>
         <rdfs:label xml:lang="en">Nomenclature Word</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ogham.link/ontology#OghamCollection -->
+    <!-- http://ontology.ogham.link/OghamCollection -->
 
-    <owl:Class rdf:about="http://ogham.link/ontology#OghamCollection">
+    <owl:Class rdf:about="http://ontology.ogham.link/OghamCollection">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
         <rdfs:label xml:lang="en">Ogham Collection</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ogham.link/ontology#OghamSite -->
+    <!-- http://ontology.ogham.link/OghamSite -->
 
-    <owl:Class rdf:about="http://ogham.link/ontology#OghamSite">
-        <rdfs:subClassOf rdf:resource="http://ogham.link/ontology#Collection"/>
+    <owl:Class rdf:about="http://ontology.ogham.link/OghamSite">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Collection"/>
         <rdfs:label xml:lang="en">Ogham Site</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ogham.link/ontology#OghamStone -->
+    <!-- http://ontology.ogham.link/OghamStone -->
 
-    <owl:Class rdf:about="http://ogham.link/ontology#OghamStone">
-        <rdfs:subClassOf rdf:resource="http://ogham.link/ontology#OghamCollection"/>
+    <owl:Class rdf:about="http://ontology.ogham.link/OghamStone">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/OghamCollection"/>
         <rdfs:label xml:lang="en">Ogham Stone</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ogham.link/ontology#OghamTribe -->
+    <!-- http://ontology.ogham.link/OghamTribe -->
 
-    <owl:Class rdf:about="http://ogham.link/ontology#OghamTribe">
+    <owl:Class rdf:about="http://ontology.ogham.link/OghamTribe">
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
         <rdfs:label xml:lang="en">Ogham Tribe</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ogham.link/ontology#Person -->
+    <!-- http://ontology.ogham.link/Person -->
 
-    <owl:Class rdf:about="http://ogham.link/ontology#Person">
+    <owl:Class rdf:about="http://ontology.ogham.link/Person">
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <rdfs:label xml:lang="en">Ogham Person</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ogham.link/ontology#Place -->
+    <!-- http://ontology.ogham.link/Place -->
 
-    <owl:Class rdf:about="http://ogham.link/ontology#Place">
+    <owl:Class rdf:about="http://ontology.ogham.link/Place">
         <rdfs:subClassOf rdf:resource="https://pleiades.stoa.org/places/vocab#Place"/>
         <rdfs:label xml:lang="de">Place Concept</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ogham.link/ontology#Province -->
+    <!-- http://ontology.ogham.link/Province -->
 
-    <owl:Class rdf:about="http://ogham.link/ontology#Province">
-        <rdfs:subClassOf rdf:resource="http://ogham.link/ontology#State"/>
+    <owl:Class rdf:about="http://ontology.ogham.link/Province">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/State"/>
         <rdfs:label xml:lang="en">Province</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ogham.link/ontology#State -->
+    <!-- http://ontology.ogham.link/State -->
 
-    <owl:Class rdf:about="http://ogham.link/ontology#State">
-        <rdfs:subClassOf rdf:resource="http://ogham.link/ontology#GeographicLocation"/>
+    <owl:Class rdf:about="http://ontology.ogham.link/State">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/GeographicLocation"/>
         <rdfs:label xml:lang="en">State</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ogham.link/ontology#Townland -->
+    <!-- http://ontology.ogham.link/Townland -->
 
-    <owl:Class rdf:about="http://ogham.link/ontology#Townland">
-        <rdfs:subClassOf rdf:resource="http://ogham.link/ontology#ElectoralDevision"/>
+    <owl:Class rdf:about="http://ontology.ogham.link/Townland">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/ElectoralDevision"/>
         <rdfs:label xml:lang="en">Townland</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://ogham.link/ontology#Word -->
+    <!-- http://ontology.ogham.link/Word -->
 
-    <owl:Class rdf:about="http://ogham.link/ontology#Word">
+    <owl:Class rdf:about="http://ontology.ogham.link/Word">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:label xml:lang="en">Word</rdfs:label>
     </owl:Class>
@@ -540,6 +578,22 @@
     
 
 
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#Property -->
+
+    <owl:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/AMT_Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Class -->
+
+    <owl:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Class">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/AMT_Entity"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.w3.org/2002/07/owl#Thing -->
 
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
@@ -562,6 +616,68 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
     
 
 
+    <!-- http://www.w3.org/ns/prov#Activity -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Activity">
+        <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q1773840"/>
+        <rdfs:label xml:lang="en">Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Agent -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Agent">
+        <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q1773840"/>
+        <rdfs:label xml:lang="en">Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Organization -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Organization">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:label xml:lang="en">Organisation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Person -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Person">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label xml:lang="en">Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#SoftwareAgent -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#SoftwareAgent">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <rdfs:label xml:lang="en">Software Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q1773840 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q1773840">
+        <rdfs:label xml:lang="en">Provenance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q3133368 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q3133368">
+        <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q1773840"/>
+        <rdfs:label xml:lang="en">Repository</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://xmlns.com/foaf/0.1/Group -->
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Group">
@@ -572,12 +688,31 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
     
 
 
+    <!-- http://xmlns.com/foaf/0.1/Organization -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <rdfs:label xml:lang="en">Organisation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://xmlns.com/foaf/0.1/Person -->
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
         <rdfs:comment xml:lang="en">The Person class represents people. Something is a Person if it is a person. We don&apos;t nitpic about whether they&apos;re alive, dead, real, or imaginary. The Person class is a sub-class of the Agent class, since all people are considered &apos;agents&apos; in FOAF.</rdfs:comment>
         <rdfs:label xml:lang="en">Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Project -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Project">
+        <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q1773840"/>
+        <rdfs:label xml:lang="en">Project</rdfs:label>
     </owl:Class>
     
 
