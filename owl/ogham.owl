@@ -295,6 +295,15 @@
     
 
 
+    <!-- http://ontology.ogham.link/Inscription -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/Inscription">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature"/>
+        <rdfs:label xml:lang="en">Inscription</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://ontology.ogham.link/Material -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/Material">
@@ -325,7 +334,7 @@
     <!-- http://ontology.ogham.link/OghamCollection -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/OghamCollection">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/InformationCarrier"/>
         <rdfs:label xml:lang="en">Ogham Collection</rdfs:label>
     </owl:Class>
     
@@ -466,6 +475,16 @@
         <rdfs:label xml:lang="el">Ανθρωπογενές Υλικό Πράγμα</rdfs:label>
         <rdfs:label xml:lang="ru">Физическая Рукотворная Вещь</rdfs:label>
         <rdfs:label xml:lang="zh">人造实体物</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing"/>
+        <rdfs:comment xml:lang="en">This class comprises physical features that are purposely created by human activity, such as scratches, artificial caves, artificial water channels, etc.  No assumptions are made as to the extent of modification required to justify regarding a feature as man-made. For example, rock art or even “cup and ring” carvings on bedrock a regarded as types of E25 Man-Made Feature.</rdfs:comment>
+        <rdfs:label xml:lang="en">Man-Made Feature</rdfs:label>
     </owl:Class>
     
 
