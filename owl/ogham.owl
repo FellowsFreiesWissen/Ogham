@@ -9,6 +9,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:prov="http://www.w3.org/ns/prov#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:dcmitype="http://purl.org/dc/dcmitype/"
@@ -95,12 +96,48 @@
     
 
 
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/type"/>
+    
+
+
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
     <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
         <rdfs:comment xml:lang="en">A human-readable name for the subject.</rdfs:comment>
         <rdfs:label xml:lang="en">label</rdfs:label>
     </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
     
 
 
@@ -139,6 +176,14 @@
         <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:label xml:lang="en">has geometry</rdfs:label>
         <rdfs:label xml:lang="de">hat Geometrie</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#actedOnBehalfOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#actedOnBehalfOf">
+        <rdfs:label xml:lang="en">acted on behalf of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -409,6 +454,15 @@
     <owl:Class rdf:about="http://ontology.ogham.link/Province">
         <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/State"/>
         <rdfs:label xml:lang="en">Province</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/ResearchSoftwareEngineer -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/ResearchSoftwareEngineer">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label xml:lang="en">Research Software Engineer</rdfs:label>
     </owl:Class>
     
 
@@ -711,6 +765,7 @@
 
     <owl:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">
         <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/AMT_Entity"/>
+        <rdfs:label xml:lang="en">Property</rdfs:label>
     </owl:Class>
     
 
@@ -719,6 +774,7 @@
 
     <owl:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Class">
         <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/AMT_Entity"/>
+        <rdfs:label xml:lang="en">Class</rdfs:label>
     </owl:Class>
     
 
@@ -766,6 +822,7 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
     <!-- http://www.w3.org/ns/prov#Entity -->
 
     <owl:Class rdf:about="http://www.w3.org/ns/prov#Entity">
+        <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q1773840"/>
         <rdfs:label xml:lang="en">Entity</rdfs:label>
     </owl:Class>
     
@@ -861,6 +918,69 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
         <dc:description xml:lang="en">Places are instances of skos:Concept as well as contexts for Locations and Names.</dc:description>
         <rdfs:label xml:lang="en">Pleiades Place</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lod.ogham.link/data/FlorianThiery -->
+
+    <owl:NamedIndividual rdf:about="http://lod.ogham.link/data/FlorianThiery">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <owl:sameAs rdf:resource="https://orcid.org/0000-0002-3246-3531"/>
+        <prov:actedOnBehalfOf rdf:resource="http://lod.ogham.link/data/ResearchSquirrelEngineers"/>
+        <rdfs:label xml:lang="en">Florian Thiery</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lod.ogham.link/data/PythonStonesCIIC -->
+
+    <owl:NamedIndividual rdf:about="http://lod.ogham.link/data/PythonStonesCIIC">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#SoftwareAgent"/>
+        <prov:actedOnBehalfOf rdf:resource="http://lod.ogham.link/data/FlorianThiery"/>
+        <dct:creator rdf:resource="http://lod.ogham.link/data/FlorianThiery"/>
+        <dct:license rdf:resource="https://github.com/FellowsFreiesWissen/Ogham/blob/main/LICENSE"/>
+        <dct:source xml:lang="en">python</dct:source>
+        <dct:type rdf:resource="http://purl.org/dc/dcmitype/Software"/>
+        <rdfs:label xml:lang="en">Python Create Script for CIIC Stones</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://lod.ogham.link/data/ResearchSquirrelEngineers -->
+
+    <owl:NamedIndividual rdf:about="http://lod.ogham.link/data/ResearchSquirrelEngineers">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q73901970"/>
+        <rdfs:label xml:lang="en">Research Squirrel Engineers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q73901970 -->
+
+    <owl:NamedIndividual rdf:about="http://www.wikidata.org/entity/Q73901970">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3246-3531 -->
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-3246-3531">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
