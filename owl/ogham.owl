@@ -255,6 +255,7 @@
     <!-- http://ontology.ogham.link/AMT_Entity -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/AMT_Entity">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
         <rdfs:label xml:lang="en">Academic Meta Tool Entity</rdfs:label>
     </owl:Class>
     
