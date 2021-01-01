@@ -702,7 +702,7 @@
     <!-- http://www.cidoc-crm.org/cidoc-crm/E5_Event -->
 
     <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E5_Event">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <rdfs:label xml:lang="en">Event</rdfs:label>
     </owl:Class>
     
@@ -832,7 +832,6 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
     <!-- http://www.w3.org/ns/prov#Entity -->
 
     <owl:Class rdf:about="http://www.w3.org/ns/prov#Entity">
-        <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q1773840"/>
         <rdfs:label xml:lang="en">Entity</rdfs:label>
     </owl:Class>
     
@@ -861,14 +860,6 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
     <owl:Class rdf:about="http://www.w3.org/ns/prov#SoftwareAgent">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
         <rdfs:label xml:lang="en">Software Agent</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.wikidata.org/entity/Q1773840 -->
-
-    <owl:Class rdf:about="http://www.wikidata.org/entity/Q1773840">
-        <rdfs:label xml:lang="en">Provenance</rdfs:label>
     </owl:Class>
     
 
