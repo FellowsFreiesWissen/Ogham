@@ -894,7 +894,7 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
     <!-- http://xmlns.com/foaf/0.1/Organization -->
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/ActorEntity"/>
         <rdfs:label xml:lang="en">Organisation</rdfs:label>
     </owl:Class>
     
