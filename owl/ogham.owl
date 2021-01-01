@@ -26,7 +26,7 @@
         <dc:subject>ogham</dc:subject>
         <rdfs:comment xml:lang="en">This ontology contains classes to describe data from Linked Ogham Data.</rdfs:comment>
         <rdfs:label xml:lang="en">Ogham Ontology</rdfs:label>
-        <owl:versionInfo xml:lang="en">0.2</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">0.3</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -698,6 +698,15 @@
     
 
 
+    <!-- http://www.cidoc-crm.org/cidoc-crm/E5_Event -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E5_Event">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+        <rdfs:label xml:lang="en">Event</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.opengis.net/ont/geosparql#Feature -->
 
     <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#Feature">
@@ -804,7 +813,7 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
     <!-- http://www.w3.org/ns/prov#Activity -->
 
     <owl:Class rdf:about="http://www.w3.org/ns/prov#Activity">
-        <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q1773840"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
         <rdfs:label xml:lang="en">Activity</rdfs:label>
     </owl:Class>
     
@@ -866,7 +875,7 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
     <!-- http://www.wikidata.org/entity/Q3133368 -->
 
     <owl:Class rdf:about="http://www.wikidata.org/entity/Q3133368">
-        <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q1773840"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:label xml:lang="en">Repository</rdfs:label>
     </owl:Class>
     
@@ -905,7 +914,7 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
     <!-- http://xmlns.com/foaf/0.1/Project -->
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Project">
-        <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q1773840"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
         <rdfs:label xml:lang="en">Project</rdfs:label>
     </owl:Class>
     
