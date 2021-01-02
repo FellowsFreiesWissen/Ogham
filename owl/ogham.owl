@@ -263,6 +263,8 @@
 
     <owl:ObjectProperty rdf:about="http://ontology.ogham.link/hasPointGeometry">
         <rdfs:subPropertyOf rdf:resource="http://www.opengis.net/ont/geosparql#hasGeometry"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:range rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
         <rdfs:label xml:lang="en">has point geometry</rdfs:label>
         <skos:definition xml:lang="en">c.f. https://www.ogc.org/standards/geosparql, 1.0, OGC GeoSPARQL - A Geographic Query Language for RDF Data, 11-052r4, Annex B, B.1</skos:definition>
     </owl:ObjectProperty>
@@ -330,28 +332,6 @@
         <rdfs:range rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
         <rdfs:label xml:lang="en">acted on behalf of</rdfs:label>
         <skos:definition xml:lang="en">Delegation is the assignment of authority and responsibility to an agent (by itself or by another agent) to carry out a specific activity as a delegate or representative, while the agent it acts on behalf of retains some responsibility for the outcome of the delegated work.</skos:definition>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.w3.org/ns/prov#endedAtTime -->
-
-    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#endedAtTime">
-        <rdfs:domain rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
-        <rdfs:range rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
-        <rdfs:label xml:lang="en">ended at time</rdfs:label>
-        <skos:definition xml:lang="en">End is when an activity is deemed to have been ended by an entity, known as trigger. The activity no longer exists after its end. Any usage, generation, or invalidation involving an activity precedes the activity&apos;s end. An end may refer to a trigger entity that terminated the activity, or to an activity, known as ender that generated the trigger.</skos:definition>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.w3.org/ns/prov#startedAtTime -->
-
-    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#startedAtTime">
-        <rdfs:domain rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
-        <rdfs:range rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
-        <rdfs:label xml:lang="en">started at time</rdfs:label>
-        <skos:definition xml:lang="en">Start is when an activity is deemed to have been started by an entity, known as trigger. The activity did not exist before its start. Any usage, generation, or invalidation involving an activity follows the activity&apos;s start. A start may refer to a trigger entity that set off the activity, or to an activity, known as starter, that generated the trigger.</skos:definition>
     </owl:ObjectProperty>
     
 
@@ -485,6 +465,26 @@
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <rdfs:label xml:lang="de">als well-known-text</rdfs:label>
         <rdfs:label xml:lang="en">as well-known-text</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#endedAtTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/prov#endedAtTime">
+        <rdfs:domain rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">ended at time</rdfs:label>
+        <skos:definition xml:lang="en">End is when an activity is deemed to have been ended by an entity, known as trigger. The activity no longer exists after its end. Any usage, generation, or invalidation involving an activity precedes the activity&apos;s end. An end may refer to a trigger entity that terminated the activity, or to an activity, known as ender that generated the trigger.</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#startedAtTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/prov#startedAtTime">
+        <rdfs:label xml:lang="en">started at time</rdfs:label>
+        <skos:definition xml:lang="en">Start is when an activity is deemed to have been started by an entity, known as trigger. The activity did not exist before its start. Any usage, generation, or invalidation involving an activity follows the activity&apos;s start. A start may refer to a trigger entity that set off the activity, or to an activity, known as starter, that generated the trigger.</skos:definition>
     </owl:DatatypeProperty>
     
 
