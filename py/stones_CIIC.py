@@ -36,7 +36,7 @@ data = pd.read_csv(
     file_in,
     encoding='utf-8',
     sep='|',
-    usecols=['label_en', 'P1545_ciic', 'P625_coord'],
+    usecols=['label_en', 'P1545_ciic', 'P625_coord', 'P1684', 'WikidataID', 'description_en', 'alias_en', 'P1545_ciic'],
     na_values=['.', '??']  # take any '.' or '??' values as NA
 )
 print(data.info())
@@ -53,7 +53,12 @@ for index, row in data.iterrows():
     lineNo += 1
     lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "rdf:type" + " oghamonto:Stone .")
     lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "rdfs:label" + " " + "'" + str(row['label_en']).replace('\'', '`') + "'@en" + ".")
+    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "dc:description" + " " + "'" + str(row['description_en']).replace('\'', '`') + "'@en" + ".")
+    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "oghamonto:alias" + " " + "'" + str(row['alias_en']).replace('\'', '`') + "'@en" + ".")
+    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "oghamonto:numbering" + " " + "'" + str(row['P1545_ciic']) + "'" + ".")
     lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "dc:identifier" + " " + "'" + str(row['P1545_ciic']) + "'" + ".")
+    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "oghamonto:shows" + " " + "'" + str(row['P1684']) + "'" + ".")
+    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "oghamonto:exactMatch" + " <" + "http://www.wikidata.org/entity/" + str(row['WikidataID']) + ">" + ".")
     # geom
     lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "geosparql:hasGeometry" + " ogham:stone_ciic_" + str(row['P1545_ciic']) + "_geom .")
     lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + "_geom " + "rdf:type" + " sf:Point .")

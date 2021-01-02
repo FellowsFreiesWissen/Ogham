@@ -3,10 +3,12 @@
      xml:base="http://ogham.link/ontology"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:sf="http://www.opengis.net/ont/sf#"
+     xmlns:wd="http://www.wikidata.org/entity/"
      xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
      xmlns:dct="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:wdt="http://www.wikidata.org/prop/direct/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:prov="http://www.w3.org/ns/prov#"
@@ -24,9 +26,10 @@
         <dc:publisher>Florian Thiery</dc:publisher>
         <dc:rights>CC BY 4.0</dc:rights>
         <dc:subject>ogham</dc:subject>
-        <rdfs:comment xml:lang="en">This ontology contains classes to describe data from Linked Ogham Data.</rdfs:comment>
         <rdfs:label xml:lang="en">Ogham Ontology</rdfs:label>
-        <owl:versionInfo xml:lang="en">0.3</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</owl:versionInfo>
+        <owl:versionInfo>02/01/2021</owl:versionInfo>
+        <skos:definition xml:lang="en">This ontology contains classes to describe data from Linked Ogham Data.</skos:definition>
     </owl:Ontology>
     
 
@@ -169,13 +172,149 @@
     
 
 
+    <!-- http://archaeology.link/ontology#disclosedAt -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#disclosedAt">
+        <rdfs:label xml:lang="en">disclosed at</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://archaeology.link/ontology#hasAMT -->
+
+    <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#hasAMT">
+        <rdfs:label xml:lang="en">has AMT node</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/PlaceOfInterest -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/PlaceOfInterest">
+        <rdfs:subPropertyOf rdf:resource="http://www.opengis.net/ont/geosparql#hasGeometry"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:range rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:label xml:lang="en">place of interest (POI)</rdfs:label>
+        <skos:definition xml:lang="en">c.f. https://www.ogc.org/standards/geosparql, 1.0, OGC GeoSPARQL - A Geographic Query Language for RDF Data, 11-052r4, Annex B, B.1</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/carries -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/carries">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/InformationCarrier"/>
+        <rdfs:range rdf:resource="http://ontology.ogham.link/Inscription"/>
+        <rdfs:label xml:lang="en">carries</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/centroid -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/centroid">
+        <rdfs:subPropertyOf rdf:resource="http://ontology.ogham.link/hasPointGeometry"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:range rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:label xml:lang="en">has centroid geometry</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/clusteredArea -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/clusteredArea">
+        <rdfs:subPropertyOf rdf:resource="http://ontology.ogham.link/hasExactGeometry"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:range rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:label xml:lang="en">has clustered area</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/exactMatch -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/exactMatch">
+        <rdfs:subPropertyOf rdf:resource="http://www.wikidata.org/prop/direct/P2888"/>
+        <rdfs:domain rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:range rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <skos:definition xml:lang="en">exact match</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/hasExactGeometry -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/hasExactGeometry">
+        <rdfs:subPropertyOf rdf:resource="http://www.opengis.net/ont/geosparql#hasGeometry"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:range rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:label xml:lang="en">hast exact geometry</rdfs:label>
+        <skos:definition xml:lang="en">c.f. https://www.ogc.org/standards/geosparql, 1.0, OGC GeoSPARQL - A Geographic Query Language for RDF Data, 11-052r4, Annex B, B.1</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/hasPointGeometry -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/hasPointGeometry">
+        <rdfs:subPropertyOf rdf:resource="http://www.opengis.net/ont/geosparql#hasGeometry"/>
+        <rdfs:label xml:lang="en">has point geometry</rdfs:label>
+        <skos:definition xml:lang="en">c.f. https://www.ogc.org/standards/geosparql, 1.0, OGC GeoSPARQL - A Geographic Query Language for RDF Data, 11-052r4, Annex B, B.1</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/hasType -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/hasType">
+        <rdfs:domain rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+        <rdfs:label xml:lang="en">has type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/locatedAt -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/locatedAt">
+        <rdfs:subPropertyOf rdf:resource="http://ontology.ogham.link/hasPointGeometry"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:range rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:label xml:lang="en">is located at</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.opengis.net/ont/geosparql#hasGeometry -->
 
     <owl:ObjectProperty rdf:about="http://www.opengis.net/ont/geosparql#hasGeometry">
         <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
         <rdfs:label xml:lang="en">has geometry</rdfs:label>
         <rdfs:label xml:lang="de">hat Geometrie</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#sameAs -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#sameAs">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">same as</rdfs:label>
+        <skos:definition xml:lang="en">The property that determines that two given individuals are equal.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch">
+        <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:label xml:lang="en">has exact match</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -183,7 +322,94 @@
     <!-- http://www.w3.org/ns/prov#actedOnBehalfOf -->
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#actedOnBehalfOf">
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:range rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
         <rdfs:label xml:lang="en">acted on behalf of</rdfs:label>
+        <skos:definition xml:lang="en">Delegation is the assignment of authority and responsibility to an agent (by itself or by another agent) to carry out a specific activity as a delegate or representative, while the agent it acts on behalf of retains some responsibility for the outcome of the delegated work.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#endedAtTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#endedAtTime">
+        <rdfs:label xml:lang="en">ended at time</rdfs:label>
+        <skos:definition xml:lang="en">End is when an activity is deemed to have been ended by an entity, known as trigger. The activity no longer exists after its end. Any usage, generation, or invalidation involving an activity precedes the activity&apos;s end. An end may refer to a trigger entity that terminated the activity, or to an activity, known as ender that generated the trigger.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#startedAtTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#startedAtTime">
+        <rdfs:label xml:lang="en">started at time</rdfs:label>
+        <skos:definition xml:lang="en">Start is when an activity is deemed to have been started by an entity, known as trigger. The activity did not exist before its start. Any usage, generation, or invalidation involving an activity follows the activity&apos;s start. A start may refer to a trigger entity that set off the activity, or to an activity, known as starter, that generated the trigger.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#used -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#used">
+        <rdfs:label xml:lang="en">used</rdfs:label>
+        <skos:definition xml:lang="en">Usage is the beginning of utilizing an entity by an activity. Before usage, the activity had not begun to utilize this entity and could not have been affected by the entity.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasAssociatedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasAssociatedWith">
+        <rdfs:label xml:lang="en">was associated with</rdfs:label>
+        <skos:definition xml:lang="en">An activity association is an assignment of responsibility to an agent for an activity, indicating that the agent had a role in the activity. It further allows for a plan to be specified, which is the plan intended by the agent to achieve some goals in the context of this activity.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasAttributedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasAttributedTo">
+        <rdfs:label xml:lang="en">was attributed to</rdfs:label>
+        <skos:definition xml:lang="en">Attribution is the ascribing of an entity to an agent.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasDerivedFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasDerivedFrom">
+        <rdfs:label xml:lang="en">das derived from</rdfs:label>
+        <skos:definition xml:lang="en">A derivation is a transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasGeneratedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasGeneratedBy">
+        <rdfs:label xml:lang="en">was generated by</rdfs:label>
+        <skos:definition xml:lang="en">Generation is the completion of production of a new entity by an activity. This entity did not exist before generation and becomes available for usage after this generation.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasInformedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasInformedBy">
+        <rdfs:label xml:lang="en">was informed by</rdfs:label>
+        <skos:definition xml:lang="en">Communication is the exchange of some unspecified entity by two activities, one activity using some entity generated by the other.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/P2888 -->
+
+    <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P2888">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rdfs:domain rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:range rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:label xml:lang="en">exact match</rdfs:label>
+        <skos:definition xml:lang="en">(URLs only) used to link two items, indicating a high degree of confidence that the concepts can be used interchangeably</skos:definition>
     </owl:ObjectProperty>
     
 
@@ -196,6 +422,28 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://ontology.ogham.link/numbering -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/numbering">
+        <rdfs:domain rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">numbering</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/shows -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/shows">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">shows</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -405,15 +653,6 @@
     
 
 
-    <!-- http://ontology.ogham.link/OghamStone -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/OghamStone">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/OghamCollection"/>
-        <rdfs:label xml:lang="en">Ogham Stone</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://ontology.ogham.link/OghamTribe -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/OghamTribe">
@@ -471,7 +710,7 @@
     <!-- http://ontology.ogham.link/Sandstone -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/Sandstone">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Stone"/>
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Stone_Material"/>
         <rdfs:label xml:lang="en">Sandstone</rdfs:label>
     </owl:Class>
     
@@ -489,8 +728,17 @@
     <!-- http://ontology.ogham.link/Stone -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/Stone">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/OghamCollection"/>
+        <rdfs:label xml:lang="en">Ogham Stone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/Stone_Material -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/Stone_Material">
         <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Material"/>
-        <rdfs:label xml:lang="en">Stone</rdfs:label>
+        <rdfs:label xml:lang="en">Stone (Material)</rdfs:label>
     </owl:Class>
     
 
@@ -792,7 +1040,8 @@
     <!-- http://www.w3.org/2002/07/owl#Thing -->
 
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
-        <rdfs:label xml:lang="en">OWL Thing</rdfs:label>
+        <rdfs:label xml:lang="en">Thing</rdfs:label>
+        <skos:definition xml:lang="en">The class of OWL individuals.</skos:definition>
     </rdf:Description>
     
 
@@ -832,6 +1081,7 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
     <!-- http://www.w3.org/ns/prov#Entity -->
 
     <owl:Class rdf:about="http://www.w3.org/ns/prov#Entity">
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
         <rdfs:label xml:lang="en">Entity</rdfs:label>
     </owl:Class>
     
@@ -917,6 +1167,15 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
         <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
         <dc:description xml:lang="en">Places are instances of skos:Concept as well as contexts for Locations and Names.</dc:description>
         <rdfs:label xml:lang="en">Pleiades Place</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.w3.org/2000/01/rdf-schema#Resource -->
+
+    <owl:Class rdf:about="https://www.w3.org/2000/01/rdf-schema#Resource">
+        <rdfs:label xml:lang="en">Resource</rdfs:label>
+        <skos:definition xml:lang="en">The class resource, everything.</skos:definition>
     </owl:Class>
     
 
