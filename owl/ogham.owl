@@ -242,7 +242,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.wikidata.org/prop/direct/P2888"/>
         <rdfs:domain rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
         <rdfs:range rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
-        <skos:definition xml:lang="en">exact match</skos:definition>
+        <rdfs:label xml:lang="en">exact match</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -306,7 +306,7 @@
     <!-- http://www.w3.org/2002/07/owl#sameAs -->
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#sameAs">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:label xml:lang="en">same as</rdfs:label>
@@ -318,6 +318,7 @@
     <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
         <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <rdfs:label xml:lang="en">has exact match</rdfs:label>
@@ -405,7 +406,7 @@
     <!-- http://www.wikidata.org/prop/direct/P2888 -->
 
     <owl:ObjectProperty rdf:about="http://www.wikidata.org/prop/direct/P2888">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
         <rdfs:domain rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
         <rdfs:range rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
         <rdfs:label xml:lang="en">exact match</rdfs:label>
