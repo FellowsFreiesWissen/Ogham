@@ -247,6 +247,17 @@
     
 
 
+    <!-- http://ontology.ogham.link/hasEPSG -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/hasEPSG">
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:range rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:label xml:lang="en">has EPSG code</rdfs:label>
+        <skos:definition xml:lang="en">a geometry in a EPSG code</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://ontology.ogham.link/hasExactGeometry -->
 
     <owl:ObjectProperty rdf:about="http://ontology.ogham.link/hasExactGeometry">

@@ -1,12 +1,12 @@
 __author__ = "Florian Thiery"
-__copyright__ = "MIT Licence 2020, Florian Thiery"
+__copyright__ = "MIT Licence 2020-2021, Florian Thiery"
 __credits__ = ["Florian Thiery"]
 __license__ = "MIT"
 __version__ = "beta"
 __maintainer__ = "Florian Thiery"
 __email__ = "mail@fthiery.de"
 __status__ = "beta"
-__update__ = "2020-12-30"
+__update__ = "2021-01-11"
 
 # import dependencies
 import uuid
@@ -64,8 +64,9 @@ for index, row in data.iterrows():
     lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + "_geom " + "rdf:type" + " sf:Point .")
     split = str(row['P625_coord']).split(",")
     point = "POINT(" + str(split[1]) + " " + str(split[0]) + ")"
-    point = "\"<http://www.opengis.net/def/crs/EPSG/0/4326> " + point + "\"^^geosparql:wktLiteral"
+    point = "\"" + point + "\"^^geosparql:wktLiteral"
     lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + "_geom " + "geosparql:asWKT " + point + ".")
+    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + "_geom " + "oghamonto:hasEPSG " + "<http://www.opengis.net/def/crs/EPSG/0/4326>" + ".")
     # prov-o
     lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "prov:wasAttributedTo" + " ogham:PythonStonesCIIC .")
     lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "prov:wasDerivedFrom" + " <https://github.com/FellowsFreiesWissen/Ogham/blob/main/data_raw/CIIC_Ireland/csv/OghamStonesIreland.csv> .")
