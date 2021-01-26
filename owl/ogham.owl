@@ -1115,6 +1115,7 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
     <owl:Class rdf:about="http://www.w3.org/ns/prov#Entity">
         <rdfs:subClassOf rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
         <rdfs:label xml:lang="en">Entity</rdfs:label>
+        <skos:definition xml:lang="en">An entity is a physical, digital, conceptual, or other kind of thing with some fixed aspects; entities may be real or imaginary.</skos:definition>
     </owl:Class>
     
 
