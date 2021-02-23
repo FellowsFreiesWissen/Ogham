@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 __author__ = "Florian Thiery"
 __copyright__ = "MIT Licence 2020, Florian Thiery"
 __credits__ = ["Florian Thiery"]
@@ -24,6 +27,7 @@ import json
 import numpy as np
 
 # set UTF8 as default
+# -*- coding: utf-8 -*-
 importlib.reload(sys)
 
 # read CSV [filename, inscription, CIIC]
@@ -34,9 +38,9 @@ csv = dir_path + "\\" + "files.csv"
 # read csv file
 data = pd.read_csv(
     csv,
-    encoding='utf-8',
+    encoding='utf-8-sig',
     sep='|',
-    usecols=['filename', 'transliteration', 'ciic']
+    usecols=['filename', 'transliteration', 'ciic', 'ogham']
 )
 print(data.info())
 lines = []
@@ -49,6 +53,8 @@ for index, row in data.iterrows():
     line = ""
     line += str(row['filename']) + "|"
     line += str(row['transliteration']) + "|"
+    line += str(row['ogham']) + "|"
+    # print(str(row['ogham']))
     line += str(row['ciic']) + "|"
     try:
         label = str(json.loads(json2)['TEI']['teiHeader']['fileDesc']['titleStmt']['title'])
@@ -79,7 +85,7 @@ for index, row in data.iterrows():
     lines.append(line)
 
 # write output file
-header = "filename|transliteration|ciic|label|findspot|geom|translation|webgis|"
+header = "filename|transliteration|ogham|ciic|label|findspot|geom|translation|webgis"
 file_out = dir_path + "\\" + "ogham3d.csv"
 file = codecs.open(file_out, "w", "utf-8")
 file.write(header + "\r\n")
