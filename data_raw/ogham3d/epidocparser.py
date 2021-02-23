@@ -40,10 +40,12 @@ data = pd.read_csv(
     csv,
     encoding='utf-8',
     sep='|',
-    usecols=['filename', 'transliteration', 'ciic', 'ogham']
+    usecols=['filename', 'transliteration', 'ciic', 'translation', 'ogham']
 )
 print(data.info())
 lines = []
+
+# https://jsoneditoronline.org/#left=local.rixegu&right=local.fipoze
 
 for index, row in data.iterrows():
     file_in = dir_path + "\\xml\\" + str(row['filename'])
@@ -54,6 +56,7 @@ for index, row in data.iterrows():
     line += str(row['filename']) + "|"
     line += str(row['transliteration']) + "|"
     line += str(row['ogham']) + "|"
+    line += str(row['translation']) + "|"
     line += str(row['ciic']) + "|"
     try:
         label = str(json.loads(json2)['TEI']['teiHeader']['fileDesc']['titleStmt']['title'])
@@ -62,7 +65,6 @@ for index, row in data.iterrows():
     line += label + "|"
     try:
         townland = str(json.loads(json2)['TEI']['text']['body']['div'][6]['div'][0]['p']['rs']['placeName'][0]['#text'])
-        print(townland)
     except KeyError:
         townland = ""
     line += townland + "|"
@@ -77,10 +79,15 @@ for index, row in data.iterrows():
         geom = ""
     line += geom + "|"
     try:
-        translation = str(json.loads(json2)['TEI']['text']['body']['div'][3]['p']['q'])
+        geom2 = str(json.loads(json2)['TEI']['text']['body']['div'][6]['div'][1]['p']['rs']['geo'])
     except KeyError:
-        translation = ""
-    line += translation + "|"
+        geom2 = ""
+    line += geom2 + "|"
+    try:
+        geom3 = str(json.loads(json2)['TEI']['text']['body']['div'][6]['div'][2]['p']['rs']['geo'])
+    except KeyError:
+        geom3 = ""
+    line += geom3 + "|"
     try:
         webgis = str(json.loads(json2)['TEI']['text']['body']['ab']['rs']['ref']['#text'])  # webgis.archaeology.ie
     except KeyError:
@@ -141,7 +148,7 @@ for index, row in data.iterrows():
     lines.append(line)
 
 # write output file
-header = "filename|transliteration|ogham|ciic|label|townland|barony|geom|translation|webgis|height|width|depth|persons|formula|sitetype|recording"
+header = "filename|transliteration|ogham|translation|ciic|label|townland|barony|geom_found|geom_orig|geom_lastrecorded|webgis|height|width|depth|persons|formula|sitetype|recording"
 file_out = dir_path + "\\" + "ogham3d.csv"
 file = codecs.open(file_out, "w", "utf-8")
 file.write(header + "\r\n")
