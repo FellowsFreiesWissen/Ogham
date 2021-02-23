@@ -103,12 +103,21 @@ for index, row in data.iterrows():
             persons_arr.append(person)
     except KeyError:
         persons_arr = []
-    line += str(persons_arr) + ""
-    # formula words
+    line += str(persons_arr) + "|"
+    try:
+        formula_arr = []
+        formulas = json.loads(json2)['TEI']['text']['body']['div'][2]['ab']['w']
+        for x in range(len(formulas)):
+            formula = json.loads(json2)['TEI']['text']['body']['div'][2]['ab']['w'][x]['@lemma']
+            formula_arr.append(formula)
+    except KeyError:
+        formula_arr = []
+    line += str(formula_arr) + ""
+    # add line to output array
     lines.append(line)
 
 # write output file
-header = "filename|transliteration|ogham|ciic|label|findspot|geom|translation|webgis|height|width|depth|persons"
+header = "filename|transliteration|ogham|ciic|label|findspot|geom|translation|webgis|height|width|depth|persons|formula"
 file_out = dir_path + "\\" + "ogham3d.csv"
 file = codecs.open(file_out, "w", "utf-8")
 file.write(header + "\r\n")
