@@ -54,7 +54,6 @@ for index, row in data.iterrows():
     line += str(row['filename']) + "|"
     line += str(row['transliteration']) + "|"
     line += str(row['ogham']) + "|"
-    print(str(row['ogham']))
     line += str(row['ciic']) + "|"
     try:
         label = str(json.loads(json2)['TEI']['teiHeader']['fileDesc']['titleStmt']['title'])
@@ -80,8 +79,7 @@ for index, row in data.iterrows():
         webgis = str(json.loads(json2)['TEI']['text']['body']['ab']['rs']['ref']['#text'])  # webgis.archaeology.ie
     except KeyError:
         webgis = ""
-    line += webgis + "|"
-    print(line)
+    line += webgis + ""
     lines.append(line)
 
 # write output file
