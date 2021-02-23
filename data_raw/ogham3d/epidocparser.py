@@ -61,10 +61,16 @@ for index, row in data.iterrows():
         label = ""
     line += label + "|"
     try:
-        findspot = str(json.loads(json2)['TEI']['text']['body']['head']['name']['placeName']['#text'])
+        townland = str(json.loads(json2)['TEI']['text']['body']['div'][6]['div'][0]['p']['rs']['placeName'][0]['#text'])
+        print(townland)
     except KeyError:
-        findspot = ""
-    line += findspot + "|"
+        townland = ""
+    line += townland + "|"
+    try:
+        barony = str(json.loads(json2)['TEI']['text']['body']['div'][6]['div'][0]['p']['rs']['placeName'][1]['#text'])
+    except KeyError:
+        barony = ""
+    line += barony + "|"
     try:
         geom = str(json.loads(json2)['TEI']['text']['body']['div'][6]['div'][0]['p']['rs']['geo'])
     except KeyError:
@@ -135,7 +141,7 @@ for index, row in data.iterrows():
     lines.append(line)
 
 # write output file
-header = "filename|transliteration|ogham|ciic|label|findspot|geom|translation|webgis|height|width|depth|persons|formula|sitetype|recording"
+header = "filename|transliteration|ogham|ciic|label|townland|barony|geom|translation|webgis|height|width|depth|persons|formula|sitetype|recording"
 file_out = dir_path + "\\" + "ogham3d.csv"
 file = codecs.open(file_out, "w", "utf-8")
 file.write(header + "\r\n")
