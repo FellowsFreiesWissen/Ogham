@@ -38,7 +38,7 @@ csv = dir_path + "\\" + "files.csv"
 # read csv file
 data = pd.read_csv(
     csv,
-    encoding='utf-8-sig',
+    encoding='utf-8',
     sep='|',
     usecols=['filename', 'transliteration', 'ciic', 'ogham']
 )
@@ -54,7 +54,7 @@ for index, row in data.iterrows():
     line += str(row['filename']) + "|"
     line += str(row['transliteration']) + "|"
     line += str(row['ogham']) + "|"
-    # print(str(row['ogham']))
+    print(str(row['ogham']))
     line += str(row['ciic']) + "|"
     try:
         label = str(json.loads(json2)['TEI']['teiHeader']['fileDesc']['titleStmt']['title'])
