@@ -94,12 +94,21 @@ for index, row in data.iterrows():
         depth = str(json.loads(json2)['TEI']['text']['body']['div'][1]['div'][1]['p']['rs'][1]['measure'][2]['#text'])
     except KeyError:
         depth = -1.0
-    line += depth + ""
-    # persons, formula words
+    line += depth + "|"
+    try:
+        persons_arr = []
+        persons = json.loads(json2)['TEI']['text']['body']['div'][2]['ab']['persName']
+        for x in range(len(persons)):
+            person = json.loads(json2)['TEI']['text']['body']['div'][2]['ab']['persName'][x]['w']['@lemma']
+            persons_arr.append(person)
+    except KeyError:
+        persons_arr = []
+    line += str(persons_arr) + ""
+    # formula words
     lines.append(line)
 
 # write output file
-header = "filename|transliteration|ogham|ciic|label|findspot|geom|translation|webgis|height|width|depth"
+header = "filename|transliteration|ogham|ciic|label|findspot|geom|translation|webgis|height|width|depth|persons"
 file_out = dir_path + "\\" + "ogham3d.csv"
 file = codecs.open(file_out, "w", "utf-8")
 file.write(header + "\r\n")

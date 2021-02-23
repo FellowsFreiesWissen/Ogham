@@ -1,4 +1,4 @@
-filename|transliteration|ogham|ciic|label|findspot|geom|translation|webgis|height|width|depth
-266._Dromore_I.xml|COLLABOT MUCOI LUGA/ MAQI LOBACCONA |ᚉᚑᚂᚂᚐᚁᚑᚈ  ᚋᚒᚉᚑᚔ  ᚂᚒᚌᚐ  ᚋᚐᚊᚔ  ᚂᚑᚁᚐᚉᚉᚑᚅᚐ |266|CIIC 266. Dromore I|Dromore|-7.847713, 52.074413|of Cóelub descendant of Lug son of Lubchú?|WA029-042003-|1.32|0.51|0.13
-152._Ballinrannig_V.xml|G/LUBBIAS MAQQI/ DN/IA?S |ᚌᚂᚒᚁᚁᚔᚐᚄ  ᚋᚐᚊᚊᚔ  ᚇᚅᚔᚐᚄ |152|CIIC 152. Ballinrannig V|Ballinrannig|-10.388106, 52.178511||KE042-057010-|0.97|0.39|0.17
-156._Ballintaggart_II.xml|MAQQI-IARI KOI MA/QQI MU/CCOI DOVVINIAS |ᚋᚐᚊᚊᚔᚔᚐᚏᚔ  ᚕᚑᚔ  ᚋᚐᚊᚊᚔ  ᚋᚒᚉᚉᚑᚔ  ᚇᚑᚃᚃᚔᚅᚔᚐᚄ |156|CIIC 156. Ballintaggart|Ballintaggart|-10.243303,52.127798||KE053-033006-|1.07|0.33|0.13
+filename|transliteration|ogham|ciic|label|findspot|geom|translation|webgis|height|width|depth|persons
+266._Dromore_I.xml|COLLABOT MUCOI LUGA/ MAQI LOBACCONA |ᚉᚑᚂᚂᚐᚁᚑᚈ  ᚋᚒᚉᚑᚔ  ᚂᚒᚌᚐ  ᚋᚐᚊᚔ  ᚂᚑᚁᚐᚉᚉᚑᚅᚐ |266|CIIC 266. Dromore I|Dromore|-7.847713, 52.074413|of Cóelub descendant of Lug son of Lubchú?|WA029-042003-|1.32|0.51|0.13|['COLLABOT', 'LUGA', 'LOBACCONA']
+152._Ballinrannig_V.xml|G/LUBBIAS MAQQI/ DN/IA?S |ᚌᚂᚒᚁᚁᚔᚐᚄ  ᚋᚐᚊᚊᚔ  ᚇᚅᚔᚐᚄ |152|CIIC 152. Ballinrannig V|Ballinrannig|-10.388106, 52.178511||KE042-057010-|0.97|0.39|0.17|[]
+156._Ballintaggart_II.xml|MAQQI-IARI KOI MA/QQI MU/CCOI DOVVINIAS |ᚋᚐᚊᚊᚔᚔᚐᚏᚔ  ᚕᚑᚔ  ᚋᚐᚊᚊᚔ  ᚋᚒᚉᚉᚑᚔ  ᚇᚑᚃᚃᚔᚅᚔᚐᚄ |156|CIIC 156. Ballintaggart|Ballintaggart|-10.243303,52.127798||KE053-033006-|1.07|0.33|0.13|['MAQQI-IARI', 'DOVINIAS']
