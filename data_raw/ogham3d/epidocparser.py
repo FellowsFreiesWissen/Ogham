@@ -112,12 +112,17 @@ for index, row in data.iterrows():
             formula_arr.append(formula)
     except KeyError:
         formula_arr = []
-    line += str(formula_arr) + ""
+    line += str(formula_arr) + "|"
+    try:
+        sitetype = str(json.loads(json2)['TEI']['text']['body']['div'][0]['p'])
+    except KeyError:
+        sitetype = ""
+    line += sitetype + ""
     # add line to output array
     lines.append(line)
 
 # write output file
-header = "filename|transliteration|ogham|ciic|label|findspot|geom|translation|webgis|height|width|depth|persons|formula"
+header = "filename|transliteration|ogham|ciic|label|findspot|geom|translation|webgis|height|width|depth|persons|formula|sitetype"
 file_out = dir_path + "\\" + "ogham3d.csv"
 file = codecs.open(file_out, "w", "utf-8")
 file.write(header + "\r\n")
