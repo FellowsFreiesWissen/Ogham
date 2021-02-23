@@ -79,12 +79,27 @@ for index, row in data.iterrows():
         webgis = str(json.loads(json2)['TEI']['text']['body']['ab']['rs']['ref']['#text'])  # webgis.archaeology.ie
     except KeyError:
         webgis = ""
-    line += webgis + ""
-    # persons, formula words, h, w, d
+    line += webgis + "|"
+    try:
+        height = str(json.loads(json2)['TEI']['text']['body']['div'][1]['div'][1]['p']['rs'][1]['measure'][0]['#text'])
+    except KeyError:
+        height = -1.0
+    line += height + "|"
+    try:
+        width = str(json.loads(json2)['TEI']['text']['body']['div'][1]['div'][1]['p']['rs'][1]['measure'][1]['#text'])
+    except KeyError:
+        width = -1.0
+    line += width + "|"
+    try:
+        depth = str(json.loads(json2)['TEI']['text']['body']['div'][1]['div'][1]['p']['rs'][1]['measure'][2]['#text'])
+    except KeyError:
+        depth = -1.0
+    line += depth + ""
+    # persons, formula words
     lines.append(line)
 
 # write output file
-header = "filename|transliteration|ogham|ciic|label|findspot|geom|translation|webgis"
+header = "filename|transliteration|ogham|ciic|label|findspot|geom|translation|webgis|height|width|depth"
 file_out = dir_path + "\\" + "ogham3d.csv"
 file = codecs.open(file_out, "w", "utf-8")
 file.write(header + "\r\n")
