@@ -80,6 +80,7 @@ for index, row in data.iterrows():
     except KeyError:
         webgis = ""
     line += webgis + ""
+    # persons, formula words, h, w, d
     lines.append(line)
 
 # write output file
