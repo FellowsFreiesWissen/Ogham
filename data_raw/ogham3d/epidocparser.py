@@ -117,12 +117,25 @@ for index, row in data.iterrows():
         sitetype = str(json.loads(json2)['TEI']['text']['body']['div'][0]['p'])
     except KeyError:
         sitetype = ""
-    line += sitetype + ""
+    line += sitetype + "|"
+    try:
+        recording = str(json.loads(json2)['TEI']['text']['body']['div'][7]['p']['#text']).replace("\n", "").replace("  ", " ")
+        recording = recording.replace("  ", " ")
+        recording = recording.replace("  ", " ")
+        recording = recording.replace("  ", " ")
+        recording = recording.replace("  ", " ")
+        recording = recording.replace("  ", " ")
+        recording = recording.replace("  ", " ")
+        recording = recording.replace("  ", " ")
+        recording = recording.replace(" .", ".")
+    except recording:
+        recording = ""
+    line += recording + ""
     # add line to output array
     lines.append(line)
 
 # write output file
-header = "filename|transliteration|ogham|ciic|label|findspot|geom|translation|webgis|height|width|depth|persons|formula|sitetype"
+header = "filename|transliteration|ogham|ciic|label|findspot|geom|translation|webgis|height|width|depth|persons|formula|sitetype|recording"
 file_out = dir_path + "\\" + "ogham3d.csv"
 file = codecs.open(file_out, "w", "utf-8")
 file.write(header + "\r\n")
