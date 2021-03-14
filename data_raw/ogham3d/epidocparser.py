@@ -9,7 +9,7 @@ __version__ = "beta"
 __maintainer__ = "Florian Thiery"
 __email__ = "mail@fthiery.de"
 __status__ = "beta"
-__update__ = "2021-02-23"
+__update__ = "2021-03-14"
 
 # import dependencies
 import uuid
@@ -40,7 +40,7 @@ data = pd.read_csv(
     csv,
     encoding='utf-8',
     sep='|',
-    usecols=['filename', 'transliteration', 'ciic', 'translation', 'ogham']
+    usecols=['filename', 'transliteration', 'ciic', 'translation', 'ogham', 'o3d']
 )
 print(data.info())
 lines = []
@@ -58,12 +58,13 @@ for index, row in data.iterrows():
     line += str(row['ogham']) + "|"
     line += str(row['translation']) + "|"
     line += str(row['ciic']) + "|"
+    line += str(row['o3d']) + "|"
     try:
         label = str(json.loads(json2)['TEI']['teiHeader']['fileDesc']['titleStmt']['title'])
     except KeyError:
         label = ""
     line += label + "|"
-    try:
+    '''try:
         townland = str(json.loads(json2)['TEI']['text']['body']['div'][6]['div'][0]['p']['rs']['placeName'][0]['#text'])
     except KeyError:
         townland = ""
@@ -72,7 +73,7 @@ for index, row in data.iterrows():
         barony = str(json.loads(json2)['TEI']['text']['body']['div'][6]['div'][0]['p']['rs']['placeName'][1]['#text'])
     except KeyError:
         barony = ""
-    line += barony + "|"
+    line += barony + "|"'''
     try:
         geom = str(json.loads(json2)['TEI']['text']['body']['div'][6]['div'][0]['p']['rs']['geo'])
     except KeyError:
@@ -93,22 +94,22 @@ for index, row in data.iterrows():
     except KeyError:
         webgis = ""
     line += webgis + "|"
-    try:
+    '''try:
         height = str(json.loads(json2)['TEI']['text']['body']['div'][1]['div'][1]['p']['rs'][1]['measure'][0]['#text'])
     except KeyError:
-        height = -1.0
+        height = "-1.0"
     line += height + "|"
     try:
         width = str(json.loads(json2)['TEI']['text']['body']['div'][1]['div'][1]['p']['rs'][1]['measure'][1]['#text'])
     except KeyError:
-        width = -1.0
+        width = "-1.0"
     line += width + "|"
     try:
         depth = str(json.loads(json2)['TEI']['text']['body']['div'][1]['div'][1]['p']['rs'][1]['measure'][2]['#text'])
     except KeyError:
-        depth = -1.0
-    line += depth + "|"
-    try:
+        depth = "-1.0"
+    line += depth + "|"'''
+    '''try:
         persons_arr = []
         persons = json.loads(json2)['TEI']['text']['body']['div'][2]['ab']['persName']
         for x in range(len(persons)):
@@ -143,12 +144,13 @@ for index, row in data.iterrows():
         recording = recording.replace(" .", ".")
     except recording:
         recording = ""
-    line += recording + ""
+    line += recording + ""'''
     # add line to output array
     lines.append(line)
 
 # write output file
-header = "filename|transliteration|ogham|translation|ciic|label|townland|barony|geom_found|geom_orig|geom_lastrecorded|webgis|height|width|depth|persons|formula|sitetype|recording"
+#header = "filename|transliteration|ogham|translation|ciic|o3d|label|townland|barony|geom_found|geom_orig|geom_lastrecorded|webgis|height|width|depth|persons|formula|sitetype|recording"
+header = "filename|transliteration|ogham|translation|ciic|o3d|label|geom_found|geom_orig|geom_lastrecorded|webgis"
 file_out = dir_path + "\\" + "ogham3d.csv"
 file = codecs.open(file_out, "w", "utf-8")
 file.write(header + "\r\n")
