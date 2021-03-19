@@ -18,6 +18,7 @@ import codecs
 import datetime
 import importlib
 import sys
+import hashlib
 
 # set UTF8 as default
 importlib.reload(sys)
@@ -51,30 +52,34 @@ for index, row in data.iterrows():
     if tmpno % 100 == 0:
         print(tmpno)
     lineNo += 1
-    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "rdf:type" + " oghamonto:Stone .")
-    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "rdfs:label" + " " + "'" + str(row['label_en']).replace('\'', '`') + "'@en" + ".")
-    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "dc:description" + " " + "'" + str(row['description_en']).replace('\'', '`') + "'@en" + ".")
-    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "oghamonto:alias" + " " + "'" + str(row['alias_en']).replace('\'', '`') + "'@en" + ".")
-    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "oghamonto:numbering" + " " + "'" + str(row['P1545_ciic']) + "'" + ".")
-    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "dc:identifier" + " " + "'" + str(row['P1545_ciic']) + "'" + ".")
-    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "oghamonto:shows" + " " + "'" + str(row['P1684']) + "'" + ".")
-    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "oghamonto:exactMatch" + " <" + "http://www.wikidata.org/entity/" + str(row['WikidataID']) + ">" + ".")
+    uuid_pre = str.encode(str(row['P1545_ciic']) + "CIIC")
+    hash_object = hashlib.sha512(uuid_pre)
+    uuid = str(hash_object.hexdigest())[0:12]
+    # print(uuid)
+    lines.append("ogham:" + uuid + " " + "rdf:type" + " oghamonto:Stone .")
+    lines.append("ogham:" + uuid + " " + "rdfs:label" + " " + "'" + str(row['label_en']).replace('\'', '`') + "'@en" + ".")
+    lines.append("ogham:" + uuid + " " + "dc:description" + " " + "'" + str(row['description_en']).replace('\'', '`') + "'@en" + ".")
+    lines.append("ogham:" + uuid + " " + "oghamonto:alias" + " " + "'" + str(row['alias_en']).replace('\'', '`') + "'@en" + ".")
+    lines.append("ogham:" + uuid + " " + "oghamonto:numbering" + " " + "'" + str(row['P1545_ciic']) + "'" + ".")
+    lines.append("ogham:" + uuid + " " + "dc:identifier" + " " + "'" + str(row['P1545_ciic']) + "'" + ".")
+    lines.append("ogham:" + uuid + " " + "oghamonto:shows" + " " + "'" + str(row['P1684']) + "'" + ".")
+    lines.append("ogham:" + uuid + " " + "oghamonto:exactMatch" + " <" + "http://www.wikidata.org/entity/" + str(row['WikidataID']) + ">" + ".")
     # geom
-    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "geosparql:hasGeometry" + " ogham:stone_ciic_" + str(row['P1545_ciic']) + "_geom .")
-    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + "_geom " + "rdf:type" + " sf:Point .")
+    lines.append("ogham:" + uuid + " " + "geosparql:hasGeometry" + " ogham:" + uuid + "_geom .")
+    lines.append("ogham:" + uuid + "_geom " + "rdf:type" + " sf:Point .")
     split = str(row['P625_coord']).split(",")
     point = "POINT(" + str(split[1]) + " " + str(split[0]) + ")"
     point = "\"" + point + "\"^^geosparql:wktLiteral"
-    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + "_geom " + "geosparql:asWKT " + point + ".")
-    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + "_geom " + "oghamonto:hasEPSG " + "<http://www.opengis.net/def/crs/EPSG/0/4326>" + ".")
+    lines.append("ogham:" + uuid + "_geom " + "geosparql:asWKT " + point + ".")
+    lines.append("ogham:" + uuid + "_geom " + "oghamonto:hasEPSG " + "<http://www.opengis.net/def/crs/EPSG/0/4326>" + ".")
     # prov-o
-    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "prov:wasAttributedTo" + " ogham:PythonStonesCIIC .")
-    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "prov:wasDerivedFrom" + " <https://github.com/FellowsFreiesWissen/Ogham/blob/main/data_raw/CIIC_Ireland/csv/OghamStonesIreland.csv> .")
-    lines.append("ogham:stone_ciic_" + str(row['P1545_ciic']) + " " + "prov:wasGeneratedBy" + " ogham:activity_stone_ciic_" + str(row['P1545_ciic']) + " .")
-    lines.append("ogham:activity_stone_ciic_" + str(row['P1545_ciic']) + " " + "rdf:type" + " <http://www.w3.org/ns/prov#Activity> .")
-    lines.append("ogham:activity_stone_ciic_" + str(row['P1545_ciic']) + " " + "prov:startedAtTime '" + starttime + "'^^xsd:dateTime .")
-    lines.append("ogham:activity_stone_ciic_" + str(row['P1545_ciic']) + " " + "prov:endedAtTime '" + datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
-    lines.append("ogham:activity_stone_ciic_" + str(row['P1545_ciic']) + " " + "prov:wasAssociatedWith" + " ogham:PythonStonesCIIC .")
+    lines.append("ogham:" + uuid + " " + "prov:wasAttributedTo" + " ogham:PythonStonesCIIC .")
+    lines.append("ogham:" + uuid + " " + "prov:wasDerivedFrom" + " <https://github.com/FellowsFreiesWissen/Ogham/blob/main/data_raw/CIIC_Ireland/csv/OghamStonesIreland.csv> .")
+    lines.append("ogham:" + uuid + " " + "prov:wasGeneratedBy" + " ogham:" + uuid + "_activity .")
+    lines.append("ogham:" + uuid + "_activity " + "rdf:type" + " <http://www.w3.org/ns/prov#Activity> .")
+    lines.append("ogham:" + uuid + "_activity " + "prov:startedAtTime '" + starttime + "'^^xsd:dateTime .")
+    lines.append("ogham:" + uuid + "_activity " + "prov:endedAtTime '" + datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
+    lines.append("ogham:" + uuid + "_activity " + "prov:wasAssociatedWith" + " ogham:PythonStonesCIIC .")
     lines.append("")
 
 files = (len(lines) / 100000) + 1
