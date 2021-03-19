@@ -338,6 +338,15 @@
     
 
 
+    <!-- http://ontology.ogham.link/partOf -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/partOf">
+        <rdfs:subPropertyOf rdf:resource="http://ontology.ogham.link/belongsToSpatialThing"/>
+        <rdfs:label xml:lang="en">is part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.opengis.net/ont/geosparql#hasGeometry -->
 
     <owl:ObjectProperty rdf:about="http://www.opengis.net/ont/geosparql#hasGeometry">
