@@ -1,5 +1,5 @@
 filename|transliteration|ogham|translation|ciic|o3d|label|geom_found|geom_orig|geom_lastrecorded|webgis
-4._Kilmannin.xml|nan|nan|nan|4|4._Kilmannin|CIIC 4. Kilmannin|-8.765218,53.773045||-6.254558,53.340408|MA093-045003-|
+4._Kilmannin.xml|LUGADDON MAQ/I LUGU/DEC DDISI/ MOCQUS/EL|      ᚂᚒᚌᚐᚇᚇᚑᚅ    ᚋᚐᚊᚔ  ᚂᚒᚌᚒᚇᚓᚉ  ᚇᚇᚔᚄᚔ  ᚋᚑᚉᚊᚒᚄᚓᚂ|Of Lugáed son of Luguid|4|4._Kilmannin|CIIC 4. Kilmannin|-8.765218,53.773045||-6.254558,53.340408|MA093-045003-|
 10._Breastagh.xml|nan|nan|nan|10|10._Breastagh|CIIC 10. Breastagh|-9.254148, 54.246617|||MA015-018001-|
 11._Drummin_I.xml|nan|nan|nan|11|11._Drummin_I|CIIC 11. Drummin I|-8.369881, 53.834383|||RO015-051001-|
 12._Rathcroghan_I.xml|nan|nan|nan|12|12._Rathcroghan_I|CIIC 12. Rathcroghan I|-8.310399, 53.797323|||RO022-057030-|
@@ -143,7 +143,7 @@ filename|transliteration|ogham|translation|ciic|o3d|label|geom_found|geom_orig|g
 1083._Rathkenny_I.xml|nan|nan|nan|1083|1083._Rathkenny_I|CIIC 1083. Rathkenny I|-9.721501, 52.333343|||KE021-087002-|
 1084._Rathkenny_II.xml|nan|nan|nan|1084|1084._Rathkenny_II|CIIC 1084. Rathkenny II|-9.721501, 52.333343|||KE021-087005-|
 246a._Ardcanaght_I.xml|nan|nan|nan|246a|246a._Ardcanaght_I|CIIC 246a. Ardcanaght|-9.725042, 52.165998||-9.725848, 52.169079|KE047-026001-|
-246b._Ardcanaght_II.xml|nan|nan|nan|24bb|246b._Ardcanaght_II|CIIC 246b. Ardcanaght|-9.725042, 52.165998||-9.725848, 52.169079|KE047-026003-|
+246b._Ardcanaght_II.xml|nan|nan|nan|246b|246b._Ardcanaght_II|CIIC 246b. Ardcanaght|-9.725042, 52.165998||-9.725848, 52.169079|KE047-026003-|
 Ardfert_II.xml|nan|nan|nan|nan|Ardfert_II|Ardfert II|-9.782728, 52.328817|||KE020-046030-|
 Ballybarrack.xml|nan|nan|nan|nan|Ballybarrack|Ballybarrack|-6.424467, 53.986185||-6.397017, 54.004625|LH007-072006-|
 Bunkilla.xml|nan|nan|nan|nan|Bunkilla|Bunkilla|-8.699286, 51.978137||-6.254558,53.340408|CO061-074----|
