@@ -8,3 +8,7 @@
 -   Ogham Stone Concept (CISP Database): <https://www.wikidata.org/wiki/Q106602627>
 -   Ogham Stone Concept (Ogham in 3D Project): <https://www.wikidata.org/wiki/Q106602633>
 -   Ogham Stone Concept (Research Squirrel Ogham Project): <https://www.wikidata.org/wiki/Q106602643>
+
+## Ogham Site
+
+-   Ogham Site: <https://www.wikidata.org/wiki/Q72617071>
