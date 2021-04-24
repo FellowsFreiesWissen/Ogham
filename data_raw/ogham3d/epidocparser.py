@@ -53,8 +53,6 @@ for index, row in data.iterrows():
     print("filename:" + file_in)
     df = pdx.read_xml(file_in, encoding='utf8')
     json2 = df.to_json()
-    if str(row['filename']) == "145._Arraglen.xml":
-        print(json2)
     line = ""
     # uuid
     uuid_pre = str.encode(str(row['filename']) + "O3D")
@@ -122,13 +120,13 @@ for index, row in data.iterrows():
     except KeyError:
         webgis = ""
     line += webgis + "|"
-    '''try:
+    try:
         persons_arr = []
         persons = json.loads(json2)['TEI']['text']['body']['div'][2]['ab']['persName']
         for x in range(len(persons)):
             person = json.loads(json2)['TEI']['text']['body']['div'][2]['ab']['persName'][x]['w']['@lemma']
             persons_arr.append(person)
-    except KeyError:
+    except:
         persons_arr = []
     line += str(persons_arr) + "|"
     try:
@@ -137,9 +135,9 @@ for index, row in data.iterrows():
         for x in range(len(formulas)):
             formula = json.loads(json2)['TEI']['text']['body']['div'][2]['ab']['w'][x]['@lemma']
             formula_arr.append(formula)
-    except KeyError:
+    except:
         formula_arr = []
-    line += str(formula_arr) + "|"'''
+    line += str(formula_arr) + "|"
     try:
         sitetype = str(json.loads(json2)['TEI']['text']['body']['div'][0]['p'])
     except KeyError:
@@ -150,7 +148,7 @@ for index, row in data.iterrows():
 
 # write output file
 # header = "filename|transliteration|ogham|translation|ciic|o3d|label|townland|barony|geom_found|geom_orig|geom_lastrecorded|webgis|height|width|depth|persons|formula|sitetype|recording"
-header = "filename|uuid|transliteration|ogham|translation|ciic|o3d|w|h|d|label|townland|barony|geom_found|geom_orig|geom_lastrecorded|webgis|sitetype"
+header = "filename|uuid|transliteration|ogham|translation|ciic|o3d|w|h|d|label|townland|barony|geom_found|geom_orig|geom_lastrecorded|webgis|persons|formula|sitetype"
 file_out = dir_path + "\\" + "ogham3d.csv"
 file = codecs.open(file_out, "w", "utf-8")
 file.write(header + "\r\n")
