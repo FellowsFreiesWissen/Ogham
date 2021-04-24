@@ -41,7 +41,7 @@ data = pd.read_csv(
     csv,
     encoding='utf-8',
     sep='|',
-    usecols=['filename', 'transliteration', 'ciic', 'translation', 'ogham', 'o3d', 'w', 'h', 'd']
+    usecols=['filename', 'transliteration', 'ciic', 'translation', 'ogham', 'o3d', 'w', 'h', 'd', 'site']
 )
 print(data.info())
 lines = []
@@ -69,6 +69,13 @@ for index, row in data.iterrows():
     line += str(row['w']) + "|"
     line += str(row['h']) + "|"
     line += str(row['d']) + "|"
+    try:
+        site = str(row['site'])
+        if site == "nan":
+            site = ""
+    except:
+        site = ""
+    line += site + "|"
     try:
         label = str(json.loads(json2)['TEI']['teiHeader']['fileDesc']['titleStmt']['title'])
     except KeyError:
@@ -147,8 +154,7 @@ for index, row in data.iterrows():
     lines.append(line)
 
 # write output file
-# header = "filename|transliteration|ogham|translation|ciic|o3d|label|townland|barony|geom_found|geom_orig|geom_lastrecorded|webgis|height|width|depth|persons|formula|sitetype|recording"
-header = "filename|uuid|transliteration|ogham|translation|ciic|o3d|w|h|d|label|townland|barony|geom_found|geom_orig|geom_lastrecorded|webgis|persons|formula|sitetype"
+header = "filename|uuid|transliteration|ogham|translation|ciic|o3d|w|h|d|site|label|townland|barony|geom_found|geom_orig|geom_lastrecorded|webgis|persons|formula|sitetype"
 file_out = dir_path + "\\" + "ogham3d.csv"
 file = codecs.open(file_out, "w", "utf-8")
 file.write(header + "\r\n")
