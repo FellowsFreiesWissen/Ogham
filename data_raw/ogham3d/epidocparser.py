@@ -52,7 +52,7 @@ for index, row in data.iterrows():
     file_in = dir_path + "\\xml\\" + str(row['filename'])
     print("filename:" + file_in)
     df = pdx.read_xml(file_in, encoding='utf8')
-    json2 = df.to_json()
+    json2 = df.to_json()  # http://jsonviewer.stack.hu/
     line = ""
     # uuid
     uuid_pre = str.encode(str(row['filename']) + "O3D")
