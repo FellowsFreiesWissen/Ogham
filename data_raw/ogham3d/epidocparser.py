@@ -41,7 +41,7 @@ data = pd.read_csv(
     csv,
     encoding='utf-8',
     sep='|',
-    usecols=['filename', 'transliteration', 'ciic', 'translation', 'ogham', 'o3d']
+    usecols=['filename', 'transliteration', 'ciic', 'translation', 'ogham', 'o3d', 'w', 'h', 'd']
 )
 print(data.info())
 lines = []
@@ -68,6 +68,9 @@ for index, row in data.iterrows():
     line += str(row['translation']) + "|"
     line += str(row['ciic']) + "|"
     line += str(row['o3d']) + "|"
+    line += str(row['w']) + "|"
+    line += str(row['h']) + "|"
+    line += str(row['d']) + "|"
     try:
         label = str(json.loads(json2)['TEI']['teiHeader']['fileDesc']['titleStmt']['title'])
     except KeyError:
@@ -120,21 +123,6 @@ for index, row in data.iterrows():
         webgis = ""
     line += webgis + "|"
     '''try:
-        height = str(json.loads(json2)['TEI']['text']['body']['div'][1]['div'][1]['p']['rs'][1]['measure'][0]['#text'])
-    except KeyError:
-        height = "-1.0"
-    line += height + "|"
-    try:
-        width = str(json.loads(json2)['TEI']['text']['body']['div'][1]['div'][1]['p']['rs'][1]['measure'][1]['#text'])
-    except KeyError:
-        width = "-1.0"
-    line += width + "|"
-    try:
-        depth = str(json.loads(json2)['TEI']['text']['body']['div'][1]['div'][1]['p']['rs'][1]['measure'][2]['#text'])
-    except KeyError:
-        depth = "-1.0"
-    line += depth + "|"'''
-    '''try:
         persons_arr = []
         persons = json.loads(json2)['TEI']['text']['body']['div'][2]['ab']['persName']
         for x in range(len(persons)):
@@ -151,31 +139,18 @@ for index, row in data.iterrows():
             formula_arr.append(formula)
     except KeyError:
         formula_arr = []
-    line += str(formula_arr) + "|"
+    line += str(formula_arr) + "|"'''
     try:
         sitetype = str(json.loads(json2)['TEI']['text']['body']['div'][0]['p'])
     except KeyError:
         sitetype = ""
     line += sitetype + "|"
-    try:
-        recording = str(json.loads(json2)['TEI']['text']['body']['div'][7]['p']['#text']).replace("\n", "").replace("  ", " ")
-        recording = recording.replace("  ", " ")
-        recording = recording.replace("  ", " ")
-        recording = recording.replace("  ", " ")
-        recording = recording.replace("  ", " ")
-        recording = recording.replace("  ", " ")
-        recording = recording.replace("  ", " ")
-        recording = recording.replace("  ", " ")
-        recording = recording.replace(" .", ".")
-    except recording:
-        recording = ""
-    line += recording + ""'''
     # add line to output array
     lines.append(line)
 
 # write output file
 # header = "filename|transliteration|ogham|translation|ciic|o3d|label|townland|barony|geom_found|geom_orig|geom_lastrecorded|webgis|height|width|depth|persons|formula|sitetype|recording"
-header = "filename|uuid|transliteration|ogham|translation|ciic|o3d|label|townland|barony|geom_found|geom_orig|geom_lastrecorded|webgis"
+header = "filename|uuid|transliteration|ogham|translation|ciic|o3d|w|h|d|label|townland|barony|geom_found|geom_orig|geom_lastrecorded|webgis|sitetype"
 file_out = dir_path + "\\" + "ogham3d.csv"
 file = codecs.open(file_out, "w", "utf-8")
 file.write(header + "\r\n")
