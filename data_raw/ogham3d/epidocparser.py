@@ -25,6 +25,7 @@ import xml.etree.ElementTree as ET
 import pandas_read_xml as pdx
 import json
 import numpy as np
+import hashlib
 
 # set UTF8 as default
 # -*- coding: utf-8 -*-
@@ -52,8 +53,16 @@ for index, row in data.iterrows():
     print("filename:" + file_in)
     df = pdx.read_xml(file_in, encoding='utf8')
     json2 = df.to_json()
+    if str(row['filename']) == "145._Arraglen.xml":
+        print(json2)
     line = ""
+    # uuid
+    uuid_pre = str.encode(str(row['filename']) + "O3D")
+    hash_object = hashlib.sha512(uuid_pre)
+    uuid = str(hash_object.hexdigest())[0:12]
+    # csv file
     line += str(row['filename']) + "|"
+    line += uuid + "|"
     line += str(row['transliteration']) + "|"
     line += str(row['ogham']) + "|"
     line += str(row['translation']) + "|"
@@ -64,16 +73,32 @@ for index, row in data.iterrows():
     except KeyError:
         label = ""
     line += label + "|"
-    '''try:
+    try:
+        townland = str(json.loads(json2)['TEI']['text']['body']['div'][6]['div'][0]['p']['rs']['placeName'][0])
+        townland = townland.replace("\n", "")
+        townland = townland.replace("  ", "")
+    except:
+        townland = ""
+    try:
         townland = str(json.loads(json2)['TEI']['text']['body']['div'][6]['div'][0]['p']['rs']['placeName'][0]['#text'])
-    except KeyError:
+        townland = townland.replace("\n", "")
+        townland = townland.replace("  ", "")
+    except:
         townland = ""
     line += townland + "|"
     try:
-        barony = str(json.loads(json2)['TEI']['text']['body']['div'][6]['div'][0]['p']['rs']['placeName'][1]['#text'])
-    except KeyError:
+        barony = str(json.loads(json2)['TEI']['text']['body']['div'][6]['div'][0]['p']['rs']['placeName'][1])
+        barony = barony.replace("\n", "")
+        barony = barony.replace("  ", "")
+    except:
         barony = ""
-    line += barony + "|"'''
+    try:
+        barony = str(json.loads(json2)['TEI']['text']['body']['div'][6]['div'][0]['p']['rs']['placeName'][1]['#text'])
+        barony = barony.replace("\n", "")
+        barony = barony.replace("  ", "")
+    except:
+        barony = ""
+    line += barony + "|"
     try:
         geom = str(json.loads(json2)['TEI']['text']['body']['div'][6]['div'][0]['p']['rs']['geo'])
     except KeyError:
@@ -149,8 +174,8 @@ for index, row in data.iterrows():
     lines.append(line)
 
 # write output file
-#header = "filename|transliteration|ogham|translation|ciic|o3d|label|townland|barony|geom_found|geom_orig|geom_lastrecorded|webgis|height|width|depth|persons|formula|sitetype|recording"
-header = "filename|transliteration|ogham|translation|ciic|o3d|label|geom_found|geom_orig|geom_lastrecorded|webgis"
+# header = "filename|transliteration|ogham|translation|ciic|o3d|label|townland|barony|geom_found|geom_orig|geom_lastrecorded|webgis|height|width|depth|persons|formula|sitetype|recording"
+header = "filename|uuid|transliteration|ogham|translation|ciic|o3d|label|townland|barony|geom_found|geom_orig|geom_lastrecorded|webgis"
 file_out = dir_path + "\\" + "ogham3d.csv"
 file = codecs.open(file_out, "w", "utf-8")
 file.write(header + "\r\n")
