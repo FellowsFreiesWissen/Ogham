@@ -66,9 +66,18 @@ for index, row in data.iterrows():
     line += str(row['translation']) + "|"
     line += str(row['ciic']) + "|"
     line += str(row['o3d']) + "|"
-    line += str(row['w']) + "|"
-    line += str(row['h']) + "|"
-    line += str(row['d']) + "|"
+    if str(row['w']) != "nan":
+        line += str(row['w']) + "|"
+    else:
+        line += "" + "|"
+    if str(row['h']) != "nan":
+        line += str(row['h']) + "|"
+    else:
+        line += "" + "|"
+    if str(row['d']) != "nan":
+        line += str(row['d']) + "|"
+    else:
+        line += "" + "|"
     try:
         site = str(row['site'])
         if site == "nan":
