@@ -2,14 +2,14 @@
 # -*- coding: utf-8 -*-
 
 __author__ = "Florian Thiery"
-__copyright__ = "MIT Licence 2020, Florian Thiery"
+__copyright__ = "MIT Licence 2021, Florian Thiery"
 __credits__ = ["Florian Thiery"]
 __license__ = "MIT"
-__version__ = "beta"
+__version__ = "1.0"
 __maintainer__ = "Florian Thiery"
 __email__ = "mail@fthiery.de"
-__status__ = "beta"
-__update__ = "2021-03-14"
+__status__ = "1.0"
+__update__ = "2021-04-25"
 
 # import dependencies
 import uuid
@@ -134,7 +134,7 @@ for index, row in data.iterrows():
             person = json.loads(json2)['TEI']['text']['body']['div'][2]['ab']['persName'][x]['w']['@lemma']
             persons_arr.append(person)
     except:
-        persons_arr = []
+        persons_arr = ""
     line += str(persons_arr) + "|"
     try:
         formula_arr = []
@@ -143,7 +143,7 @@ for index, row in data.iterrows():
             formula = json.loads(json2)['TEI']['text']['body']['div'][2]['ab']['w'][x]['@lemma']
             formula_arr.append(formula)
     except:
-        formula_arr = []
+        formula_arr = ""
     line += str(formula_arr) + "|"
     try:
         sitetype = str(json.loads(json2)['TEI']['text']['body']['div'][0]['p'])
