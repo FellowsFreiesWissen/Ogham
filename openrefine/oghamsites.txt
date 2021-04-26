@@ -1,0 +1,367 @@
+[
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "label",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column label"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "desc",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column desc"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "country",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column country"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "country_w",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column country_w"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "province",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column province"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "province_w",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column province_w"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "county",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column county"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "county_w",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column county_w"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "barony",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column barony"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "barony_w",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column barony_w"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "lat",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column lat"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "lon",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column lon"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "latlon",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column latlon"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "source",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column source"
+  },
+  {
+    "op": "wikidata/save-wikibase-schema",
+    "schema": {
+      "itemDocuments": [
+        {
+          "subject": {
+            "type": "wbitemvariable",
+            "columnName": "label"
+          },
+          "nameDescs": [
+            {
+              "name_type": "LABEL",
+              "value": {
+                "type": "wbmonolingualexpr",
+                "language": {
+                  "type": "wblanguageconstant",
+                  "id": "en",
+                  "label": "en"
+                },
+                "value": {
+                  "type": "wbstringvariable",
+                  "columnName": "label"
+                }
+              }
+            },
+            {
+              "name_type": "DESCRIPTION",
+              "value": {
+                "type": "wbmonolingualexpr",
+                "language": {
+                  "type": "wblanguageconstant",
+                  "id": "en",
+                  "label": "en"
+                },
+                "value": {
+                  "type": "wbstringvariable",
+                  "columnName": "desc"
+                }
+              }
+            }
+          ],
+          "statementGroups": [
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P31",
+                "label": "instance of",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemconstant",
+                    "qid": "Q72617071",
+                    "label": "Ogham Site"
+                  },
+                  "qualifiers": [],
+                  "references": []
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P361",
+                "label": "part of",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemconstant",
+                    "qid": "Q70873595",
+                    "label": "Ogi-Ogam Project"
+                  },
+                  "qualifiers": [],
+                  "references": []
+                },
+                {
+                  "value": {
+                    "type": "wbitemconstant",
+                    "qid": "Q100530634",
+                    "label": "Irish ᚑᚌᚆᚐᚋ Stones into the Wikimedia Universe"
+                  },
+                  "qualifiers": [],
+                  "references": []
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P17",
+                "label": "country",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "country_w"
+                  },
+                  "qualifiers": [],
+                  "references": []
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P131",
+                "label": "located in the administrative territorial entity",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "province_w"
+                  },
+                  "qualifiers": [],
+                  "references": []
+                },
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "county_w"
+                  },
+                  "qualifiers": [],
+                  "references": []
+                },
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "barony_w"
+                  },
+                  "qualifiers": [],
+                  "references": []
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P625",
+                "label": "coordinate location",
+                "datatype": "globe-coordinate"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wblocationvariable",
+                    "columnName": "latlon"
+                  },
+                  "qualifiers": [],
+                  "references": []
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P973",
+                "label": "described at URL",
+                "datatype": "url"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbstringvariable",
+                    "columnName": "source"
+                  },
+                  "qualifiers": [
+                    {
+                      "prop": {
+                        "type": "wbpropconstant",
+                        "pid": "P407",
+                        "label": "language of work or name",
+                        "datatype": "wikibase-item"
+                      },
+                      "value": {
+                        "type": "wbitemconstant",
+                        "qid": "Q1860",
+                        "label": "English"
+                      }
+                    }
+                  ],
+                  "references": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save Wikibase schema"
+  }
+]
