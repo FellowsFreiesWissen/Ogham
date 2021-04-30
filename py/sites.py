@@ -18,6 +18,12 @@ import codecs
 import datetime
 import importlib
 import sys
+import hashlib
+
+test = str.encode('Hello World')
+hash_object = hashlib.sha512(test)
+hex_dig = str(hash_object.hexdigest())[0:8]
+print(hex_dig)
 
 # set UTF8 as default
 importlib.reload(sys)
