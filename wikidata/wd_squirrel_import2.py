@@ -34,7 +34,7 @@ importlib.reload(sys)
 # read CSV [filename, inscription, CIIC]
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
-csv = dir_path + "\\" + "squirrel_stones_qs.csv"
+csv = dir_path + "\\" + "squirrel_stones2_qs.csv"
 
 # read csv file
 data = pd.read_csv(
@@ -89,7 +89,7 @@ for index, row in data.iterrows():
     lines.append(line)
 
 # write output file
-file_out = dir_path + "\\" + "wd_squirrel_import.qs"
+file_out = dir_path + "\\" + "wd_squirrel_import2.qs"
 file = codecs.open(file_out, "w", "utf-8")
 for line in lines:
     file.write(line)
