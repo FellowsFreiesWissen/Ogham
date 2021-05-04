@@ -34,3 +34,8 @@ OSi Baronies
 
 https://data-osi.opendata.arcgis.com/datasets/baronies-osi-national-statutory-boundaries-generalised-20m?geometry=-29.156%2C51.112%2C12.658%2C55.691
 http://creativecommons.org/licenses/by/4.0
+
+Townlands
+
+https://www.opendatani.gov.uk/dataset/osni-open-data-50k-boundaries-townlands1
+https://data-osi.opendata.arcgis.com/datasets/townlands-osi-national-statutory-boundaries-generalised-20m?geometry=-29.136%2C51.106%2C12.678%2C55.686
