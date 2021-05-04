@@ -46,8 +46,6 @@ data = pd.read_csv(
 print(data.info())
 lines = []
 
-# https://jsoneditoronline.org/#left=local.rixegu&right=local.fipoze
-
 for index, row in data.iterrows():
     line = "CREATE" + "\r\n"
     line += "" + "LAST" + "\t" + "Len" + "\t" + "\"" + str(row['label']) + "\"" + "\r\n"
