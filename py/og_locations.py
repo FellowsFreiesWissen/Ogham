@@ -76,7 +76,7 @@ for index, row in data.iterrows():
     if str(row['geom_orig']) != 'nan':
         if str(row['geom_orig']) != 'undefined':
             lines.append("ogham:OL" + str(row['id']) + " " + "geosparql:hasGeometry" + " ogham:OL" + str(row['id']) + "_geom .")
-            lines.append("ogham:OL" + str(row['id']) + " " + "geosparql:origGeom" + " ogham:OL" + str(row['id']) + "_geom .")
+            lines.append("ogham:OL" + str(row['id']) + " " + "oghamonto:origGeom" + " ogham:OL" + str(row['id']) + "_geom .")
             lines.append("ogham:OL" + str(row['id']) + "_geom " + "rdf:type" + " sf:Point .")
             point = "\"" + str(row['geom_orig']) + "\"^^geosparql:wktLiteral"
             lines.append("ogham:OL" + str(row['id']) + "_geom " + "geosparql:asWKT " + point + ".")
@@ -84,7 +84,7 @@ for index, row in data.iterrows():
     if str(row['geom_lastrecorded']) != 'nan':
         if str(row['geom_lastrecorded']) != 'undefined':
             lines.append("ogham:OL" + str(row['id']) + " " + "geosparql:hasGeometry" + " ogham:OL" + str(row['id']) + "_geom .")
-            lines.append("ogham:OL" + str(row['id']) + " " + "geosparql:lastRecorded" + " ogham:OL" + str(row['id']) + "_geom .")
+            lines.append("ogham:OL" + str(row['id']) + " " + "oghamonto:lastRecorded" + " ogham:OL" + str(row['id']) + "_geom .")
             lines.append("ogham:OL" + str(row['id']) + "_geom " + "rdf:type" + " sf:Point .")
             point = "\"" + str(row['geom_lastrecorded']) + "\"^^geosparql:wktLiteral"
             lines.append("ogham:OL" + str(row['id']) + "_geom " + "geosparql:asWKT " + point + ".")

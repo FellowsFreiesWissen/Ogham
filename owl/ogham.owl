@@ -365,6 +365,15 @@
     
 
 
+    <!-- http://ontology.ogham.link/representativePoint -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/representativePoint">
+        <rdfs:subPropertyOf rdf:resource="http://ontology.ogham.link/hasPointGeometry"/>
+        <rdfs:label xml:lang="en">representative point</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.opengis.net/ont/geosparql#hasGeometry -->
 
     <owl:ObjectProperty rdf:about="http://www.opengis.net/ont/geosparql#hasGeometry">
@@ -511,6 +520,47 @@
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/irishGrid">
         <rdfs:label xml:lang="en">irish grid reference</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/label_barony -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/label_barony">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="en">label barony</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/label_country -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/label_country">
+        <rdfs:label xml:lang="en">label country</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/label_county -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/label_county">
+        <rdfs:label xml:lang="en">label county</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/label_province -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/label_province">
+        <rdfs:label xml:lang="en">label province</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/label_townland -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/label_townland">
+        <rdfs:label xml:lang="en">label townland</rdfs:label>
     </owl:DatatypeProperty>
     
 

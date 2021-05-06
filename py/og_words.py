@@ -65,7 +65,7 @@ for index, row in data.iterrows():
     lines.append("ogham:OW" + str(row['id']) + " " + "rdfs:label" + " " + "'" + str(row['label']).replace('\'', '`').replace('\\', '') + "'@goide" + ".")
     lines.append("ogham:OW" + str(row['id']) + " " + "skos:prefLabel" + " " + "'" + str(row['label']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
     lines.append("ogham:OW" + str(row['id']) + " " + "skos:prefLabel" + " " + "'" + str(row['label']).replace('\'', '`').replace('\\', '') + "'@goide" + ".")
-    lines.append("ogham:OW" + str(row['id']) + " " + "ogham:translation" + " " + "'" + str(row['translation']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
+    lines.append("ogham:OW" + str(row['id']) + " " + "oghamonto:translation" + " " + "'" + str(row['translation']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
     variant = str(row['variants'])
     variant = variant.replace("[", "")
     variant = variant.replace("]", "")
@@ -73,9 +73,9 @@ for index, row in data.iterrows():
     for x in variant_split:
         lines.append("ogham:OW" + str(row['id']) + " " + "skos:altLabel" + " " + "'" + x + "'@en" + ".")
         lines.append("ogham:OW" + str(row['id']) + " " + "skos:altLabel" + " " + "'" + x + "'@goide" + ".")
-    lines.append("ogham:OW" + str(row['id']) + " " + "ogham:reference" + " " + "'" + str(row['reference']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
-    lines.append("ogham:OW" + str(row['id']) + " " + "ogham:context" + " " + "'" + str(row['context']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
-    lines.append("ogham:OW" + str(row['id']) + " " + "ogham:exactMatch" + " wd:" + str(row['wikidata_id']) + " .")  # o3d
+    lines.append("ogham:OW" + str(row['id']) + " " + "oghamonto:reference" + " " + "'" + str(row['reference']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
+    lines.append("ogham:OW" + str(row['id']) + " " + "oghamonto:context" + " " + "'" + str(row['context']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
+    lines.append("ogham:OW" + str(row['id']) + " " + "oghamonto:exactMatch" + " wd:" + str(row['wikidata_id']) + " .")  # o3d
     # license
     lines.append("ogham:OW" + str(row['id']) + " " + "dct:license" + " <" + "https://creativecommons.org/licenses/by/4.0/deed.de" + "> .")
     lines.append("ogham:OW" + str(row['id']) + " " + "dct:creator" + " <" + "https://orcid.org/0000-0002-3246-3531" + "> .")
