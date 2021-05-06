@@ -1,0 +1,2878 @@
+# create triples from og_words.csv 
+# on 2021-05-06 17:43
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix oghamonto: <http://ontology.ogham.link/> .
+@prefix ogham: <http://lod.ogham.link/data/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+ogham:OP1 rdf:type oghamonto:Word .
+ogham:OP1 rdf:type skos:Concept .
+ogham:OP1 rdf:type oghamonto:FormulaWord .
+ogham:OP1 rdfs:label 'ANM'@en.
+ogham:OP1 rdfs:label 'ANM'@goide.
+ogham:OP1 skos:prefLabel 'ANM'@en.
+ogham:OP1 skos:prefLabel 'ANM'@goide.
+ogham:OP1 ogham:translation 'name'@en.
+ogham:OP1 skos:altLabel 'ANM'@en.
+ogham:OP1 skos:altLabel 'ANM'@goide.
+ogham:OP1 ogham:reference 'McManus 1991,§6.27'@en.
+ogham:OP1 ogham:context '{{ANM [P]},{ANM [P] MAQI [P]}}'@en.
+ogham:OP1 ogham:exactMatch wd:Q68000035 .
+ogham:OP1 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP1 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP1 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP1 dct:rightsHolder wd:Q70310399 .
+ogham:OP1 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP1 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP1 prov:wasGeneratedBy ogham:OP1_activity .
+ogham:OP1_activity rdf:type prov:Activity .
+ogham:OP1_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP1_activity prov:endedAtTime '2021-05-06T17:43:16.746456Z'^^xsd:dateTime .
+ogham:OP1_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP2 rdf:type oghamonto:Word .
+ogham:OP2 rdf:type skos:Concept .
+ogham:OP2 rdf:type oghamonto:FormulaWord .
+ogham:OP2 rdfs:label 'AVI'@en.
+ogham:OP2 rdfs:label 'AVI'@goide.
+ogham:OP2 skos:prefLabel 'AVI'@en.
+ogham:OP2 skos:prefLabel 'AVI'@goide.
+ogham:OP2 ogham:translation 'grandson, descendant'@en.
+ogham:OP2 skos:altLabel 'AVI'@en.
+ogham:OP2 skos:altLabel 'AVI'@goide.
+ogham:OP2 ogham:reference 'McManus 1991,§6.27'@en.
+ogham:OP2 ogham:context '{{AVI [P]},{[P] AVI [P]},{[P] MAQI [P] AVI [P]}}'@en.
+ogham:OP2 ogham:exactMatch wd:Q68000199 .
+ogham:OP2 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP2 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP2 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP2 dct:rightsHolder wd:Q70310399 .
+ogham:OP2 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP2 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP2 prov:wasGeneratedBy ogham:OP2_activity .
+ogham:OP2_activity rdf:type prov:Activity .
+ogham:OP2_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP2_activity prov:endedAtTime '2021-05-06T17:43:16.747454Z'^^xsd:dateTime .
+ogham:OP2_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP3 rdf:type oghamonto:Word .
+ogham:OP3 rdf:type skos:Concept .
+ogham:OP3 rdf:type oghamonto:FormulaWord .
+ogham:OP3 rdfs:label 'CELI'@en.
+ogham:OP3 rdfs:label 'CELI'@goide.
+ogham:OP3 skos:prefLabel 'CELI'@en.
+ogham:OP3 skos:prefLabel 'CELI'@goide.
+ogham:OP3 ogham:translation 'companions, client, fellow'@en.
+ogham:OP3 skos:altLabel 'CELI'@en.
+ogham:OP3 skos:altLabel 'CELI'@goide.
+ogham:OP3 ogham:reference 'McManus 1991,§6.27'@en.
+ogham:OP3 ogham:context '{{CELI [P]},{[P] CELI [P]}}'@en.
+ogham:OP3 ogham:exactMatch wd:Q68000377 .
+ogham:OP3 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP3 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP3 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP3 dct:rightsHolder wd:Q70310399 .
+ogham:OP3 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP3 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP3 prov:wasGeneratedBy ogham:OP3_activity .
+ogham:OP3_activity rdf:type prov:Activity .
+ogham:OP3_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP3_activity prov:endedAtTime '2021-05-06T17:43:16.749455Z'^^xsd:dateTime .
+ogham:OP3_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP4 rdf:type oghamonto:Word .
+ogham:OP4 rdf:type skos:Concept .
+ogham:OP4 rdf:type oghamonto:FormulaWord .
+ogham:OP4 rdfs:label 'INIGENA'@en.
+ogham:OP4 rdfs:label 'INIGENA'@goide.
+ogham:OP4 skos:prefLabel 'INIGENA'@en.
+ogham:OP4 skos:prefLabel 'INIGENA'@goide.
+ogham:OP4 ogham:translation 'daughter'@en.
+ogham:OP4 skos:altLabel 'INIGENA'@en.
+ogham:OP4 skos:altLabel 'INIGENA'@goide.
+ogham:OP4 skos:altLabel 'INGENVI'@en.
+ogham:OP4 skos:altLabel 'INGENVI'@goide.
+ogham:OP4 ogham:reference 'McManus 1991,§6.27'@en.
+ogham:OP4 ogham:context '{{INIGENA [P]}}'@en.
+ogham:OP4 ogham:exactMatch wd:Q106703620  .
+ogham:OP4 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP4 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP4 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP4 dct:rightsHolder wd:Q70310399 .
+ogham:OP4 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP4 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP4 prov:wasGeneratedBy ogham:OP4_activity .
+ogham:OP4_activity rdf:type prov:Activity .
+ogham:OP4_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP4_activity prov:endedAtTime '2021-05-06T17:43:16.750443Z'^^xsd:dateTime .
+ogham:OP4_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP5 rdf:type oghamonto:Word .
+ogham:OP5 rdf:type skos:Concept .
+ogham:OP5 rdf:type oghamonto:FormulaWord .
+ogham:OP5 rdfs:label 'KOI'@en.
+ogham:OP5 rdfs:label 'KOI'@goide.
+ogham:OP5 skos:prefLabel 'KOI'@en.
+ogham:OP5 skos:prefLabel 'KOI'@goide.
+ogham:OP5 ogham:translation 'here'@en.
+ogham:OP5 skos:altLabel 'KOI'@en.
+ogham:OP5 skos:altLabel 'KOI'@goide.
+ogham:OP5 ogham:reference 'McManus 1991,§6.27'@en.
+ogham:OP5 ogham:context '{{[P] KOI MAQI MUCOI [P]},{KOI [P]}}'@en.
+ogham:OP5 ogham:exactMatch wd:Q68000462 .
+ogham:OP5 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP5 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP5 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP5 dct:rightsHolder wd:Q70310399 .
+ogham:OP5 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP5 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP5 prov:wasGeneratedBy ogham:OP5_activity .
+ogham:OP5_activity rdf:type prov:Activity .
+ogham:OP5_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP5_activity prov:endedAtTime '2021-05-06T17:43:16.751441Z'^^xsd:dateTime .
+ogham:OP5_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP6 rdf:type oghamonto:Word .
+ogham:OP6 rdf:type skos:Concept .
+ogham:OP6 rdf:type oghamonto:FormulaWord .
+ogham:OP6 rdfs:label 'MAQI'@en.
+ogham:OP6 rdfs:label 'MAQI'@goide.
+ogham:OP6 skos:prefLabel 'MAQI'@en.
+ogham:OP6 skos:prefLabel 'MAQI'@goide.
+ogham:OP6 ogham:translation 'son'@en.
+ogham:OP6 skos:altLabel 'MAQI'@en.
+ogham:OP6 skos:altLabel 'MAQI'@goide.
+ogham:OP6 skos:altLabel 'MAQQI'@en.
+ogham:OP6 skos:altLabel 'MAQQI'@goide.
+ogham:OP6 skos:altLabel 'MAQ'@en.
+ogham:OP6 skos:altLabel 'MAQ'@goide.
+ogham:OP6 skos:altLabel 'MAC'@en.
+ogham:OP6 skos:altLabel 'MAC'@goide.
+ogham:OP6 skos:altLabel 'MACI'@en.
+ogham:OP6 skos:altLabel 'MACI'@goide.
+ogham:OP6 skos:altLabel 'MACCI'@en.
+ogham:OP6 skos:altLabel 'MACCI'@goide.
+ogham:OP6 skos:altLabel 'MACV'@en.
+ogham:OP6 skos:altLabel 'MACV'@goide.
+ogham:OP6 ogham:reference 'McManus 1991,§6.27'@en.
+ogham:OP6 ogham:context '{{[P] MAQI [P]},{[P] MAQI MUCOI [P]},{[P] MAQI [P] MUCOI [P]},{[P] KOI MAQI MUCOI [P]},{[P] MAQI [P] MAQI MUCOI [P]},{ANM [P] MAQI [P]},{[P] MAQI [P] AVI [P]}}'@en.
+ogham:OP6 ogham:exactMatch wd:Q67381254 .
+ogham:OP6 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP6 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP6 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP6 dct:rightsHolder wd:Q70310399 .
+ogham:OP6 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP6 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP6 prov:wasGeneratedBy ogham:OP6_activity .
+ogham:OP6_activity rdf:type prov:Activity .
+ogham:OP6_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP6_activity prov:endedAtTime '2021-05-06T17:43:16.751441Z'^^xsd:dateTime .
+ogham:OP6_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP7 rdf:type oghamonto:Word .
+ogham:OP7 rdf:type skos:Concept .
+ogham:OP7 rdf:type oghamonto:FormulaWord .
+ogham:OP7 rdfs:label 'MEMOR'@en.
+ogham:OP7 rdfs:label 'MEMOR'@goide.
+ogham:OP7 skos:prefLabel 'MEMOR'@en.
+ogham:OP7 skos:prefLabel 'MEMOR'@goide.
+ogham:OP7 ogham:translation 'memorial, tombstone'@en.
+ogham:OP7 skos:altLabel 'MEMOR'@en.
+ogham:OP7 skos:altLabel 'MEMOR'@goide.
+ogham:OP7 ogham:reference 'McManus 1991,§6.27'@en.
+ogham:OP7 ogham:context '{String}'@en.
+ogham:OP7 ogham:exactMatch wd:Q106703621  .
+ogham:OP7 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP7 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP7 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP7 dct:rightsHolder wd:Q70310399 .
+ogham:OP7 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP7 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP7 prov:wasGeneratedBy ogham:OP7_activity .
+ogham:OP7_activity rdf:type prov:Activity .
+ogham:OP7_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP7_activity prov:endedAtTime '2021-05-06T17:43:16.752437Z'^^xsd:dateTime .
+ogham:OP7_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP8 rdf:type oghamonto:Word .
+ogham:OP8 rdf:type skos:Concept .
+ogham:OP8 rdf:type oghamonto:FormulaWord .
+ogham:OP8 rdfs:label 'MUCOI'@en.
+ogham:OP8 rdfs:label 'MUCOI'@goide.
+ogham:OP8 skos:prefLabel 'MUCOI'@en.
+ogham:OP8 skos:prefLabel 'MUCOI'@goide.
+ogham:OP8 ogham:translation 'túath, tribe'@en.
+ogham:OP8 skos:altLabel 'MUCOI'@en.
+ogham:OP8 skos:altLabel 'MUCOI'@goide.
+ogham:OP8 skos:altLabel 'MOCU'@en.
+ogham:OP8 skos:altLabel 'MOCU'@goide.
+ogham:OP8 skos:altLabel 'MACCU'@en.
+ogham:OP8 skos:altLabel 'MACCU'@goide.
+ogham:OP8 skos:altLabel 'MOCOI'@en.
+ogham:OP8 skos:altLabel 'MOCOI'@goide.
+ogham:OP8 skos:altLabel 'MOCO'@en.
+ogham:OP8 skos:altLabel 'MOCO'@goide.
+ogham:OP8 ogham:reference 'McManus 1991,§6.27'@en.
+ogham:OP8 ogham:context '{{MUCOI [P]},{[P] MAQI MUCOI [P]},{[P] MAQI [P] MUCOI [P]},{[P] KOI MAQI MUCOI [P]},{[P] MUCOI [P]},{[P] MAQI [P] MAQI MUCOI [P]}}'@en.
+ogham:OP8 ogham:exactMatch wd:Q67999759 .
+ogham:OP8 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP8 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP8 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP8 dct:rightsHolder wd:Q70310399 .
+ogham:OP8 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP8 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP8 prov:wasGeneratedBy ogham:OP8_activity .
+ogham:OP8_activity rdf:type prov:Activity .
+ogham:OP8_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP8_activity prov:endedAtTime '2021-05-06T17:43:16.753435Z'^^xsd:dateTime .
+ogham:OP8_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP9 rdf:type oghamonto:Word .
+ogham:OP9 rdf:type skos:Concept .
+ogham:OP9 rdf:type oghamonto:FormulaWord .
+ogham:OP9 rdfs:label 'NIOTA'@en.
+ogham:OP9 rdfs:label 'NIOTA'@goide.
+ogham:OP9 skos:prefLabel 'NIOTA'@en.
+ogham:OP9 skos:prefLabel 'NIOTA'@goide.
+ogham:OP9 ogham:translation 'nephew, sister`s son'@en.
+ogham:OP9 skos:altLabel 'NIOTA'@en.
+ogham:OP9 skos:altLabel 'NIOTA'@goide.
+ogham:OP9 skos:altLabel 'NETTA'@en.
+ogham:OP9 skos:altLabel 'NETTA'@goide.
+ogham:OP9 skos:altLabel 'NETA'@en.
+ogham:OP9 skos:altLabel 'NETA'@goide.
+ogham:OP9 ogham:reference 'McManus 1991,§6.27'@en.
+ogham:OP9 ogham:context '{{NIOTA [P]}}'@en.
+ogham:OP9 ogham:exactMatch wd:Q106703622  .
+ogham:OP9 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP9 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP9 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP9 dct:rightsHolder wd:Q70310399 .
+ogham:OP9 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP9 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP9 prov:wasGeneratedBy ogham:OP9_activity .
+ogham:OP9_activity rdf:type prov:Activity .
+ogham:OP9_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP9_activity prov:endedAtTime '2021-05-06T17:43:16.753435Z'^^xsd:dateTime .
+ogham:OP9_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP10 rdf:type oghamonto:Word .
+ogham:OP10 rdf:type skos:Concept .
+ogham:OP10 rdf:type oghamonto:NomenclatureWord .
+ogham:OP10 rdfs:label 'CUNA'@en.
+ogham:OP10 rdfs:label 'CUNA'@goide.
+ogham:OP10 skos:prefLabel 'CUNA'@en.
+ogham:OP10 skos:prefLabel 'CUNA'@goide.
+ogham:OP10 ogham:translation 'dog, hound'@en.
+ogham:OP10 skos:altLabel 'CUNA'@en.
+ogham:OP10 skos:altLabel 'CUNA'@goide.
+ogham:OP10 skos:altLabel 'CUNO'@en.
+ogham:OP10 skos:altLabel 'CUNO'@goide.
+ogham:OP10 skos:altLabel 'CONU'@en.
+ogham:OP10 skos:altLabel 'CONU'@goide.
+ogham:OP10 skos:altLabel 'CVNO'@en.
+ogham:OP10 skos:altLabel 'CVNO'@goide.
+ogham:OP10 skos:altLabel 'CUNAS'@en.
+ogham:OP10 skos:altLabel 'CUNAS'@goide.
+ogham:OP10 skos:altLabel 'CONAS'@en.
+ogham:OP10 skos:altLabel 'CONAS'@goide.
+ogham:OP10 skos:altLabel 'CONA'@en.
+ogham:OP10 skos:altLabel 'CONA'@goide.
+ogham:OP10 skos:altLabel 'CON'@en.
+ogham:OP10 skos:altLabel 'CON'@goide.
+ogham:OP10 skos:altLabel 'CVNI'@en.
+ogham:OP10 skos:altLabel 'CVNI'@goide.
+ogham:OP10 ogham:reference 'McManus 1991,§6.3'@en.
+ogham:OP10 ogham:context '{subString}'@en.
+ogham:OP10 ogham:exactMatch wd:Q67382235 .
+ogham:OP10 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP10 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP10 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP10 dct:rightsHolder wd:Q70310399 .
+ogham:OP10 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP10 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP10 prov:wasGeneratedBy ogham:OP10_activity .
+ogham:OP10_activity rdf:type prov:Activity .
+ogham:OP10_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP10_activity prov:endedAtTime '2021-05-06T17:43:16.754440Z'^^xsd:dateTime .
+ogham:OP10_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP11 rdf:type oghamonto:Word .
+ogham:OP11 rdf:type skos:Concept .
+ogham:OP11 rdf:type oghamonto:NomenclatureWord .
+ogham:OP11 rdfs:label 'CATTU'@en.
+ogham:OP11 rdfs:label 'CATTU'@goide.
+ogham:OP11 skos:prefLabel 'CATTU'@en.
+ogham:OP11 skos:prefLabel 'CATTU'@goide.
+ogham:OP11 ogham:translation 'battle'@en.
+ogham:OP11 skos:altLabel 'CATTU'@en.
+ogham:OP11 skos:altLabel 'CATTU'@goide.
+ogham:OP11 skos:altLabel 'CATU'@en.
+ogham:OP11 skos:altLabel 'CATU'@goide.
+ogham:OP11 skos:altLabel 'CATA'@en.
+ogham:OP11 skos:altLabel 'CATA'@goide.
+ogham:OP11 skos:altLabel 'CAT'@en.
+ogham:OP11 skos:altLabel 'CAT'@goide.
+ogham:OP11 skos:altLabel 'CATTOS'@en.
+ogham:OP11 skos:altLabel 'CATTOS'@goide.
+ogham:OP11 skos:altLabel 'CATOS'@en.
+ogham:OP11 skos:altLabel 'CATOS'@goide.
+ogham:OP11 skos:altLabel 'CCATTO'@en.
+ogham:OP11 skos:altLabel 'CCATTO'@goide.
+ogham:OP11 skos:altLabel 'CATTO'@en.
+ogham:OP11 skos:altLabel 'CATTO'@goide.
+ogham:OP11 skos:altLabel 'CCATO'@en.
+ogham:OP11 skos:altLabel 'CCATO'@goide.
+ogham:OP11 skos:altLabel 'CATI'@en.
+ogham:OP11 skos:altLabel 'CATI'@goide.
+ogham:OP11 ogham:reference 'McManus 1991,§6.3'@en.
+ogham:OP11 ogham:context '{subString}'@en.
+ogham:OP11 ogham:exactMatch wd:Q67383338 .
+ogham:OP11 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP11 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP11 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP11 dct:rightsHolder wd:Q70310399 .
+ogham:OP11 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP11 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP11 prov:wasGeneratedBy ogham:OP11_activity .
+ogham:OP11_activity rdf:type prov:Activity .
+ogham:OP11_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP11_activity prov:endedAtTime '2021-05-06T17:43:16.755430Z'^^xsd:dateTime .
+ogham:OP11_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP12 rdf:type oghamonto:Word .
+ogham:OP12 rdf:type skos:Concept .
+ogham:OP12 rdf:type oghamonto:NomenclatureWord .
+ogham:OP12 rdfs:label 'BARR'@en.
+ogham:OP12 rdfs:label 'BARR'@goide.
+ogham:OP12 skos:prefLabel 'BARR'@en.
+ogham:OP12 skos:prefLabel 'BARR'@goide.
+ogham:OP12 ogham:translation 'top, head, hear of the head'@en.
+ogham:OP12 skos:altLabel 'BARR'@en.
+ogham:OP12 skos:altLabel 'BARR'@goide.
+ogham:OP12 skos:altLabel 'BAR'@en.
+ogham:OP12 skos:altLabel 'BAR'@goide.
+ogham:OP12 ogham:reference 'McManus 1991,§6.4'@en.
+ogham:OP12 ogham:context '{subString}'@en.
+ogham:OP12 ogham:exactMatch wd:Q106703624  .
+ogham:OP12 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP12 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP12 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP12 dct:rightsHolder wd:Q70310399 .
+ogham:OP12 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP12 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP12 prov:wasGeneratedBy ogham:OP12_activity .
+ogham:OP12_activity rdf:type prov:Activity .
+ogham:OP12_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP12_activity prov:endedAtTime '2021-05-06T17:43:16.755430Z'^^xsd:dateTime .
+ogham:OP12_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP13 rdf:type oghamonto:Word .
+ogham:OP13 rdf:type skos:Concept .
+ogham:OP13 rdf:type oghamonto:NomenclatureWord .
+ogham:OP13 rdfs:label 'DOV'@en.
+ogham:OP13 rdfs:label 'DOV'@goide.
+ogham:OP13 skos:prefLabel 'DOV'@en.
+ogham:OP13 skos:prefLabel 'DOV'@goide.
+ogham:OP13 ogham:translation 'black'@en.
+ogham:OP13 skos:altLabel 'DOV'@en.
+ogham:OP13 skos:altLabel 'DOV'@goide.
+ogham:OP13 ogham:reference 'McManus 1991,§6.4'@en.
+ogham:OP13 ogham:context '{subString}'@en.
+ogham:OP13 ogham:exactMatch wd:Q106703625  .
+ogham:OP13 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP13 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP13 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP13 dct:rightsHolder wd:Q70310399 .
+ogham:OP13 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP13 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP13 prov:wasGeneratedBy ogham:OP13_activity .
+ogham:OP13_activity rdf:type prov:Activity .
+ogham:OP13_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP13_activity prov:endedAtTime '2021-05-06T17:43:16.755430Z'^^xsd:dateTime .
+ogham:OP13_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP14 rdf:type oghamonto:Word .
+ogham:OP14 rdf:type skos:Concept .
+ogham:OP14 rdf:type oghamonto:NomenclatureWord .
+ogham:OP14 rdfs:label 'GLAS'@en.
+ogham:OP14 rdfs:label 'GLAS'@goide.
+ogham:OP14 skos:prefLabel 'GLAS'@en.
+ogham:OP14 skos:prefLabel 'GLAS'@goide.
+ogham:OP14 ogham:translation 'light green'@en.
+ogham:OP14 skos:altLabel 'GLAS'@en.
+ogham:OP14 skos:altLabel 'GLAS'@goide.
+ogham:OP14 ogham:reference 'McManus 1991,§6.4'@en.
+ogham:OP14 ogham:context '{subString}'@en.
+ogham:OP14 ogham:exactMatch wd:Q106703626  .
+ogham:OP14 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP14 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP14 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP14 dct:rightsHolder wd:Q70310399 .
+ogham:OP14 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP14 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP14 prov:wasGeneratedBy ogham:OP14_activity .
+ogham:OP14_activity rdf:type prov:Activity .
+ogham:OP14_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP14_activity prov:endedAtTime '2021-05-06T17:43:16.756426Z'^^xsd:dateTime .
+ogham:OP14_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP15 rdf:type oghamonto:Word .
+ogham:OP15 rdf:type skos:Concept .
+ogham:OP15 rdf:type oghamonto:NomenclatureWord .
+ogham:OP15 rdfs:label 'MAGL'@en.
+ogham:OP15 rdfs:label 'MAGL'@goide.
+ogham:OP15 skos:prefLabel 'MAGL'@en.
+ogham:OP15 skos:prefLabel 'MAGL'@goide.
+ogham:OP15 ogham:translation 'prince'@en.
+ogham:OP15 skos:altLabel 'MAGL'@en.
+ogham:OP15 skos:altLabel 'MAGL'@goide.
+ogham:OP15 skos:altLabel 'MAGLI'@en.
+ogham:OP15 skos:altLabel 'MAGLI'@goide.
+ogham:OP15 ogham:reference 'McManus 1991,§6.4'@en.
+ogham:OP15 ogham:context '{subString}'@en.
+ogham:OP15 ogham:exactMatch wd:Q106703628  .
+ogham:OP15 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP15 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP15 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP15 dct:rightsHolder wd:Q70310399 .
+ogham:OP15 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP15 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP15 prov:wasGeneratedBy ogham:OP15_activity .
+ogham:OP15_activity rdf:type prov:Activity .
+ogham:OP15_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP15_activity prov:endedAtTime '2021-05-06T17:43:16.756426Z'^^xsd:dateTime .
+ogham:OP15_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP16 rdf:type oghamonto:Word .
+ogham:OP16 rdf:type skos:Concept .
+ogham:OP16 rdf:type oghamonto:NomenclatureWord .
+ogham:OP16 rdfs:label 'VIR'@en.
+ogham:OP16 rdfs:label 'VIR'@goide.
+ogham:OP16 skos:prefLabel 'VIR'@en.
+ogham:OP16 skos:prefLabel 'VIR'@goide.
+ogham:OP16 ogham:translation 'man'@en.
+ogham:OP16 skos:altLabel 'VIR'@en.
+ogham:OP16 skos:altLabel 'VIR'@goide.
+ogham:OP16 skos:altLabel 'VER'@en.
+ogham:OP16 skos:altLabel 'VER'@goide.
+ogham:OP16 ogham:reference 'McManus 1991,§6.4'@en.
+ogham:OP16 ogham:context '{subString}'@en.
+ogham:OP16 ogham:exactMatch wd:Q106703629  .
+ogham:OP16 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP16 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP16 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP16 dct:rightsHolder wd:Q70310399 .
+ogham:OP16 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP16 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP16 prov:wasGeneratedBy ogham:OP16_activity .
+ogham:OP16_activity rdf:type prov:Activity .
+ogham:OP16_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP16_activity prov:endedAtTime '2021-05-06T17:43:16.756426Z'^^xsd:dateTime .
+ogham:OP16_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP17 rdf:type oghamonto:Word .
+ogham:OP17 rdf:type skos:Concept .
+ogham:OP17 rdf:type oghamonto:NomenclatureWord .
+ogham:OP17 rdfs:label 'LUG'@en.
+ogham:OP17 rdfs:label 'LUG'@goide.
+ogham:OP17 skos:prefLabel 'LUG'@en.
+ogham:OP17 skos:prefLabel 'LUG'@goide.
+ogham:OP17 ogham:translation 'god'@en.
+ogham:OP17 skos:altLabel 'LUG'@en.
+ogham:OP17 skos:altLabel 'LUG'@goide.
+ogham:OP17 ogham:reference 'McManus 1991,§6.5'@en.
+ogham:OP17 ogham:context '{subString}'@en.
+ogham:OP17 ogham:exactMatch wd:Q67383482 .
+ogham:OP17 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP17 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP17 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP17 dct:rightsHolder wd:Q70310399 .
+ogham:OP17 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP17 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP17 prov:wasGeneratedBy ogham:OP17_activity .
+ogham:OP17_activity rdf:type prov:Activity .
+ogham:OP17_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP17_activity prov:endedAtTime '2021-05-06T17:43:16.756426Z'^^xsd:dateTime .
+ogham:OP17_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP18 rdf:type oghamonto:Word .
+ogham:OP18 rdf:type skos:Concept .
+ogham:OP18 rdf:type oghamonto:NomenclatureWord .
+ogham:OP18 rdfs:label 'ERC'@en.
+ogham:OP18 rdfs:label 'ERC'@goide.
+ogham:OP18 skos:prefLabel 'ERC'@en.
+ogham:OP18 skos:prefLabel 'ERC'@goide.
+ogham:OP18 ogham:translation 'god'@en.
+ogham:OP18 skos:altLabel 'ERC'@en.
+ogham:OP18 skos:altLabel 'ERC'@goide.
+ogham:OP18 skos:altLabel 'ERCA'@en.
+ogham:OP18 skos:altLabel 'ERCA'@goide.
+ogham:OP18 ogham:reference 'McManus 1991,§6.5'@en.
+ogham:OP18 ogham:context '{subString}'@en.
+ogham:OP18 ogham:exactMatch wd:Q67382360 .
+ogham:OP18 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP18 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP18 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP18 dct:rightsHolder wd:Q70310399 .
+ogham:OP18 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP18 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP18 prov:wasGeneratedBy ogham:OP18_activity .
+ogham:OP18_activity rdf:type prov:Activity .
+ogham:OP18_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP18_activity prov:endedAtTime '2021-05-06T17:43:16.757424Z'^^xsd:dateTime .
+ogham:OP18_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP19 rdf:type oghamonto:Word .
+ogham:OP19 rdf:type skos:Concept .
+ogham:OP19 rdf:type oghamonto:NomenclatureWord .
+ogham:OP19 rdfs:label 'RITTA'@en.
+ogham:OP19 rdfs:label 'RITTA'@goide.
+ogham:OP19 skos:prefLabel 'RITTA'@en.
+ogham:OP19 skos:prefLabel 'RITTA'@goide.
+ogham:OP19 ogham:translation 'god'@en.
+ogham:OP19 skos:altLabel 'RITTA'@en.
+ogham:OP19 skos:altLabel 'RITTA'@goide.
+ogham:OP19 skos:altLabel 'RETA'@en.
+ogham:OP19 skos:altLabel 'RETA'@goide.
+ogham:OP19 skos:altLabel 'RITTE'@en.
+ogham:OP19 skos:altLabel 'RITTE'@goide.
+ogham:OP19 ogham:reference 'McManus 1991,§6.5'@en.
+ogham:OP19 ogham:context '{subString}'@en.
+ogham:OP19 ogham:exactMatch wd:Q106703630  .
+ogham:OP19 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP19 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP19 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP19 dct:rightsHolder wd:Q70310399 .
+ogham:OP19 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP19 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP19 prov:wasGeneratedBy ogham:OP19_activity .
+ogham:OP19_activity rdf:type prov:Activity .
+ogham:OP19_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP19_activity prov:endedAtTime '2021-05-06T17:43:16.757424Z'^^xsd:dateTime .
+ogham:OP19_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP20 rdf:type oghamonto:Word .
+ogham:OP20 rdf:type skos:Concept .
+ogham:OP20 rdf:type oghamonto:NomenclatureWord .
+ogham:OP20 rdfs:label 'BRAN'@en.
+ogham:OP20 rdfs:label 'BRAN'@goide.
+ogham:OP20 skos:prefLabel 'BRAN'@en.
+ogham:OP20 skos:prefLabel 'BRAN'@goide.
+ogham:OP20 ogham:translation 'raven'@en.
+ogham:OP20 skos:altLabel 'BRAN'@en.
+ogham:OP20 skos:altLabel 'BRAN'@goide.
+ogham:OP20 ogham:reference 'McManus 1991,§6.6'@en.
+ogham:OP20 ogham:context '{subString}'@en.
+ogham:OP20 ogham:exactMatch wd:Q106703632  .
+ogham:OP20 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP20 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP20 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP20 dct:rightsHolder wd:Q70310399 .
+ogham:OP20 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP20 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP20 prov:wasGeneratedBy ogham:OP20_activity .
+ogham:OP20_activity rdf:type prov:Activity .
+ogham:OP20_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP20_activity prov:endedAtTime '2021-05-06T17:43:16.757424Z'^^xsd:dateTime .
+ogham:OP20_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP21 rdf:type oghamonto:Word .
+ogham:OP21 rdf:type skos:Concept .
+ogham:OP21 rdf:type oghamonto:NomenclatureWord .
+ogham:OP21 rdfs:label 'QENN'@en.
+ogham:OP21 rdfs:label 'QENN'@goide.
+ogham:OP21 skos:prefLabel 'QENN'@en.
+ogham:OP21 skos:prefLabel 'QENN'@goide.
+ogham:OP21 ogham:translation 'head'@en.
+ogham:OP21 skos:altLabel 'QENN'@en.
+ogham:OP21 skos:altLabel 'QENN'@goide.
+ogham:OP21 skos:altLabel 'QVEN'@en.
+ogham:OP21 skos:altLabel 'QVEN'@goide.
+ogham:OP21 skos:altLabel 'QEN'@en.
+ogham:OP21 skos:altLabel 'QEN'@goide.
+ogham:OP21 skos:altLabel 'QENI'@en.
+ogham:OP21 skos:altLabel 'QENI'@goide.
+ogham:OP21 ogham:reference 'McManus 1991,§6.6'@en.
+ogham:OP21 ogham:context '{subString}'@en.
+ogham:OP21 ogham:exactMatch wd:Q106703633  .
+ogham:OP21 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP21 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP21 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP21 dct:rightsHolder wd:Q70310399 .
+ogham:OP21 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP21 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP21 prov:wasGeneratedBy ogham:OP21_activity .
+ogham:OP21_activity rdf:type prov:Activity .
+ogham:OP21_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP21_activity prov:endedAtTime '2021-05-06T17:43:16.758421Z'^^xsd:dateTime .
+ogham:OP21_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP22 rdf:type oghamonto:Word .
+ogham:OP22 rdf:type skos:Concept .
+ogham:OP22 rdf:type oghamonto:NomenclatureWord .
+ogham:OP22 rdfs:label 'IVA'@en.
+ogham:OP22 rdfs:label 'IVA'@goide.
+ogham:OP22 skos:prefLabel 'IVA'@en.
+ogham:OP22 skos:prefLabel 'IVA'@goide.
+ogham:OP22 ogham:translation 'tree, yew tree'@en.
+ogham:OP22 skos:altLabel 'IVA'@en.
+ogham:OP22 skos:altLabel 'IVA'@goide.
+ogham:OP22 skos:altLabel 'IVO'@en.
+ogham:OP22 skos:altLabel 'IVO'@goide.
+ogham:OP22 ogham:reference 'McManus 1991,§6.6'@en.
+ogham:OP22 ogham:context '{subString}'@en.
+ogham:OP22 ogham:exactMatch wd:Q106703635  .
+ogham:OP22 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP22 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP22 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP22 dct:rightsHolder wd:Q70310399 .
+ogham:OP22 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP22 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP22 prov:wasGeneratedBy ogham:OP22_activity .
+ogham:OP22_activity rdf:type prov:Activity .
+ogham:OP22_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP22_activity prov:endedAtTime '2021-05-06T17:43:16.758421Z'^^xsd:dateTime .
+ogham:OP22_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP23 rdf:type oghamonto:Word .
+ogham:OP23 rdf:type skos:Concept .
+ogham:OP23 rdf:type oghamonto:NomenclatureWord .
+ogham:OP23 rdfs:label 'TREN'@en.
+ogham:OP23 rdfs:label 'TREN'@goide.
+ogham:OP23 skos:prefLabel 'TREN'@en.
+ogham:OP23 skos:prefLabel 'TREN'@goide.
+ogham:OP23 ogham:translation 'strong'@en.
+ogham:OP23 skos:altLabel 'TREN'@en.
+ogham:OP23 skos:altLabel 'TREN'@goide.
+ogham:OP23 skos:altLabel 'TTREN'@en.
+ogham:OP23 skos:altLabel 'TTREN'@goide.
+ogham:OP23 ogham:reference 'McManus 1991,§6.6'@en.
+ogham:OP23 ogham:context '{subString}'@en.
+ogham:OP23 ogham:exactMatch wd:Q106703636  .
+ogham:OP23 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP23 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP23 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP23 dct:rightsHolder wd:Q70310399 .
+ogham:OP23 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP23 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP23 prov:wasGeneratedBy ogham:OP23_activity .
+ogham:OP23_activity rdf:type prov:Activity .
+ogham:OP23_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP23_activity prov:endedAtTime '2021-05-06T17:43:16.759419Z'^^xsd:dateTime .
+ogham:OP23_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP24 rdf:type oghamonto:Word .
+ogham:OP24 rdf:type skos:Concept .
+ogham:OP24 rdfs:label 'DOVALESCI'@en.
+ogham:OP24 rdfs:label 'DOVALESCI'@goide.
+ogham:OP24 skos:prefLabel 'DOVALESCI'@en.
+ogham:OP24 skos:prefLabel 'DOVALESCI'@goide.
+ogham:OP24 ogham:translation '(he who is) black and sliggish'@en.
+ogham:OP24 skos:altLabel 'DOVALESCI'@en.
+ogham:OP24 skos:altLabel 'DOVALESCI'@goide.
+ogham:OP24 ogham:reference 'McManus 1991,§6.10'@en.
+ogham:OP24 ogham:context '{string}'@en.
+ogham:OP24 ogham:exactMatch wd:Q106703638 .
+ogham:OP24 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP24 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP24 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP24 dct:rightsHolder wd:Q70310399 .
+ogham:OP24 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP24 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP24 prov:wasGeneratedBy ogham:OP24_activity .
+ogham:OP24_activity rdf:type prov:Activity .
+ogham:OP24_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP24_activity prov:endedAtTime '2021-05-06T17:43:16.759419Z'^^xsd:dateTime .
+ogham:OP24_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP25 rdf:type oghamonto:Word .
+ogham:OP25 rdf:type skos:Concept .
+ogham:OP25 rdfs:label 'GATTEGLAN'@en.
+ogham:OP25 rdfs:label 'GATTEGLAN'@goide.
+ogham:OP25 skos:prefLabel 'GATTEGLAN'@en.
+ogham:OP25 skos:prefLabel 'GATTEGLAN'@goide.
+ogham:OP25 ogham:translation '(he who is) wise and pure'@en.
+ogham:OP25 skos:altLabel 'GATTEGLAN'@en.
+ogham:OP25 skos:altLabel 'GATTEGLAN'@goide.
+ogham:OP25 ogham:reference 'McManus 1991,§6.10'@en.
+ogham:OP25 ogham:context '{string}'@en.
+ogham:OP25 ogham:exactMatch wd:Q106703639  .
+ogham:OP25 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP25 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP25 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP25 dct:rightsHolder wd:Q70310399 .
+ogham:OP25 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP25 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP25 prov:wasGeneratedBy ogham:OP25_activity .
+ogham:OP25_activity rdf:type prov:Activity .
+ogham:OP25_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP25_activity prov:endedAtTime '2021-05-06T17:43:16.760420Z'^^xsd:dateTime .
+ogham:OP25_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP26 rdf:type oghamonto:Word .
+ogham:OP26 rdf:type skos:Concept .
+ogham:OP26 rdfs:label 'DERCMASOC'@en.
+ogham:OP26 rdfs:label 'DERCMASOC'@goide.
+ogham:OP26 skos:prefLabel 'DERCMASOC'@en.
+ogham:OP26 skos:prefLabel 'DERCMASOC'@goide.
+ogham:OP26 ogham:translation '(he who has) an elegant /filthy eye'@en.
+ogham:OP26 skos:altLabel 'DERCMASOC'@en.
+ogham:OP26 skos:altLabel 'DERCMASOC'@goide.
+ogham:OP26 ogham:reference 'McManus 1991,§6.10'@en.
+ogham:OP26 ogham:context '{string}'@en.
+ogham:OP26 ogham:exactMatch wd:Q68001907 .
+ogham:OP26 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP26 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP26 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP26 dct:rightsHolder wd:Q70310399 .
+ogham:OP26 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP26 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP26 prov:wasGeneratedBy ogham:OP26_activity .
+ogham:OP26_activity rdf:type prov:Activity .
+ogham:OP26_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP26_activity prov:endedAtTime '2021-05-06T17:43:16.761415Z'^^xsd:dateTime .
+ogham:OP26_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP27 rdf:type oghamonto:Word .
+ogham:OP27 rdf:type skos:Concept .
+ogham:OP27 rdfs:label 'CUNAMAGLI'@en.
+ogham:OP27 rdfs:label 'CUNAMAGLI'@goide.
+ogham:OP27 skos:prefLabel 'CUNAMAGLI'@en.
+ogham:OP27 skos:prefLabel 'CUNAMAGLI'@goide.
+ogham:OP27 ogham:translation 'prince of wolves'@en.
+ogham:OP27 skos:altLabel 'CUNAMAGLI'@en.
+ogham:OP27 skos:altLabel 'CUNAMAGLI'@goide.
+ogham:OP27 ogham:reference 'McManus 1991,§6.10'@en.
+ogham:OP27 ogham:context '{string}'@en.
+ogham:OP27 ogham:exactMatch wd:Q106703641  .
+ogham:OP27 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP27 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP27 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP27 dct:rightsHolder wd:Q70310399 .
+ogham:OP27 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP27 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP27 prov:wasGeneratedBy ogham:OP27_activity .
+ogham:OP27_activity rdf:type prov:Activity .
+ogham:OP27_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP27_activity prov:endedAtTime '2021-05-06T17:43:16.761415Z'^^xsd:dateTime .
+ogham:OP27_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP28 rdf:type oghamonto:Word .
+ogham:OP28 rdf:type skos:Concept .
+ogham:OP28 rdfs:label 'CUNANETAS'@en.
+ogham:OP28 rdfs:label 'CUNANETAS'@goide.
+ogham:OP28 skos:prefLabel 'CUNANETAS'@en.
+ogham:OP28 skos:prefLabel 'CUNANETAS'@goide.
+ogham:OP28 ogham:translation 'champion of the wolves'@en.
+ogham:OP28 skos:altLabel 'CUNANETAS'@en.
+ogham:OP28 skos:altLabel 'CUNANETAS'@goide.
+ogham:OP28 skos:altLabel 'CUNNETAS'@en.
+ogham:OP28 skos:altLabel 'CUNNETAS'@goide.
+ogham:OP28 ogham:reference 'McManus 1991,§6.10'@en.
+ogham:OP28 ogham:context '{string}'@en.
+ogham:OP28 ogham:exactMatch wd:Q101349712 .
+ogham:OP28 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP28 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP28 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP28 dct:rightsHolder wd:Q70310399 .
+ogham:OP28 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP28 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP28 prov:wasGeneratedBy ogham:OP28_activity .
+ogham:OP28_activity rdf:type prov:Activity .
+ogham:OP28_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP28_activity prov:endedAtTime '2021-05-06T17:43:16.763409Z'^^xsd:dateTime .
+ogham:OP28_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP29 rdf:type oghamonto:Word .
+ogham:OP29 rdf:type skos:Concept .
+ogham:OP29 rdfs:label 'CATABAR'@en.
+ogham:OP29 rdfs:label 'CATABAR'@goide.
+ogham:OP29 skos:prefLabel 'CATABAR'@en.
+ogham:OP29 skos:prefLabel 'CATABAR'@goide.
+ogham:OP29 ogham:translation 'head (`chief`) of battle'@en.
+ogham:OP29 skos:altLabel 'CATABAR'@en.
+ogham:OP29 skos:altLabel 'CATABAR'@goide.
+ogham:OP29 ogham:reference 'McManus 1991,§6.10'@en.
+ogham:OP29 ogham:context '{string}'@en.
+ogham:OP29 ogham:exactMatch wd:Q106703642  .
+ogham:OP29 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP29 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP29 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP29 dct:rightsHolder wd:Q70310399 .
+ogham:OP29 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP29 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP29 prov:wasGeneratedBy ogham:OP29_activity .
+ogham:OP29_activity rdf:type prov:Activity .
+ogham:OP29_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP29_activity prov:endedAtTime '2021-05-06T17:43:16.763409Z'^^xsd:dateTime .
+ogham:OP29_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP30 rdf:type oghamonto:Word .
+ogham:OP30 rdf:type skos:Concept .
+ogham:OP30 rdfs:label 'CATTUVVIRR'@en.
+ogham:OP30 rdfs:label 'CATTUVVIRR'@goide.
+ogham:OP30 skos:prefLabel 'CATTUVVIRR'@en.
+ogham:OP30 skos:prefLabel 'CATTUVVIRR'@goide.
+ogham:OP30 ogham:translation 'man of battle'@en.
+ogham:OP30 skos:altLabel 'CATTUVVIRR'@en.
+ogham:OP30 skos:altLabel 'CATTUVVIRR'@goide.
+ogham:OP30 ogham:reference 'McManus 1991,§6.10'@en.
+ogham:OP30 ogham:context '{string}'@en.
+ogham:OP30 ogham:exactMatch wd:Q106703644  .
+ogham:OP30 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP30 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP30 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP30 dct:rightsHolder wd:Q70310399 .
+ogham:OP30 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP30 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP30 prov:wasGeneratedBy ogham:OP30_activity .
+ogham:OP30_activity rdf:type prov:Activity .
+ogham:OP30_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP30_activity prov:endedAtTime '2021-05-06T17:43:16.764406Z'^^xsd:dateTime .
+ogham:OP30_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP31 rdf:type oghamonto:Word .
+ogham:OP31 rdf:type skos:Concept .
+ogham:OP31 rdfs:label 'CVNORIX'@en.
+ogham:OP31 rdfs:label 'CVNORIX'@goide.
+ogham:OP31 skos:prefLabel 'CVNORIX'@en.
+ogham:OP31 skos:prefLabel 'CVNORIX'@goide.
+ogham:OP31 ogham:translation 'king of wolves'@en.
+ogham:OP31 skos:altLabel 'CVNORIX'@en.
+ogham:OP31 skos:altLabel 'CVNORIX'@goide.
+ogham:OP31 ogham:reference 'McManus 1991,§6.10'@en.
+ogham:OP31 ogham:context '{string}'@en.
+ogham:OP31 ogham:exactMatch wd:Q106703645  .
+ogham:OP31 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP31 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP31 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP31 dct:rightsHolder wd:Q70310399 .
+ogham:OP31 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP31 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP31 prov:wasGeneratedBy ogham:OP31_activity .
+ogham:OP31_activity rdf:type prov:Activity .
+ogham:OP31_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP31_activity prov:endedAtTime '2021-05-06T17:43:16.764406Z'^^xsd:dateTime .
+ogham:OP31_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP32 rdf:type oghamonto:Word .
+ogham:OP32 rdf:type skos:Concept .
+ogham:OP32 rdfs:label 'CUNAGUSSOS'@en.
+ogham:OP32 rdfs:label 'CUNAGUSSOS'@goide.
+ogham:OP32 skos:prefLabel 'CUNAGUSSOS'@en.
+ogham:OP32 skos:prefLabel 'CUNAGUSSOS'@goide.
+ogham:OP32 ogham:translation '(he who has) the strengh of a wolf'@en.
+ogham:OP32 skos:altLabel 'CUNAGUSSOS'@en.
+ogham:OP32 skos:altLabel 'CUNAGUSSOS'@goide.
+ogham:OP32 ogham:reference 'McManus 1991,§6.10'@en.
+ogham:OP32 ogham:context '{string}'@en.
+ogham:OP32 ogham:exactMatch wd:Q106703646  .
+ogham:OP32 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP32 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP32 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP32 dct:rightsHolder wd:Q70310399 .
+ogham:OP32 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP32 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP32 prov:wasGeneratedBy ogham:OP32_activity .
+ogham:OP32_activity rdf:type prov:Activity .
+ogham:OP32_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP32_activity prov:endedAtTime '2021-05-06T17:43:16.765405Z'^^xsd:dateTime .
+ogham:OP32_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP33 rdf:type oghamonto:Word .
+ogham:OP33 rdf:type skos:Concept .
+ogham:OP33 rdfs:label 'VERGOSO'@en.
+ogham:OP33 rdfs:label 'VERGOSO'@goide.
+ogham:OP33 skos:prefLabel 'VERGOSO'@en.
+ogham:OP33 skos:prefLabel 'VERGOSO'@goide.
+ogham:OP33 ogham:translation '(he who has) the strengh of a man'@en.
+ogham:OP33 skos:altLabel 'VERGOSO'@en.
+ogham:OP33 skos:altLabel 'VERGOSO'@goide.
+ogham:OP33 ogham:reference 'McManus 1991,§6.10'@en.
+ogham:OP33 ogham:context '{string}'@en.
+ogham:OP33 ogham:exactMatch wd:Q106703648  .
+ogham:OP33 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP33 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP33 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP33 dct:rightsHolder wd:Q70310399 .
+ogham:OP33 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP33 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP33 prov:wasGeneratedBy ogham:OP33_activity .
+ogham:OP33_activity rdf:type prov:Activity .
+ogham:OP33_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP33_activity prov:endedAtTime '2021-05-06T17:43:16.766401Z'^^xsd:dateTime .
+ogham:OP33_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP34 rdf:type oghamonto:Word .
+ogham:OP34 rdf:type skos:Concept .
+ogham:OP34 rdfs:label 'VENDVBARI'@en.
+ogham:OP34 rdfs:label 'VENDVBARI'@goide.
+ogham:OP34 skos:prefLabel 'VENDVBARI'@en.
+ogham:OP34 skos:prefLabel 'VENDVBARI'@goide.
+ogham:OP34 ogham:translation '(he who has) a fair head of hear'@en.
+ogham:OP34 skos:altLabel 'VENDVBARI'@en.
+ogham:OP34 skos:altLabel 'VENDVBARI'@goide.
+ogham:OP34 ogham:reference 'McManus 1991,§6.10'@en.
+ogham:OP34 ogham:context '{string}'@en.
+ogham:OP34 ogham:exactMatch wd:Q106703650  .
+ogham:OP34 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP34 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP34 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP34 dct:rightsHolder wd:Q70310399 .
+ogham:OP34 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP34 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP34 prov:wasGeneratedBy ogham:OP34_activity .
+ogham:OP34_activity rdf:type prov:Activity .
+ogham:OP34_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP34_activity prov:endedAtTime '2021-05-06T17:43:16.767415Z'^^xsd:dateTime .
+ogham:OP34_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP35 rdf:type oghamonto:Word .
+ogham:OP35 rdf:type skos:Concept .
+ogham:OP35 rdfs:label 'INEQAGLAS'@en.
+ogham:OP35 rdfs:label 'INEQAGLAS'@goide.
+ogham:OP35 skos:prefLabel 'INEQAGLAS'@en.
+ogham:OP35 skos:prefLabel 'INEQAGLAS'@goide.
+ogham:OP35 ogham:translation 'having a grey face'@en.
+ogham:OP35 skos:altLabel 'INEQAGLAS'@en.
+ogham:OP35 skos:altLabel 'INEQAGLAS'@goide.
+ogham:OP35 ogham:reference 'McManus 1991,§6.10'@en.
+ogham:OP35 ogham:context '{string}'@en.
+ogham:OP35 ogham:exactMatch wd:Q106703652  .
+ogham:OP35 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP35 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP35 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP35 dct:rightsHolder wd:Q70310399 .
+ogham:OP35 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP35 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP35 prov:wasGeneratedBy ogham:OP35_activity .
+ogham:OP35_activity rdf:type prov:Activity .
+ogham:OP35_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP35_activity prov:endedAtTime '2021-05-06T17:43:16.768394Z'^^xsd:dateTime .
+ogham:OP35_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP36 rdf:type oghamonto:Word .
+ogham:OP36 rdf:type skos:Concept .
+ogham:OP36 rdfs:label 'BARRIVENDI'@en.
+ogham:OP36 rdfs:label 'BARRIVENDI'@goide.
+ogham:OP36 skos:prefLabel 'BARRIVENDI'@en.
+ogham:OP36 skos:prefLabel 'BARRIVENDI'@goide.
+ogham:OP36 ogham:translation '(he who has) a  a fair head of hear'@en.
+ogham:OP36 skos:altLabel 'BARRIVENDI'@en.
+ogham:OP36 skos:altLabel 'BARRIVENDI'@goide.
+ogham:OP36 ogham:reference 'McManus 1991,§6.10'@en.
+ogham:OP36 ogham:context '{string}'@en.
+ogham:OP36 ogham:exactMatch wd:Q106703653  .
+ogham:OP36 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP36 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP36 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP36 dct:rightsHolder wd:Q70310399 .
+ogham:OP36 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP36 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP36 prov:wasGeneratedBy ogham:OP36_activity .
+ogham:OP36_activity rdf:type prov:Activity .
+ogham:OP36_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP36_activity prov:endedAtTime '2021-05-06T17:43:16.769392Z'^^xsd:dateTime .
+ogham:OP36_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP37 rdf:type oghamonto:Word .
+ogham:OP37 rdf:type skos:Concept .
+ogham:OP37 rdfs:label 'ACTO'@en.
+ogham:OP37 rdfs:label 'ACTO'@goide.
+ogham:OP37 skos:prefLabel 'ACTO'@en.
+ogham:OP37 skos:prefLabel 'ACTO'@goide.
+ogham:OP37 ogham:translation 'drives'@en.
+ogham:OP37 skos:altLabel 'ACTO'@en.
+ogham:OP37 skos:altLabel 'ACTO'@goide.
+ogham:OP37 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP37 ogham:context '{string}'@en.
+ogham:OP37 ogham:exactMatch wd:Q106703655  .
+ogham:OP37 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP37 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP37 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP37 dct:rightsHolder wd:Q70310399 .
+ogham:OP37 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP37 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP37 prov:wasGeneratedBy ogham:OP37_activity .
+ogham:OP37_activity rdf:type prov:Activity .
+ogham:OP37_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP37_activity prov:endedAtTime '2021-05-06T17:43:16.769392Z'^^xsd:dateTime .
+ogham:OP37_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP38 rdf:type oghamonto:Word .
+ogham:OP38 rdf:type skos:Concept .
+ogham:OP38 rdfs:label 'ALATTOS'@en.
+ogham:OP38 rdfs:label 'ALATTOS'@goide.
+ogham:OP38 skos:prefLabel 'ALATTOS'@en.
+ogham:OP38 skos:prefLabel 'ALATTOS'@goide.
+ogham:OP38 ogham:translation 'wild'@en.
+ogham:OP38 skos:altLabel 'ALATTOS'@en.
+ogham:OP38 skos:altLabel 'ALATTOS'@goide.
+ogham:OP38 skos:altLabel 'ALATTO'@en.
+ogham:OP38 skos:altLabel 'ALATTO'@goide.
+ogham:OP38 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP38 ogham:context '{string}'@en.
+ogham:OP38 ogham:exactMatch wd:Q106703656  .
+ogham:OP38 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP38 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP38 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP38 dct:rightsHolder wd:Q70310399 .
+ogham:OP38 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP38 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP38 prov:wasGeneratedBy ogham:OP38_activity .
+ogham:OP38_activity rdf:type prov:Activity .
+ogham:OP38_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP38_activity prov:endedAtTime '2021-05-06T17:43:16.771393Z'^^xsd:dateTime .
+ogham:OP38_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP39 rdf:type oghamonto:Word .
+ogham:OP39 rdf:type skos:Concept .
+ogham:OP39 rdfs:label 'BAIT'@en.
+ogham:OP39 rdfs:label 'BAIT'@goide.
+ogham:OP39 skos:prefLabel 'BAIT'@en.
+ogham:OP39 skos:prefLabel 'BAIT'@goide.
+ogham:OP39 ogham:translation 'foolish'@en.
+ogham:OP39 skos:altLabel 'BAIT'@en.
+ogham:OP39 skos:altLabel 'BAIT'@goide.
+ogham:OP39 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP39 ogham:context '{string}'@en.
+ogham:OP39 ogham:exactMatch wd:Q106703659  .
+ogham:OP39 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP39 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP39 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP39 dct:rightsHolder wd:Q70310399 .
+ogham:OP39 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP39 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP39 prov:wasGeneratedBy ogham:OP39_activity .
+ogham:OP39_activity rdf:type prov:Activity .
+ogham:OP39_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP39_activity prov:endedAtTime '2021-05-06T17:43:16.771393Z'^^xsd:dateTime .
+ogham:OP39_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP40 rdf:type oghamonto:Word .
+ogham:OP40 rdf:type skos:Concept .
+ogham:OP40 rdfs:label 'BARI'@en.
+ogham:OP40 rdfs:label 'BARI'@goide.
+ogham:OP40 skos:prefLabel 'BARI'@en.
+ogham:OP40 skos:prefLabel 'BARI'@goide.
+ogham:OP40 ogham:translation 'top, head'@en.
+ogham:OP40 skos:altLabel 'BARI'@en.
+ogham:OP40 skos:altLabel 'BARI'@goide.
+ogham:OP40 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP40 ogham:context '{string}'@en.
+ogham:OP40 ogham:exactMatch wd:Q106703660  .
+ogham:OP40 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP40 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP40 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP40 dct:rightsHolder wd:Q70310399 .
+ogham:OP40 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP40 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP40 prov:wasGeneratedBy ogham:OP40_activity .
+ogham:OP40_activity rdf:type prov:Activity .
+ogham:OP40_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP40_activity prov:endedAtTime '2021-05-06T17:43:16.773381Z'^^xsd:dateTime .
+ogham:OP40_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP41 rdf:type oghamonto:Word .
+ogham:OP41 rdf:type skos:Concept .
+ogham:OP41 rdfs:label 'BIR'@en.
+ogham:OP41 rdfs:label 'BIR'@goide.
+ogham:OP41 skos:prefLabel 'BIR'@en.
+ogham:OP41 skos:prefLabel 'BIR'@goide.
+ogham:OP41 ogham:translation 'short heared'@en.
+ogham:OP41 skos:altLabel 'BIR'@en.
+ogham:OP41 skos:altLabel 'BIR'@goide.
+ogham:OP41 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP41 ogham:context '{string}'@en.
+ogham:OP41 ogham:exactMatch wd:Q106703661  .
+ogham:OP41 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP41 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP41 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP41 dct:rightsHolder wd:Q70310399 .
+ogham:OP41 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP41 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP41 prov:wasGeneratedBy ogham:OP41_activity .
+ogham:OP41_activity rdf:type prov:Activity .
+ogham:OP41_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP41_activity prov:endedAtTime '2021-05-06T17:43:16.773381Z'^^xsd:dateTime .
+ogham:OP41_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP42 rdf:type oghamonto:Word .
+ogham:OP42 rdf:type skos:Concept .
+ogham:OP42 rdfs:label 'BROCI'@en.
+ogham:OP42 rdfs:label 'BROCI'@goide.
+ogham:OP42 skos:prefLabel 'BROCI'@en.
+ogham:OP42 skos:prefLabel 'BROCI'@goide.
+ogham:OP42 ogham:translation 'badger'@en.
+ogham:OP42 skos:altLabel 'BROCI'@en.
+ogham:OP42 skos:altLabel 'BROCI'@goide.
+ogham:OP42 skos:altLabel 'BROCC'@en.
+ogham:OP42 skos:altLabel 'BROCC'@goide.
+ogham:OP42 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP42 ogham:context '{string}'@en.
+ogham:OP42 ogham:exactMatch wd:Q106703663  .
+ogham:OP42 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP42 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP42 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP42 dct:rightsHolder wd:Q70310399 .
+ogham:OP42 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP42 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP42 prov:wasGeneratedBy ogham:OP42_activity .
+ogham:OP42_activity rdf:type prov:Activity .
+ogham:OP42_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP42_activity prov:endedAtTime '2021-05-06T17:43:16.774380Z'^^xsd:dateTime .
+ogham:OP42_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP43 rdf:type oghamonto:Word .
+ogham:OP43 rdf:type skos:Concept .
+ogham:OP43 rdfs:label 'BRUSCCOS'@en.
+ogham:OP43 rdfs:label 'BRUSCCOS'@goide.
+ogham:OP43 skos:prefLabel 'BRUSCCOS'@en.
+ogham:OP43 skos:prefLabel 'BRUSCCOS'@goide.
+ogham:OP43 ogham:translation 'thunder'@en.
+ogham:OP43 skos:altLabel 'BRUSCCOS'@en.
+ogham:OP43 skos:altLabel 'BRUSCCOS'@goide.
+ogham:OP43 skos:altLabel 'BRUSCO'@en.
+ogham:OP43 skos:altLabel 'BRUSCO'@goide.
+ogham:OP43 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP43 ogham:context '{string}'@en.
+ogham:OP43 ogham:exactMatch wd:Q106703664  .
+ogham:OP43 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP43 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP43 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP43 dct:rightsHolder wd:Q70310399 .
+ogham:OP43 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP43 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP43 prov:wasGeneratedBy ogham:OP43_activity .
+ogham:OP43_activity rdf:type prov:Activity .
+ogham:OP43_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP43_activity prov:endedAtTime '2021-05-06T17:43:16.774380Z'^^xsd:dateTime .
+ogham:OP43_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP44 rdf:type oghamonto:Word .
+ogham:OP44 rdf:type skos:Concept .
+ogham:OP44 rdfs:label 'CARI'@en.
+ogham:OP44 rdfs:label 'CARI'@goide.
+ogham:OP44 skos:prefLabel 'CARI'@en.
+ogham:OP44 skos:prefLabel 'CARI'@goide.
+ogham:OP44 ogham:translation 'loves'@en.
+ogham:OP44 skos:altLabel 'CARI'@en.
+ogham:OP44 skos:altLabel 'CARI'@goide.
+ogham:OP44 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP44 ogham:context '{string}'@en.
+ogham:OP44 ogham:exactMatch wd:Q106703667  .
+ogham:OP44 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP44 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP44 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP44 dct:rightsHolder wd:Q70310399 .
+ogham:OP44 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP44 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP44 prov:wasGeneratedBy ogham:OP44_activity .
+ogham:OP44_activity rdf:type prov:Activity .
+ogham:OP44_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP44_activity prov:endedAtTime '2021-05-06T17:43:16.775378Z'^^xsd:dateTime .
+ogham:OP44_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP45 rdf:type oghamonto:Word .
+ogham:OP45 rdf:type skos:Concept .
+ogham:OP45 rdfs:label 'CORBBI'@en.
+ogham:OP45 rdfs:label 'CORBBI'@goide.
+ogham:OP45 skos:prefLabel 'CORBBI'@en.
+ogham:OP45 skos:prefLabel 'CORBBI'@goide.
+ogham:OP45 ogham:translation 'defiles'@en.
+ogham:OP45 skos:altLabel 'CORBBI'@en.
+ogham:OP45 skos:altLabel 'CORBBI'@goide.
+ogham:OP45 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP45 ogham:context '{string}'@en.
+ogham:OP45 ogham:exactMatch wd:Q106703669  .
+ogham:OP45 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP45 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP45 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP45 dct:rightsHolder wd:Q70310399 .
+ogham:OP45 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP45 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP45 prov:wasGeneratedBy ogham:OP45_activity .
+ogham:OP45_activity rdf:type prov:Activity .
+ogham:OP45_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP45_activity prov:endedAtTime '2021-05-06T17:43:16.776375Z'^^xsd:dateTime .
+ogham:OP45_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP46 rdf:type oghamonto:Word .
+ogham:OP46 rdf:type skos:Concept .
+ogham:OP46 rdfs:label 'CORRE'@en.
+ogham:OP46 rdfs:label 'CORRE'@goide.
+ogham:OP46 skos:prefLabel 'CORRE'@en.
+ogham:OP46 skos:prefLabel 'CORRE'@goide.
+ogham:OP46 ogham:translation 'heron'@en.
+ogham:OP46 skos:altLabel 'CORRE'@en.
+ogham:OP46 skos:altLabel 'CORRE'@goide.
+ogham:OP46 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP46 ogham:context '{string}'@en.
+ogham:OP46 ogham:exactMatch wd:Q106703670  .
+ogham:OP46 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP46 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP46 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP46 dct:rightsHolder wd:Q70310399 .
+ogham:OP46 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP46 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP46 prov:wasGeneratedBy ogham:OP46_activity .
+ogham:OP46_activity rdf:type prov:Activity .
+ogham:OP46_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP46_activity prov:endedAtTime '2021-05-06T17:43:16.776375Z'^^xsd:dateTime .
+ogham:OP46_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP47 rdf:type oghamonto:Word .
+ogham:OP47 rdf:type skos:Concept .
+ogham:OP47 rdfs:label 'CURCI'@en.
+ogham:OP47 rdfs:label 'CURCI'@goide.
+ogham:OP47 skos:prefLabel 'CURCI'@en.
+ogham:OP47 skos:prefLabel 'CURCI'@goide.
+ogham:OP47 ogham:translation 'heart or reddens, burns'@en.
+ogham:OP47 skos:altLabel 'CURCI'@en.
+ogham:OP47 skos:altLabel 'CURCI'@goide.
+ogham:OP47 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP47 ogham:context '{string}'@en.
+ogham:OP47 ogham:exactMatch wd:Q106703672  .
+ogham:OP47 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP47 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP47 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP47 dct:rightsHolder wd:Q70310399 .
+ogham:OP47 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP47 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP47 prov:wasGeneratedBy ogham:OP47_activity .
+ogham:OP47_activity rdf:type prov:Activity .
+ogham:OP47_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP47_activity prov:endedAtTime '2021-05-06T17:43:16.777372Z'^^xsd:dateTime .
+ogham:OP47_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP48 rdf:type oghamonto:Word .
+ogham:OP48 rdf:type skos:Concept .
+ogham:OP48 rdfs:label 'DALI'@en.
+ogham:OP48 rdfs:label 'DALI'@goide.
+ogham:OP48 skos:prefLabel 'DALI'@en.
+ogham:OP48 skos:prefLabel 'DALI'@goide.
+ogham:OP48 ogham:translation 'blind'@en.
+ogham:OP48 skos:altLabel 'DALI'@en.
+ogham:OP48 skos:altLabel 'DALI'@goide.
+ogham:OP48 skos:altLabel 'DALA'@en.
+ogham:OP48 skos:altLabel 'DALA'@goide.
+ogham:OP48 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP48 ogham:context '{string}'@en.
+ogham:OP48 ogham:exactMatch wd:Q106703673  .
+ogham:OP48 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP48 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP48 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP48 dct:rightsHolder wd:Q70310399 .
+ogham:OP48 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP48 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP48 prov:wasGeneratedBy ogham:OP48_activity .
+ogham:OP48_activity rdf:type prov:Activity .
+ogham:OP48_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP48_activity prov:endedAtTime '2021-05-06T17:43:16.777372Z'^^xsd:dateTime .
+ogham:OP48_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP49 rdf:type oghamonto:Word .
+ogham:OP49 rdf:type skos:Concept .
+ogham:OP49 rdfs:label 'DEGOS'@en.
+ogham:OP49 rdfs:label 'DEGOS'@goide.
+ogham:OP49 skos:prefLabel 'DEGOS'@en.
+ogham:OP49 skos:prefLabel 'DEGOS'@goide.
+ogham:OP49 ogham:translation 'flame,blaze'@en.
+ogham:OP49 skos:altLabel 'DEGOS'@en.
+ogham:OP49 skos:altLabel 'DEGOS'@goide.
+ogham:OP49 skos:altLabel 'DEGO'@en.
+ogham:OP49 skos:altLabel 'DEGO'@goide.
+ogham:OP49 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP49 ogham:context '{string}'@en.
+ogham:OP49 ogham:exactMatch wd:Q106703676  .
+ogham:OP49 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP49 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP49 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP49 dct:rightsHolder wd:Q70310399 .
+ogham:OP49 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP49 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP49 prov:wasGeneratedBy ogham:OP49_activity .
+ogham:OP49_activity rdf:type prov:Activity .
+ogham:OP49_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP49_activity prov:endedAtTime '2021-05-06T17:43:16.777372Z'^^xsd:dateTime .
+ogham:OP49_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP50 rdf:type oghamonto:Word .
+ogham:OP50 rdf:type skos:Concept .
+ogham:OP50 rdfs:label 'DOMMO'@en.
+ogham:OP50 rdfs:label 'DOMMO'@goide.
+ogham:OP50 skos:prefLabel 'DOMMO'@en.
+ogham:OP50 skos:prefLabel 'DOMMO'@goide.
+ogham:OP50 ogham:translation 'Domma'@en.
+ogham:OP50 skos:altLabel 'DOMMO'@en.
+ogham:OP50 skos:altLabel 'DOMMO'@goide.
+ogham:OP50 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP50 ogham:context '{string}'@en.
+ogham:OP50 ogham:exactMatch wd:Q106703677  .
+ogham:OP50 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP50 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP50 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP50 dct:rightsHolder wd:Q70310399 .
+ogham:OP50 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP50 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP50 prov:wasGeneratedBy ogham:OP50_activity .
+ogham:OP50_activity rdf:type prov:Activity .
+ogham:OP50_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP50_activity prov:endedAtTime '2021-05-06T17:43:16.778371Z'^^xsd:dateTime .
+ogham:OP50_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP51 rdf:type oghamonto:Word .
+ogham:OP51 rdf:type skos:Concept .
+ogham:OP51 rdfs:label 'DRUGNO'@en.
+ogham:OP51 rdfs:label 'DRUGNO'@goide.
+ogham:OP51 skos:prefLabel 'DRUGNO'@en.
+ogham:OP51 skos:prefLabel 'DRUGNO'@goide.
+ogham:OP51 ogham:translation 'dróna'@en.
+ogham:OP51 skos:altLabel 'DRUGNO'@en.
+ogham:OP51 skos:altLabel 'DRUGNO'@goide.
+ogham:OP51 skos:altLabel 'DROGNO'@en.
+ogham:OP51 skos:altLabel 'DROGNO'@goide.
+ogham:OP51 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP51 ogham:context '{string}'@en.
+ogham:OP51 ogham:exactMatch wd:Q106703679  .
+ogham:OP51 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP51 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP51 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP51 dct:rightsHolder wd:Q70310399 .
+ogham:OP51 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP51 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP51 prov:wasGeneratedBy ogham:OP51_activity .
+ogham:OP51_activity rdf:type prov:Activity .
+ogham:OP51_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP51_activity prov:endedAtTime '2021-05-06T17:43:16.778371Z'^^xsd:dateTime .
+ogham:OP51_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP52 rdf:type oghamonto:Word .
+ogham:OP52 rdf:type skos:Concept .
+ogham:OP52 rdfs:label 'ERC'@en.
+ogham:OP52 rdfs:label 'ERC'@goide.
+ogham:OP52 skos:prefLabel 'ERC'@en.
+ogham:OP52 skos:prefLabel 'ERC'@goide.
+ogham:OP52 ogham:translation 'heaven,cow'@en.
+ogham:OP52 skos:altLabel 'ERC'@en.
+ogham:OP52 skos:altLabel 'ERC'@goide.
+ogham:OP52 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP52 ogham:context '{string}'@en.
+ogham:OP52 ogham:exactMatch wd:Q106703682  .
+ogham:OP52 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP52 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP52 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP52 dct:rightsHolder wd:Q70310399 .
+ogham:OP52 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP52 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP52 prov:wasGeneratedBy ogham:OP52_activity .
+ogham:OP52_activity rdf:type prov:Activity .
+ogham:OP52_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP52_activity prov:endedAtTime '2021-05-06T17:43:16.779366Z'^^xsd:dateTime .
+ogham:OP52_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP53 rdf:type oghamonto:Word .
+ogham:OP53 rdf:type skos:Concept .
+ogham:OP53 rdfs:label 'IARNI'@en.
+ogham:OP53 rdfs:label 'IARNI'@goide.
+ogham:OP53 skos:prefLabel 'IARNI'@en.
+ogham:OP53 skos:prefLabel 'IARNI'@goide.
+ogham:OP53 ogham:translation 'iron'@en.
+ogham:OP53 skos:altLabel 'IARNI'@en.
+ogham:OP53 skos:altLabel 'IARNI'@goide.
+ogham:OP53 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP53 ogham:context '{string}'@en.
+ogham:OP53 ogham:exactMatch wd:Q106703683  .
+ogham:OP53 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP53 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP53 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP53 dct:rightsHolder wd:Q70310399 .
+ogham:OP53 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP53 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP53 prov:wasGeneratedBy ogham:OP53_activity .
+ogham:OP53_activity rdf:type prov:Activity .
+ogham:OP53_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP53_activity prov:endedAtTime '2021-05-06T17:43:16.779366Z'^^xsd:dateTime .
+ogham:OP53_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP54 rdf:type oghamonto:Word .
+ogham:OP54 rdf:type skos:Concept .
+ogham:OP54 rdfs:label 'MEDVVI'@en.
+ogham:OP54 rdfs:label 'MEDVVI'@goide.
+ogham:OP54 skos:prefLabel 'MEDVVI'@en.
+ogham:OP54 skos:prefLabel 'MEDVVI'@goide.
+ogham:OP54 ogham:translation 'mead'@en.
+ogham:OP54 skos:altLabel 'MEDVVI'@en.
+ogham:OP54 skos:altLabel 'MEDVVI'@goide.
+ogham:OP54 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP54 ogham:context '{string}'@en.
+ogham:OP54 ogham:exactMatch wd:Q106703685  .
+ogham:OP54 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP54 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP54 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP54 dct:rightsHolder wd:Q70310399 .
+ogham:OP54 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP54 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP54 prov:wasGeneratedBy ogham:OP54_activity .
+ogham:OP54_activity rdf:type prov:Activity .
+ogham:OP54_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP54_activity prov:endedAtTime '2021-05-06T17:43:16.780364Z'^^xsd:dateTime .
+ogham:OP54_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP55 rdf:type oghamonto:Word .
+ogham:OP55 rdf:type skos:Concept .
+ogham:OP55 rdfs:label 'RODDOS'@en.
+ogham:OP55 rdfs:label 'RODDOS'@goide.
+ogham:OP55 skos:prefLabel 'RODDOS'@en.
+ogham:OP55 skos:prefLabel 'RODDOS'@goide.
+ogham:OP55 ogham:translation 'red,Ríata'@en.
+ogham:OP55 skos:altLabel 'RODDOS'@en.
+ogham:OP55 skos:altLabel 'RODDOS'@goide.
+ogham:OP55 skos:altLabel 'REDDOS'@en.
+ogham:OP55 skos:altLabel 'REDDOS'@goide.
+ogham:OP55 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP55 ogham:context '{string}'@en.
+ogham:OP55 ogham:exactMatch wd:Q106703686  .
+ogham:OP55 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP55 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP55 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP55 dct:rightsHolder wd:Q70310399 .
+ogham:OP55 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP55 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP55 prov:wasGeneratedBy ogham:OP55_activity .
+ogham:OP55_activity rdf:type prov:Activity .
+ogham:OP55_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP55_activity prov:endedAtTime '2021-05-06T17:43:16.780364Z'^^xsd:dateTime .
+ogham:OP55_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP56 rdf:type oghamonto:Word .
+ogham:OP56 rdf:type skos:Concept .
+ogham:OP56 rdfs:label 'TRENU'@en.
+ogham:OP56 rdfs:label 'TRENU'@goide.
+ogham:OP56 skos:prefLabel 'TRENU'@en.
+ogham:OP56 skos:prefLabel 'TRENU'@goide.
+ogham:OP56 ogham:translation 'strong/Trian'@en.
+ogham:OP56 skos:altLabel 'TRENU'@en.
+ogham:OP56 skos:altLabel 'TRENU'@goide.
+ogham:OP56 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP56 ogham:context '{string}'@en.
+ogham:OP56 ogham:exactMatch wd:Q106703689  .
+ogham:OP56 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP56 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP56 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP56 dct:rightsHolder wd:Q70310399 .
+ogham:OP56 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP56 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP56 prov:wasGeneratedBy ogham:OP56_activity .
+ogham:OP56_activity rdf:type prov:Activity .
+ogham:OP56_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP56_activity prov:endedAtTime '2021-05-06T17:43:16.780364Z'^^xsd:dateTime .
+ogham:OP56_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP57 rdf:type oghamonto:Word .
+ogham:OP57 rdf:type skos:Concept .
+ogham:OP57 rdfs:label 'TIGIRIN'@en.
+ogham:OP57 rdfs:label 'TIGIRIN'@goide.
+ogham:OP57 skos:prefLabel 'TIGIRIN'@en.
+ogham:OP57 skos:prefLabel 'TIGIRIN'@goide.
+ogham:OP57 ogham:translation 'lord'@en.
+ogham:OP57 skos:altLabel 'TIGIRIN'@en.
+ogham:OP57 skos:altLabel 'TIGIRIN'@goide.
+ogham:OP57 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP57 ogham:context '{string}'@en.
+ogham:OP57 ogham:exactMatch wd:Q106703691  .
+ogham:OP57 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP57 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP57 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP57 dct:rightsHolder wd:Q70310399 .
+ogham:OP57 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP57 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP57 prov:wasGeneratedBy ogham:OP57_activity .
+ogham:OP57_activity rdf:type prov:Activity .
+ogham:OP57_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP57_activity prov:endedAtTime '2021-05-06T17:43:16.781360Z'^^xsd:dateTime .
+ogham:OP57_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP58 rdf:type oghamonto:Word .
+ogham:OP58 rdf:type skos:Concept .
+ogham:OP58 rdfs:label 'VORGOS'@en.
+ogham:OP58 rdfs:label 'VORGOS'@goide.
+ogham:OP58 skos:prefLabel 'VORGOS'@en.
+ogham:OP58 skos:prefLabel 'VORGOS'@goide.
+ogham:OP58 ogham:translation 'Forgo'@en.
+ogham:OP58 skos:altLabel 'VORGOS'@en.
+ogham:OP58 skos:altLabel 'VORGOS'@goide.
+ogham:OP58 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP58 ogham:context '{string}'@en.
+ogham:OP58 ogham:exactMatch wd:Q106703692  .
+ogham:OP58 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP58 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP58 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP58 dct:rightsHolder wd:Q70310399 .
+ogham:OP58 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP58 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP58 prov:wasGeneratedBy ogham:OP58_activity .
+ogham:OP58_activity rdf:type prov:Activity .
+ogham:OP58_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP58_activity prov:endedAtTime '2021-05-06T17:43:16.781360Z'^^xsd:dateTime .
+ogham:OP58_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP59 rdf:type oghamonto:Word .
+ogham:OP59 rdf:type skos:Concept .
+ogham:OP59 rdfs:label 'VRAICCI'@en.
+ogham:OP59 rdfs:label 'VRAICCI'@goide.
+ogham:OP59 skos:prefLabel 'VRAICCI'@en.
+ogham:OP59 skos:prefLabel 'VRAICCI'@goide.
+ogham:OP59 ogham:translation 'heather'@en.
+ogham:OP59 skos:altLabel 'VRAICCI'@en.
+ogham:OP59 skos:altLabel 'VRAICCI'@goide.
+ogham:OP59 ogham:reference 'McManus 1991,§6.11'@en.
+ogham:OP59 ogham:context '{string}'@en.
+ogham:OP59 ogham:exactMatch wd:Q106703694  .
+ogham:OP59 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP59 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP59 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP59 dct:rightsHolder wd:Q70310399 .
+ogham:OP59 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP59 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP59 prov:wasGeneratedBy ogham:OP59_activity .
+ogham:OP59_activity rdf:type prov:Activity .
+ogham:OP59_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP59_activity prov:endedAtTime '2021-05-06T17:43:16.782358Z'^^xsd:dateTime .
+ogham:OP59_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP60 rdf:type oghamonto:Word .
+ogham:OP60 rdf:type skos:Concept .
+ogham:OP60 rdfs:label 'BAIDAGNI'@en.
+ogham:OP60 rdfs:label 'BAIDAGNI'@goide.
+ogham:OP60 skos:prefLabel 'BAIDAGNI'@en.
+ogham:OP60 skos:prefLabel 'BAIDAGNI'@goide.
+ogham:OP60 ogham:translation 'Báetán'@en.
+ogham:OP60 skos:altLabel 'BAIDAGNI'@en.
+ogham:OP60 skos:altLabel 'BAIDAGNI'@goide.
+ogham:OP60 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP60 ogham:context '{string}'@en.
+ogham:OP60 ogham:exactMatch wd:Q106703695  .
+ogham:OP60 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP60 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP60 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP60 dct:rightsHolder wd:Q70310399 .
+ogham:OP60 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP60 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP60 prov:wasGeneratedBy ogham:OP60_activity .
+ogham:OP60_activity rdf:type prov:Activity .
+ogham:OP60_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP60_activity prov:endedAtTime '2021-05-06T17:43:16.782358Z'^^xsd:dateTime .
+ogham:OP60_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP61 rdf:type oghamonto:Word .
+ogham:OP61 rdf:type skos:Concept .
+ogham:OP61 rdfs:label 'BARANAN'@en.
+ogham:OP61 rdfs:label 'BARANAN'@goide.
+ogham:OP61 skos:prefLabel 'BARANAN'@en.
+ogham:OP61 skos:prefLabel 'BARANAN'@goide.
+ogham:OP61 ogham:translation 'raven'@en.
+ogham:OP61 skos:altLabel 'BARANAN'@en.
+ogham:OP61 skos:altLabel 'BARANAN'@goide.
+ogham:OP61 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP61 ogham:context '{string}'@en.
+ogham:OP61 ogham:exactMatch wd:Q106703698  .
+ogham:OP61 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP61 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP61 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP61 dct:rightsHolder wd:Q70310399 .
+ogham:OP61 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP61 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP61 prov:wasGeneratedBy ogham:OP61_activity .
+ogham:OP61_activity rdf:type prov:Activity .
+ogham:OP61_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP61_activity prov:endedAtTime '2021-05-06T17:43:16.783355Z'^^xsd:dateTime .
+ogham:OP61_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP62 rdf:type oghamonto:Word .
+ogham:OP62 rdf:type skos:Concept .
+ogham:OP62 rdfs:label 'BROCAGNI'@en.
+ogham:OP62 rdfs:label 'BROCAGNI'@goide.
+ogham:OP62 skos:prefLabel 'BROCAGNI'@en.
+ogham:OP62 skos:prefLabel 'BROCAGNI'@goide.
+ogham:OP62 ogham:translation 'badger'@en.
+ogham:OP62 skos:altLabel 'BROCAGNI'@en.
+ogham:OP62 skos:altLabel 'BROCAGNI'@goide.
+ogham:OP62 skos:altLabel 'BROCANN'@en.
+ogham:OP62 skos:altLabel 'BROCANN'@goide.
+ogham:OP62 skos:altLabel 'BROCAGNI'@en.
+ogham:OP62 skos:altLabel 'BROCAGNI'@goide.
+ogham:OP62 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP62 ogham:context '{string}'@en.
+ogham:OP62 ogham:exactMatch wd:Q106703699  .
+ogham:OP62 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP62 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP62 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP62 dct:rightsHolder wd:Q70310399 .
+ogham:OP62 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP62 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP62 prov:wasGeneratedBy ogham:OP62_activity .
+ogham:OP62_activity rdf:type prov:Activity .
+ogham:OP62_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP62_activity prov:endedAtTime '2021-05-06T17:43:16.783355Z'^^xsd:dateTime .
+ogham:OP62_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP63 rdf:type oghamonto:Word .
+ogham:OP63 rdf:type skos:Concept .
+ogham:OP63 rdfs:label 'CERANI'@en.
+ogham:OP63 rdfs:label 'CERANI'@goide.
+ogham:OP63 skos:prefLabel 'CERANI'@en.
+ogham:OP63 skos:prefLabel 'CERANI'@goide.
+ogham:OP63 ogham:translation 'dark'@en.
+ogham:OP63 skos:altLabel 'CERANI'@en.
+ogham:OP63 skos:altLabel 'CERANI'@goide.
+ogham:OP63 skos:altLabel 'CERAN'@en.
+ogham:OP63 skos:altLabel 'CERAN'@goide.
+ogham:OP63 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP63 ogham:context '{string}'@en.
+ogham:OP63 ogham:exactMatch wd:Q106703701  .
+ogham:OP63 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP63 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP63 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP63 dct:rightsHolder wd:Q70310399 .
+ogham:OP63 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP63 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP63 prov:wasGeneratedBy ogham:OP63_activity .
+ogham:OP63_activity rdf:type prov:Activity .
+ogham:OP63_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP63_activity prov:endedAtTime '2021-05-06T17:43:16.784352Z'^^xsd:dateTime .
+ogham:OP63_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP64 rdf:type oghamonto:Word .
+ogham:OP64 rdf:type skos:Concept .
+ogham:OP64 rdfs:label 'COIMAGNI'@en.
+ogham:OP64 rdfs:label 'COIMAGNI'@goide.
+ogham:OP64 skos:prefLabel 'COIMAGNI'@en.
+ogham:OP64 skos:prefLabel 'COIMAGNI'@goide.
+ogham:OP64 ogham:translation 'dear,precious'@en.
+ogham:OP64 skos:altLabel 'COIMAGNI'@en.
+ogham:OP64 skos:altLabel 'COIMAGNI'@goide.
+ogham:OP64 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP64 ogham:context '{string}'@en.
+ogham:OP64 ogham:exactMatch wd:Q106703702  .
+ogham:OP64 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP64 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP64 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP64 dct:rightsHolder wd:Q70310399 .
+ogham:OP64 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP64 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP64 prov:wasGeneratedBy ogham:OP64_activity .
+ogham:OP64_activity rdf:type prov:Activity .
+ogham:OP64_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP64_activity prov:endedAtTime '2021-05-06T17:43:16.784352Z'^^xsd:dateTime .
+ogham:OP64_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP65 rdf:type oghamonto:Word .
+ogham:OP65 rdf:type skos:Concept .
+ogham:OP65 rdfs:label 'COLOMAGNI'@en.
+ogham:OP65 rdfs:label 'COLOMAGNI'@goide.
+ogham:OP65 skos:prefLabel 'COLOMAGNI'@en.
+ogham:OP65 skos:prefLabel 'COLOMAGNI'@goide.
+ogham:OP65 ogham:translation 'dove'@en.
+ogham:OP65 skos:altLabel 'COLOMAGNI'@en.
+ogham:OP65 skos:altLabel 'COLOMAGNI'@goide.
+ogham:OP65 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP65 ogham:context '{string}'@en.
+ogham:OP65 ogham:exactMatch wd:Q106703704  .
+ogham:OP65 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP65 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP65 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP65 dct:rightsHolder wd:Q70310399 .
+ogham:OP65 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP65 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP65 prov:wasGeneratedBy ogham:OP65_activity .
+ogham:OP65_activity rdf:type prov:Activity .
+ogham:OP65_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP65_activity prov:endedAtTime '2021-05-06T17:43:16.785351Z'^^xsd:dateTime .
+ogham:OP65_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP66 rdf:type oghamonto:Word .
+ogham:OP66 rdf:type skos:Concept .
+ogham:OP66 rdfs:label 'COMMAGGAGNI'@en.
+ogham:OP66 rdfs:label 'COMMAGGAGNI'@goide.
+ogham:OP66 skos:prefLabel 'COMMAGGAGNI'@en.
+ogham:OP66 skos:prefLabel 'COMMAGGAGNI'@goide.
+ogham:OP66 ogham:translation 'leads'@en.
+ogham:OP66 skos:altLabel 'COMMAGGAGNI'@en.
+ogham:OP66 skos:altLabel 'COMMAGGAGNI'@goide.
+ogham:OP66 skos:altLabel 'COMMOGAN'@en.
+ogham:OP66 skos:altLabel 'COMMOGAN'@goide.
+ogham:OP66 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP66 ogham:context '{string}'@en.
+ogham:OP66 ogham:exactMatch wd:Q106703705  .
+ogham:OP66 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP66 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP66 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP66 dct:rightsHolder wd:Q70310399 .
+ogham:OP66 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP66 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP66 prov:wasGeneratedBy ogham:OP66_activity .
+ogham:OP66_activity rdf:type prov:Activity .
+ogham:OP66_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP66_activity prov:endedAtTime '2021-05-06T17:43:16.786347Z'^^xsd:dateTime .
+ogham:OP66_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP67 rdf:type oghamonto:Word .
+ogham:OP67 rdf:type skos:Concept .
+ogham:OP67 rdfs:label 'CONANN'@en.
+ogham:OP67 rdfs:label 'CONANN'@goide.
+ogham:OP67 skos:prefLabel 'CONANN'@en.
+ogham:OP67 skos:prefLabel 'CONANN'@goide.
+ogham:OP67 ogham:translation 'hound,wolf'@en.
+ogham:OP67 skos:altLabel 'CONANN'@en.
+ogham:OP67 skos:altLabel 'CONANN'@goide.
+ogham:OP67 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP67 ogham:context '{string}'@en.
+ogham:OP67 ogham:exactMatch wd:Q106703706  .
+ogham:OP67 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP67 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP67 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP67 dct:rightsHolder wd:Q70310399 .
+ogham:OP67 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP67 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP67 prov:wasGeneratedBy ogham:OP67_activity .
+ogham:OP67_activity rdf:type prov:Activity .
+ogham:OP67_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP67_activity prov:endedAtTime '2021-05-06T17:43:16.787344Z'^^xsd:dateTime .
+ogham:OP67_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP68 rdf:type oghamonto:Word .
+ogham:OP68 rdf:type skos:Concept .
+ogham:OP68 rdfs:label 'CORBAGNI'@en.
+ogham:OP68 rdfs:label 'CORBAGNI'@goide.
+ogham:OP68 skos:prefLabel 'CORBAGNI'@en.
+ogham:OP68 skos:prefLabel 'CORBAGNI'@goide.
+ogham:OP68 ogham:translation 'defiles'@en.
+ogham:OP68 skos:altLabel 'CORBAGNI'@en.
+ogham:OP68 skos:altLabel 'CORBAGNI'@goide.
+ogham:OP68 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP68 ogham:context '{string}'@en.
+ogham:OP68 ogham:exactMatch wd:Q106703708  .
+ogham:OP68 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP68 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP68 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP68 dct:rightsHolder wd:Q70310399 .
+ogham:OP68 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP68 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP68 prov:wasGeneratedBy ogham:OP68_activity .
+ogham:OP68_activity rdf:type prov:Activity .
+ogham:OP68_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP68_activity prov:endedAtTime '2021-05-06T17:43:16.788342Z'^^xsd:dateTime .
+ogham:OP68_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP69 rdf:type oghamonto:Word .
+ogham:OP69 rdf:type skos:Concept .
+ogham:OP69 rdfs:label 'COVAGNI'@en.
+ogham:OP69 rdfs:label 'COVAGNI'@goide.
+ogham:OP69 skos:prefLabel 'COVAGNI'@en.
+ogham:OP69 skos:prefLabel 'COVAGNI'@goide.
+ogham:OP69 ogham:translation 'brown'@en.
+ogham:OP69 skos:altLabel 'COVAGNI'@en.
+ogham:OP69 skos:altLabel 'COVAGNI'@goide.
+ogham:OP69 skos:altLabel 'CRONAN'@en.
+ogham:OP69 skos:altLabel 'CRONAN'@goide.
+ogham:OP69 skos:altLabel 'CRONN'@en.
+ogham:OP69 skos:altLabel 'CRONN'@goide.
+ogham:OP69 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP69 ogham:context '{string}'@en.
+ogham:OP69 ogham:exactMatch wd:Q106703710  .
+ogham:OP69 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP69 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP69 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP69 dct:rightsHolder wd:Q70310399 .
+ogham:OP69 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP69 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP69 prov:wasGeneratedBy ogham:OP69_activity .
+ogham:OP69_activity rdf:type prov:Activity .
+ogham:OP69_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP69_activity prov:endedAtTime '2021-05-06T17:43:16.788342Z'^^xsd:dateTime .
+ogham:OP69_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP70 rdf:type oghamonto:Word .
+ogham:OP70 rdf:type skos:Concept .
+ogham:OP70 rdfs:label 'CVRCAGNI'@en.
+ogham:OP70 rdfs:label 'CVRCAGNI'@goide.
+ogham:OP70 skos:prefLabel 'CVRCAGNI'@en.
+ogham:OP70 skos:prefLabel 'CVRCAGNI'@goide.
+ogham:OP70 ogham:translation 'heart/burns'@en.
+ogham:OP70 skos:altLabel 'CVRCAGNI'@en.
+ogham:OP70 skos:altLabel 'CVRCAGNI'@goide.
+ogham:OP70 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP70 ogham:context '{string}'@en.
+ogham:OP70 ogham:exactMatch wd:Q106703711  .
+ogham:OP70 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP70 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP70 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP70 dct:rightsHolder wd:Q70310399 .
+ogham:OP70 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP70 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP70 prov:wasGeneratedBy ogham:OP70_activity .
+ogham:OP70_activity rdf:type prov:Activity .
+ogham:OP70_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP70_activity prov:endedAtTime '2021-05-06T17:43:16.789340Z'^^xsd:dateTime .
+ogham:OP70_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP71 rdf:type oghamonto:Word .
+ogham:OP71 rdf:type skos:Concept .
+ogham:OP71 rdfs:label 'DALAGNI'@en.
+ogham:OP71 rdfs:label 'DALAGNI'@goide.
+ogham:OP71 skos:prefLabel 'DALAGNI'@en.
+ogham:OP71 skos:prefLabel 'DALAGNI'@goide.
+ogham:OP71 ogham:translation 'blind'@en.
+ogham:OP71 skos:altLabel 'DAIMAGNI'@en.
+ogham:OP71 skos:altLabel 'DAIMAGNI'@goide.
+ogham:OP71 skos:altLabel 'DALAGNI'@en.
+ogham:OP71 skos:altLabel 'DALAGNI'@goide.
+ogham:OP71 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP71 ogham:context '{string}'@en.
+ogham:OP71 ogham:exactMatch wd:Q68001812 .
+ogham:OP71 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP71 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP71 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP71 dct:rightsHolder wd:Q70310399 .
+ogham:OP71 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP71 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP71 prov:wasGeneratedBy ogham:OP71_activity .
+ogham:OP71_activity rdf:type prov:Activity .
+ogham:OP71_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP71_activity prov:endedAtTime '2021-05-06T17:43:16.790348Z'^^xsd:dateTime .
+ogham:OP71_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP72 rdf:type oghamonto:Word .
+ogham:OP72 rdf:type skos:Concept .
+ogham:OP72 rdfs:label 'DOVAGNI'@en.
+ogham:OP72 rdfs:label 'DOVAGNI'@goide.
+ogham:OP72 skos:prefLabel 'DOVAGNI'@en.
+ogham:OP72 skos:prefLabel 'DOVAGNI'@goide.
+ogham:OP72 ogham:translation 'black'@en.
+ogham:OP72 skos:altLabel 'DOVAGNI'@en.
+ogham:OP72 skos:altLabel 'DOVAGNI'@goide.
+ogham:OP72 skos:altLabel 'DOBAGNI'@en.
+ogham:OP72 skos:altLabel 'DOBAGNI'@goide.
+ogham:OP72 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP72 ogham:context '{string}'@en.
+ogham:OP72 ogham:exactMatch wd:Q106703712  .
+ogham:OP72 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP72 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP72 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP72 dct:rightsHolder wd:Q70310399 .
+ogham:OP72 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP72 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP72 prov:wasGeneratedBy ogham:OP72_activity .
+ogham:OP72_activity rdf:type prov:Activity .
+ogham:OP72_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP72_activity prov:endedAtTime '2021-05-06T17:43:16.790348Z'^^xsd:dateTime .
+ogham:OP72_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP73 rdf:type oghamonto:Word .
+ogham:OP73 rdf:type skos:Concept .
+ogham:OP73 rdfs:label 'GIRAGNI'@en.
+ogham:OP73 rdfs:label 'GIRAGNI'@goide.
+ogham:OP73 skos:prefLabel 'GIRAGNI'@en.
+ogham:OP73 skos:prefLabel 'GIRAGNI'@goide.
+ogham:OP73 ogham:translation 'short (-haired)'@en.
+ogham:OP73 skos:altLabel 'GIRAGNI'@en.
+ogham:OP73 skos:altLabel 'GIRAGNI'@goide.
+ogham:OP73 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP73 ogham:context '{string}'@en.
+ogham:OP73 ogham:exactMatch wd:Q106703714  .
+ogham:OP73 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP73 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP73 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP73 dct:rightsHolder wd:Q70310399 .
+ogham:OP73 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP73 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP73 prov:wasGeneratedBy ogham:OP73_activity .
+ogham:OP73_activity rdf:type prov:Activity .
+ogham:OP73_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP73_activity prov:endedAtTime '2021-05-06T17:43:16.791334Z'^^xsd:dateTime .
+ogham:OP73_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP74 rdf:type oghamonto:Word .
+ogham:OP74 rdf:type skos:Concept .
+ogham:OP74 rdfs:label 'GLANNANI'@en.
+ogham:OP74 rdfs:label 'GLANNANI'@goide.
+ogham:OP74 skos:prefLabel 'GLANNANI'@en.
+ogham:OP74 skos:prefLabel 'GLANNANI'@goide.
+ogham:OP74 ogham:translation 'pure'@en.
+ogham:OP74 skos:altLabel 'GLANNANI'@en.
+ogham:OP74 skos:altLabel 'GLANNANI'@goide.
+ogham:OP74 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP74 ogham:context '{string}'@en.
+ogham:OP74 ogham:exactMatch wd:Q106703715  .
+ogham:OP74 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP74 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP74 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP74 dct:rightsHolder wd:Q70310399 .
+ogham:OP74 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP74 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP74 prov:wasGeneratedBy ogham:OP74_activity .
+ogham:OP74_activity rdf:type prov:Activity .
+ogham:OP74_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP74_activity prov:endedAtTime '2021-05-06T17:43:16.792330Z'^^xsd:dateTime .
+ogham:OP74_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP75 rdf:type oghamonto:Word .
+ogham:OP75 rdf:type skos:Concept .
+ogham:OP75 rdfs:label 'LAIDANN'@en.
+ogham:OP75 rdfs:label 'LAIDANN'@goide.
+ogham:OP75 skos:prefLabel 'LAIDANN'@en.
+ogham:OP75 skos:prefLabel 'LAIDANN'@goide.
+ogham:OP75 ogham:translation 'poem'@en.
+ogham:OP75 skos:altLabel 'LAIDANN'@en.
+ogham:OP75 skos:altLabel 'LAIDANN'@goide.
+ogham:OP75 skos:altLabel 'LADDIGNI'@en.
+ogham:OP75 skos:altLabel 'LADDIGNI'@goide.
+ogham:OP75 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP75 ogham:context '{string}'@en.
+ogham:OP75 ogham:exactMatch wd:Q106703717  .
+ogham:OP75 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP75 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP75 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP75 dct:rightsHolder wd:Q70310399 .
+ogham:OP75 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP75 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP75 prov:wasGeneratedBy ogham:OP75_activity .
+ogham:OP75_activity rdf:type prov:Activity .
+ogham:OP75_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP75_activity prov:endedAtTime '2021-05-06T17:43:16.792330Z'^^xsd:dateTime .
+ogham:OP75_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP76 rdf:type oghamonto:Word .
+ogham:OP76 rdf:type skos:Concept .
+ogham:OP76 rdfs:label 'MODDAGNI'@en.
+ogham:OP76 rdfs:label 'MODDAGNI'@goide.
+ogham:OP76 skos:prefLabel 'MODDAGNI'@en.
+ogham:OP76 skos:prefLabel 'MODDAGNI'@goide.
+ogham:OP76 ogham:translation 'noble'@en.
+ogham:OP76 skos:altLabel 'MODDAGNI'@en.
+ogham:OP76 skos:altLabel 'MODDAGNI'@goide.
+ogham:OP76 skos:altLabel 'MODDAGN'@en.
+ogham:OP76 skos:altLabel 'MODDAGN'@goide.
+ogham:OP76 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP76 ogham:context '{string}'@en.
+ogham:OP76 ogham:exactMatch wd:Q106703718  .
+ogham:OP76 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP76 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP76 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP76 dct:rightsHolder wd:Q70310399 .
+ogham:OP76 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP76 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP76 prov:wasGeneratedBy ogham:OP76_activity .
+ogham:OP76_activity rdf:type prov:Activity .
+ogham:OP76_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP76_activity prov:endedAtTime '2021-05-06T17:43:16.792330Z'^^xsd:dateTime .
+ogham:OP76_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP77 rdf:type oghamonto:Word .
+ogham:OP77 rdf:type skos:Concept .
+ogham:OP77 rdfs:label 'RONANN'@en.
+ogham:OP77 rdfs:label 'RONANN'@goide.
+ogham:OP77 skos:prefLabel 'RONANN'@en.
+ogham:OP77 skos:prefLabel 'RONANN'@goide.
+ogham:OP77 ogham:translation 'seal'@en.
+ogham:OP77 skos:altLabel 'RONANN'@en.
+ogham:OP77 skos:altLabel 'RONANN'@goide.
+ogham:OP77 skos:altLabel 'RONNN'@en.
+ogham:OP77 skos:altLabel 'RONNN'@goide.
+ogham:OP77 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP77 ogham:context '{string}'@en.
+ogham:OP77 ogham:exactMatch wd:Q106703720  .
+ogham:OP77 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP77 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP77 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP77 dct:rightsHolder wd:Q70310399 .
+ogham:OP77 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP77 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP77 prov:wasGeneratedBy ogham:OP77_activity .
+ogham:OP77_activity rdf:type prov:Activity .
+ogham:OP77_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP77_activity prov:endedAtTime '2021-05-06T17:43:16.793327Z'^^xsd:dateTime .
+ogham:OP77_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP78 rdf:type oghamonto:Word .
+ogham:OP78 rdf:type skos:Concept .
+ogham:OP78 rdfs:label 'ULCAGNI'@en.
+ogham:OP78 rdfs:label 'ULCAGNI'@goide.
+ogham:OP78 skos:prefLabel 'ULCAGNI'@en.
+ogham:OP78 skos:prefLabel 'ULCAGNI'@goide.
+ogham:OP78 ogham:translation 'evil'@en.
+ogham:OP78 skos:altLabel 'ULCAGNI'@en.
+ogham:OP78 skos:altLabel 'ULCAGNI'@goide.
+ogham:OP78 skos:altLabel 'VLCAGNI'@en.
+ogham:OP78 skos:altLabel 'VLCAGNI'@goide.
+ogham:OP78 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP78 ogham:context '{string}'@en.
+ogham:OP78 ogham:exactMatch wd:Q106703721  .
+ogham:OP78 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP78 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP78 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP78 dct:rightsHolder wd:Q70310399 .
+ogham:OP78 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP78 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP78 prov:wasGeneratedBy ogham:OP78_activity .
+ogham:OP78_activity rdf:type prov:Activity .
+ogham:OP78_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP78_activity prov:endedAtTime '2021-05-06T17:43:16.793327Z'^^xsd:dateTime .
+ogham:OP78_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP79 rdf:type oghamonto:Word .
+ogham:OP79 rdf:type skos:Concept .
+ogham:OP79 rdfs:label 'VIRAGNI'@en.
+ogham:OP79 rdfs:label 'VIRAGNI'@goide.
+ogham:OP79 skos:prefLabel 'VIRAGNI'@en.
+ogham:OP79 skos:prefLabel 'VIRAGNI'@goide.
+ogham:OP79 ogham:translation 'man/true'@en.
+ogham:OP79 skos:altLabel 'VIRAGNI'@en.
+ogham:OP79 skos:altLabel 'VIRAGNI'@goide.
+ogham:OP79 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP79 ogham:context '{string}'@en.
+ogham:OP79 ogham:exactMatch wd:Q106703723  .
+ogham:OP79 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP79 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP79 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP79 dct:rightsHolder wd:Q70310399 .
+ogham:OP79 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP79 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP79 prov:wasGeneratedBy ogham:OP79_activity .
+ogham:OP79_activity rdf:type prov:Activity .
+ogham:OP79_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP79_activity prov:endedAtTime '2021-05-06T17:43:16.801306Z'^^xsd:dateTime .
+ogham:OP79_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP80 rdf:type oghamonto:Word .
+ogham:OP80 rdf:type skos:Concept .
+ogham:OP80 rdfs:label 'BATTIGNI'@en.
+ogham:OP80 rdfs:label 'BATTIGNI'@goide.
+ogham:OP80 skos:prefLabel 'BATTIGNI'@en.
+ogham:OP80 skos:prefLabel 'BATTIGNI'@goide.
+ogham:OP80 ogham:translation 'foolish'@en.
+ogham:OP80 skos:altLabel 'BATTIGNI'@en.
+ogham:OP80 skos:altLabel 'BATTIGNI'@goide.
+ogham:OP80 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP80 ogham:context '{string}'@en.
+ogham:OP80 ogham:exactMatch wd:Q106703724  .
+ogham:OP80 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP80 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP80 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP80 dct:rightsHolder wd:Q70310399 .
+ogham:OP80 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP80 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP80 prov:wasGeneratedBy ogham:OP80_activity .
+ogham:OP80_activity rdf:type prov:Activity .
+ogham:OP80_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP80_activity prov:endedAtTime '2021-05-06T17:43:16.801306Z'^^xsd:dateTime .
+ogham:OP80_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP81 rdf:type oghamonto:Word .
+ogham:OP81 rdf:type skos:Concept .
+ogham:OP81 rdfs:label 'QASIGNI'@en.
+ogham:OP81 rdfs:label 'QASIGNI'@goide.
+ogham:OP81 skos:prefLabel 'QASIGNI'@en.
+ogham:OP81 skos:prefLabel 'QASIGNI'@goide.
+ogham:OP81 ogham:translation 'curly'@en.
+ogham:OP81 skos:altLabel 'QASIGNI'@en.
+ogham:OP81 skos:altLabel 'QASIGNI'@goide.
+ogham:OP81 skos:altLabel 'QASIGN'@en.
+ogham:OP81 skos:altLabel 'QASIGN'@goide.
+ogham:OP81 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP81 ogham:context '{string}'@en.
+ogham:OP81 ogham:exactMatch wd:Q106703726  .
+ogham:OP81 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP81 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP81 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP81 dct:rightsHolder wd:Q70310399 .
+ogham:OP81 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP81 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP81 prov:wasGeneratedBy ogham:OP81_activity .
+ogham:OP81_activity rdf:type prov:Activity .
+ogham:OP81_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP81_activity prov:endedAtTime '2021-05-06T17:43:16.803302Z'^^xsd:dateTime .
+ogham:OP81_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP82 rdf:type oghamonto:Word .
+ogham:OP82 rdf:type skos:Concept .
+ogham:OP82 rdfs:label 'VENDOGNI'@en.
+ogham:OP82 rdfs:label 'VENDOGNI'@goide.
+ogham:OP82 skos:prefLabel 'VENDOGNI'@en.
+ogham:OP82 skos:prefLabel 'VENDOGNI'@goide.
+ogham:OP82 ogham:translation 'fair'@en.
+ogham:OP82 skos:altLabel 'VENDOGNI'@en.
+ogham:OP82 skos:altLabel 'VENDOGNI'@goide.
+ogham:OP82 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP82 ogham:context '{string}'@en.
+ogham:OP82 ogham:exactMatch wd:Q106703729  .
+ogham:OP82 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP82 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP82 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP82 dct:rightsHolder wd:Q70310399 .
+ogham:OP82 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP82 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP82 prov:wasGeneratedBy ogham:OP82_activity .
+ogham:OP82_activity rdf:type prov:Activity .
+ogham:OP82_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP82_activity prov:endedAtTime '2021-05-06T17:43:16.804301Z'^^xsd:dateTime .
+ogham:OP82_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP83 rdf:type oghamonto:Word .
+ogham:OP83 rdf:type skos:Concept .
+ogham:OP83 rdfs:label 'CASONI'@en.
+ogham:OP83 rdfs:label 'CASONI'@goide.
+ogham:OP83 skos:prefLabel 'CASONI'@en.
+ogham:OP83 skos:prefLabel 'CASONI'@goide.
+ogham:OP83 ogham:translation 'curly'@en.
+ogham:OP83 skos:altLabel 'CASONI'@en.
+ogham:OP83 skos:altLabel 'CASONI'@goide.
+ogham:OP83 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP83 ogham:context '{string}'@en.
+ogham:OP83 ogham:exactMatch wd:Q106703730  .
+ogham:OP83 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP83 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP83 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP83 dct:rightsHolder wd:Q70310399 .
+ogham:OP83 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP83 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP83 prov:wasGeneratedBy ogham:OP83_activity .
+ogham:OP83_activity rdf:type prov:Activity .
+ogham:OP83_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP83_activity prov:endedAtTime '2021-05-06T17:43:16.804301Z'^^xsd:dateTime .
+ogham:OP83_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP84 rdf:type oghamonto:Word .
+ogham:OP84 rdf:type skos:Concept .
+ogham:OP84 rdfs:label 'CRONUN'@en.
+ogham:OP84 rdfs:label 'CRONUN'@goide.
+ogham:OP84 skos:prefLabel 'CRONUN'@en.
+ogham:OP84 skos:prefLabel 'CRONUN'@goide.
+ogham:OP84 ogham:translation 'brown'@en.
+ogham:OP84 skos:altLabel 'CRONUN'@en.
+ogham:OP84 skos:altLabel 'CRONUN'@goide.
+ogham:OP84 ogham:reference 'McManus 1991,§6.12'@en.
+ogham:OP84 ogham:context '{string}'@en.
+ogham:OP84 ogham:exactMatch wd:Q106703732  .
+ogham:OP84 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP84 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP84 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP84 dct:rightsHolder wd:Q70310399 .
+ogham:OP84 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP84 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP84 prov:wasGeneratedBy ogham:OP84_activity .
+ogham:OP84_activity rdf:type prov:Activity .
+ogham:OP84_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP84_activity prov:endedAtTime '2021-05-06T17:43:16.805296Z'^^xsd:dateTime .
+ogham:OP84_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP85 rdf:type oghamonto:Word .
+ogham:OP85 rdf:type skos:Concept .
+ogham:OP85 rdfs:label 'GOSOCTAS'@en.
+ogham:OP85 rdfs:label 'GOSOCTAS'@goide.
+ogham:OP85 skos:prefLabel 'GOSOCTAS'@en.
+ogham:OP85 skos:prefLabel 'GOSOCTAS'@goide.
+ogham:OP85 ogham:translation 'danger'@en.
+ogham:OP85 skos:altLabel 'GOSOCTAS'@en.
+ogham:OP85 skos:altLabel 'GOSOCTAS'@goide.
+ogham:OP85 ogham:reference 'McManus 1991,§6.13'@en.
+ogham:OP85 ogham:context '{string}'@en.
+ogham:OP85 ogham:exactMatch wd:Q106703733  .
+ogham:OP85 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP85 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP85 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP85 dct:rightsHolder wd:Q70310399 .
+ogham:OP85 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP85 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP85 prov:wasGeneratedBy ogham:OP85_activity .
+ogham:OP85_activity rdf:type prov:Activity .
+ogham:OP85_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP85_activity prov:endedAtTime '2021-05-06T17:43:16.805296Z'^^xsd:dateTime .
+ogham:OP85_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP86 rdf:type oghamonto:Word .
+ogham:OP86 rdf:type skos:Concept .
+ogham:OP86 rdfs:label 'BRANOGENI'@en.
+ogham:OP86 rdfs:label 'BRANOGENI'@goide.
+ogham:OP86 skos:prefLabel 'BRANOGENI'@en.
+ogham:OP86 skos:prefLabel 'BRANOGENI'@goide.
+ogham:OP86 ogham:translation 'raven + he who is born of or son'@en.
+ogham:OP86 skos:altLabel 'BRANOGENI'@en.
+ogham:OP86 skos:altLabel 'BRANOGENI'@goide.
+ogham:OP86 ogham:reference 'McManus 1991,§6.9'@en.
+ogham:OP86 ogham:context '{string}'@en.
+ogham:OP86 ogham:exactMatch wd:Q106703734  .
+ogham:OP86 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP86 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP86 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP86 dct:rightsHolder wd:Q70310399 .
+ogham:OP86 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP86 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP86 prov:wasGeneratedBy ogham:OP86_activity .
+ogham:OP86_activity rdf:type prov:Activity .
+ogham:OP86_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP86_activity prov:endedAtTime '2021-05-06T17:43:16.806292Z'^^xsd:dateTime .
+ogham:OP86_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP87 rdf:type oghamonto:Word .
+ogham:OP87 rdf:type skos:Concept .
+ogham:OP87 rdfs:label 'CUNAGUSSOS'@en.
+ogham:OP87 rdfs:label 'CUNAGUSSOS'@goide.
+ogham:OP87 skos:prefLabel 'CUNAGUSSOS'@en.
+ogham:OP87 skos:prefLabel 'CUNAGUSSOS'@goide.
+ogham:OP87 ogham:translation 'hound, wolf + vigour'@en.
+ogham:OP87 skos:altLabel 'CUNAGUSSOS'@en.
+ogham:OP87 skos:altLabel 'CUNAGUSSOS'@goide.
+ogham:OP87 ogham:reference 'McManus 1991,§6.9'@en.
+ogham:OP87 ogham:context '{string}'@en.
+ogham:OP87 ogham:exactMatch wd:Q106703736  .
+ogham:OP87 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP87 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP87 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP87 dct:rightsHolder wd:Q70310399 .
+ogham:OP87 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP87 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP87 prov:wasGeneratedBy ogham:OP87_activity .
+ogham:OP87_activity rdf:type prov:Activity .
+ogham:OP87_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP87_activity prov:endedAtTime '2021-05-06T17:43:16.807300Z'^^xsd:dateTime .
+ogham:OP87_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP88 rdf:type oghamonto:Word .
+ogham:OP88 rdf:type skos:Concept .
+ogham:OP88 rdfs:label 'CATTUVVIRR'@en.
+ogham:OP88 rdfs:label 'CATTUVVIRR'@goide.
+ogham:OP88 skos:prefLabel 'CATTUVVIRR'@en.
+ogham:OP88 skos:prefLabel 'CATTUVVIRR'@goide.
+ogham:OP88 ogham:translation 'battle + man'@en.
+ogham:OP88 skos:altLabel 'CATTUVVIRR'@en.
+ogham:OP88 skos:altLabel 'CATTUVVIRR'@goide.
+ogham:OP88 ogham:reference 'McManus 1991,§6.9'@en.
+ogham:OP88 ogham:context '{string}'@en.
+ogham:OP88 ogham:exactMatch wd:Q106703737  .
+ogham:OP88 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP88 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP88 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP88 dct:rightsHolder wd:Q70310399 .
+ogham:OP88 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP88 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP88 prov:wasGeneratedBy ogham:OP88_activity .
+ogham:OP88_activity rdf:type prov:Activity .
+ogham:OP88_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP88_activity prov:endedAtTime '2021-05-06T17:43:16.807300Z'^^xsd:dateTime .
+ogham:OP88_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP89 rdf:type oghamonto:Word .
+ogham:OP89 rdf:type skos:Concept .
+ogham:OP89 rdfs:label 'DOMNGEN'@en.
+ogham:OP89 rdfs:label 'DOMNGEN'@goide.
+ogham:OP89 skos:prefLabel 'DOMNGEN'@en.
+ogham:OP89 skos:prefLabel 'DOMNGEN'@goide.
+ogham:OP89 ogham:translation 'world + son'@en.
+ogham:OP89 skos:altLabel 'DOMNGEN'@en.
+ogham:OP89 skos:altLabel 'DOMNGEN'@goide.
+ogham:OP89 ogham:reference 'McManus 1991,§6.9'@en.
+ogham:OP89 ogham:context '{string}'@en.
+ogham:OP89 ogham:exactMatch wd:Q106703739  .
+ogham:OP89 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP89 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP89 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP89 dct:rightsHolder wd:Q70310399 .
+ogham:OP89 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP89 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP89 prov:wasGeneratedBy ogham:OP89_activity .
+ogham:OP89_activity rdf:type prov:Activity .
+ogham:OP89_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP89_activity prov:endedAtTime '2021-05-06T17:43:16.808288Z'^^xsd:dateTime .
+ogham:OP89_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP90 rdf:type oghamonto:Word .
+ogham:OP90 rdf:type skos:Concept .
+ogham:OP90 rdfs:label 'GAMICUNAS'@en.
+ogham:OP90 rdfs:label 'GAMICUNAS'@goide.
+ogham:OP90 skos:prefLabel 'GAMICUNAS'@en.
+ogham:OP90 skos:prefLabel 'GAMICUNAS'@goide.
+ogham:OP90 ogham:translation 'winter + wolf'@en.
+ogham:OP90 skos:altLabel 'GAMICUNAS'@en.
+ogham:OP90 skos:altLabel 'GAMICUNAS'@goide.
+ogham:OP90 ogham:reference 'McManus 1991,§6.9'@en.
+ogham:OP90 ogham:context '{string}'@en.
+ogham:OP90 ogham:exactMatch wd:Q106703740  .
+ogham:OP90 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP90 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP90 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP90 dct:rightsHolder wd:Q70310399 .
+ogham:OP90 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP90 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP90 prov:wasGeneratedBy ogham:OP90_activity .
+ogham:OP90_activity rdf:type prov:Activity .
+ogham:OP90_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP90_activity prov:endedAtTime '2021-05-06T17:43:16.808288Z'^^xsd:dateTime .
+ogham:OP90_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP91 rdf:type oghamonto:Word .
+ogham:OP91 rdf:type skos:Concept .
+ogham:OP91 rdfs:label 'IVACATTOS'@en.
+ogham:OP91 rdfs:label 'IVACATTOS'@goide.
+ogham:OP91 skos:prefLabel 'IVACATTOS'@en.
+ogham:OP91 skos:prefLabel 'IVACATTOS'@goide.
+ogham:OP91 ogham:translation 'yew + battle'@en.
+ogham:OP91 skos:altLabel 'IVACATTOS'@en.
+ogham:OP91 skos:altLabel 'IVACATTOS'@goide.
+ogham:OP91 ogham:reference 'McManus 1991,§6.9'@en.
+ogham:OP91 ogham:context '{string}'@en.
+ogham:OP91 ogham:exactMatch wd:Q106703742  .
+ogham:OP91 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP91 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP91 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP91 dct:rightsHolder wd:Q70310399 .
+ogham:OP91 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP91 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP91 prov:wasGeneratedBy ogham:OP91_activity .
+ogham:OP91_activity rdf:type prov:Activity .
+ogham:OP91_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP91_activity prov:endedAtTime '2021-05-06T17:43:16.808288Z'^^xsd:dateTime .
+ogham:OP91_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP92 rdf:type oghamonto:Word .
+ogham:OP92 rdf:type skos:Concept .
+ogham:OP92 rdfs:label 'IVAGENI'@en.
+ogham:OP92 rdfs:label 'IVAGENI'@goide.
+ogham:OP92 skos:prefLabel 'IVAGENI'@en.
+ogham:OP92 skos:prefLabel 'IVAGENI'@goide.
+ogham:OP92 ogham:translation 'yew + son'@en.
+ogham:OP92 skos:altLabel 'IVAGENI'@en.
+ogham:OP92 skos:altLabel 'IVAGENI'@goide.
+ogham:OP92 ogham:reference 'McManus 1991,§6.9'@en.
+ogham:OP92 ogham:context '{string}'@en.
+ogham:OP92 ogham:exactMatch wd:Q106703743  .
+ogham:OP92 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP92 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP92 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP92 dct:rightsHolder wd:Q70310399 .
+ogham:OP92 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP92 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP92 prov:wasGeneratedBy ogham:OP92_activity .
+ogham:OP92_activity rdf:type prov:Activity .
+ogham:OP92_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP92_activity prov:endedAtTime '2021-05-06T17:43:16.810282Z'^^xsd:dateTime .
+ogham:OP92_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP93 rdf:type oghamonto:Word .
+ogham:OP93 rdf:type skos:Concept .
+ogham:OP93 rdfs:label 'MEDDO'@en.
+ogham:OP93 rdfs:label 'MEDDO'@goide.
+ogham:OP93 skos:prefLabel 'MEDDO'@en.
+ogham:OP93 skos:prefLabel 'MEDDO'@goide.
+ogham:OP93 ogham:translation 'mead + son'@en.
+ogham:OP93 skos:altLabel 'MEDDO'@en.
+ogham:OP93 skos:altLabel 'MEDDO'@goide.
+ogham:OP93 skos:altLabel 'UGENI'@en.
+ogham:OP93 skos:altLabel 'UGENI'@goide.
+ogham:OP93 ogham:reference 'McManus 1991,§6.9'@en.
+ogham:OP93 ogham:context '{string}'@en.
+ogham:OP93 ogham:exactMatch wd:Q106703745  .
+ogham:OP93 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP93 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP93 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP93 dct:rightsHolder wd:Q70310399 .
+ogham:OP93 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP93 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP93 prov:wasGeneratedBy ogham:OP93_activity .
+ogham:OP93_activity rdf:type prov:Activity .
+ogham:OP93_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP93_activity prov:endedAtTime '2021-05-06T17:43:16.810282Z'^^xsd:dateTime .
+ogham:OP93_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP94 rdf:type oghamonto:Word .
+ogham:OP94 rdf:type skos:Concept .
+ogham:OP94 rdfs:label 'VERGOSO'@en.
+ogham:OP94 rdfs:label 'VERGOSO'@goide.
+ogham:OP94 skos:prefLabel 'VERGOSO'@en.
+ogham:OP94 skos:prefLabel 'VERGOSO'@goide.
+ogham:OP94 ogham:translation 'man + vigour'@en.
+ogham:OP94 skos:altLabel 'VERGOSO'@en.
+ogham:OP94 skos:altLabel 'VERGOSO'@goide.
+ogham:OP94 ogham:reference 'McManus 1991,§6.9'@en.
+ogham:OP94 ogham:context '{string}'@en.
+ogham:OP94 ogham:exactMatch wd:Q106703746  .
+ogham:OP94 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP94 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP94 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP94 dct:rightsHolder wd:Q70310399 .
+ogham:OP94 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP94 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP94 prov:wasGeneratedBy ogham:OP94_activity .
+ogham:OP94_activity rdf:type prov:Activity .
+ogham:OP94_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP94_activity prov:endedAtTime '2021-05-06T17:43:16.810282Z'^^xsd:dateTime .
+ogham:OP94_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP95 rdf:type oghamonto:Word .
+ogham:OP95 rdf:type skos:Concept .
+ogham:OP95 rdfs:label 'BODIBEVE'@en.
+ogham:OP95 rdfs:label 'BODIBEVE'@goide.
+ogham:OP95 skos:prefLabel 'BODIBEVE'@en.
+ogham:OP95 skos:prefLabel 'BODIBEVE'@goide.
+ogham:OP95 ogham:translation 'victory + living,alive'@en.
+ogham:OP95 skos:altLabel 'BODIBEVE'@en.
+ogham:OP95 skos:altLabel 'BODIBEVE'@goide.
+ogham:OP95 skos:altLabel 'BODDIB'@en.
+ogham:OP95 skos:altLabel 'BODDIB'@goide.
+ogham:OP95 ogham:reference 'McManus 1991,§6.9'@en.
+ogham:OP95 ogham:context '{string}'@en.
+ogham:OP95 ogham:exactMatch wd:Q106703747  .
+ogham:OP95 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP95 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP95 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP95 dct:rightsHolder wd:Q70310399 .
+ogham:OP95 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP95 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP95 prov:wasGeneratedBy ogham:OP95_activity .
+ogham:OP95_activity rdf:type prov:Activity .
+ogham:OP95_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP95_activity prov:endedAtTime '2021-05-06T17:43:16.811280Z'^^xsd:dateTime .
+ogham:OP95_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP96 rdf:type oghamonto:Word .
+ogham:OP96 rdf:type skos:Concept .
+ogham:OP96 rdfs:label 'BRANADDOV'@en.
+ogham:OP96 rdfs:label 'BRANADDOV'@goide.
+ogham:OP96 skos:prefLabel 'BRANADDOV'@en.
+ogham:OP96 skos:prefLabel 'BRANADDOV'@goide.
+ogham:OP96 ogham:translation 'raven + black'@en.
+ogham:OP96 skos:altLabel 'BRANADDOV'@en.
+ogham:OP96 skos:altLabel 'BRANADDOV'@goide.
+ogham:OP96 ogham:reference 'McManus 1991,§6.9'@en.
+ogham:OP96 ogham:context '{string}'@en.
+ogham:OP96 ogham:exactMatch wd:Q106703748  .
+ogham:OP96 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP96 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP96 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP96 dct:rightsHolder wd:Q70310399 .
+ogham:OP96 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP96 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP96 prov:wasGeneratedBy ogham:OP96_activity .
+ogham:OP96_activity rdf:type prov:Activity .
+ogham:OP96_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP96_activity prov:endedAtTime '2021-05-06T17:43:16.811280Z'^^xsd:dateTime .
+ogham:OP96_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP97 rdf:type oghamonto:Word .
+ogham:OP97 rdf:type skos:Concept .
+ogham:OP97 rdfs:label 'VENDUBARI'@en.
+ogham:OP97 rdfs:label 'VENDUBARI'@goide.
+ogham:OP97 skos:prefLabel 'VENDUBARI'@en.
+ogham:OP97 skos:prefLabel 'VENDUBARI'@goide.
+ogham:OP97 ogham:translation 'top, head, hear of the head + fair'@en.
+ogham:OP97 skos:altLabel 'VENDUBARI'@en.
+ogham:OP97 skos:altLabel 'VENDUBARI'@goide.
+ogham:OP97 ogham:reference 'McManus 1991,§6.9'@en.
+ogham:OP97 ogham:context '{string}'@en.
+ogham:OP97 ogham:exactMatch wd:Q106703749  .
+ogham:OP97 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP97 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP97 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP97 dct:rightsHolder wd:Q70310399 .
+ogham:OP97 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP97 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP97 prov:wasGeneratedBy ogham:OP97_activity .
+ogham:OP97_activity rdf:type prov:Activity .
+ogham:OP97_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP97_activity prov:endedAtTime '2021-05-06T17:43:16.812277Z'^^xsd:dateTime .
+ogham:OP97_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP98 rdf:type oghamonto:Word .
+ogham:OP98 rdf:type skos:Concept .
+ogham:OP98 rdfs:label 'BIVAIDONAS'@en.
+ogham:OP98 rdfs:label 'BIVAIDONAS'@goide.
+ogham:OP98 skos:prefLabel 'BIVAIDONAS'@en.
+ogham:OP98 skos:prefLabel 'BIVAIDONAS'@goide.
+ogham:OP98 ogham:translation 'alive + fire'@en.
+ogham:OP98 skos:altLabel 'BIVAIDONAS'@en.
+ogham:OP98 skos:altLabel 'BIVAIDONAS'@goide.
+ogham:OP98 ogham:reference 'McManus 1991,§6.9'@en.
+ogham:OP98 ogham:context '{string}'@en.
+ogham:OP98 ogham:exactMatch wd:Q106703750  .
+ogham:OP98 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP98 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP98 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP98 dct:rightsHolder wd:Q70310399 .
+ogham:OP98 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP98 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP98 prov:wasGeneratedBy ogham:OP98_activity .
+ogham:OP98_activity rdf:type prov:Activity .
+ogham:OP98_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP98_activity prov:endedAtTime '2021-05-06T17:43:16.812277Z'^^xsd:dateTime .
+ogham:OP98_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP99 rdf:type oghamonto:Word .
+ogham:OP99 rdf:type skos:Concept .
+ogham:OP99 rdfs:label 'DOVAIDONA'@en.
+ogham:OP99 rdfs:label 'DOVAIDONA'@goide.
+ogham:OP99 skos:prefLabel 'DOVAIDONA'@en.
+ogham:OP99 skos:prefLabel 'DOVAIDONA'@goide.
+ogham:OP99 ogham:translation 'black + fire'@en.
+ogham:OP99 skos:altLabel 'DOVAIDONA'@en.
+ogham:OP99 skos:altLabel 'DOVAIDONA'@goide.
+ogham:OP99 ogham:reference 'McManus 1991,§6.9'@en.
+ogham:OP99 ogham:context '{string}'@en.
+ogham:OP99 ogham:exactMatch wd:Q106703751  .
+ogham:OP99 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP99 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP99 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP99 dct:rightsHolder wd:Q70310399 .
+ogham:OP99 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP99 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP99 prov:wasGeneratedBy ogham:OP99_activity .
+ogham:OP99_activity rdf:type prov:Activity .
+ogham:OP99_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP99_activity prov:endedAtTime '2021-05-06T17:43:16.812277Z'^^xsd:dateTime .
+ogham:OP99_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP100 rdf:type oghamonto:Word .
+ogham:OP100 rdf:type skos:Concept .
+ogham:OP100 rdfs:label 'GLASICONAS'@en.
+ogham:OP100 rdfs:label 'GLASICONAS'@goide.
+ogham:OP100 skos:prefLabel 'GLASICONAS'@en.
+ogham:OP100 skos:prefLabel 'GLASICONAS'@goide.
+ogham:OP100 ogham:translation 'grey + wolf'@en.
+ogham:OP100 skos:altLabel 'GLASICONAS'@en.
+ogham:OP100 skos:altLabel 'GLASICONAS'@goide.
+ogham:OP100 ogham:reference 'McManus 1991,§6.9'@en.
+ogham:OP100 ogham:context '{string}'@en.
+ogham:OP100 ogham:exactMatch wd:Q106703752  .
+ogham:OP100 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP100 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP100 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP100 dct:rightsHolder wd:Q70310399 .
+ogham:OP100 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP100 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP100 prov:wasGeneratedBy ogham:OP100_activity .
+ogham:OP100_activity rdf:type prov:Activity .
+ogham:OP100_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP100_activity prov:endedAtTime '2021-05-06T17:43:16.813275Z'^^xsd:dateTime .
+ogham:OP100_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP101 rdf:type oghamonto:Word .
+ogham:OP101 rdf:type skos:Concept .
+ogham:OP101 rdfs:label 'TRENACCATLO'@en.
+ogham:OP101 rdfs:label 'TRENACCATLO'@goide.
+ogham:OP101 skos:prefLabel 'TRENACCATLO'@en.
+ogham:OP101 skos:prefLabel 'TRENACCATLO'@goide.
+ogham:OP101 ogham:translation 'strong + battle'@en.
+ogham:OP101 skos:altLabel 'TRENACCATLO'@en.
+ogham:OP101 skos:altLabel 'TRENACCATLO'@goide.
+ogham:OP101 skos:altLabel 'TRENACATVS'@en.
+ogham:OP101 skos:altLabel 'TRENACATVS'@goide.
+ogham:OP101 ogham:reference 'McManus 1991,§6.9'@en.
+ogham:OP101 ogham:context '{string}'@en.
+ogham:OP101 ogham:exactMatch wd:Q106703753  .
+ogham:OP101 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP101 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP101 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP101 dct:rightsHolder wd:Q70310399 .
+ogham:OP101 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP101 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP101 prov:wasGeneratedBy ogham:OP101_activity .
+ogham:OP101_activity rdf:type prov:Activity .
+ogham:OP101_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP101_activity prov:endedAtTime '2021-05-06T17:43:16.813275Z'^^xsd:dateTime .
+ogham:OP101_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP102 rdf:type oghamonto:Word .
+ogham:OP102 rdf:type skos:Concept .
+ogham:OP102 rdfs:label 'VANDUBARI'@en.
+ogham:OP102 rdfs:label 'VANDUBARI'@goide.
+ogham:OP102 skos:prefLabel 'VANDUBARI'@en.
+ogham:OP102 skos:prefLabel 'VANDUBARI'@goide.
+ogham:OP102 ogham:translation 'fair + head'@en.
+ogham:OP102 skos:altLabel 'VANDUBARI'@en.
+ogham:OP102 skos:altLabel 'VANDUBARI'@goide.
+ogham:OP102 ogham:reference 'McManus 1991,§6.9'@en.
+ogham:OP102 ogham:context '{string}'@en.
+ogham:OP102 ogham:exactMatch wd:Q106703754  .
+ogham:OP102 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP102 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP102 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP102 dct:rightsHolder wd:Q70310399 .
+ogham:OP102 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP102 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP102 prov:wasGeneratedBy ogham:OP102_activity .
+ogham:OP102_activity rdf:type prov:Activity .
+ogham:OP102_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP102_activity prov:endedAtTime '2021-05-06T17:43:16.814272Z'^^xsd:dateTime .
+ogham:OP102_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP103 rdf:type oghamonto:Word .
+ogham:OP103 rdf:type skos:Concept .
+ogham:OP103 rdfs:label 'DOVALESCI'@en.
+ogham:OP103 rdfs:label 'DOVALESCI'@goide.
+ogham:OP103 skos:prefLabel 'DOVALESCI'@en.
+ogham:OP103 skos:prefLabel 'DOVALESCI'@goide.
+ogham:OP103 ogham:translation 'black + sluggish'@en.
+ogham:OP103 skos:altLabel 'DOVALESCI'@en.
+ogham:OP103 skos:altLabel 'DOVALESCI'@goide.
+ogham:OP103 ogham:reference 'McManus 1991,§6.9'@en.
+ogham:OP103 ogham:context '{string}'@en.
+ogham:OP103 ogham:exactMatch wd:Q106703755  .
+ogham:OP103 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP103 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP103 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP103 dct:rightsHolder wd:Q70310399 .
+ogham:OP103 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP103 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP103 prov:wasGeneratedBy ogham:OP103_activity .
+ogham:OP103_activity rdf:type prov:Activity .
+ogham:OP103_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP103_activity prov:endedAtTime '2021-05-06T17:43:16.814272Z'^^xsd:dateTime .
+ogham:OP103_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+
+ogham:OP104 rdf:type oghamonto:Word .
+ogham:OP104 rdf:type skos:Concept .
+ogham:OP104 rdfs:label 'AMMECATI'@en.
+ogham:OP104 rdfs:label 'AMMECATI'@goide.
+ogham:OP104 skos:prefLabel 'AMMECATI'@en.
+ogham:OP104 skos:prefLabel 'AMMECATI'@goide.
+ogham:OP104 ogham:translation 'arround + battle'@en.
+ogham:OP104 skos:altLabel 'AMMECATI'@en.
+ogham:OP104 skos:altLabel 'AMMECATI'@goide.
+ogham:OP104 skos:altLabel 'AMBICATOS'@en.
+ogham:OP104 skos:altLabel 'AMBICATOS'@goide.
+ogham:OP104 skos:altLabel 'BICATOS'@en.
+ogham:OP104 skos:altLabel 'BICATOS'@goide.
+ogham:OP104 ogham:reference 'McManus 1991,§6.9'@en.
+ogham:OP104 ogham:context '{string}'@en.
+ogham:OP104 ogham:exactMatch wd:Q106703756  .
+ogham:OP104 dct:license <https://creativecommons.org/licenses/by/4.0/deed.de> .
+ogham:OP104 dct:creator <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP104 dct:rightsHolder <https://orcid.org/0000-0002-3246-3531> .
+ogham:OP104 dct:rightsHolder wd:Q70310399 .
+ogham:OP104 prov:wasAttributedTo ogham:PythonStonesCIIC .
+ogham:OP104 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasDerivedFrom wd:Q70310399 .
+<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
+ogham:OP104 prov:wasGeneratedBy ogham:OP104_activity .
+ogham:OP104_activity rdf:type prov:Activity .
+ogham:OP104_activity prov:startedAtTime '2021-05-06T17:43:16.727507Z'^^xsd:dateTime .
+ogham:OP104_activity prov:endedAtTime '2021-05-06T17:43:16.815269Z'^^xsd:dateTime .
+ogham:OP104_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
+

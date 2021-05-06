@@ -28,7 +28,7 @@ print("*****************************************")
 starttime = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ")
 
 # set paths
-file_name = "og_persons"
+file_name = "og_words"
 dir_path = os.path.dirname(os.path.realpath(__file__))
 file_in = dir_path.replace("\\py", "\\data_v1\\csv\\ogham") + "\\" + file_name + ".csv"
 
@@ -37,7 +37,7 @@ data = pd.read_csv(
     file_in,
     encoding='utf-8',
     sep=',',
-    usecols=['id', 'label', 'name_caps'],
+    usecols=['id', 'label', 'translation', 'reference', 'variants', 'context', 'wikidata_id', 'wikidata_type'],
     na_values=['.', '??', 'NULL']  # take any '.' or '??' values as NA
 )
 print(data.info())
@@ -53,27 +53,39 @@ for index, row in data.iterrows():
         print(tmpno)
     lineNo += 1
     # info
-    lines.append("ogham:OP" + str(row['id']) + " " + "rdf:type" + " oghamonto:Person .")
+    lines.append("ogham:OP" + str(row['id']) + " " + "rdf:type" + " oghamonto:Word .")
     lines.append("ogham:OP" + str(row['id']) + " " + "rdf:type" + " skos:Concept .")
+    if str(row['wikidata_type']) == 'Q67381377':
+        lines.append("ogham:OP" + str(row['id']) + " " + "rdf:type" + " oghamonto:FormulaWord .")
+    elif str(row['wikidata_type']) == 'Q67382150':
+        lines.append("ogham:OP" + str(row['id']) + " " + "rdf:type" + " oghamonto:NomenclatureWord .")
+    elif str(row['wikidata_type']) == 'Q67381377':
+        lines.append("ogham:OP" + str(row['id']) + " " + "rdf:type" + " oghamonto:OghamName .")
     lines.append("ogham:OP" + str(row['id']) + " " + "rdfs:label" + " " + "'" + str(row['label']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
     lines.append("ogham:OP" + str(row['id']) + " " + "rdfs:label" + " " + "'" + str(row['label']).replace('\'', '`').replace('\\', '') + "'@goide" + ".")
     lines.append("ogham:OP" + str(row['id']) + " " + "skos:prefLabel" + " " + "'" + str(row['label']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
     lines.append("ogham:OP" + str(row['id']) + " " + "skos:prefLabel" + " " + "'" + str(row['label']).replace('\'', '`').replace('\\', '') + "'@goide" + ".")
-    lines.append("ogham:OP" + str(row['id']) + " " + "ogham:label_upper" + " " + "'" + str(row['name_caps']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
-    lines.append("ogham:OP" + str(row['id']) + " " + "ogham:label_upper" + " " + "'" + str(row['name_caps']).replace('\'', '`').replace('\\', '') + "'@goide" + ".")
+    lines.append("ogham:OP" + str(row['id']) + " " + "ogham:translation" + " " + "'" + str(row['translation']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
+    variant = str(row['variants'])
+    variant = variant.replace("[", "")
+    variant = variant.replace("]", "")
+    variant_split = variant.split("|")
+    for x in variant_split:
+        lines.append("ogham:OP" + str(row['id']) + " " + "skos:altLabel" + " " + "'" + x + "'@en" + ".")
+        lines.append("ogham:OP" + str(row['id']) + " " + "skos:altLabel" + " " + "'" + x + "'@goide" + ".")
+    lines.append("ogham:OP" + str(row['id']) + " " + "ogham:reference" + " " + "'" + str(row['reference']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
+    lines.append("ogham:OP" + str(row['id']) + " " + "ogham:context" + " " + "'" + str(row['context']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
+    lines.append("ogham:OP" + str(row['id']) + " " + "ogham:exactMatch" + " wd:" + str(row['wikidata_id']) + " .")  # o3d
     # license
-    lines.append("ogham:OP" + str(row['id']) + " " + "dct:license" + " <" + "http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US" + "> .")
+    lines.append("ogham:OP" + str(row['id']) + " " + "dct:license" + " <" + "https://creativecommons.org/licenses/by/4.0/deed.de" + "> .")
     lines.append("ogham:OP" + str(row['id']) + " " + "dct:creator" + " <" + "https://orcid.org/0000-0002-3246-3531" + "> .")
     lines.append("ogham:OP" + str(row['id']) + " " + "dct:rightsHolder" + " <" + "https://orcid.org/0000-0002-3246-3531" + "> .")
-    lines.append("ogham:OP" + str(row['id']) + " " + "dct:rightsHolder" + " wd:Q106674066 .")  # o3d
-    lines.append("ogham:OP" + str(row['id']) + " " + "dct:rightsHolder" + " wd:Q106628017 .")  # cisp
+    lines.append("ogham:OP" + str(row['id']) + " " + "dct:rightsHolder" + " wd:Q70310399 .")  # A Guide to Ogham
     # prov-o
     lines.append("ogham:OP" + str(row['id']) + " " + "prov:wasAttributedTo" + " ogham:PythonStonesCIIC .")
     lines.append("ogham:OP" + str(row['id']) + " " + "prov:wasDerivedFrom" + " <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/" + file_name + ".csv> .")
-    lines.append("<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/" + file_name + ".csv> " + "prov:wasDerivedFrom" + " <" + "https://www.ucl.ac.uk/archaeology/cisp/database/index/name_alpha.html" + "> .")
-    lines.append("<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/" + file_name + ".csv> " + "prov:wasDerivedFrom" + " <" + "https://ogham.celt.dias.ie/menu.php?lang=en&menuitem=81" + "> .")
-    lines.append("<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/" + file_name + ".csv> " + "prov:wasAttributedTo" + " wd:Q106628017 .")
-    lines.append("<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/" + file_name + ".csv> " + "prov:wasAttributedTo" + " wd:Q106674066 .")
+    lines.append("<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/" + file_name + ".csv> " + "prov:wasDerivedFrom" + " wd:Q70310399 .")
+    lines.append("<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/" + file_name + ".csv> " + "prov:wasAttributedTo" + " wd:Q106729180 .")
     lines.append("ogham:OP" + str(row['id']) + " " + "prov:wasGeneratedBy" + " ogham:OP" + str(row['id']) + "_activity .")
     lines.append("ogham:OP" + str(row['id']) + "_activity " + "rdf:type" + " prov:Activity .")
     lines.append("ogham:OP" + str(row['id']) + "_activity " + "prov:startedAtTime '" + starttime + "'^^xsd:dateTime .")
