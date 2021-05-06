@@ -63,8 +63,8 @@ for index, row in data.iterrows():
     lines.append("ogham:OS" + str(row['id']) + " " + "oghamonto:label_province" + " " + "'" + str(row['province_label']) + "'" + ".")
     lines.append("ogham:OS" + str(row['id']) + " " + "oghamonto:label_county" + " " + "'" + str(row['county_label']) + "'" + ".")
     # geom
-    lines.append("ogham:OS" + str(row['id']) + " " + "geosparql:hasGeometry" + " ogham:OL" + str(row['id']) + "_geom .")
-    lines.append("ogham:OS" + str(row['id']) + " " + "oghamonto:representativePoint" + " ogham:OL" + str(row['id']) + "_geom .")
+    lines.append("ogham:OS" + str(row['id']) + " " + "geosparql:hasGeometry" + " ogham:OS" + str(row['id']) + "_geom .")
+    lines.append("ogham:OS" + str(row['id']) + " " + "oghamonto:representativePoint" + " ogham:OS" + str(row['id']) + "_geom .")
     lines.append("ogham:OS" + str(row['id']) + "_geom " + "rdf:type" + " sf:Point .")
     point = "\"" + str(row['wkt']) + "\"^^geosparql:wktLiteral"
     lines.append("ogham:OS" + str(row['id']) + "_geom " + "geosparql:asWKT " + point + ".")

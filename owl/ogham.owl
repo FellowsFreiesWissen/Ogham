@@ -868,15 +868,6 @@
     
 
 
-    <!-- http://ontology.ogham.link/CountyTown -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/CountyTown">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/ElectoralDevision"/>
-        <rdfs:label xml:lang="en">Country Town</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://ontology.ogham.link/ElectoralDevision -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/ElectoralDevision">
@@ -1116,69 +1107,6 @@
     <owl:Class rdf:about="http://ontology.ogham.link/Word">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:label xml:lang="en">Word</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://sws.geonames.org/2634895 -->
-
-    <owl:Class rdf:about="http://sws.geonames.org/2634895">
-        <rdfs:subClassOf rdf:resource="http://sws.geonames.org/2635167"/>
-        <rdfs:label xml:lang="en">Wales</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://sws.geonames.org/2635167 -->
-
-    <owl:Class rdf:about="http://sws.geonames.org/2635167">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/State"/>
-        <rdfs:label xml:lang="en">United Kingdom</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://sws.geonames.org/2638360 -->
-
-    <owl:Class rdf:about="http://sws.geonames.org/2638360">
-        <rdfs:subClassOf rdf:resource="http://sws.geonames.org/2635167"/>
-        <rdfs:label xml:lang="en">Scotland</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://sws.geonames.org/2641364 -->
-
-    <owl:Class rdf:about="http://sws.geonames.org/2641364">
-        <rdfs:subClassOf rdf:resource="http://sws.geonames.org/2635167"/>
-        <rdfs:label xml:lang="en">Northern Ireland</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://sws.geonames.org/2963597 -->
-
-    <owl:Class rdf:about="http://sws.geonames.org/2963597">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/State"/>
-        <rdfs:label xml:lang="en">Ireland</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://sws.geonames.org/3042225 -->
-
-    <owl:Class rdf:about="http://sws.geonames.org/3042225">
-        <rdfs:subClassOf rdf:resource="http://sws.geonames.org/2635167"/>
-        <rdfs:label xml:lang="en">Isle of Man</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://sws.geonames.org/6269131 -->
-
-    <owl:Class rdf:about="http://sws.geonames.org/6269131">
-        <rdfs:subClassOf rdf:resource="http://sws.geonames.org/2635167"/>
-        <rdfs:label xml:lang="en">England</rdfs:label>
     </owl:Class>
     
 
