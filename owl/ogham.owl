@@ -327,6 +327,15 @@
     
 
 
+    <!-- http://ontology.ogham.link/lastRecorded -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/lastRecorded">
+        <rdfs:subPropertyOf rdf:resource="http://ontology.ogham.link/hasPointGeometry"/>
+        <rdfs:label xml:lang="en">last recored</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://ontology.ogham.link/locatedAt -->
 
     <owl:ObjectProperty rdf:about="http://ontology.ogham.link/locatedAt">
@@ -334,6 +343,15 @@
         <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
         <rdfs:range rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
         <rdfs:label xml:lang="en">is located at</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/origGeom -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/origGeom">
+        <rdfs:subPropertyOf rdf:resource="http://ontology.ogham.link/hasPointGeometry"/>
+        <rdfs:label xml:lang="en">orig geometry</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -489,6 +507,14 @@
     
 
 
+    <!-- http://ontology.ogham.link/irishGrid -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/irishGrid">
+        <rdfs:label xml:lang="en">irish grid reference</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://ontology.ogham.link/label_upper -->
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/label_upper">
@@ -533,6 +559,22 @@
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/script">
         <rdfs:label xml:lang="en">script</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/sitecode -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/sitecode">
+        <rdfs:label xml:lang="en">site code</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/sitetype -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/sitetype">
+        <rdfs:label xml:lang="en">site type</rdfs:label>
     </owl:DatatypeProperty>
     
 

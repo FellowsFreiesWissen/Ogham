@@ -77,19 +77,19 @@ for index, row in data.iterrows():
         lines.append("ogham:OR" + str(row['id']) + " " + "dct:rightsHolder" + " <" + "https://orcid.org/0000-0002-3246-3531" + "> .")
         lines.append("ogham:OR" + str(row['id']) + " " + "dct:rightsHolder" + " wd:Q106628017 .")  # cisp
     # prov-o
-    lines.append("ogham:OP" + str(row['id']) + " " + "prov:wasAttributedTo" + " ogham:PythonStonesCIIC .")
-    lines.append("ogham:OP" + str(row['id']) + " " + "prov:wasDerivedFrom" + " <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/" + file_name + ".csv> .")
+    lines.append("ogham:OR" + str(row['id']) + " " + "prov:wasAttributedTo" + " ogham:PythonStonesCIIC .")
+    lines.append("ogham:OR" + str(row['id']) + " " + "prov:wasDerivedFrom" + " <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/" + file_name + ".csv> .")
     lines.append("<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/" + file_name + ".csv> " + "prov:wasDerivedFrom" + " <" + "https://www.ucl.ac.uk/archaeology/cisp/database/" + "> .")
     lines.append("<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/" + file_name + ".csv> " + "prov:wasDerivedFrom" + " <" + "https://ogham.celt.dias.ie/menu.php?lang=en&menuitem=81&overviewinfo=epidoc_stone_details" + "> .")
     lines.append("<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/" + file_name + ".csv> " + "prov:wasDerivedFrom" + " wd:Q70256237 .")
     lines.append("<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/" + file_name + ".csv> " + "prov:wasAttributedTo" + " wd:Q106628017 .")
     lines.append("<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/" + file_name + ".csv> " + "prov:wasAttributedTo" + " wd:Q106674066 .")
     lines.append("<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/" + file_name + ".csv> " + "prov:wasAttributedTo" + " wd:Q70256237 .")
-    lines.append("ogham:OP" + str(row['id']) + " " + "prov:wasGeneratedBy" + " ogham:OP" + str(row['id']) + "_activity .")
-    lines.append("ogham:OP" + str(row['id']) + "_activity " + "rdf:type" + " prov:Activity .")
-    lines.append("ogham:OP" + str(row['id']) + "_activity " + "prov:startedAtTime '" + starttime + "'^^xsd:dateTime .")
-    lines.append("ogham:OP" + str(row['id']) + "_activity " + "prov:endedAtTime '" + datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
-    lines.append("ogham:OP" + str(row['id']) + "_activity " + "prov:wasAssociatedWith" + " ogham:PythonStonesCIIC .")
+    lines.append("ogham:OR" + str(row['id']) + " " + "prov:wasGeneratedBy" + " ogham:OP" + str(row['id']) + "_activity .")
+    lines.append("ogham:OR" + str(row['id']) + "_activity " + "rdf:type" + " prov:Activity .")
+    lines.append("ogham:OR" + str(row['id']) + "_activity " + "prov:startedAtTime '" + starttime + "'^^xsd:dateTime .")
+    lines.append("ogham:OR" + str(row['id']) + "_activity " + "prov:endedAtTime '" + datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
+    lines.append("ogham:OR" + str(row['id']) + "_activity " + "prov:wasAssociatedWith" + " ogham:PythonStonesCIIC .")
     lines.append("")
 
 files = (len(lines) / 100000) + 1
