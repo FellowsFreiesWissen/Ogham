@@ -508,10 +508,69 @@
     
 
 
+    <!-- http://ontology.ogham.link/completeness -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/completeness"/>
+    
+
+
     <!-- http://ontology.ogham.link/context -->
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/context">
         <rdfs:label xml:lang="en">context</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/currentlocation -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/currentlocation"/>
+    
+
+
+    <!-- http://ontology.ogham.link/currentsetting -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/currentsetting"/>
+    
+
+
+    <!-- http://ontology.ogham.link/depth -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/depth">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="en">depth</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/discovery_who -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/discovery_who"/>
+    
+
+
+    <!-- http://ontology.ogham.link/discovery_year -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/discovery_year"/>
+    
+
+
+    <!-- http://ontology.ogham.link/form -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/form"/>
+    
+
+
+    <!-- http://ontology.ogham.link/h_status -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/h_status"/>
+    
+
+
+    <!-- http://ontology.ogham.link/height -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/height">
+        <rdfs:label xml:lang="en">height</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -581,6 +640,18 @@
     
 
 
+    <!-- http://ontology.ogham.link/preservation -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/preservation"/>
+    
+
+
+    <!-- http://ontology.ogham.link/preservation_note -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/preservation_note"/>
+    
+
+
     <!-- http://ontology.ogham.link/reference -->
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/reference">
@@ -629,10 +700,43 @@
     
 
 
+    <!-- http://ontology.ogham.link/smr_no -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/smr_no"/>
+    
+
+
+    <!-- http://ontology.ogham.link/t_status -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/t_status"/>
+    
+
+
+    <!-- http://ontology.ogham.link/thickness -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/thickness"/>
+    
+
+
     <!-- http://ontology.ogham.link/translation -->
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/translation">
         <rdfs:label xml:lang="en">translation</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/w_status -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/w_status"/>
+    
+
+
+    <!-- http://ontology.ogham.link/width -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/width">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="en">width</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -863,6 +967,51 @@
     
 
 
+    <!-- http://ontology.ogham.link/OghamStone -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/OghamStone">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/OghamCollection"/>
+        <rdfs:label xml:lang="en">Ogham Stone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/OghamStone_CIIC -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/OghamStone_CIIC">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:label xml:lang="en">Ogham Stone Concept (RAS Macalister)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/OghamStone_CISP -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/OghamStone_CISP">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:label xml:lang="en">Ogham Stone Concept (CISP Database)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/OghamStone_O3D -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/OghamStone_O3D">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:label xml:lang="en">Ogham Stone Concept (Ogham in 3D Project)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/OghamStone_Squirrel -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/OghamStone_Squirrel">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:label xml:lang="en">Ogham Stone Concept (Research Squirrel Ogham Project)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://ontology.ogham.link/OghamTribe -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/OghamTribe">
@@ -940,15 +1089,6 @@
     <owl:Class rdf:about="http://ontology.ogham.link/State">
         <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/GeographicLocation"/>
         <rdfs:label xml:lang="en">State</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/Stone -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/Stone">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/OghamCollection"/>
-        <rdfs:label xml:lang="en">Ogham Stone</rdfs:label>
     </owl:Class>
     
 
