@@ -212,6 +212,15 @@
     
 
 
+    <!-- http://ontology.ogham.link/TownlandsIEMatch -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/TownlandsIEMatch">
+        <rdfs:subPropertyOf rdf:resource="http://ontology.ogham.link/exactMatch"/>
+        <rdfs:label xml:lang="en">townlands.ie Match</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://ontology.ogham.link/belongsToSpatialThing -->
 
     <owl:ObjectProperty rdf:about="http://ontology.ogham.link/belongsToSpatialThing">
