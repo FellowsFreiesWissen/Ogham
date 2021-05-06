@@ -481,6 +481,70 @@
     
 
 
+    <!-- http://ontology.ogham.link/context -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/context">
+        <rdfs:label xml:lang="en">context</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/label_upper -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/label_upper">
+        <rdfs:label xml:lang="en">label (uppercase)</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/language -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/language">
+        <rdfs:label xml:lang="en">language</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/reference -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/reference">
+        <rdfs:label xml:lang="en">reference work</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/scientist -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/scientist">
+        <rdfs:label xml:lang="en">scientist</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/scientist_year -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/scientist_year">
+        <rdfs:label xml:lang="en">scientist year</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/script -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/script">
+        <rdfs:label xml:lang="en">script</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/translation -->
+
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/translation">
+        <rdfs:label xml:lang="en">translation</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.opengis.net/ont/geosparql#asGeoJSON -->
 
     <owl:DatatypeProperty rdf:about="http://www.opengis.net/ont/geosparql#asGeoJSON">
@@ -671,15 +735,6 @@
     
 
 
-    <!-- http://ontology.ogham.link/Namespace -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/Namespace">
-        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
-        <rdfs:label xml:lang="en">Namespace</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://ontology.ogham.link/NomenclatureWord -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/NomenclatureWord">
@@ -694,6 +749,15 @@
     <owl:Class rdf:about="http://ontology.ogham.link/OghamCollection">
         <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/InformationCarrier"/>
         <rdfs:label xml:lang="en">Ogham Collection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/OghamName -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/OghamName">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Word"/>
+        <rdfs:label xml:lang="en">Ogham Name</rdfs:label>
     </owl:Class>
     
 
@@ -748,6 +812,15 @@
     <owl:Class rdf:about="http://ontology.ogham.link/Province">
         <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/State"/>
         <rdfs:label xml:lang="en">Province</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/Reading -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/Reading">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Inscription"/>
+        <rdfs:label xml:lang="en">Reading</rdfs:label>
     </owl:Class>
     
 
@@ -1178,6 +1251,15 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
     
 
 
+    <!-- http://www.wikidata.org/entity/Q7725634 -->
+
+    <owl:Class rdf:about="http://www.wikidata.org/entity/Q7725634">
+        <rdfs:subClassOf rdf:resource="http://www.wikidata.org/entity/Q3133368"/>
+        <rdfs:label xml:lang="en">literary work</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://xmlns.com/foaf/0.1/Group -->
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Group">
@@ -1276,16 +1358,34 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
 
     <owl:NamedIndividual rdf:about="http://lod.ogham.link/data/ResearchSquirrelEngineers">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
-        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q73901970"/>
         <rdfs:label xml:lang="en">Research Squirrel Engineers</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.wikidata.org/entity/Q73901970 -->
+    <!-- http://www.wikidata.org/entity/Q106628017 -->
 
-    <owl:NamedIndividual rdf:about="http://www.wikidata.org/entity/Q73901970">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
+    <owl:NamedIndividual rdf:about="http://www.wikidata.org/entity/Q106628017">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+        <rdfs:label xml:lang="en">Celtic Inscribed Stones Project</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q106674066 -->
+
+    <owl:NamedIndividual rdf:about="http://www.wikidata.org/entity/Q106674066">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+        <rdfs:label xml:lang="en">Ogham in 3D Project</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.wikidata.org/entity/Q70256237 -->
+
+    <owl:NamedIndividual rdf:about="http://www.wikidata.org/entity/Q70256237">
+        <rdf:type rdf:resource="http://www.wikidata.org/entity/Q7725634"/>
+        <rdfs:label xml:lang="en">Corpus Inscriptionum Insularum Celticarum Vol.1</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1294,6 +1394,7 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-3246-3531">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label xml:lang="en">Florian Thiery</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 
