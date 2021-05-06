@@ -65,7 +65,8 @@ for index, row in data.iterrows():
     lines.append("ogham:GSD" + str(row['id']) + "_geom " + "geosparql:asWKT " + geom + ".")
     lines.append("ogham:GSD" + str(row['id']) + "_geom " + "oghamonto:hasEPSG " + "<http://www.opengis.net/def/crs/EPSG/0/4326>" + ".")
     # license
-    lines.append("ogham:GSD" + str(row['id']) + " " + "dct:license" + " <" + "https://creativecommons.org/licenses/by-sa/4.0/deed.de" + "> .")
+    lines.append("ogham:GSD" + str(row['id']) + " " + "dct:license" + " <" + "https://creativecommons.org/licenses/by/4.0/deed.de" + "> .")
+    lines.append("ogham:GSD" + str(row['id']) + " " + "dct:license" + " <" + "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" + "> .")
     lines.append("ogham:GSD" + str(row['id']) + " " + "dct:creator" + " <" + "https://orcid.org/0000-0002-3246-3531" + "> .")
     lines.append("ogham:GSD" + str(row['id']) + " " + "dct:rightsHolder" + " wd:Q3355441 .")  # OSi
     lines.append("ogham:GSD" + str(row['id']) + " " + "dct:rightsHolder" + " wd:Q7100893 .")  # OSNI
