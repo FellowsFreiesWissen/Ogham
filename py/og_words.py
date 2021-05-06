@@ -53,44 +53,44 @@ for index, row in data.iterrows():
         print(tmpno)
     lineNo += 1
     # info
-    lines.append("ogham:OP" + str(row['id']) + " " + "rdf:type" + " oghamonto:Word .")
-    lines.append("ogham:OP" + str(row['id']) + " " + "rdf:type" + " skos:Concept .")
+    lines.append("ogham:OW" + str(row['id']) + " " + "rdf:type" + " oghamonto:Word .")
+    lines.append("ogham:OW" + str(row['id']) + " " + "rdf:type" + " skos:Concept .")
     if str(row['wikidata_type']) == 'Q67381377':
-        lines.append("ogham:OP" + str(row['id']) + " " + "rdf:type" + " oghamonto:FormulaWord .")
+        lines.append("ogham:OW" + str(row['id']) + " " + "rdf:type" + " oghamonto:FormulaWord .")
     elif str(row['wikidata_type']) == 'Q67382150':
-        lines.append("ogham:OP" + str(row['id']) + " " + "rdf:type" + " oghamonto:NomenclatureWord .")
+        lines.append("ogham:OW" + str(row['id']) + " " + "rdf:type" + " oghamonto:NomenclatureWord .")
     elif str(row['wikidata_type']) == 'Q67381377':
-        lines.append("ogham:OP" + str(row['id']) + " " + "rdf:type" + " oghamonto:OghamName .")
-    lines.append("ogham:OP" + str(row['id']) + " " + "rdfs:label" + " " + "'" + str(row['label']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
-    lines.append("ogham:OP" + str(row['id']) + " " + "rdfs:label" + " " + "'" + str(row['label']).replace('\'', '`').replace('\\', '') + "'@goide" + ".")
-    lines.append("ogham:OP" + str(row['id']) + " " + "skos:prefLabel" + " " + "'" + str(row['label']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
-    lines.append("ogham:OP" + str(row['id']) + " " + "skos:prefLabel" + " " + "'" + str(row['label']).replace('\'', '`').replace('\\', '') + "'@goide" + ".")
-    lines.append("ogham:OP" + str(row['id']) + " " + "ogham:translation" + " " + "'" + str(row['translation']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
+        lines.append("ogham:OW" + str(row['id']) + " " + "rdf:type" + " oghamonto:OghamName .")
+    lines.append("ogham:OW" + str(row['id']) + " " + "rdfs:label" + " " + "'" + str(row['label']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
+    lines.append("ogham:OW" + str(row['id']) + " " + "rdfs:label" + " " + "'" + str(row['label']).replace('\'', '`').replace('\\', '') + "'@goide" + ".")
+    lines.append("ogham:OW" + str(row['id']) + " " + "skos:prefLabel" + " " + "'" + str(row['label']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
+    lines.append("ogham:OW" + str(row['id']) + " " + "skos:prefLabel" + " " + "'" + str(row['label']).replace('\'', '`').replace('\\', '') + "'@goide" + ".")
+    lines.append("ogham:OW" + str(row['id']) + " " + "ogham:translation" + " " + "'" + str(row['translation']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
     variant = str(row['variants'])
     variant = variant.replace("[", "")
     variant = variant.replace("]", "")
     variant_split = variant.split("|")
     for x in variant_split:
-        lines.append("ogham:OP" + str(row['id']) + " " + "skos:altLabel" + " " + "'" + x + "'@en" + ".")
-        lines.append("ogham:OP" + str(row['id']) + " " + "skos:altLabel" + " " + "'" + x + "'@goide" + ".")
-    lines.append("ogham:OP" + str(row['id']) + " " + "ogham:reference" + " " + "'" + str(row['reference']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
-    lines.append("ogham:OP" + str(row['id']) + " " + "ogham:context" + " " + "'" + str(row['context']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
-    lines.append("ogham:OP" + str(row['id']) + " " + "ogham:exactMatch" + " wd:" + str(row['wikidata_id']) + " .")  # o3d
+        lines.append("ogham:OW" + str(row['id']) + " " + "skos:altLabel" + " " + "'" + x + "'@en" + ".")
+        lines.append("ogham:OW" + str(row['id']) + " " + "skos:altLabel" + " " + "'" + x + "'@goide" + ".")
+    lines.append("ogham:OW" + str(row['id']) + " " + "ogham:reference" + " " + "'" + str(row['reference']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
+    lines.append("ogham:OW" + str(row['id']) + " " + "ogham:context" + " " + "'" + str(row['context']).replace('\'', '`').replace('\\', '') + "'@en" + ".")
+    lines.append("ogham:OW" + str(row['id']) + " " + "ogham:exactMatch" + " wd:" + str(row['wikidata_id']) + " .")  # o3d
     # license
-    lines.append("ogham:OP" + str(row['id']) + " " + "dct:license" + " <" + "https://creativecommons.org/licenses/by/4.0/deed.de" + "> .")
-    lines.append("ogham:OP" + str(row['id']) + " " + "dct:creator" + " <" + "https://orcid.org/0000-0002-3246-3531" + "> .")
-    lines.append("ogham:OP" + str(row['id']) + " " + "dct:rightsHolder" + " <" + "https://orcid.org/0000-0002-3246-3531" + "> .")
-    lines.append("ogham:OP" + str(row['id']) + " " + "dct:rightsHolder" + " wd:Q70310399 .")  # A Guide to Ogham
+    lines.append("ogham:OW" + str(row['id']) + " " + "dct:license" + " <" + "https://creativecommons.org/licenses/by/4.0/deed.de" + "> .")
+    lines.append("ogham:OW" + str(row['id']) + " " + "dct:creator" + " <" + "https://orcid.org/0000-0002-3246-3531" + "> .")
+    lines.append("ogham:OW" + str(row['id']) + " " + "dct:rightsHolder" + " <" + "https://orcid.org/0000-0002-3246-3531" + "> .")
+    lines.append("ogham:OW" + str(row['id']) + " " + "dct:rightsHolder" + " wd:Q70310399 .")  # A Guide to Ogham
     # prov-o
-    lines.append("ogham:OP" + str(row['id']) + " " + "prov:wasAttributedTo" + " ogham:PythonStonesCIIC .")
-    lines.append("ogham:OP" + str(row['id']) + " " + "prov:wasDerivedFrom" + " <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/" + file_name + ".csv> .")
+    lines.append("ogham:OW" + str(row['id']) + " " + "prov:wasAttributedTo" + " ogham:PythonStonesCIIC .")
+    lines.append("ogham:OW" + str(row['id']) + " " + "prov:wasDerivedFrom" + " <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/" + file_name + ".csv> .")
     lines.append("<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/" + file_name + ".csv> " + "prov:wasDerivedFrom" + " wd:Q70310399 .")
     lines.append("<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/" + file_name + ".csv> " + "prov:wasAttributedTo" + " wd:Q106729180 .")
-    lines.append("ogham:OP" + str(row['id']) + " " + "prov:wasGeneratedBy" + " ogham:OP" + str(row['id']) + "_activity .")
-    lines.append("ogham:OP" + str(row['id']) + "_activity " + "rdf:type" + " prov:Activity .")
-    lines.append("ogham:OP" + str(row['id']) + "_activity " + "prov:startedAtTime '" + starttime + "'^^xsd:dateTime .")
-    lines.append("ogham:OP" + str(row['id']) + "_activity " + "prov:endedAtTime '" + datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
-    lines.append("ogham:OP" + str(row['id']) + "_activity " + "prov:wasAssociatedWith" + " ogham:PythonStonesCIIC .")
+    lines.append("ogham:OW" + str(row['id']) + " " + "prov:wasGeneratedBy" + " ogham:OW" + str(row['id']) + "_activity .")
+    lines.append("ogham:OW" + str(row['id']) + "_activity " + "rdf:type" + " prov:Activity .")
+    lines.append("ogham:OW" + str(row['id']) + "_activity " + "prov:startedAtTime '" + starttime + "'^^xsd:dateTime .")
+    lines.append("ogham:OW" + str(row['id']) + "_activity " + "prov:endedAtTime '" + datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
+    lines.append("ogham:OW" + str(row['id']) + "_activity " + "prov:wasAssociatedWith" + " ogham:PythonStonesCIIC .")
     lines.append("")
 
 files = (len(lines) / 100000) + 1
