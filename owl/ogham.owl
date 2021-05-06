@@ -221,14 +221,6 @@
     
 
 
-    <!-- http://ontology.ogham.link/belongsToSpatialThing -->
-
-    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/belongsToSpatialThing">
-        <rdfs:label xml:lang="en">belongs to spatial thing</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://ontology.ogham.link/carries -->
 
     <owl:ObjectProperty rdf:about="http://ontology.ogham.link/carries">
@@ -272,21 +264,20 @@
     
 
 
-    <!-- http://ontology.ogham.link/foundAt -->
-
-    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/foundAt">
-        <rdfs:subPropertyOf rdf:resource="http://ontology.ogham.link/belongsToSpatialThing"/>
-        <rdfs:label xml:lang="en">found at</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://ontology.ogham.link/hasAMT -->
 
     <owl:ObjectProperty rdf:about="http://ontology.ogham.link/hasAMT">
         <rdfs:domain rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
         <rdfs:range rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
         <rdfs:label xml:lang="en">has AMT node</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/hasCollection -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/hasCollection">
+        <rdfs:label xml:lang="en">has collection</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -314,6 +305,14 @@
     
 
 
+    <!-- http://ontology.ogham.link/hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/hasLocation">
+        <rdfs:label xml:lang="en">has location</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://ontology.ogham.link/hasPointGeometry -->
 
     <owl:ObjectProperty rdf:about="http://ontology.ogham.link/hasPointGeometry">
@@ -332,6 +331,14 @@
         <rdfs:domain rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
         <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:label xml:lang="en">has type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/identifiedAs -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/identifiedAs">
+        <rdfs:label xml:lang="en">identified as</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -365,20 +372,27 @@
     
 
 
-    <!-- http://ontology.ogham.link/partOf -->
-
-    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/partOf">
-        <rdfs:subPropertyOf rdf:resource="http://ontology.ogham.link/belongsToSpatialThing"/>
-        <rdfs:label xml:lang="en">is part of</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://ontology.ogham.link/representativePoint -->
 
     <owl:ObjectProperty rdf:about="http://ontology.ogham.link/representativePoint">
         <rdfs:subPropertyOf rdf:resource="http://ontology.ogham.link/hasPointGeometry"/>
         <rdfs:label xml:lang="en">representative point</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/shows -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/shows">
+        <rdfs:label xml:lang="en">shows</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/within -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/within">
+        <rdfs:label xml:lang="en">st_within()</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -466,7 +480,7 @@
     <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasDerivedFrom">
         <rdfs:domain rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
         <rdfs:range rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
-        <rdfs:label xml:lang="en">das derived from</rdfs:label>
+        <rdfs:label xml:lang="en">was derived from</rdfs:label>
         <skos:definition xml:lang="en">A derivation is a transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity.</skos:definition>
     </owl:ObjectProperty>
     
