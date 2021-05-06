@@ -913,6 +913,15 @@
     
 
 
+    <!-- http://ontology.ogham.link/Island -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/Island">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/GeographicLocation"/>
+        <rdfs:label xml:lang="en">Island</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://ontology.ogham.link/Material -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/Material">
