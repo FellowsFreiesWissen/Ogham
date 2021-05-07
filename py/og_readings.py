@@ -85,7 +85,7 @@ for index, row in data.iterrows():
     lines.append("<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/" + file_name + ".csv> " + "prov:wasAttributedTo" + " wd:Q106628017 .")
     lines.append("<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/" + file_name + ".csv> " + "prov:wasAttributedTo" + " wd:Q106674066 .")
     lines.append("<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/" + file_name + ".csv> " + "prov:wasAttributedTo" + " wd:Q70256237 .")
-    lines.append("ogham:OR" + str(row['id']) + " " + "prov:wasGeneratedBy" + " ogham:OP" + str(row['id']) + "_activity .")
+    lines.append("ogham:OR" + str(row['id']) + " " + "prov:wasGeneratedBy" + " ogham:OR" + str(row['id']) + "_activity .")
     lines.append("ogham:OR" + str(row['id']) + "_activity " + "rdf:type" + " prov:Activity .")
     lines.append("ogham:OR" + str(row['id']) + "_activity " + "prov:startedAtTime '" + starttime + "'^^xsd:dateTime .")
     lines.append("ogham:OR" + str(row['id']) + "_activity " + "prov:endedAtTime '" + datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ") + "'^^xsd:dateTime .")
