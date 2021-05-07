@@ -76,7 +76,7 @@ for index, row in data.iterrows():
     # prov-o
     lines.append("ogham:GSD" + str(row['id']) + " " + "prov:wasAttributedTo" + " ogham:PythonStonesCIIC .")
     lines.append("ogham:GSD" + str(row['id']) + " " + "prov:wasDerivedFrom" + " <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/geodata/" + file_name + ".csv> .")
-    lines.append("<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/geodata/" + file_name + ".csv> " + "prov:wasDerivedFrom" + " <https://www.opendatani.gov.uk/dataset/osni-open-data-50k-boundaries-townlands1> .")
+    lines.append("<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/geodata/" + file_name + ".csv> " + "prov:wasDerivedFrom" + " <https://www.opendatani.gov.uk/dataset/osni-open-data-50k-boundaries-townlands> .")
     lines.append("<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/geodata/" + file_name + ".csv> " + "prov:wasDerivedFrom" + " <https://data-osi.opendata.arcgis.com/datasets/townlands-osi-national-statutory-boundaries-generalised-20m?geometry=-29.136%2C51.106%2C12.678%2C55.686> .")
     lines.append("<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/geodata/" + file_name + ".csv> " + "prov:wasAttributedTo" + " wd:Q3355441 .")  # OSNI
     lines.append("<https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/geodata/" + file_name + ".csv> " + "prov:wasAttributedTo" + " wd:Q3355441 .")  # OSi
