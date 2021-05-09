@@ -14,8 +14,6 @@
 | ----------- | ----- | ---------------------- | -------------------- | -------- | ------------------- | --------------------- | ------------------ |
 | internal id | label | translation to english | reference to McManus | aliases  | inscription context | Wikidata Q Identifier | Wikidata word type |
 
-# Ogham Data - Ogham Data as CSV
-
 ## Persons (og_persons.csv)
 
 -   comma seperated
@@ -30,3 +28,17 @@
 | id          | label | name_caps      |
 | ----------- | ----- | -------------- |
 | internal id | label | name UPPERCASE |
+
+## Sites (og_sites.csv)
+
+-   comma seperated
+-   license:
+    -   combined: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de>)
+-   origin:
+    -   [Ogi-Ogham Project (Q70873595)](https://www.wikidata.org/wiki/Q70873595)
+-   method:
+    -   semi-automatic digitalisation by F. Thiery / S.C. Schmidt
+
+| id          | label | wkt                     | wikidata_id           | townland_label | barony_label | county_label | province_label | country_label |
+| ----------- | ----- | ----------------------- | --------------------- | -------------- | ------------ | ------------ | -------------- | ------------- |
+| internal id | label | representative WKT geom | Wikidata Q Identifier | townland       | barony       | county       | province       | country       |
