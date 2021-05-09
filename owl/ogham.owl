@@ -175,8 +175,8 @@
     <!-- http://archaeology.link/ontology#disclosedAt -->
 
     <owl:ObjectProperty rdf:about="http://archaeology.link/ontology#disclosedAt">
-        <rdfs:domain rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
-        <rdfs:range rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:range rdf:resource="http://ontology.ogham.link/OghamSite"/>
         <rdfs:label xml:lang="en">disclosed at</rdfs:label>
     </owl:ObjectProperty>
     
@@ -186,6 +186,8 @@
 
     <owl:ObjectProperty rdf:about="http://ontology.ogham.link/LogainmMatch">
         <rdfs:subPropertyOf rdf:resource="http://ontology.ogham.link/exactMatch"/>
+        <rdfs:domain rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:range rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
         <rdfs:label xml:lang="en">Logainm Match</rdfs:label>
     </owl:ObjectProperty>
     
@@ -195,6 +197,8 @@
 
     <owl:ObjectProperty rdf:about="http://ontology.ogham.link/OpenStreetMapMatch">
         <rdfs:subPropertyOf rdf:resource="http://ontology.ogham.link/exactMatch"/>
+        <rdfs:domain rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:range rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
         <rdfs:label xml:lang="en">Open Street Map Match</rdfs:label>
     </owl:ObjectProperty>
     
@@ -216,6 +220,8 @@
 
     <owl:ObjectProperty rdf:about="http://ontology.ogham.link/TownlandsIEMatch">
         <rdfs:subPropertyOf rdf:resource="http://ontology.ogham.link/exactMatch"/>
+        <rdfs:domain rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
+        <rdfs:range rdf:resource="https://www.w3.org/2000/01/rdf-schema#Resource"/>
         <rdfs:label xml:lang="en">townlands.ie Match</rdfs:label>
     </owl:ObjectProperty>
     
@@ -224,7 +230,7 @@
     <!-- http://ontology.ogham.link/carries -->
 
     <owl:ObjectProperty rdf:about="http://ontology.ogham.link/carries">
-        <rdfs:domain rdf:resource="http://ontology.ogham.link/InformationCarrier"/>
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamStone"/>
         <rdfs:range rdf:resource="http://ontology.ogham.link/Inscription"/>
         <rdfs:label xml:lang="en">carries</rdfs:label>
     </owl:ObjectProperty>
@@ -277,6 +283,8 @@
     <!-- http://ontology.ogham.link/hasCollection -->
 
     <owl:ObjectProperty rdf:about="http://ontology.ogham.link/hasCollection">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:range rdf:resource="http://ontology.ogham.link/OghamStone_Squirrel"/>
         <rdfs:label xml:lang="en">has collection</rdfs:label>
     </owl:ObjectProperty>
     
@@ -308,6 +316,8 @@
     <!-- http://ontology.ogham.link/hasLocation -->
 
     <owl:ObjectProperty rdf:about="http://ontology.ogham.link/hasLocation">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamSite"/>
+        <rdfs:range rdf:resource="http://ontology.ogham.link/GeographicLocation"/>
         <rdfs:label xml:lang="en">has location</rdfs:label>
     </owl:ObjectProperty>
     
@@ -338,6 +348,8 @@
     <!-- http://ontology.ogham.link/identifiedAs -->
 
     <owl:ObjectProperty rdf:about="http://ontology.ogham.link/identifiedAs">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/Inscription"/>
+        <rdfs:range rdf:resource="http://ontology.ogham.link/Reading"/>
         <rdfs:label xml:lang="en">identified as</rdfs:label>
     </owl:ObjectProperty>
     
@@ -347,6 +359,8 @@
 
     <owl:ObjectProperty rdf:about="http://ontology.ogham.link/lastRecorded">
         <rdfs:subPropertyOf rdf:resource="http://ontology.ogham.link/hasPointGeometry"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:range rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
         <rdfs:label xml:lang="en">last recored</rdfs:label>
     </owl:ObjectProperty>
     
@@ -367,7 +381,20 @@
 
     <owl:ObjectProperty rdf:about="http://ontology.ogham.link/origGeom">
         <rdfs:subPropertyOf rdf:resource="http://ontology.ogham.link/hasPointGeometry"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:range rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
         <rdfs:label xml:lang="en">orig geometry</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontology.ogham.link/references -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/references">
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:range rdf:resource="http://ontology.ogham.link/Repository"/>
+        <rdfs:label xml:lang="en">references</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -376,6 +403,8 @@
 
     <owl:ObjectProperty rdf:about="http://ontology.ogham.link/representativePoint">
         <rdfs:subPropertyOf rdf:resource="http://ontology.ogham.link/hasPointGeometry"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:range rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
         <rdfs:label xml:lang="en">representative point</rdfs:label>
     </owl:ObjectProperty>
     
@@ -384,6 +413,9 @@
     <!-- http://ontology.ogham.link/shows -->
 
     <owl:ObjectProperty rdf:about="http://ontology.ogham.link/shows">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:range rdf:resource="http://ontology.ogham.link/Person"/>
+        <rdfs:range rdf:resource="http://ontology.ogham.link/Word"/>
         <rdfs:label xml:lang="en">shows</rdfs:label>
     </owl:ObjectProperty>
     
@@ -392,6 +424,8 @@
     <!-- http://ontology.ogham.link/within -->
 
     <owl:ObjectProperty rdf:about="http://ontology.ogham.link/within">
+        <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:range rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
         <rdfs:label xml:lang="en">st_within()</rdfs:label>
     </owl:ObjectProperty>
     
@@ -533,13 +567,19 @@
 
     <!-- http://ontology.ogham.link/completeness -->
 
-    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/completeness"/>
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/completeness">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">completeness</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://ontology.ogham.link/context -->
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/context">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/Word"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">context</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -547,13 +587,21 @@
 
     <!-- http://ontology.ogham.link/currentlocation -->
 
-    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/currentlocation"/>
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/currentlocation">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">current location</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://ontology.ogham.link/currentsetting -->
 
-    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/currentsetting"/>
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/currentsetting">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">current setting</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -561,6 +609,8 @@
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/depth">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:label xml:lang="en">depth</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -568,31 +618,50 @@
 
     <!-- http://ontology.ogham.link/discovery_who -->
 
-    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/discovery_who"/>
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/discovery_who">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">discovery scientist</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://ontology.ogham.link/discovery_year -->
 
-    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/discovery_year"/>
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/discovery_year">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">discovery year</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://ontology.ogham.link/form -->
 
-    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/form"/>
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/form">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:isDefinedBy rdf:resource="https://www.ucl.ac.uk/archaeology/cisp/database/manual/node3.html#SECTION00335000000000000000"/>
+        <rdfs:label xml:lang="en">form</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://ontology.ogham.link/h_status -->
 
-    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/h_status"/>
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/h_status">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">height status</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://ontology.ogham.link/height -->
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/height">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:label xml:lang="en">height</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -601,6 +670,8 @@
     <!-- http://ontology.ogham.link/irishGrid -->
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/irishGrid">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/GeographicLocation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">irish grid reference</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -610,6 +681,8 @@
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/label_barony">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamSite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">label barony</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -618,6 +691,8 @@
     <!-- http://ontology.ogham.link/label_country -->
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/label_country">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamSite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">label country</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -626,6 +701,8 @@
     <!-- http://ontology.ogham.link/label_county -->
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/label_county">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamSite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">label county</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -634,6 +711,8 @@
     <!-- http://ontology.ogham.link/label_province -->
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/label_province">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamSite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">label province</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -642,6 +721,8 @@
     <!-- http://ontology.ogham.link/label_townland -->
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/label_townland">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamSite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">label townland</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -650,6 +731,8 @@
     <!-- http://ontology.ogham.link/label_upper -->
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/label_upper">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">label (uppercase)</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -658,6 +741,8 @@
     <!-- http://ontology.ogham.link/language -->
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/language">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/Reading"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">language</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -665,19 +750,29 @@
 
     <!-- http://ontology.ogham.link/preservation -->
 
-    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/preservation"/>
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/preservation">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">preservation</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://ontology.ogham.link/preservation_note -->
 
-    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/preservation_note"/>
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/preservation_note">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">preservation (note)</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://ontology.ogham.link/reference -->
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/reference">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/Word"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">reference work</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -686,6 +781,8 @@
     <!-- http://ontology.ogham.link/scientist -->
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/scientist">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/Reading"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">scientist</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -694,6 +791,8 @@
     <!-- http://ontology.ogham.link/scientist_year -->
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/scientist_year">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/Reading"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">scientist year</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -702,6 +801,8 @@
     <!-- http://ontology.ogham.link/script -->
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/script">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/Reading"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">script</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -710,6 +811,8 @@
     <!-- http://ontology.ogham.link/sitecode -->
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/sitecode">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/GeographicLocation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">site code</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -718,6 +821,8 @@
     <!-- http://ontology.ogham.link/sitetype -->
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/sitetype">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/GeographicLocation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">site type</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -725,25 +830,39 @@
 
     <!-- http://ontology.ogham.link/smr_no -->
 
-    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/smr_no"/>
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/smr_no">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">SMR number</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://ontology.ogham.link/t_status -->
 
-    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/t_status"/>
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/t_status">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">thickness staus</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://ontology.ogham.link/thickness -->
 
-    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/thickness"/>
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/thickness">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label xml:lang="en">thickness</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://ontology.ogham.link/translation -->
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/translation">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/Word"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">translation</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -751,7 +870,11 @@
 
     <!-- http://ontology.ogham.link/w_status -->
 
-    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/w_status"/>
+    <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/w_status">
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">width status</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -759,6 +882,8 @@
 
     <owl:DatatypeProperty rdf:about="http://ontology.ogham.link/width">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://ontology.ogham.link/OghamStone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:label xml:lang="en">width</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -800,6 +925,8 @@
     <!-- http://www.w3.org/ns/prov#startedAtTime -->
 
     <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/prov#startedAtTime">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <rdfs:label xml:lang="en">started at time</rdfs:label>
         <skos:definition xml:lang="en">Start is when an activity is deemed to have been started by an entity, known as trigger. The activity did not exist before its start. Any usage, generation, or invalidation involving an activity follows the activity&apos;s start. A start may refer to a trigger entity that set off the activity, or to an activity, known as starter, that generated the trigger.</skos:definition>
     </owl:DatatypeProperty>
@@ -869,6 +996,24 @@
     <owl:Class rdf:about="http://ontology.ogham.link/Barony">
         <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/County"/>
         <rdfs:label xml:lang="en">Barony</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/Book -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/Book">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:label xml:lang="en">Book</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/CISP -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/CISP">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Repository"/>
+        <rdfs:label xml:lang="en">Celtic Inscribed Stones Project (CISP)</rdfs:label>
     </owl:Class>
     
 
@@ -968,6 +1113,15 @@
     <owl:Class rdf:about="http://ontology.ogham.link/OghamCollection">
         <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/InformationCarrier"/>
         <rdfs:label xml:lang="en">Ogham Collection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/OghamIn3D -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/OghamIn3D">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Repository"/>
+        <rdfs:label xml:lang="en">Ogham in 3D Project</rdfs:label>
     </owl:Class>
     
 
@@ -1089,6 +1243,15 @@
     
 
 
+    <!-- http://ontology.ogham.link/Repository -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/Repository">
+        <rdfs:subClassOf rdf:resource="http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object"/>
+        <rdfs:label xml:lang="en">Repository</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://ontology.ogham.link/ResearchSoftwareEngineer -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/ResearchSoftwareEngineer">
@@ -1139,6 +1302,176 @@
     <owl:Class rdf:about="http://ontology.ogham.link/Word">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:label xml:lang="en">Word</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/brash_1879 -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/brash_1879">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Brash, R. R. (1879) The Ogam Inscribed Monuments of the Gaedhil in the British Isles. London.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Brash (1879)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/brikil_1993 -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/brikil_1993">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Brindley, A, Kilfeather, A. (1993), An Archaeological Inventory of County Carlow, Dublin: Stationery Office.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Brindley / Kilfeather (1993)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/cuppage_1986 -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/cuppage_1986">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Cuppage, J. et al (1986) Archaeological Survey of the Dingle Peninsula. Ballyferrier: Oidrheacht Chorca Dhuibhne.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Cuppage (1986)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/ferguson_1887 -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/ferguson_1887">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Ferguson, S. (1887) Ogham Inscriptions in Ireland, Wales and Scotland: Edinburgh.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Ferguson (1887)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/macalister_1897 -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/macalister_1897">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1897) Studies in Irish Epigraphy. A Collection of Revised Readings of the Ancient Inscriptions of Ireland, with Introduction and Notes. Part I. London: David Nutt.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Macalister (1897)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/macalister_1902 -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/macalister_1902">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1902) Studies in Irish Epigraphy. A Collection of Revised Readings of the Ancient Inscriptions of Ireland, with Introduction and Notes. Part II. London: David Nutt.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Macalister (1902)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/macalister_1907 -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/macalister_1907">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1907) Studies in Irish Epigraphy. A Collection of Revised Readings of the Ancient Inscriptions of Ireland, with Introduction and Notes Part III. London: David Nutt.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Macalister (1907)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/macalister_1909 -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/macalister_1909">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Macalister, R.A.S. (1909) The Memorial Slabs of Clonmacnois, King&apos;s County. Dublin.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Macalister (1909)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/macalister_1945 -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/macalister_1945">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1945) Corpus Inscriptionum Insularum Celticarum Vol. I. Dublin: Stationery Office.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Macalister (1945)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/macalister_1949 -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/macalister_1949">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1949) Corpus Inscriptionum Insularum Celticarum Vol. II. Dublin: Stationery Office.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Macalister (1949)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/mcmanus_1991 -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/mcmanus_1991">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">McManus, D. (1991) A Guide to Ogam Maynooth Monographs 4. Maynooth: An Sagart.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">McManus (1991)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/okasha_forsyth_2001 -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/okasha_forsyth_2001">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Okasha, E. and Forsyth, K. (2001) Early Christian Inscriptions of Munster. A Corpus of the Inscribed Stones. Cork: Cork University Press.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Okasha / Forsyth (2001)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/osullivan_1996 -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/osullivan_1996">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">O&apos;Sullivan, A., Sheehan, J. (1996) The Iveragh Peninsula. An Archaeological Survey of South Kerry. Cork: Cork University Press.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">O&apos;Sullivan (1996)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/petrie_1872 -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/petrie_1872">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Petrie, G. (1872) Christian Inscriptions in the Irish Language, M. Stokes (ed.), Vol. 1. Dublin: Royal Historical and Archaeological Association.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Petrie (1872)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/power_1992 -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/power_1992">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Power, D, E. Byrne, U. Egan, S. Lane and M.Sleeman (1992) Archaeological Inventory of County Cork Volume 1: West Cork. Dublin: Stationery Office.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Power / Byrne / Egan / Lane / Sleeman (1992)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/power_1997 -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/power_1997">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Power, D., E. Byrne, U. Egan, S. Lane and M.Sleeman (1997) Archaeological Inventory of County Cork Volume 3: Mid Cork. Dublin: Stationery Office.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Power / Byrne / Egan / Lane / Sleeman (1997)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/raftery_1960 -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/raftery_1960">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Raftery, B. (1960) `National Museum of Ireland, Arch. acquisitions 1958&apos; Journal of the Royal Society of Antiquaries of Ireland 90: 1--40.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Raftery (1960)</rdfs:label>
     </owl:Class>
     
 
@@ -1271,6 +1604,16 @@
     <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E5_Event">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <rdfs:label xml:lang="en">Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object -->
+
+    <owl:Class rdf:about="http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:comment xml:lang="en">This class comprises identifiable immaterial items that can be represented as sets of bit sequences, such as data sets, e-texts, images, audio or video items, software, etc., and are documented as single units. Any aggregation of instances of D1 Digital Object into a whole treated as single unit is also regarded as an instance of D1 Digital Object. This means that for instance, the content of a DVD, an XML file on it, and an element of this file, are regarded as distinct instances of D1 Digital Object, mutually related by the P106 is composed of (forms part of) property. A D1 Digital Object does not depend on a specific physical carrier, and it can exist on one or more carriers simultaneously.</rdfs:comment>
+        <rdfs:label xml:lang="en">Digital Object (D1)</rdfs:label>
     </owl:Class>
     
 
