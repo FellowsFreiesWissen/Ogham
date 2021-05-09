@@ -42,3 +42,23 @@
 | id          | label | wkt                     | wikidata_id           | townland_label | barony_label | county_label | province_label | country_label |
 | ----------- | ----- | ----------------------- | --------------------- | -------------- | ------------ | ------------ | -------------- | ------------- |
 | internal id | label | representative WKT geom | Wikidata Q Identifier | townland       | barony       | county       | province       | country       |
+
+## Inscriptions (og_inscriptions.csv)
+
+**TODO**
+
+## Locations (og_locations.csv)
+
+**TODO**
+
+## Readings (og_reasings.csv)
+
+**TODO**
+
+## Stones (og_stones.csv)
+
+**TODO**
+
+## Stones / References (og_stones_references.csv)
+
+**TODO**
