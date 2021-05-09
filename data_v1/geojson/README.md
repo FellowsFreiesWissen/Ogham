@@ -1,22 +1,6 @@
-# Ogham Data - Geodata as CSV
+# Ogham Data - Geodata as GeoJSON
 
-## Island Ireland (gs_ireland_island.csv)
-
--   comma seperated
--   license:
-    -   for OSi Data: <https://creativecommons.org/licenses/by-sa/4.0/deed.de>
-    -   for OSNI Data: <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/>
--   origin (May 2021):
-    -   OSi: [Provinces - OSi National Statutory Boundaries - Generalised 20m](https://data-osi.opendata.arcgis.com/datasets/provinces-osi-national-statutory-boundaries-generalised-20m?geometry=-29.165%2C51.112%2C12.649%2C55.691)
-    -   OSNI: [OSNI Open Data - Largescale Boundaries - NI Outline](https://www.opendatani.gov.uk/dataset/osni-open-data-largescale-boundaries-ni-outline)
--   method:
-    -   download, merched using QGIS and PostGIS
-
-| id          | label | wkt                 | wikidata_id           |
-| ----------- | ----- | ------------------- | --------------------- |
-| internal id | label | Multipolygon as WKT | Wikidata Q identifier |
-
-## Countries (gs_countries.csv)
+## Island Ireland (gs_ireland_island.geojson)
 
 -   comma seperated
 -   license:
@@ -32,7 +16,7 @@
 | ----------- | ----- | ------------------- | --------------------- |
 | internal id | label | Multipolygon as WKT | Wikidata Q identifier |
 
-## Provinces (gs_provinces.csv)
+## Countries (gs_countries.geojson)
 
 -   comma seperated
 -   license:
@@ -48,7 +32,23 @@
 | ----------- | ----- | ------------------- | --------------------- |
 | internal id | label | Multipolygon as WKT | Wikidata Q identifier |
 
-## Counties (gs_counties.csv)
+## Provinces (gs_provinces.geojson)
+
+-   comma seperated
+-   license:
+    -   for OSi Data: <https://creativecommons.org/licenses/by-sa/4.0/deed.de>
+    -   for OSNI Data: <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/>
+-   origin (May 2021):
+    -   OSi: [Provinces - OSi National Statutory Boundaries - Generalised 20m](https://data-osi.opendata.arcgis.com/datasets/provinces-osi-national-statutory-boundaries-generalised-20m?geometry=-29.165%2C51.112%2C12.649%2C55.691)
+    -   OSNI: [OSNI Open Data - Largescale Boundaries - NI Outline](https://www.opendatani.gov.uk/dataset/osni-open-data-largescale-boundaries-ni-outline)
+-   method:
+    -   download, merched using QGIS and PostGIS
+
+| id          | label | wkt                 | wikidata_id           |
+| ----------- | ----- | ------------------- | --------------------- |
+| internal id | label | Multipolygon as WKT | Wikidata Q identifier |
+
+## Counties (gs_counties.geojson)
 
 -   comma seperated
 -   license:
@@ -64,7 +64,7 @@
 | ----------- | ----- | ------------------- | --------------------- |
 | internal id | label | Multipolygon as WKT | Wikidata Q identifier |
 
-## Baronies (gs_baronies.csv)
+## Baronies (gs_baronies.geojson)
 
 -   comma seperated
 -   license:
@@ -79,7 +79,7 @@
 | ----------- | ----- | ------------------------ | ------------------- | --------------------- |
 | internal id | label | label in gaelic language | Multipolygon as WKT | Wikidata Q identifier |
 
-## Townlands (gs_townlands.csv)
+## Townlands (gs_townlands.geojson)
 
 -   comma seperated
 -   license:
