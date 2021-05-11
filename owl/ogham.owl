@@ -259,6 +259,18 @@
     
 
 
+    <!-- http://ontology.ogham.link/equals -->
+
+    <owl:ObjectProperty rdf:about="http://ontology.ogham.link/equals">
+        <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object"/>
+        <rdfs:label xml:lang="en">equals</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://ontology.ogham.link/exactMatch -->
 
     <owl:ObjectProperty rdf:about="http://ontology.ogham.link/exactMatch">
@@ -1243,11 +1255,11 @@
     
 
 
-    <!-- http://ontology.ogham.link/Reference -->
+    <!-- http://ontology.ogham.link/ReferenceChain -->
 
-    <owl:Class rdf:about="http://ontology.ogham.link/Reference">
+    <owl:Class rdf:about="http://ontology.ogham.link/ReferenceChain">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-        <rdfs:label xml:lang="en">Reference</rdfs:label>
+        <rdfs:label xml:lang="en">Reference Chain</rdfs:label>
     </owl:Class>
     
 
@@ -1275,6 +1287,15 @@
     <owl:Class rdf:about="http://ontology.ogham.link/Sandstone">
         <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Stone_Material"/>
         <rdfs:label xml:lang="en">Sandstone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.ogham.link/SquirrelOgham -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/SquirrelOgham">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Repository"/>
+        <rdfs:label xml:lang="en">Ogham Squirrel Project</rdfs:label>
     </owl:Class>
     
 
