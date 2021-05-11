@@ -1243,6 +1243,15 @@
     
 
 
+    <!-- http://ontology.ogham.link/Reference -->
+
+    <owl:Class rdf:about="http://ontology.ogham.link/Reference">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+        <rdfs:label xml:lang="en">Reference</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://ontology.ogham.link/Repository -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/Repository">
@@ -1880,11 +1889,12 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
     <owl:NamedIndividual rdf:about="http://lod.ogham.link/data/PythonStonesCIIC">
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#SoftwareAgent"/>
         <prov:actedOnBehalfOf rdf:resource="http://lod.ogham.link/data/FlorianThiery"/>
+        <dc:identifier>_run_py3.py</dc:identifier>
         <dct:creator rdf:resource="http://lod.ogham.link/data/FlorianThiery"/>
         <dct:license rdf:resource="https://github.com/FellowsFreiesWissen/Ogham/blob/main/LICENSE"/>
         <dct:source xml:lang="en">python</dct:source>
         <dct:type rdf:resource="http://purl.org/dc/dcmitype/Software"/>
-        <rdfs:label xml:lang="en">Python Create Script for CIIC Stones</rdfs:label>
+        <rdfs:label xml:lang="en">Python Create Script for Ogi Ogham Data</rdfs:label>
     </owl:NamedIndividual>
     
 
