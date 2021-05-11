@@ -6,7 +6,7 @@ __version__ = "beta"
 __maintainer__ = "Florian Thiery"
 __email__ = "mail@fthiery.de"
 __status__ = "beta"
-__update__ = "2021-05-06"
+__update__ = "2021-05-11"
 
 # import dependencies
 import uuid
@@ -19,6 +19,7 @@ import datetime
 import importlib
 import sys
 import hashlib
+import _config
 
 # set UTF8 as default
 importlib.reload(sys)
@@ -85,6 +86,8 @@ for index, row in data.iterrows():
 
 files = (len(lines) / 100000) + 1
 print("triples", len(lines), "files", int(files))
+thiscount = len(lines)
+_config.count(thiscount)
 
 # write output files
 f = 0
