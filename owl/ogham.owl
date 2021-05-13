@@ -27,8 +27,8 @@
         <dc:rights>CC BY 4.0</dc:rights>
         <dc:subject>ogham</dc:subject>
         <rdfs:label xml:lang="en">Ogham Ontology</rdfs:label>
-        <owl:versionInfo>06/05/2021</owl:versionInfo>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
+        <owl:versionInfo>13/05/2021</owl:versionInfo>
         <skos:definition xml:lang="en">This ontology contains classes to describe data from Linked Ogham Data.</skos:definition>
     </owl:Ontology>
     
