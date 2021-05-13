@@ -45,19 +45,53 @@
 
 ## Inscriptions (og_inscriptions.csv)
 
-**TODO**
+-   comma seperated
+-   license:
+    -   combined: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de>)
+-   origin:
+    -   [Ogi-Ogham Project (Q70873595)](https://www.wikidata.org/wiki/Q70873595)
+-   method:
+    -   semi-automatic digitalisation by F. Thiery
+
+| id          | insc_no            | reading_no     |
+| ----------- | ------------------ | -------------- |
+| internal id | inscription number | reading number |
 
 ## Locations (og_locations.csv)
 
-**TODO**
+-   comma seperated
+-   license:
+    -   Ogham in 3D: [CC BY-NC-SA 3.0 Ireland](http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US)
+    -   other: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de>)
+-   origin:
+    -   [Ogi-Ogham Project (Q70873595)](https://www.wikidata.org/wiki/Q70873595)
+    -   [Celtic Inscribed Stones Project (Q106628017)](https://www.wikidata.org/wiki/Q106628017)
+    -   [Ogham in 3D Project (Q106674066)](https://www.wikidata.org/wiki/Q106674066)
+-   method:
+    -   semi-automatic digitalisation / postgres join by F. Thiery / S.C. Schmidt
+
+| id          | type          | wkt          | geom_orig      | geom_lastrecorded       | sitetype      | site      | grid                |
+| ----------- | ------------- | ------------ | -------------- | ----------------------- | ------------- | --------- | ------------------- |
+| internal id | location type | WKT geometry | o3d geom: orig | o3d geom: last recorded | o3d site type | cisp site | cisp grid reference |
 
 ## Readings (og_reasings.csv)
 
-**TODO**
+-   comma seperated
+-   license:
+    -   Ogham in 3D: [CC BY-NC-SA 3.0 Ireland](http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US)
+    -   other: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de>)
+-   origin:
+    -   [Ogi-Ogham Project (Q70873595)](https://www.wikidata.org/wiki/Q70873595)
+    -   [Celtic Inscribed Stones Project (Q106628017)](https://www.wikidata.org/wiki/Q106628017)
+    -   [Ogham in 3D Project (Q106674066)](https://www.wikidata.org/wiki/Q106674066)
+-   method:
+    -   semi-automatic digitalisation / postgres join by F. Thiery / S.C. Schmidt
+
+| id          | label | language                                                                                                         | script                                                                                                         | scientist | scientist_year |
+| ----------- | ----- | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | --------- | -------------- |
+| internal id | label | language type[\*](https://www.ucl.ac.uk/archaeology/cisp/database/manual/node3.html#SECTION00341000000000000000) | script type[\*](https://www.ucl.ac.uk/archaeology/cisp/database/manual/node3.html#SECTION00341000000000000000) | reader    | reading year   |
 
 ## Stones (og_stones.csv)
-
-**TODO**
 
 ## Stones / References (og_stones_references.csv)
 
