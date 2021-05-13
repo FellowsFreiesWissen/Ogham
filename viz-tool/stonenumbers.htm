@@ -88,7 +88,9 @@
                 if (tmp_node.label.includes("o3d")) {
                     tmp_node.color = "#cc3399";
                 }
-                nodes.add(tmp_node);
+                if (tmp_node.id.includes("ciic:") || tmp_node.id.includes("cisp:200") || tmp_node.id.includes("squirrel:") || tmp_node.id.includes("o3d:300")) {} else {
+                    nodes.add(tmp_node);
+                }
                 let tmp_node2 = {};
                 tmp_node2.id = bindings[x].type.value.replace("http://ontology.ogham.link/", "");
                 tmp_node2.label = bindings[x].type.value.replace("http://ontology.ogham.link/", "");
