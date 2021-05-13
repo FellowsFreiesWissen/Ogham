@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ogham Stone References</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="vis-network.min.js"></script>
+
+    <style type="text/css">
+        #mynetwork {
+            width: 1800px;
+            height: 1000px;
+            border: 1px solid lightgray;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mynetwork"></div>
+
+    <script type="text/javascript">
+        let RDF4J = {};
+        RDF4J.queryData = (sparql, callback) => {
+            setTimeout(function() {
+                $.ajax({
+                    async: false,
+                    url: "https://java-dev.rgzm.de/rdf4j-server/repositories/zz",
+                    dataType: 'jsonp',
+                    type: 'GET',
+                    data: {
+                        queryLn: 'SPARQL',
+                        query: sparql,
+                        Accept: 'application/json'
+                    },
+                    error: function(jqXHR, textStatus, errorThrown) {
+                        console.error(errorThrown);
+                    },
+                    success: function(response) {
+                        try {
+                            response = JSON.parse(response);
+                        } catch (e) {}
+                        var vars = response.head.vars;
+                        var bindings = response.results.bindings;
+                        const bindings_copy = Object.assign({}, bindings);
+                        for (var item in bindings) {
+                            for (var varstr in vars) {
+                                var tblTxt = "";
+                                if (bindings[item][vars[varstr]].type === "uri") {
+                                    var val = bindings[item][vars[varstr]].value;
+                                    bindings_copy[item][vars[varstr]].value = val;
+                                } else if (bindings[item][vars[varstr]]["xml:lang"]) {
+                                    bindings_copy[item][vars[varstr]].value = bindings[item][vars[varstr]].value + "@" + bindings[item][vars[varstr]]["xml:lang"];
+                                } else if (bindings[item][vars[varstr]].type === "bnode") {
+                                    bindings_copy[item][vars[varstr]].value = "_:" + bindings[item][vars[varstr]].value;
+                                } else {
+                                    bindings_copy[item][vars[varstr]].value = bindings[item][vars[varstr]].value
+                                }
+                            }
+                        }
+                        response.results.bindings = bindings_copy;
+                        if (typeof callback === 'function') {
+                            callback(response);
+                        } else {
+                            return response;
+                        }
+                    }
+                });
+            }, 100);
+        };
+
+        var nodes = new vis.DataSet([]);
+        var edges = new vis.DataSet([]);
+
+        let setNodes = (data) => {
+            let bindings = data.results.bindings;
+            console.log(bindings);
+            for (let x in bindings) {
+                let tmp_node = {};
+                tmp_node.id = bindings[x].label.value;
+                tmp_node.label = bindings[x].label.value;
+                if (tmp_node.label.includes("macalister")) {
+                    tmp_node.color = "#00ff99";
+                }
+                if (tmp_node.label.includes("ciic")) {
+                    tmp_node.color = "#cc6600";
+                }
+                if (tmp_node.label.includes("o3d")) {
+                    tmp_node.color = "#cc3399";
+                }
+                nodes.add(tmp_node);
+                let tmp_node2 = {};
+                tmp_node2.id = bindings[x].type.value.replace("http://ontology.ogham.link/", "");
+                tmp_node2.label = bindings[x].type.value.replace("http://ontology.ogham.link/", "");
+                tmp_node2.color = "#FB7E81";
+                try {
+                    //nodes.add(tmp_node2);
+                } catch (e) {}
+                let tmp_edge = {};
+                tmp_edge.from = bindings[x].label.value;
+                tmp_edge.to = bindings[x].type.value.replace("http://ontology.ogham.link/", "");
+                //edges.add(tmp_edge);
+            }
+            RDF4J.queryData(query_edges, setEdges);
+        }
+
+        let setEdges = (data) => {
+            let bindings = data.results.bindings;
+            //console.log(bindings);
+            for (let x in bindings) {
+                let tmp_edge = {};
+                tmp_edge.from = bindings[x].alabel.value;
+                tmp_edge.to = bindings[x].blabel.value;
+                edges.add(tmp_edge);
+            }
+            setNetwork();
+        }
+
+        let setNetwork = (data) => {
+            var data = {
+                nodes: nodes,
+                edges: edges,
+            };
+            var options = {
+                layout: {
+                    randomSeed: 1,
+                    improvedLayout: false,
+                },
+                nodes: {
+                    shapeProperties: {
+                        interpolation: false // 'true' for intensive zooming
+                    }
+                },
+                physics: {
+                    stabilization: false
+                }
+            };
+            var network = new vis.Network(container, data, options);
+            network.on("stabilizationIterationsDone", function() {
+                network.setOptions({
+                    physics: false
+                });
+            });
+        }
+
+        let query_nodes = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> SELECT DISTINCT * WHERE { ?stone a ?type. ?stone rdfs:label ?label. }";
+        let query_edges = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX oghamonto: <http://ontology.ogham.link/> SELECT DISTINCT ?alabel ?blabel WHERE { ?a oghamonto:equals ?b. ?a rdfs:label ?alabel. ?b rdfs:label ?blabel. }";
+        RDF4J.queryData(query_nodes, setNodes);
+
+        // create a network
+        var container = document.getElementById("mynetwork");
+    </script>
+</body>
+
+</html>
