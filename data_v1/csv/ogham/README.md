@@ -110,4 +110,15 @@
 
 ## Stones / References (og_stones_references.csv)
 
-**TODO**
+-   comma seperated
+-   license:
+    -   combined: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de>)
+-   origin:
+    -   [Ogi-Ogham Project (Q70873595)](https://www.wikidata.org/wiki/Q70873595)
+    -   [Celtic Inscribed Stones Project (Q106628017)](https://www.wikidata.org/wiki/Q106628017)
+-   method:
+    -   semi-automatic digitalisation / postgres join by F. Thiery
+
+| id          | original_id      | stone_type | cisp_id | o3d    | macalister_1945 | macalister_1907 | mcmanus_1991  | macalister_1902 | macalister_1897 | cuppage_1986  | macalister_1949 | brash_1879    | osullivan_1996 | power_1992    | macalister_1909 | petrie_1872   | brikil_1993   | raftery_1960  | okasha_forsyth_2001 | ferguson_1887 | power_1997    | g_id         | ciic_stone | cisp_stone | o3d_stone |
+| ----------- | ---------------- | ---------- | ------- | ------ | --------------- | --------------- | ------------- | --------------- | --------------- | ------------- | --------------- | ------------- | -------------- | ------------- | --------------- | ------------- | ------------- | ------------- | ------------------- | ------------- | ------------- | ------------ | ---------- | ---------- | --------- |
+| internal id | ID of the origin | type       | CISP ID | O3D ID | reference no.   | reference no.   | reference no. | reference no.   | reference no.   | reference no. | reference no.   | reference no. | reference no.  | reference no. | reference no.   | reference no. | reference no. | reference no. | reference no.       | reference no. | reference no. | Reference ID | CIIC Stone | CISP Stone | O3D Stone |
