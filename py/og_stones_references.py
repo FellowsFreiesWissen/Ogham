@@ -2,11 +2,11 @@ __author__ = "Florian Thiery"
 __copyright__ = "MIT Licence 2021, Florian Thiery"
 __credits__ = ["Florian Thiery"]
 __license__ = "MIT"
-__version__ = "beta"
+__version__ = "1.0"
 __maintainer__ = "Florian Thiery"
 __email__ = "mail@fthiery.de"
-__status__ = "beta"
-__update__ = "2021-05-11"
+__status__ = "1.0"
+__update__ = "2021-05-13"
 
 # import dependencies
 import uuid
@@ -47,13 +47,88 @@ print(data.info())
 lineNo = 2
 outStr = ""
 lines = []
+references = []
 for index, row in data.iterrows():
+    # output things
     tmpno = lineNo - 2
     if tmpno % 1000 == 0:
         print(tmpno)
     lineNo += 1
-    # info
+
+    # fill cross array
+    references_tmp = []
+    if str(row['ciic_stone']) != 'nan':
+        if str(row['ciic_stone']) != 'undefined':
+            references_tmp.append("ogham:Y" + str(int(row['ciic_stone'])))
+    if str(row['cisp_stone']) != 'nan':
+        if str(row['cisp_stone']) != 'undefined':
+            references_tmp.append("ogham:Y" + str(int(row['cisp_stone'])))
+    if str(row['o3d_stone']) != 'nan':
+        if str(row['o3d_stone']) != 'undefined':
+            references_tmp.append("ogham:Y" + str(int(row['o3d_stone'])))
+    if str(row['macalister_1945']) != 'nan':
+        if str(row['macalister_1945']) != 'undefined':
+            references_tmp.append("ogham:macalister_1945:" + str(row['macalister_1945']))
+    if str(row['cisp_id']) != 'nan':
+        if str(row['cisp_id']) != 'undefined':
+            references_tmp.append("ogham:cisp:" + str(row['cisp_id']).replace(" ", "_").replace('/', "_"))
+    if str(row['o3d']) != 'nan':
+        if str(row['o3d']) != 'undefined':
+            references_tmp.append("ogham:o3d:" + str(row['o3d']).replace(" ", "_"))
+    if str(row['macalister_1907']) != 'nan':
+        if str(row['macalister_1907']) != 'undefined':
+            references_tmp.append("ogham:macalister_1907:" + str(int(row['macalister_1907'])))
+    if str(row['mcmanus_1991']) != 'nan':
+        if str(row['mcmanus_1991']) != 'undefined':
+            references_tmp.append("ogham:mcmanus_1991:" + str(row['mcmanus_1991']).replace(" ", "_"))
+    if str(row['macalister_1902']) != 'nan':
+        if str(row['macalister_1902']) != 'undefined':
+            references_tmp.append("ogham:macalister_1902:" + str(int(row['macalister_1902'])))
+    if str(row['macalister_1897']) != 'nan':
+        if str(row['macalister_1897']) != 'undefined':
+            references_tmp.append("ogham:macalister_1897:" + str(int(row['macalister_1897'])))
+    if str(row['cuppage_1986']) != 'nan':
+        if str(row['cuppage_1986']) != 'undefined':
+            references_tmp.append("ogham:cuppage_1986:" + str(row['cuppage_1986']).replace('(', "_").replace(')', "").replace(" ", "_"))
+    if str(row['macalister_1949']) != 'nan':
+        if str(row['macalister_1949']) != 'undefined':
+            references_tmp.append("ogham:macalister_1949:" + str(int(row['macalister_1949'])))
+    if str(row['brash_1879']) != 'nan':
+        if str(row['brash_1879']) != 'undefined':
+            references_tmp.append("ogham:brash_1879:" + str(int(row['brash_1879'])))
+    if str(row['osullivan_1996']) != 'nan':
+        if str(row['osullivan_1996']) != 'undefined':
+            references_tmp.append("ogham:osullivan_1996:" + str(int(row['osullivan_1996'])))
+    if str(row['power_1992']) != 'nan':
+        if str(row['power_1992']) != 'undefined':
+            references_tmp.append("ogham:power_1992:" + str(int(row['power_1992'])))
+    if str(row['macalister_1909']) != 'nan':
+        if str(row['macalister_1909']) != 'undefined':
+            references_tmp.append("ogham:macalister_1909:" + str(int(row['macalister_1909'])))
+    if str(row['petrie_1872']) != 'nan':
+        if str(row['petrie_1872']) != 'undefined':
+            references_tmp.append("ogham:petrie_1872:" + str(int(row['petrie_1872'])))
+    if str(row['brikil_1993']) != 'nan':
+        if str(row['brikil_1993']) != 'undefined':
+            references_tmp.append("ogham:brikil_1993:" + str(int(row['brikil_1993'])))
+    if str(row['raftery_1960']) != 'nan':
+        if str(row['raftery_1960']) != 'undefined':
+            references_tmp.append("ogham:raftery_1960:" + str(int(row['raftery_1960'])))
+    if str(row['okasha_forsyth_2001']) != 'nan':
+        if str(row['okasha_forsyth_2001']) != 'undefined':
+            references_tmp.append("ogham:okasha_forsyth_2001:" + str(row['okasha_forsyth_2001']).replace(" ", "_"))
+    if str(row['ferguson_1887']) != 'nan':
+        if str(row['ferguson_1887']) != 'undefined':
+            references_tmp.append("ogham:ferguson_1887:" + str(int(row['ferguson_1887'])))
+    if str(row['power_1997']) != 'nan':
+        if str(row['power_1997']) != 'undefined':
+            references_tmp.append("ogham:power_1997:" + str(int(row['power_1997'])))
+
+    # reference
     lines.append("_:" + str(row['g_id']) + " " + "rdf:type" + " oghamonto:ReferenceChain .")
+    lines.append("_:" + str(row['g_id']) + " " + "oghamonto:referenceList \"" + str(references_tmp) + "\" .")
+
+    # create initial nodes
     if int(str(row['id'])) > 10000000 and int(str(row['id'])) < 20000000:
         lines.append("ogham:ciic:" + str(row['id']) + " " + "rdf:type" + " oghamonto:" + "macalister_1945" + " .")
         lines.append("ogham:ciic:" + str(row['id']) + " " + "rdfs:label" + " 'ciic:" + str(row['id']) + "' .")
@@ -66,11 +141,22 @@ for index, row in data.iterrows():
     if int(str(row['id'])) > 50000000 and int(str(row['id'])) < 60000000:
         lines.append("ogham:squirrel:" + str(row['id']) + " " + "rdf:type" + " oghamonto:" + "SquirrelOgham" + " .")
         lines.append("ogham:squirrel:" + str(row['id']) + " " + "rdfs:label" + " 'squirrel:" + str(row['id']) + "' .")
-    if str(row['macalister_1945']) != 'nan':
-        if str(row['macalister_1945']) != 'undefined':
-            lines.append("ogham:macalister_1945:" + str(row['macalister_1945']) + " " + "rdf:type" + " oghamonto:" + "macalister_1945" + " .")
-            lines.append("ogham:macalister_1945:" + str(row['macalister_1945']) + " " + "rdfs:label" + " 'macalister_1945:" + str(row['macalister_1945']) + "' .")
-            lines.append("ogham:ciic:" + str(row['id']) + " " + "oghamonto:equals" + " " + "ogham:macalister_1945:" + str(row['macalister_1945']) + "" + ".")
+
+    # create reference nodes
+    for x in references_tmp:
+        split = x.split(":")
+        tmp = x + " " + "rdf:type" + " oghamonto:" + split[1] + " ."
+        if ":Y" not in x and tmp not in lines:
+            lines.append(x + " " + "rdf:type" + " oghamonto:" + split[1] + " .")
+            lines.append(x + " " + "rdfs:label" + " '" + str(x).replace("ogham:", "") + "' .")
+
+    # create edges nodes
+    for x in references_tmp:
+        for y in references_tmp:
+            tmp = x + " " + "oghamonto:equals" + " " + y + "" + "."
+            if x != y and tmp not in lines:
+                lines.append(x + " " + "oghamonto:equals" + " " + y + "" + ".")
+
     lines.append("")
 
 files = (len(lines) / 100000) + 1
