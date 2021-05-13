@@ -93,6 +93,21 @@
 
 ## Stones (og_stones.csv)
 
+-   comma seperated
+-   license:
+    -   Ogham in 3D: [CC BY-NC-SA 3.0 Ireland](http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US)
+    -   other: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de>)
+-   origin:
+    -   [Ogi-Ogham Project (Q70873595)](https://www.wikidata.org/wiki/Q70873595)
+    -   [Celtic Inscribed Stones Project (Q106628017)](https://www.wikidata.org/wiki/Q106628017)
+    -   [Ogham in 3D Project (Q106674066)](https://www.wikidata.org/wiki/Q106674066)
+-   method:
+    -   semi-automatic digitalisation / postgres join by F. Thiery / S.C. Schmidt
+
+| id          | label | desc        | wikidata_id           | original_id      | width | height | depth       | thickness        | h_status        | w_status        | t_status        | discovery_year | discovery_who    | currentsetting                                                                                                     | currentlocation  | form                                                                                                    | completeness                                                                                                    | preservation                                                                                                    | preservation_note |
+| ----------- | ----- | ----------- | --------------------- | ---------------- | ----- | ------ | ----------- | ---------------- | --------------- | --------------- | --------------- | -------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------ | ---------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ----------------- |
+| internal id | label | description | Wikidata Q Identifier | ID of the origin | width | height | depth (o3d) | thickness (cisp) | h_status (cisp) | w_status (cisp) | t_status (cisp) | discovery year | discovery person | current setting[\*](https://www.ucl.ac.uk/archaeology/cisp/database/manual/node3.html#SECTION00331000000000000000) | current location | form[\*](https://www.ucl.ac.uk/archaeology/cisp/database/manual/node3.html#SECTION00335000000000000000) | completeness[\*](https://www.ucl.ac.uk/archaeology/cisp/database/manual/node3.html#SECTION00331000000000000000) | preservation[\*](https://www.ucl.ac.uk/archaeology/cisp/database/manual/node3.html#SECTION00331000000000000000) | preservation_note |
+
 ## Stones / References (og_stones_references.csv)
 
 **TODO**
