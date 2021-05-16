@@ -2070,7 +2070,7 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
 
     <owl:NamedIndividual rdf:about="http://www.wikidata.org/entity/Q106628017">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
-        <rdfs:label xml:lang="en">Celtic Inscribed Stones Project</rdfs:label>
+        <rdfs:label xml:lang="en">Celtic Inscribed Stones Project (Wikidata)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2079,7 +2079,7 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
 
     <owl:NamedIndividual rdf:about="http://www.wikidata.org/entity/Q106674066">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
-        <rdfs:label xml:lang="en">Ogham in 3D Project</rdfs:label>
+        <rdfs:label xml:lang="en">Ogham in 3D Project (Wikidata)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2088,7 +2088,7 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
 
     <owl:NamedIndividual rdf:about="http://www.wikidata.org/entity/Q70256237">
         <rdf:type rdf:resource="http://www.wikidata.org/entity/Q7725634"/>
-        <rdfs:label xml:lang="en">Corpus Inscriptionum Insularum Celticarum Vol.1</rdfs:label>
+        <rdfs:label xml:lang="en">Corpus Inscriptionum Insularum Celticarum Vol.1 (Wikidata)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2097,7 +2097,7 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-3246-3531">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-        <rdfs:label xml:lang="en">Florian Thiery</rdfs:label>
+        <rdfs:label xml:lang="en">Florian Thiery (ORCID)</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 
