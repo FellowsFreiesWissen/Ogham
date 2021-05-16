@@ -1049,15 +1049,6 @@
     
 
 
-    <!-- http://ontology.ogham.link/CISP -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/CISP">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Repository"/>
-        <rdfs:label xml:lang="en">Celtic Inscribed Stones Project (CISP)</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://ontology.ogham.link/CivilParish -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/CivilParish">
@@ -1153,15 +1144,6 @@
     <owl:Class rdf:about="http://ontology.ogham.link/OghamCollection">
         <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/InformationCarrier"/>
         <rdfs:label xml:lang="en">Ogham Collection</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/OghamIn3D -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/OghamIn3D">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Repository"/>
-        <rdfs:label xml:lang="en">Ogham in 3D Project</rdfs:label>
     </owl:Class>
     
 
@@ -1315,15 +1297,6 @@
     <owl:Class rdf:about="http://ontology.ogham.link/Sandstone">
         <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Stone_Material"/>
         <rdfs:label xml:lang="en">Sandstone</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/SquirrelOgham -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/SquirrelOgham">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Repository"/>
-        <rdfs:label xml:lang="en">Ogham Squirrel Project</rdfs:label>
     </owl:Class>
     
 
@@ -2047,6 +2020,15 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
     
 
 
+    <!-- http://ontology.ogham.link/CISP -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/CISP">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Repository"/>
+        <rdfs:label xml:lang="en">Celtic Inscribed Stones Project (CISP)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://ontology.ogham.link/OghamAlphabet -->
 
     <owl:NamedIndividual rdf:about="http://ontology.ogham.link/OghamAlphabet">
@@ -2062,6 +2044,24 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
     <owl:NamedIndividual rdf:about="http://ontology.ogham.link/OghamChar">
         <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX8_Grapheme"/>
         <rdfs:label xml:lang="en">Ogham Char</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/OghamIn3D -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/OghamIn3D">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Repository"/>
+        <rdfs:label xml:lang="en">Ogham in 3D Project</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/SquirrelOgham -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/SquirrelOgham">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Repository"/>
+        <rdfs:label xml:lang="en">Ogham Squirrel Project</rdfs:label>
     </owl:NamedIndividual>
     
 
