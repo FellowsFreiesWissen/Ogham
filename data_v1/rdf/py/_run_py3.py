@@ -47,7 +47,7 @@ exec(open(dir_path + "/gs_counties.py").read())
 exec(open(dir_path + "/gs_countries.py").read())
 exec(open(dir_path + "/gs_ireland_island.py").read())
 exec(open(dir_path + "/gs_provinces.py").read())
-#exec(open(dir_path + "/gs_townlands.py").read())
+exec(open(dir_path + "/gs_townlands.py").read())
 
 step2 = int(_config.count(0))
 sum_geodata = step2 - sum_ogham
@@ -55,7 +55,7 @@ sum_geodata = step2 - sum_ogham
 # crostables
 
 exec(open(dir_path + "/ct_barony_townland.py").read())
-exec(open(dir_path + "/ct_country_province.py").read())
+exec(open(dir_path + "/ct_province_county.py").read())
 exec(open(dir_path + "/ct_county_barony.py").read())
 exec(open(dir_path + "/ct_insc_read.py").read())
 exec(open(dir_path + "/ct_site_barony.py").read())
@@ -72,6 +72,11 @@ exec(open(dir_path + "/ct_stone_word.py").read())
 
 step3 = int(_config.count(0))
 sum_crosstable = step3 - sum_ogham - sum_geodata
+
+# references
+
+exec(open(dir_path + "/og_stones_references.py").read())
+
 
 print("SUM TRIPLES OGHAM: " + str(sum_ogham))
 print("SUM TRIPLES GEODATA: " + str(sum_geodata))

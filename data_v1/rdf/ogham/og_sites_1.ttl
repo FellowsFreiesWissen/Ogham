@@ -1,5 +1,5 @@
 # create triples from og_sites.csv 
-# on 2021-05-11 14:47
+# on 2021-05-16 12:38
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -40,8 +40,8 @@ ogham:OS40000001 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000001 prov:wasGeneratedBy ogham:OS40000001_activity .
 ogham:OS40000001_activity rdf:type prov:Activity .
-ogham:OS40000001_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000001_activity prov:endedAtTime '2021-05-11T14:47:47.324406Z'^^xsd:dateTime .
+ogham:OS40000001_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000001_activity prov:endedAtTime '2021-05-16T12:38:25.178794Z'^^xsd:dateTime .
 ogham:OS40000001_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000002 rdf:type oghamonto:OghamSite .
@@ -69,8 +69,8 @@ ogham:OS40000002 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000002 prov:wasGeneratedBy ogham:OS40000002_activity .
 ogham:OS40000002_activity rdf:type prov:Activity .
-ogham:OS40000002_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000002_activity prov:endedAtTime '2021-05-11T14:47:47.324406Z'^^xsd:dateTime .
+ogham:OS40000002_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000002_activity prov:endedAtTime '2021-05-16T12:38:25.179766Z'^^xsd:dateTime .
 ogham:OS40000002_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000003 rdf:type oghamonto:OghamSite .
@@ -98,8 +98,8 @@ ogham:OS40000003 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000003 prov:wasGeneratedBy ogham:OS40000003_activity .
 ogham:OS40000003_activity rdf:type prov:Activity .
-ogham:OS40000003_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000003_activity prov:endedAtTime '2021-05-11T14:47:47.324406Z'^^xsd:dateTime .
+ogham:OS40000003_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000003_activity prov:endedAtTime '2021-05-16T12:38:25.179766Z'^^xsd:dateTime .
 ogham:OS40000003_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000004 rdf:type oghamonto:OghamSite .
@@ -127,8 +127,8 @@ ogham:OS40000004 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000004 prov:wasGeneratedBy ogham:OS40000004_activity .
 ogham:OS40000004_activity rdf:type prov:Activity .
-ogham:OS40000004_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000004_activity prov:endedAtTime '2021-05-11T14:47:47.324406Z'^^xsd:dateTime .
+ogham:OS40000004_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000004_activity prov:endedAtTime '2021-05-16T12:38:25.179766Z'^^xsd:dateTime .
 ogham:OS40000004_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000005 rdf:type oghamonto:OghamSite .
@@ -156,8 +156,8 @@ ogham:OS40000005 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000005 prov:wasGeneratedBy ogham:OS40000005_activity .
 ogham:OS40000005_activity rdf:type prov:Activity .
-ogham:OS40000005_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000005_activity prov:endedAtTime '2021-05-11T14:47:47.324406Z'^^xsd:dateTime .
+ogham:OS40000005_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000005_activity prov:endedAtTime '2021-05-16T12:38:25.180790Z'^^xsd:dateTime .
 ogham:OS40000005_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000006 rdf:type oghamonto:OghamSite .
@@ -185,8 +185,8 @@ ogham:OS40000006 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000006 prov:wasGeneratedBy ogham:OS40000006_activity .
 ogham:OS40000006_activity rdf:type prov:Activity .
-ogham:OS40000006_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000006_activity prov:endedAtTime '2021-05-11T14:47:47.324406Z'^^xsd:dateTime .
+ogham:OS40000006_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000006_activity prov:endedAtTime '2021-05-16T12:38:25.180790Z'^^xsd:dateTime .
 ogham:OS40000006_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000007 rdf:type oghamonto:OghamSite .
@@ -214,8 +214,8 @@ ogham:OS40000007 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000007 prov:wasGeneratedBy ogham:OS40000007_activity .
 ogham:OS40000007_activity rdf:type prov:Activity .
-ogham:OS40000007_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000007_activity prov:endedAtTime '2021-05-11T14:47:47.324406Z'^^xsd:dateTime .
+ogham:OS40000007_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000007_activity prov:endedAtTime '2021-05-16T12:38:25.181761Z'^^xsd:dateTime .
 ogham:OS40000007_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000008 rdf:type oghamonto:OghamSite .
@@ -243,8 +243,8 @@ ogham:OS40000008 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000008 prov:wasGeneratedBy ogham:OS40000008_activity .
 ogham:OS40000008_activity rdf:type prov:Activity .
-ogham:OS40000008_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000008_activity prov:endedAtTime '2021-05-11T14:47:47.324406Z'^^xsd:dateTime .
+ogham:OS40000008_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000008_activity prov:endedAtTime '2021-05-16T12:38:25.182758Z'^^xsd:dateTime .
 ogham:OS40000008_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000009 rdf:type oghamonto:OghamSite .
@@ -272,8 +272,8 @@ ogham:OS40000009 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000009 prov:wasGeneratedBy ogham:OS40000009_activity .
 ogham:OS40000009_activity rdf:type prov:Activity .
-ogham:OS40000009_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000009_activity prov:endedAtTime '2021-05-11T14:47:47.324406Z'^^xsd:dateTime .
+ogham:OS40000009_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000009_activity prov:endedAtTime '2021-05-16T12:38:25.183756Z'^^xsd:dateTime .
 ogham:OS40000009_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000010 rdf:type oghamonto:OghamSite .
@@ -301,8 +301,8 @@ ogham:OS40000010 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000010 prov:wasGeneratedBy ogham:OS40000010_activity .
 ogham:OS40000010_activity rdf:type prov:Activity .
-ogham:OS40000010_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000010_activity prov:endedAtTime '2021-05-11T14:47:47.329416Z'^^xsd:dateTime .
+ogham:OS40000010_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000010_activity prov:endedAtTime '2021-05-16T12:38:25.184753Z'^^xsd:dateTime .
 ogham:OS40000010_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000011 rdf:type oghamonto:OghamSite .
@@ -330,8 +330,8 @@ ogham:OS40000011 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000011 prov:wasGeneratedBy ogham:OS40000011_activity .
 ogham:OS40000011_activity rdf:type prov:Activity .
-ogham:OS40000011_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000011_activity prov:endedAtTime '2021-05-11T14:47:47.329416Z'^^xsd:dateTime .
+ogham:OS40000011_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000011_activity prov:endedAtTime '2021-05-16T12:38:25.185753Z'^^xsd:dateTime .
 ogham:OS40000011_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000012 rdf:type oghamonto:OghamSite .
@@ -359,8 +359,8 @@ ogham:OS40000012 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000012 prov:wasGeneratedBy ogham:OS40000012_activity .
 ogham:OS40000012_activity rdf:type prov:Activity .
-ogham:OS40000012_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000012_activity prov:endedAtTime '2021-05-11T14:47:47.329416Z'^^xsd:dateTime .
+ogham:OS40000012_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000012_activity prov:endedAtTime '2021-05-16T12:38:25.185753Z'^^xsd:dateTime .
 ogham:OS40000012_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000013 rdf:type oghamonto:OghamSite .
@@ -388,8 +388,8 @@ ogham:OS40000013 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000013 prov:wasGeneratedBy ogham:OS40000013_activity .
 ogham:OS40000013_activity rdf:type prov:Activity .
-ogham:OS40000013_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000013_activity prov:endedAtTime '2021-05-11T14:47:47.329416Z'^^xsd:dateTime .
+ogham:OS40000013_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000013_activity prov:endedAtTime '2021-05-16T12:38:25.185753Z'^^xsd:dateTime .
 ogham:OS40000013_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000014 rdf:type oghamonto:OghamSite .
@@ -417,8 +417,8 @@ ogham:OS40000014 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000014 prov:wasGeneratedBy ogham:OS40000014_activity .
 ogham:OS40000014_activity rdf:type prov:Activity .
-ogham:OS40000014_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000014_activity prov:endedAtTime '2021-05-11T14:47:47.329416Z'^^xsd:dateTime .
+ogham:OS40000014_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000014_activity prov:endedAtTime '2021-05-16T12:38:25.185753Z'^^xsd:dateTime .
 ogham:OS40000014_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000015 rdf:type oghamonto:OghamSite .
@@ -446,8 +446,8 @@ ogham:OS40000015 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000015 prov:wasGeneratedBy ogham:OS40000015_activity .
 ogham:OS40000015_activity rdf:type prov:Activity .
-ogham:OS40000015_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000015_activity prov:endedAtTime '2021-05-11T14:47:47.331132Z'^^xsd:dateTime .
+ogham:OS40000015_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000015_activity prov:endedAtTime '2021-05-16T12:38:25.186750Z'^^xsd:dateTime .
 ogham:OS40000015_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000016 rdf:type oghamonto:OghamSite .
@@ -475,8 +475,8 @@ ogham:OS40000016 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000016 prov:wasGeneratedBy ogham:OS40000016_activity .
 ogham:OS40000016_activity rdf:type prov:Activity .
-ogham:OS40000016_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000016_activity prov:endedAtTime '2021-05-11T14:47:47.331132Z'^^xsd:dateTime .
+ogham:OS40000016_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000016_activity prov:endedAtTime '2021-05-16T12:38:25.186750Z'^^xsd:dateTime .
 ogham:OS40000016_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000017 rdf:type oghamonto:OghamSite .
@@ -504,8 +504,8 @@ ogham:OS40000017 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000017 prov:wasGeneratedBy ogham:OS40000017_activity .
 ogham:OS40000017_activity rdf:type prov:Activity .
-ogham:OS40000017_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000017_activity prov:endedAtTime '2021-05-11T14:47:47.332133Z'^^xsd:dateTime .
+ogham:OS40000017_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000017_activity prov:endedAtTime '2021-05-16T12:38:25.187747Z'^^xsd:dateTime .
 ogham:OS40000017_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000018 rdf:type oghamonto:OghamSite .
@@ -533,8 +533,8 @@ ogham:OS40000018 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000018 prov:wasGeneratedBy ogham:OS40000018_activity .
 ogham:OS40000018_activity rdf:type prov:Activity .
-ogham:OS40000018_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000018_activity prov:endedAtTime '2021-05-11T14:47:47.332133Z'^^xsd:dateTime .
+ogham:OS40000018_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000018_activity prov:endedAtTime '2021-05-16T12:38:25.187747Z'^^xsd:dateTime .
 ogham:OS40000018_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000019 rdf:type oghamonto:OghamSite .
@@ -562,8 +562,8 @@ ogham:OS40000019 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000019 prov:wasGeneratedBy ogham:OS40000019_activity .
 ogham:OS40000019_activity rdf:type prov:Activity .
-ogham:OS40000019_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000019_activity prov:endedAtTime '2021-05-11T14:47:47.333128Z'^^xsd:dateTime .
+ogham:OS40000019_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000019_activity prov:endedAtTime '2021-05-16T12:38:25.187747Z'^^xsd:dateTime .
 ogham:OS40000019_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000020 rdf:type oghamonto:OghamSite .
@@ -591,8 +591,8 @@ ogham:OS40000020 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000020 prov:wasGeneratedBy ogham:OS40000020_activity .
 ogham:OS40000020_activity rdf:type prov:Activity .
-ogham:OS40000020_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000020_activity prov:endedAtTime '2021-05-11T14:47:47.333128Z'^^xsd:dateTime .
+ogham:OS40000020_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000020_activity prov:endedAtTime '2021-05-16T12:38:25.187747Z'^^xsd:dateTime .
 ogham:OS40000020_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000021 rdf:type oghamonto:OghamSite .
@@ -620,8 +620,8 @@ ogham:OS40000021 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000021 prov:wasGeneratedBy ogham:OS40000021_activity .
 ogham:OS40000021_activity rdf:type prov:Activity .
-ogham:OS40000021_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000021_activity prov:endedAtTime '2021-05-11T14:47:47.334126Z'^^xsd:dateTime .
+ogham:OS40000021_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000021_activity prov:endedAtTime '2021-05-16T12:38:25.188743Z'^^xsd:dateTime .
 ogham:OS40000021_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000022 rdf:type oghamonto:OghamSite .
@@ -649,8 +649,8 @@ ogham:OS40000022 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000022 prov:wasGeneratedBy ogham:OS40000022_activity .
 ogham:OS40000022_activity rdf:type prov:Activity .
-ogham:OS40000022_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000022_activity prov:endedAtTime '2021-05-11T14:47:47.334126Z'^^xsd:dateTime .
+ogham:OS40000022_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000022_activity prov:endedAtTime '2021-05-16T12:38:25.188743Z'^^xsd:dateTime .
 ogham:OS40000022_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000023 rdf:type oghamonto:OghamSite .
@@ -678,8 +678,8 @@ ogham:OS40000023 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000023 prov:wasGeneratedBy ogham:OS40000023_activity .
 ogham:OS40000023_activity rdf:type prov:Activity .
-ogham:OS40000023_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000023_activity prov:endedAtTime '2021-05-11T14:47:47.334126Z'^^xsd:dateTime .
+ogham:OS40000023_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000023_activity prov:endedAtTime '2021-05-16T12:38:25.188743Z'^^xsd:dateTime .
 ogham:OS40000023_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000024 rdf:type oghamonto:OghamSite .
@@ -707,8 +707,8 @@ ogham:OS40000024 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000024 prov:wasGeneratedBy ogham:OS40000024_activity .
 ogham:OS40000024_activity rdf:type prov:Activity .
-ogham:OS40000024_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000024_activity prov:endedAtTime '2021-05-11T14:47:47.335126Z'^^xsd:dateTime .
+ogham:OS40000024_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000024_activity prov:endedAtTime '2021-05-16T12:38:25.189740Z'^^xsd:dateTime .
 ogham:OS40000024_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000025 rdf:type oghamonto:OghamSite .
@@ -736,8 +736,8 @@ ogham:OS40000025 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000025 prov:wasGeneratedBy ogham:OS40000025_activity .
 ogham:OS40000025_activity rdf:type prov:Activity .
-ogham:OS40000025_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000025_activity prov:endedAtTime '2021-05-11T14:47:47.336120Z'^^xsd:dateTime .
+ogham:OS40000025_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000025_activity prov:endedAtTime '2021-05-16T12:38:25.189740Z'^^xsd:dateTime .
 ogham:OS40000025_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000026 rdf:type oghamonto:OghamSite .
@@ -765,8 +765,8 @@ ogham:OS40000026 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000026 prov:wasGeneratedBy ogham:OS40000026_activity .
 ogham:OS40000026_activity rdf:type prov:Activity .
-ogham:OS40000026_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000026_activity prov:endedAtTime '2021-05-11T14:47:47.337118Z'^^xsd:dateTime .
+ogham:OS40000026_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000026_activity prov:endedAtTime '2021-05-16T12:38:25.190739Z'^^xsd:dateTime .
 ogham:OS40000026_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000027 rdf:type oghamonto:OghamSite .
@@ -794,8 +794,8 @@ ogham:OS40000027 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000027 prov:wasGeneratedBy ogham:OS40000027_activity .
 ogham:OS40000027_activity rdf:type prov:Activity .
-ogham:OS40000027_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000027_activity prov:endedAtTime '2021-05-11T14:47:47.337118Z'^^xsd:dateTime .
+ogham:OS40000027_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000027_activity prov:endedAtTime '2021-05-16T12:38:25.191738Z'^^xsd:dateTime .
 ogham:OS40000027_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000028 rdf:type oghamonto:OghamSite .
@@ -823,8 +823,8 @@ ogham:OS40000028 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000028 prov:wasGeneratedBy ogham:OS40000028_activity .
 ogham:OS40000028_activity rdf:type prov:Activity .
-ogham:OS40000028_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000028_activity prov:endedAtTime '2021-05-11T14:47:47.338115Z'^^xsd:dateTime .
+ogham:OS40000028_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000028_activity prov:endedAtTime '2021-05-16T12:38:25.191738Z'^^xsd:dateTime .
 ogham:OS40000028_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000029 rdf:type oghamonto:OghamSite .
@@ -852,8 +852,8 @@ ogham:OS40000029 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000029 prov:wasGeneratedBy ogham:OS40000029_activity .
 ogham:OS40000029_activity rdf:type prov:Activity .
-ogham:OS40000029_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000029_activity prov:endedAtTime '2021-05-11T14:47:47.338115Z'^^xsd:dateTime .
+ogham:OS40000029_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000029_activity prov:endedAtTime '2021-05-16T12:38:25.192732Z'^^xsd:dateTime .
 ogham:OS40000029_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000030 rdf:type oghamonto:OghamSite .
@@ -881,8 +881,8 @@ ogham:OS40000030 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000030 prov:wasGeneratedBy ogham:OS40000030_activity .
 ogham:OS40000030_activity rdf:type prov:Activity .
-ogham:OS40000030_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000030_activity prov:endedAtTime '2021-05-11T14:47:47.338115Z'^^xsd:dateTime .
+ogham:OS40000030_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000030_activity prov:endedAtTime '2021-05-16T12:38:25.192732Z'^^xsd:dateTime .
 ogham:OS40000030_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000031 rdf:type oghamonto:OghamSite .
@@ -910,8 +910,8 @@ ogham:OS40000031 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000031 prov:wasGeneratedBy ogham:OS40000031_activity .
 ogham:OS40000031_activity rdf:type prov:Activity .
-ogham:OS40000031_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000031_activity prov:endedAtTime '2021-05-11T14:47:47.339113Z'^^xsd:dateTime .
+ogham:OS40000031_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000031_activity prov:endedAtTime '2021-05-16T12:38:25.193761Z'^^xsd:dateTime .
 ogham:OS40000031_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000032 rdf:type oghamonto:OghamSite .
@@ -939,8 +939,8 @@ ogham:OS40000032 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000032 prov:wasGeneratedBy ogham:OS40000032_activity .
 ogham:OS40000032_activity rdf:type prov:Activity .
-ogham:OS40000032_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000032_activity prov:endedAtTime '2021-05-11T14:47:47.339113Z'^^xsd:dateTime .
+ogham:OS40000032_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000032_activity prov:endedAtTime '2021-05-16T12:38:25.193761Z'^^xsd:dateTime .
 ogham:OS40000032_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000033 rdf:type oghamonto:OghamSite .
@@ -968,8 +968,8 @@ ogham:OS40000033 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000033 prov:wasGeneratedBy ogham:OS40000033_activity .
 ogham:OS40000033_activity rdf:type prov:Activity .
-ogham:OS40000033_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000033_activity prov:endedAtTime '2021-05-11T14:47:47.340110Z'^^xsd:dateTime .
+ogham:OS40000033_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000033_activity prov:endedAtTime '2021-05-16T12:38:25.193761Z'^^xsd:dateTime .
 ogham:OS40000033_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000034 rdf:type oghamonto:OghamSite .
@@ -997,8 +997,8 @@ ogham:OS40000034 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000034 prov:wasGeneratedBy ogham:OS40000034_activity .
 ogham:OS40000034_activity rdf:type prov:Activity .
-ogham:OS40000034_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000034_activity prov:endedAtTime '2021-05-11T14:47:47.340110Z'^^xsd:dateTime .
+ogham:OS40000034_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000034_activity prov:endedAtTime '2021-05-16T12:38:25.194728Z'^^xsd:dateTime .
 ogham:OS40000034_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000035 rdf:type oghamonto:OghamSite .
@@ -1026,8 +1026,8 @@ ogham:OS40000035 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000035 prov:wasGeneratedBy ogham:OS40000035_activity .
 ogham:OS40000035_activity rdf:type prov:Activity .
-ogham:OS40000035_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000035_activity prov:endedAtTime '2021-05-11T14:47:47.341107Z'^^xsd:dateTime .
+ogham:OS40000035_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000035_activity prov:endedAtTime '2021-05-16T12:38:25.194728Z'^^xsd:dateTime .
 ogham:OS40000035_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000036 rdf:type oghamonto:OghamSite .
@@ -1055,8 +1055,8 @@ ogham:OS40000036 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000036 prov:wasGeneratedBy ogham:OS40000036_activity .
 ogham:OS40000036_activity rdf:type prov:Activity .
-ogham:OS40000036_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000036_activity prov:endedAtTime '2021-05-11T14:47:47.342103Z'^^xsd:dateTime .
+ogham:OS40000036_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000036_activity prov:endedAtTime '2021-05-16T12:38:25.194728Z'^^xsd:dateTime .
 ogham:OS40000036_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000037 rdf:type oghamonto:OghamSite .
@@ -1084,8 +1084,8 @@ ogham:OS40000037 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000037 prov:wasGeneratedBy ogham:OS40000037_activity .
 ogham:OS40000037_activity rdf:type prov:Activity .
-ogham:OS40000037_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000037_activity prov:endedAtTime '2021-05-11T14:47:47.342103Z'^^xsd:dateTime .
+ogham:OS40000037_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000037_activity prov:endedAtTime '2021-05-16T12:38:25.195724Z'^^xsd:dateTime .
 ogham:OS40000037_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000038 rdf:type oghamonto:OghamSite .
@@ -1113,8 +1113,8 @@ ogham:OS40000038 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000038 prov:wasGeneratedBy ogham:OS40000038_activity .
 ogham:OS40000038_activity rdf:type prov:Activity .
-ogham:OS40000038_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000038_activity prov:endedAtTime '2021-05-11T14:47:47.343101Z'^^xsd:dateTime .
+ogham:OS40000038_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000038_activity prov:endedAtTime '2021-05-16T12:38:25.195724Z'^^xsd:dateTime .
 ogham:OS40000038_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000039 rdf:type oghamonto:OghamSite .
@@ -1142,8 +1142,8 @@ ogham:OS40000039 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000039 prov:wasGeneratedBy ogham:OS40000039_activity .
 ogham:OS40000039_activity rdf:type prov:Activity .
-ogham:OS40000039_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000039_activity prov:endedAtTime '2021-05-11T14:47:47.343101Z'^^xsd:dateTime .
+ogham:OS40000039_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000039_activity prov:endedAtTime '2021-05-16T12:38:25.195724Z'^^xsd:dateTime .
 ogham:OS40000039_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000040 rdf:type oghamonto:OghamSite .
@@ -1171,8 +1171,8 @@ ogham:OS40000040 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000040 prov:wasGeneratedBy ogham:OS40000040_activity .
 ogham:OS40000040_activity rdf:type prov:Activity .
-ogham:OS40000040_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000040_activity prov:endedAtTime '2021-05-11T14:47:47.344098Z'^^xsd:dateTime .
+ogham:OS40000040_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000040_activity prov:endedAtTime '2021-05-16T12:38:25.195724Z'^^xsd:dateTime .
 ogham:OS40000040_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000041 rdf:type oghamonto:OghamSite .
@@ -1200,8 +1200,8 @@ ogham:OS40000041 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000041 prov:wasGeneratedBy ogham:OS40000041_activity .
 ogham:OS40000041_activity rdf:type prov:Activity .
-ogham:OS40000041_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000041_activity prov:endedAtTime '2021-05-11T14:47:47.345095Z'^^xsd:dateTime .
+ogham:OS40000041_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000041_activity prov:endedAtTime '2021-05-16T12:38:25.196720Z'^^xsd:dateTime .
 ogham:OS40000041_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000042 rdf:type oghamonto:OghamSite .
@@ -1229,8 +1229,8 @@ ogham:OS40000042 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000042 prov:wasGeneratedBy ogham:OS40000042_activity .
 ogham:OS40000042_activity rdf:type prov:Activity .
-ogham:OS40000042_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000042_activity prov:endedAtTime '2021-05-11T14:47:47.345095Z'^^xsd:dateTime .
+ogham:OS40000042_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000042_activity prov:endedAtTime '2021-05-16T12:38:25.196720Z'^^xsd:dateTime .
 ogham:OS40000042_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000043 rdf:type oghamonto:OghamSite .
@@ -1258,8 +1258,8 @@ ogham:OS40000043 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000043 prov:wasGeneratedBy ogham:OS40000043_activity .
 ogham:OS40000043_activity rdf:type prov:Activity .
-ogham:OS40000043_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000043_activity prov:endedAtTime '2021-05-11T14:47:47.346092Z'^^xsd:dateTime .
+ogham:OS40000043_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000043_activity prov:endedAtTime '2021-05-16T12:38:25.196720Z'^^xsd:dateTime .
 ogham:OS40000043_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000044 rdf:type oghamonto:OghamSite .
@@ -1287,8 +1287,8 @@ ogham:OS40000044 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000044 prov:wasGeneratedBy ogham:OS40000044_activity .
 ogham:OS40000044_activity rdf:type prov:Activity .
-ogham:OS40000044_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000044_activity prov:endedAtTime '2021-05-11T14:47:47.346092Z'^^xsd:dateTime .
+ogham:OS40000044_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000044_activity prov:endedAtTime '2021-05-16T12:38:25.196720Z'^^xsd:dateTime .
 ogham:OS40000044_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000045 rdf:type oghamonto:OghamSite .
@@ -1316,8 +1316,8 @@ ogham:OS40000045 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000045 prov:wasGeneratedBy ogham:OS40000045_activity .
 ogham:OS40000045_activity rdf:type prov:Activity .
-ogham:OS40000045_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000045_activity prov:endedAtTime '2021-05-11T14:47:47.346092Z'^^xsd:dateTime .
+ogham:OS40000045_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000045_activity prov:endedAtTime '2021-05-16T12:38:25.197717Z'^^xsd:dateTime .
 ogham:OS40000045_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000046 rdf:type oghamonto:OghamSite .
@@ -1345,8 +1345,8 @@ ogham:OS40000046 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000046 prov:wasGeneratedBy ogham:OS40000046_activity .
 ogham:OS40000046_activity rdf:type prov:Activity .
-ogham:OS40000046_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000046_activity prov:endedAtTime '2021-05-11T14:47:47.346092Z'^^xsd:dateTime .
+ogham:OS40000046_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000046_activity prov:endedAtTime '2021-05-16T12:38:25.197717Z'^^xsd:dateTime .
 ogham:OS40000046_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000047 rdf:type oghamonto:OghamSite .
@@ -1374,8 +1374,8 @@ ogham:OS40000047 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000047 prov:wasGeneratedBy ogham:OS40000047_activity .
 ogham:OS40000047_activity rdf:type prov:Activity .
-ogham:OS40000047_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000047_activity prov:endedAtTime '2021-05-11T14:47:47.347089Z'^^xsd:dateTime .
+ogham:OS40000047_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000047_activity prov:endedAtTime '2021-05-16T12:38:25.197717Z'^^xsd:dateTime .
 ogham:OS40000047_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000048 rdf:type oghamonto:OghamSite .
@@ -1403,8 +1403,8 @@ ogham:OS40000048 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000048 prov:wasGeneratedBy ogham:OS40000048_activity .
 ogham:OS40000048_activity rdf:type prov:Activity .
-ogham:OS40000048_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000048_activity prov:endedAtTime '2021-05-11T14:47:47.347089Z'^^xsd:dateTime .
+ogham:OS40000048_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000048_activity prov:endedAtTime '2021-05-16T12:38:25.197717Z'^^xsd:dateTime .
 ogham:OS40000048_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000049 rdf:type oghamonto:OghamSite .
@@ -1432,8 +1432,8 @@ ogham:OS40000049 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000049 prov:wasGeneratedBy ogham:OS40000049_activity .
 ogham:OS40000049_activity rdf:type prov:Activity .
-ogham:OS40000049_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000049_activity prov:endedAtTime '2021-05-11T14:47:47.347089Z'^^xsd:dateTime .
+ogham:OS40000049_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000049_activity prov:endedAtTime '2021-05-16T12:38:25.199713Z'^^xsd:dateTime .
 ogham:OS40000049_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000050 rdf:type oghamonto:OghamSite .
@@ -1461,8 +1461,8 @@ ogham:OS40000050 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000050 prov:wasGeneratedBy ogham:OS40000050_activity .
 ogham:OS40000050_activity rdf:type prov:Activity .
-ogham:OS40000050_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000050_activity prov:endedAtTime '2021-05-11T14:47:47.348090Z'^^xsd:dateTime .
+ogham:OS40000050_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000050_activity prov:endedAtTime '2021-05-16T12:38:25.200710Z'^^xsd:dateTime .
 ogham:OS40000050_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000051 rdf:type oghamonto:OghamSite .
@@ -1490,8 +1490,8 @@ ogham:OS40000051 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000051 prov:wasGeneratedBy ogham:OS40000051_activity .
 ogham:OS40000051_activity rdf:type prov:Activity .
-ogham:OS40000051_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000051_activity prov:endedAtTime '2021-05-11T14:47:47.348090Z'^^xsd:dateTime .
+ogham:OS40000051_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000051_activity prov:endedAtTime '2021-05-16T12:38:25.201710Z'^^xsd:dateTime .
 ogham:OS40000051_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000052 rdf:type oghamonto:OghamSite .
@@ -1519,8 +1519,8 @@ ogham:OS40000052 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000052 prov:wasGeneratedBy ogham:OS40000052_activity .
 ogham:OS40000052_activity rdf:type prov:Activity .
-ogham:OS40000052_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000052_activity prov:endedAtTime '2021-05-11T14:47:47.349089Z'^^xsd:dateTime .
+ogham:OS40000052_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000052_activity prov:endedAtTime '2021-05-16T12:38:25.202706Z'^^xsd:dateTime .
 ogham:OS40000052_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000053 rdf:type oghamonto:OghamSite .
@@ -1548,8 +1548,8 @@ ogham:OS40000053 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000053 prov:wasGeneratedBy ogham:OS40000053_activity .
 ogham:OS40000053_activity rdf:type prov:Activity .
-ogham:OS40000053_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000053_activity prov:endedAtTime '2021-05-11T14:47:47.349089Z'^^xsd:dateTime .
+ogham:OS40000053_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000053_activity prov:endedAtTime '2021-05-16T12:38:25.202706Z'^^xsd:dateTime .
 ogham:OS40000053_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000054 rdf:type oghamonto:OghamSite .
@@ -1577,8 +1577,8 @@ ogham:OS40000054 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000054 prov:wasGeneratedBy ogham:OS40000054_activity .
 ogham:OS40000054_activity rdf:type prov:Activity .
-ogham:OS40000054_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000054_activity prov:endedAtTime '2021-05-11T14:47:47.349089Z'^^xsd:dateTime .
+ogham:OS40000054_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000054_activity prov:endedAtTime '2021-05-16T12:38:25.203702Z'^^xsd:dateTime .
 ogham:OS40000054_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000055 rdf:type oghamonto:OghamSite .
@@ -1606,8 +1606,8 @@ ogham:OS40000055 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000055 prov:wasGeneratedBy ogham:OS40000055_activity .
 ogham:OS40000055_activity rdf:type prov:Activity .
-ogham:OS40000055_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000055_activity prov:endedAtTime '2021-05-11T14:47:47.350084Z'^^xsd:dateTime .
+ogham:OS40000055_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000055_activity prov:endedAtTime '2021-05-16T12:38:25.203702Z'^^xsd:dateTime .
 ogham:OS40000055_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000056 rdf:type oghamonto:OghamSite .
@@ -1635,8 +1635,8 @@ ogham:OS40000056 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000056 prov:wasGeneratedBy ogham:OS40000056_activity .
 ogham:OS40000056_activity rdf:type prov:Activity .
-ogham:OS40000056_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000056_activity prov:endedAtTime '2021-05-11T14:47:47.350084Z'^^xsd:dateTime .
+ogham:OS40000056_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000056_activity prov:endedAtTime '2021-05-16T12:38:25.203702Z'^^xsd:dateTime .
 ogham:OS40000056_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000057 rdf:type oghamonto:OghamSite .
@@ -1664,8 +1664,8 @@ ogham:OS40000057 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000057 prov:wasGeneratedBy ogham:OS40000057_activity .
 ogham:OS40000057_activity rdf:type prov:Activity .
-ogham:OS40000057_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000057_activity prov:endedAtTime '2021-05-11T14:47:47.351081Z'^^xsd:dateTime .
+ogham:OS40000057_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000057_activity prov:endedAtTime '2021-05-16T12:38:25.204698Z'^^xsd:dateTime .
 ogham:OS40000057_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000058 rdf:type oghamonto:OghamSite .
@@ -1693,8 +1693,8 @@ ogham:OS40000058 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000058 prov:wasGeneratedBy ogham:OS40000058_activity .
 ogham:OS40000058_activity rdf:type prov:Activity .
-ogham:OS40000058_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000058_activity prov:endedAtTime '2021-05-11T14:47:47.351081Z'^^xsd:dateTime .
+ogham:OS40000058_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000058_activity prov:endedAtTime '2021-05-16T12:38:25.204698Z'^^xsd:dateTime .
 ogham:OS40000058_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000059 rdf:type oghamonto:OghamSite .
@@ -1722,8 +1722,8 @@ ogham:OS40000059 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000059 prov:wasGeneratedBy ogham:OS40000059_activity .
 ogham:OS40000059_activity rdf:type prov:Activity .
-ogham:OS40000059_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000059_activity prov:endedAtTime '2021-05-11T14:47:47.352079Z'^^xsd:dateTime .
+ogham:OS40000059_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000059_activity prov:endedAtTime '2021-05-16T12:38:25.204698Z'^^xsd:dateTime .
 ogham:OS40000059_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000060 rdf:type oghamonto:OghamSite .
@@ -1751,8 +1751,8 @@ ogham:OS40000060 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000060 prov:wasGeneratedBy ogham:OS40000060_activity .
 ogham:OS40000060_activity rdf:type prov:Activity .
-ogham:OS40000060_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000060_activity prov:endedAtTime '2021-05-11T14:47:47.353075Z'^^xsd:dateTime .
+ogham:OS40000060_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000060_activity prov:endedAtTime '2021-05-16T12:38:25.204698Z'^^xsd:dateTime .
 ogham:OS40000060_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000061 rdf:type oghamonto:OghamSite .
@@ -1780,8 +1780,8 @@ ogham:OS40000061 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000061 prov:wasGeneratedBy ogham:OS40000061_activity .
 ogham:OS40000061_activity rdf:type prov:Activity .
-ogham:OS40000061_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000061_activity prov:endedAtTime '2021-05-11T14:47:47.353075Z'^^xsd:dateTime .
+ogham:OS40000061_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000061_activity prov:endedAtTime '2021-05-16T12:38:25.205696Z'^^xsd:dateTime .
 ogham:OS40000061_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000062 rdf:type oghamonto:OghamSite .
@@ -1809,8 +1809,8 @@ ogham:OS40000062 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000062 prov:wasGeneratedBy ogham:OS40000062_activity .
 ogham:OS40000062_activity rdf:type prov:Activity .
-ogham:OS40000062_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000062_activity prov:endedAtTime '2021-05-11T14:47:47.354072Z'^^xsd:dateTime .
+ogham:OS40000062_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000062_activity prov:endedAtTime '2021-05-16T12:38:25.205696Z'^^xsd:dateTime .
 ogham:OS40000062_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000063 rdf:type oghamonto:OghamSite .
@@ -1838,8 +1838,8 @@ ogham:OS40000063 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000063 prov:wasGeneratedBy ogham:OS40000063_activity .
 ogham:OS40000063_activity rdf:type prov:Activity .
-ogham:OS40000063_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000063_activity prov:endedAtTime '2021-05-11T14:47:47.354072Z'^^xsd:dateTime .
+ogham:OS40000063_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000063_activity prov:endedAtTime '2021-05-16T12:38:25.206704Z'^^xsd:dateTime .
 ogham:OS40000063_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000064 rdf:type oghamonto:OghamSite .
@@ -1867,8 +1867,8 @@ ogham:OS40000064 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000064 prov:wasGeneratedBy ogham:OS40000064_activity .
 ogham:OS40000064_activity rdf:type prov:Activity .
-ogham:OS40000064_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000064_activity prov:endedAtTime '2021-05-11T14:47:47.355070Z'^^xsd:dateTime .
+ogham:OS40000064_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000064_activity prov:endedAtTime '2021-05-16T12:38:25.206704Z'^^xsd:dateTime .
 ogham:OS40000064_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000065 rdf:type oghamonto:OghamSite .
@@ -1896,8 +1896,8 @@ ogham:OS40000065 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000065 prov:wasGeneratedBy ogham:OS40000065_activity .
 ogham:OS40000065_activity rdf:type prov:Activity .
-ogham:OS40000065_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000065_activity prov:endedAtTime '2021-05-11T14:47:47.355070Z'^^xsd:dateTime .
+ogham:OS40000065_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000065_activity prov:endedAtTime '2021-05-16T12:38:25.206704Z'^^xsd:dateTime .
 ogham:OS40000065_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000066 rdf:type oghamonto:OghamSite .
@@ -1925,8 +1925,8 @@ ogham:OS40000066 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000066 prov:wasGeneratedBy ogham:OS40000066_activity .
 ogham:OS40000066_activity rdf:type prov:Activity .
-ogham:OS40000066_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000066_activity prov:endedAtTime '2021-05-11T14:47:47.355070Z'^^xsd:dateTime .
+ogham:OS40000066_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000066_activity prov:endedAtTime '2021-05-16T12:38:25.207721Z'^^xsd:dateTime .
 ogham:OS40000066_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000067 rdf:type oghamonto:OghamSite .
@@ -1954,8 +1954,8 @@ ogham:OS40000067 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000067 prov:wasGeneratedBy ogham:OS40000067_activity .
 ogham:OS40000067_activity rdf:type prov:Activity .
-ogham:OS40000067_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000067_activity prov:endedAtTime '2021-05-11T14:47:47.356066Z'^^xsd:dateTime .
+ogham:OS40000067_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000067_activity prov:endedAtTime '2021-05-16T12:38:25.207721Z'^^xsd:dateTime .
 ogham:OS40000067_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000068 rdf:type oghamonto:OghamSite .
@@ -1983,8 +1983,8 @@ ogham:OS40000068 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000068 prov:wasGeneratedBy ogham:OS40000068_activity .
 ogham:OS40000068_activity rdf:type prov:Activity .
-ogham:OS40000068_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000068_activity prov:endedAtTime '2021-05-11T14:47:47.356066Z'^^xsd:dateTime .
+ogham:OS40000068_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000068_activity prov:endedAtTime '2021-05-16T12:38:25.207721Z'^^xsd:dateTime .
 ogham:OS40000068_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000069 rdf:type oghamonto:OghamSite .
@@ -2012,8 +2012,8 @@ ogham:OS40000069 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000069 prov:wasGeneratedBy ogham:OS40000069_activity .
 ogham:OS40000069_activity rdf:type prov:Activity .
-ogham:OS40000069_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000069_activity prov:endedAtTime '2021-05-11T14:47:47.356066Z'^^xsd:dateTime .
+ogham:OS40000069_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000069_activity prov:endedAtTime '2021-05-16T12:38:25.207721Z'^^xsd:dateTime .
 ogham:OS40000069_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000070 rdf:type oghamonto:OghamSite .
@@ -2041,8 +2041,8 @@ ogham:OS40000070 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000070 prov:wasGeneratedBy ogham:OS40000070_activity .
 ogham:OS40000070_activity rdf:type prov:Activity .
-ogham:OS40000070_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000070_activity prov:endedAtTime '2021-05-11T14:47:47.356066Z'^^xsd:dateTime .
+ogham:OS40000070_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000070_activity prov:endedAtTime '2021-05-16T12:38:25.208720Z'^^xsd:dateTime .
 ogham:OS40000070_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000071 rdf:type oghamonto:OghamSite .
@@ -2070,8 +2070,8 @@ ogham:OS40000071 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000071 prov:wasGeneratedBy ogham:OS40000071_activity .
 ogham:OS40000071_activity rdf:type prov:Activity .
-ogham:OS40000071_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000071_activity prov:endedAtTime '2021-05-11T14:47:47.357063Z'^^xsd:dateTime .
+ogham:OS40000071_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000071_activity prov:endedAtTime '2021-05-16T12:38:25.208720Z'^^xsd:dateTime .
 ogham:OS40000071_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000072 rdf:type oghamonto:OghamSite .
@@ -2099,8 +2099,8 @@ ogham:OS40000072 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000072 prov:wasGeneratedBy ogham:OS40000072_activity .
 ogham:OS40000072_activity rdf:type prov:Activity .
-ogham:OS40000072_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000072_activity prov:endedAtTime '2021-05-11T14:47:47.357063Z'^^xsd:dateTime .
+ogham:OS40000072_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000072_activity prov:endedAtTime '2021-05-16T12:38:25.208720Z'^^xsd:dateTime .
 ogham:OS40000072_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000073 rdf:type oghamonto:OghamSite .
@@ -2128,8 +2128,8 @@ ogham:OS40000073 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000073 prov:wasGeneratedBy ogham:OS40000073_activity .
 ogham:OS40000073_activity rdf:type prov:Activity .
-ogham:OS40000073_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000073_activity prov:endedAtTime '2021-05-11T14:47:47.357063Z'^^xsd:dateTime .
+ogham:OS40000073_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000073_activity prov:endedAtTime '2021-05-16T12:38:25.208720Z'^^xsd:dateTime .
 ogham:OS40000073_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000074 rdf:type oghamonto:OghamSite .
@@ -2157,8 +2157,8 @@ ogham:OS40000074 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000074 prov:wasGeneratedBy ogham:OS40000074_activity .
 ogham:OS40000074_activity rdf:type prov:Activity .
-ogham:OS40000074_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000074_activity prov:endedAtTime '2021-05-11T14:47:47.357063Z'^^xsd:dateTime .
+ogham:OS40000074_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000074_activity prov:endedAtTime '2021-05-16T12:38:25.209717Z'^^xsd:dateTime .
 ogham:OS40000074_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000075 rdf:type oghamonto:OghamSite .
@@ -2186,8 +2186,8 @@ ogham:OS40000075 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000075 prov:wasGeneratedBy ogham:OS40000075_activity .
 ogham:OS40000075_activity rdf:type prov:Activity .
-ogham:OS40000075_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000075_activity prov:endedAtTime '2021-05-11T14:47:47.358060Z'^^xsd:dateTime .
+ogham:OS40000075_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000075_activity prov:endedAtTime '2021-05-16T12:38:25.209717Z'^^xsd:dateTime .
 ogham:OS40000075_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000076 rdf:type oghamonto:OghamSite .
@@ -2215,8 +2215,8 @@ ogham:OS40000076 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000076 prov:wasGeneratedBy ogham:OS40000076_activity .
 ogham:OS40000076_activity rdf:type prov:Activity .
-ogham:OS40000076_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000076_activity prov:endedAtTime '2021-05-11T14:47:47.358060Z'^^xsd:dateTime .
+ogham:OS40000076_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000076_activity prov:endedAtTime '2021-05-16T12:38:25.209717Z'^^xsd:dateTime .
 ogham:OS40000076_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000077 rdf:type oghamonto:OghamSite .
@@ -2244,8 +2244,8 @@ ogham:OS40000077 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000077 prov:wasGeneratedBy ogham:OS40000077_activity .
 ogham:OS40000077_activity rdf:type prov:Activity .
-ogham:OS40000077_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000077_activity prov:endedAtTime '2021-05-11T14:47:47.358060Z'^^xsd:dateTime .
+ogham:OS40000077_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000077_activity prov:endedAtTime '2021-05-16T12:38:25.209717Z'^^xsd:dateTime .
 ogham:OS40000077_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000078 rdf:type oghamonto:OghamSite .
@@ -2273,8 +2273,8 @@ ogham:OS40000078 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000078 prov:wasGeneratedBy ogham:OS40000078_activity .
 ogham:OS40000078_activity rdf:type prov:Activity .
-ogham:OS40000078_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000078_activity prov:endedAtTime '2021-05-11T14:47:47.358060Z'^^xsd:dateTime .
+ogham:OS40000078_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000078_activity prov:endedAtTime '2021-05-16T12:38:25.210714Z'^^xsd:dateTime .
 ogham:OS40000078_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000079 rdf:type oghamonto:OghamSite .
@@ -2302,8 +2302,8 @@ ogham:OS40000079 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000079 prov:wasGeneratedBy ogham:OS40000079_activity .
 ogham:OS40000079_activity rdf:type prov:Activity .
-ogham:OS40000079_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000079_activity prov:endedAtTime '2021-05-11T14:47:47.359057Z'^^xsd:dateTime .
+ogham:OS40000079_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000079_activity prov:endedAtTime '2021-05-16T12:38:25.210714Z'^^xsd:dateTime .
 ogham:OS40000079_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000080 rdf:type oghamonto:OghamSite .
@@ -2331,8 +2331,8 @@ ogham:OS40000080 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000080 prov:wasGeneratedBy ogham:OS40000080_activity .
 ogham:OS40000080_activity rdf:type prov:Activity .
-ogham:OS40000080_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000080_activity prov:endedAtTime '2021-05-11T14:47:47.359057Z'^^xsd:dateTime .
+ogham:OS40000080_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000080_activity prov:endedAtTime '2021-05-16T12:38:25.210714Z'^^xsd:dateTime .
 ogham:OS40000080_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000081 rdf:type oghamonto:OghamSite .
@@ -2360,8 +2360,8 @@ ogham:OS40000081 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000081 prov:wasGeneratedBy ogham:OS40000081_activity .
 ogham:OS40000081_activity rdf:type prov:Activity .
-ogham:OS40000081_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000081_activity prov:endedAtTime '2021-05-11T14:47:47.359057Z'^^xsd:dateTime .
+ogham:OS40000081_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000081_activity prov:endedAtTime '2021-05-16T12:38:25.210714Z'^^xsd:dateTime .
 ogham:OS40000081_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000082 rdf:type oghamonto:OghamSite .
@@ -2389,8 +2389,8 @@ ogham:OS40000082 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000082 prov:wasGeneratedBy ogham:OS40000082_activity .
 ogham:OS40000082_activity rdf:type prov:Activity .
-ogham:OS40000082_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000082_activity prov:endedAtTime '2021-05-11T14:47:47.359057Z'^^xsd:dateTime .
+ogham:OS40000082_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000082_activity prov:endedAtTime '2021-05-16T12:38:25.211711Z'^^xsd:dateTime .
 ogham:OS40000082_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000083 rdf:type oghamonto:OghamSite .
@@ -2418,8 +2418,8 @@ ogham:OS40000083 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000083 prov:wasGeneratedBy ogham:OS40000083_activity .
 ogham:OS40000083_activity rdf:type prov:Activity .
-ogham:OS40000083_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000083_activity prov:endedAtTime '2021-05-11T14:47:47.360055Z'^^xsd:dateTime .
+ogham:OS40000083_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000083_activity prov:endedAtTime '2021-05-16T12:38:25.211711Z'^^xsd:dateTime .
 ogham:OS40000083_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000084 rdf:type oghamonto:OghamSite .
@@ -2447,8 +2447,8 @@ ogham:OS40000084 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000084 prov:wasGeneratedBy ogham:OS40000084_activity .
 ogham:OS40000084_activity rdf:type prov:Activity .
-ogham:OS40000084_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000084_activity prov:endedAtTime '2021-05-11T14:47:47.360055Z'^^xsd:dateTime .
+ogham:OS40000084_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000084_activity prov:endedAtTime '2021-05-16T12:38:25.211711Z'^^xsd:dateTime .
 ogham:OS40000084_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000085 rdf:type oghamonto:OghamSite .
@@ -2476,8 +2476,8 @@ ogham:OS40000085 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000085 prov:wasGeneratedBy ogham:OS40000085_activity .
 ogham:OS40000085_activity rdf:type prov:Activity .
-ogham:OS40000085_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000085_activity prov:endedAtTime '2021-05-11T14:47:47.360055Z'^^xsd:dateTime .
+ogham:OS40000085_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000085_activity prov:endedAtTime '2021-05-16T12:38:25.211711Z'^^xsd:dateTime .
 ogham:OS40000085_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000086 rdf:type oghamonto:OghamSite .
@@ -2505,8 +2505,8 @@ ogham:OS40000086 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000086 prov:wasGeneratedBy ogham:OS40000086_activity .
 ogham:OS40000086_activity rdf:type prov:Activity .
-ogham:OS40000086_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000086_activity prov:endedAtTime '2021-05-11T14:47:47.360055Z'^^xsd:dateTime .
+ogham:OS40000086_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000086_activity prov:endedAtTime '2021-05-16T12:38:25.212709Z'^^xsd:dateTime .
 ogham:OS40000086_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000087 rdf:type oghamonto:OghamSite .
@@ -2534,8 +2534,8 @@ ogham:OS40000087 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000087 prov:wasGeneratedBy ogham:OS40000087_activity .
 ogham:OS40000087_activity rdf:type prov:Activity .
-ogham:OS40000087_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000087_activity prov:endedAtTime '2021-05-11T14:47:47.360055Z'^^xsd:dateTime .
+ogham:OS40000087_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000087_activity prov:endedAtTime '2021-05-16T12:38:25.212709Z'^^xsd:dateTime .
 ogham:OS40000087_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000088 rdf:type oghamonto:OghamSite .
@@ -2563,8 +2563,8 @@ ogham:OS40000088 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000088 prov:wasGeneratedBy ogham:OS40000088_activity .
 ogham:OS40000088_activity rdf:type prov:Activity .
-ogham:OS40000088_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000088_activity prov:endedAtTime '2021-05-11T14:47:47.361052Z'^^xsd:dateTime .
+ogham:OS40000088_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000088_activity prov:endedAtTime '2021-05-16T12:38:25.212709Z'^^xsd:dateTime .
 ogham:OS40000088_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000089 rdf:type oghamonto:OghamSite .
@@ -2592,8 +2592,8 @@ ogham:OS40000089 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000089 prov:wasGeneratedBy ogham:OS40000089_activity .
 ogham:OS40000089_activity rdf:type prov:Activity .
-ogham:OS40000089_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000089_activity prov:endedAtTime '2021-05-11T14:47:47.361052Z'^^xsd:dateTime .
+ogham:OS40000089_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000089_activity prov:endedAtTime '2021-05-16T12:38:25.212709Z'^^xsd:dateTime .
 ogham:OS40000089_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000090 rdf:type oghamonto:OghamSite .
@@ -2621,8 +2621,8 @@ ogham:OS40000090 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000090 prov:wasGeneratedBy ogham:OS40000090_activity .
 ogham:OS40000090_activity rdf:type prov:Activity .
-ogham:OS40000090_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000090_activity prov:endedAtTime '2021-05-11T14:47:47.361052Z'^^xsd:dateTime .
+ogham:OS40000090_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000090_activity prov:endedAtTime '2021-05-16T12:38:25.213707Z'^^xsd:dateTime .
 ogham:OS40000090_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000091 rdf:type oghamonto:OghamSite .
@@ -2650,8 +2650,8 @@ ogham:OS40000091 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000091 prov:wasGeneratedBy ogham:OS40000091_activity .
 ogham:OS40000091_activity rdf:type prov:Activity .
-ogham:OS40000091_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000091_activity prov:endedAtTime '2021-05-11T14:47:47.361052Z'^^xsd:dateTime .
+ogham:OS40000091_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000091_activity prov:endedAtTime '2021-05-16T12:38:25.213707Z'^^xsd:dateTime .
 ogham:OS40000091_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000092 rdf:type oghamonto:OghamSite .
@@ -2679,8 +2679,8 @@ ogham:OS40000092 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000092 prov:wasGeneratedBy ogham:OS40000092_activity .
 ogham:OS40000092_activity rdf:type prov:Activity .
-ogham:OS40000092_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000092_activity prov:endedAtTime '2021-05-11T14:47:47.362049Z'^^xsd:dateTime .
+ogham:OS40000092_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000092_activity prov:endedAtTime '2021-05-16T12:38:25.213707Z'^^xsd:dateTime .
 ogham:OS40000092_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000093 rdf:type oghamonto:OghamSite .
@@ -2708,8 +2708,8 @@ ogham:OS40000093 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000093 prov:wasGeneratedBy ogham:OS40000093_activity .
 ogham:OS40000093_activity rdf:type prov:Activity .
-ogham:OS40000093_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000093_activity prov:endedAtTime '2021-05-11T14:47:47.362049Z'^^xsd:dateTime .
+ogham:OS40000093_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000093_activity prov:endedAtTime '2021-05-16T12:38:25.213707Z'^^xsd:dateTime .
 ogham:OS40000093_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000094 rdf:type oghamonto:OghamSite .
@@ -2737,8 +2737,8 @@ ogham:OS40000094 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000094 prov:wasGeneratedBy ogham:OS40000094_activity .
 ogham:OS40000094_activity rdf:type prov:Activity .
-ogham:OS40000094_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000094_activity prov:endedAtTime '2021-05-11T14:47:47.362049Z'^^xsd:dateTime .
+ogham:OS40000094_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000094_activity prov:endedAtTime '2021-05-16T12:38:25.214706Z'^^xsd:dateTime .
 ogham:OS40000094_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000095 rdf:type oghamonto:OghamSite .
@@ -2766,8 +2766,8 @@ ogham:OS40000095 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000095 prov:wasGeneratedBy ogham:OS40000095_activity .
 ogham:OS40000095_activity rdf:type prov:Activity .
-ogham:OS40000095_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000095_activity prov:endedAtTime '2021-05-11T14:47:47.362049Z'^^xsd:dateTime .
+ogham:OS40000095_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000095_activity prov:endedAtTime '2021-05-16T12:38:25.214706Z'^^xsd:dateTime .
 ogham:OS40000095_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000096 rdf:type oghamonto:OghamSite .
@@ -2795,8 +2795,8 @@ ogham:OS40000096 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000096 prov:wasGeneratedBy ogham:OS40000096_activity .
 ogham:OS40000096_activity rdf:type prov:Activity .
-ogham:OS40000096_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000096_activity prov:endedAtTime '2021-05-11T14:47:47.363046Z'^^xsd:dateTime .
+ogham:OS40000096_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000096_activity prov:endedAtTime '2021-05-16T12:38:25.214706Z'^^xsd:dateTime .
 ogham:OS40000096_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000097 rdf:type oghamonto:OghamSite .
@@ -2824,8 +2824,8 @@ ogham:OS40000097 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000097 prov:wasGeneratedBy ogham:OS40000097_activity .
 ogham:OS40000097_activity rdf:type prov:Activity .
-ogham:OS40000097_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000097_activity prov:endedAtTime '2021-05-11T14:47:47.363046Z'^^xsd:dateTime .
+ogham:OS40000097_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000097_activity prov:endedAtTime '2021-05-16T12:38:25.215669Z'^^xsd:dateTime .
 ogham:OS40000097_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000098 rdf:type oghamonto:OghamSite .
@@ -2853,8 +2853,8 @@ ogham:OS40000098 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000098 prov:wasGeneratedBy ogham:OS40000098_activity .
 ogham:OS40000098_activity rdf:type prov:Activity .
-ogham:OS40000098_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000098_activity prov:endedAtTime '2021-05-11T14:47:47.363046Z'^^xsd:dateTime .
+ogham:OS40000098_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000098_activity prov:endedAtTime '2021-05-16T12:38:25.216668Z'^^xsd:dateTime .
 ogham:OS40000098_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000099 rdf:type oghamonto:OghamSite .
@@ -2882,8 +2882,8 @@ ogham:OS40000099 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000099 prov:wasGeneratedBy ogham:OS40000099_activity .
 ogham:OS40000099_activity rdf:type prov:Activity .
-ogham:OS40000099_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000099_activity prov:endedAtTime '2021-05-11T14:47:47.363046Z'^^xsd:dateTime .
+ogham:OS40000099_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000099_activity prov:endedAtTime '2021-05-16T12:38:25.217665Z'^^xsd:dateTime .
 ogham:OS40000099_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000100 rdf:type oghamonto:OghamSite .
@@ -2911,8 +2911,8 @@ ogham:OS40000100 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000100 prov:wasGeneratedBy ogham:OS40000100_activity .
 ogham:OS40000100_activity rdf:type prov:Activity .
-ogham:OS40000100_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000100_activity prov:endedAtTime '2021-05-11T14:47:47.364044Z'^^xsd:dateTime .
+ogham:OS40000100_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000100_activity prov:endedAtTime '2021-05-16T12:38:25.218663Z'^^xsd:dateTime .
 ogham:OS40000100_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000101 rdf:type oghamonto:OghamSite .
@@ -2940,8 +2940,8 @@ ogham:OS40000101 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000101 prov:wasGeneratedBy ogham:OS40000101_activity .
 ogham:OS40000101_activity rdf:type prov:Activity .
-ogham:OS40000101_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000101_activity prov:endedAtTime '2021-05-11T14:47:47.364044Z'^^xsd:dateTime .
+ogham:OS40000101_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000101_activity prov:endedAtTime '2021-05-16T12:38:25.219659Z'^^xsd:dateTime .
 ogham:OS40000101_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000102 rdf:type oghamonto:OghamSite .
@@ -2969,8 +2969,8 @@ ogham:OS40000102 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000102 prov:wasGeneratedBy ogham:OS40000102_activity .
 ogham:OS40000102_activity rdf:type prov:Activity .
-ogham:OS40000102_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000102_activity prov:endedAtTime '2021-05-11T14:47:47.365043Z'^^xsd:dateTime .
+ogham:OS40000102_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000102_activity prov:endedAtTime '2021-05-16T12:38:25.219659Z'^^xsd:dateTime .
 ogham:OS40000102_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000103 rdf:type oghamonto:OghamSite .
@@ -2998,8 +2998,8 @@ ogham:OS40000103 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000103 prov:wasGeneratedBy ogham:OS40000103_activity .
 ogham:OS40000103_activity rdf:type prov:Activity .
-ogham:OS40000103_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000103_activity prov:endedAtTime '2021-05-11T14:47:47.365043Z'^^xsd:dateTime .
+ogham:OS40000103_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000103_activity prov:endedAtTime '2021-05-16T12:38:25.220688Z'^^xsd:dateTime .
 ogham:OS40000103_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000104 rdf:type oghamonto:OghamSite .
@@ -3027,8 +3027,8 @@ ogham:OS40000104 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000104 prov:wasGeneratedBy ogham:OS40000104_activity .
 ogham:OS40000104_activity rdf:type prov:Activity .
-ogham:OS40000104_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000104_activity prov:endedAtTime '2021-05-11T14:47:47.366040Z'^^xsd:dateTime .
+ogham:OS40000104_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000104_activity prov:endedAtTime '2021-05-16T12:38:25.220688Z'^^xsd:dateTime .
 ogham:OS40000104_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000105 rdf:type oghamonto:OghamSite .
@@ -3056,8 +3056,8 @@ ogham:OS40000105 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000105 prov:wasGeneratedBy ogham:OS40000105_activity .
 ogham:OS40000105_activity rdf:type prov:Activity .
-ogham:OS40000105_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000105_activity prov:endedAtTime '2021-05-11T14:47:47.367037Z'^^xsd:dateTime .
+ogham:OS40000105_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000105_activity prov:endedAtTime '2021-05-16T12:38:25.221680Z'^^xsd:dateTime .
 ogham:OS40000105_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000106 rdf:type oghamonto:OghamSite .
@@ -3085,8 +3085,8 @@ ogham:OS40000106 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000106 prov:wasGeneratedBy ogham:OS40000106_activity .
 ogham:OS40000106_activity rdf:type prov:Activity .
-ogham:OS40000106_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000106_activity prov:endedAtTime '2021-05-11T14:47:47.367037Z'^^xsd:dateTime .
+ogham:OS40000106_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000106_activity prov:endedAtTime '2021-05-16T12:38:25.221680Z'^^xsd:dateTime .
 ogham:OS40000106_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000107 rdf:type oghamonto:OghamSite .
@@ -3114,8 +3114,8 @@ ogham:OS40000107 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000107 prov:wasGeneratedBy ogham:OS40000107_activity .
 ogham:OS40000107_activity rdf:type prov:Activity .
-ogham:OS40000107_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000107_activity prov:endedAtTime '2021-05-11T14:47:47.368035Z'^^xsd:dateTime .
+ogham:OS40000107_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000107_activity prov:endedAtTime '2021-05-16T12:38:25.221680Z'^^xsd:dateTime .
 ogham:OS40000107_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000108 rdf:type oghamonto:OghamSite .
@@ -3143,8 +3143,8 @@ ogham:OS40000108 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000108 prov:wasGeneratedBy ogham:OS40000108_activity .
 ogham:OS40000108_activity rdf:type prov:Activity .
-ogham:OS40000108_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000108_activity prov:endedAtTime '2021-05-11T14:47:47.368035Z'^^xsd:dateTime .
+ogham:OS40000108_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000108_activity prov:endedAtTime '2021-05-16T12:38:25.221680Z'^^xsd:dateTime .
 ogham:OS40000108_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000109 rdf:type oghamonto:OghamSite .
@@ -3172,8 +3172,8 @@ ogham:OS40000109 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000109 prov:wasGeneratedBy ogham:OS40000109_activity .
 ogham:OS40000109_activity rdf:type prov:Activity .
-ogham:OS40000109_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000109_activity prov:endedAtTime '2021-05-11T14:47:47.369031Z'^^xsd:dateTime .
+ogham:OS40000109_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000109_activity prov:endedAtTime '2021-05-16T12:38:25.222651Z'^^xsd:dateTime .
 ogham:OS40000109_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000110 rdf:type oghamonto:OghamSite .
@@ -3201,8 +3201,8 @@ ogham:OS40000110 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000110 prov:wasGeneratedBy ogham:OS40000110_activity .
 ogham:OS40000110_activity rdf:type prov:Activity .
-ogham:OS40000110_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000110_activity prov:endedAtTime '2021-05-11T14:47:47.369031Z'^^xsd:dateTime .
+ogham:OS40000110_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000110_activity prov:endedAtTime '2021-05-16T12:38:25.222651Z'^^xsd:dateTime .
 ogham:OS40000110_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000111 rdf:type oghamonto:OghamSite .
@@ -3230,8 +3230,8 @@ ogham:OS40000111 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000111 prov:wasGeneratedBy ogham:OS40000111_activity .
 ogham:OS40000111_activity rdf:type prov:Activity .
-ogham:OS40000111_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000111_activity prov:endedAtTime '2021-05-11T14:47:47.369031Z'^^xsd:dateTime .
+ogham:OS40000111_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000111_activity prov:endedAtTime '2021-05-16T12:38:25.222651Z'^^xsd:dateTime .
 ogham:OS40000111_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000112 rdf:type oghamonto:OghamSite .
@@ -3259,8 +3259,8 @@ ogham:OS40000112 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000112 prov:wasGeneratedBy ogham:OS40000112_activity .
 ogham:OS40000112_activity rdf:type prov:Activity .
-ogham:OS40000112_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000112_activity prov:endedAtTime '2021-05-11T14:47:47.370028Z'^^xsd:dateTime .
+ogham:OS40000112_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000112_activity prov:endedAtTime '2021-05-16T12:38:25.223674Z'^^xsd:dateTime .
 ogham:OS40000112_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000113 rdf:type oghamonto:OghamSite .
@@ -3288,8 +3288,8 @@ ogham:OS40000113 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000113 prov:wasGeneratedBy ogham:OS40000113_activity .
 ogham:OS40000113_activity rdf:type prov:Activity .
-ogham:OS40000113_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000113_activity prov:endedAtTime '2021-05-11T14:47:47.370028Z'^^xsd:dateTime .
+ogham:OS40000113_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000113_activity prov:endedAtTime '2021-05-16T12:38:25.223674Z'^^xsd:dateTime .
 ogham:OS40000113_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000114 rdf:type oghamonto:OghamSite .
@@ -3317,8 +3317,8 @@ ogham:OS40000114 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000114 prov:wasGeneratedBy ogham:OS40000114_activity .
 ogham:OS40000114_activity rdf:type prov:Activity .
-ogham:OS40000114_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000114_activity prov:endedAtTime '2021-05-11T14:47:47.371025Z'^^xsd:dateTime .
+ogham:OS40000114_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000114_activity prov:endedAtTime '2021-05-16T12:38:25.223674Z'^^xsd:dateTime .
 ogham:OS40000114_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000115 rdf:type oghamonto:OghamSite .
@@ -3346,8 +3346,8 @@ ogham:OS40000115 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000115 prov:wasGeneratedBy ogham:OS40000115_activity .
 ogham:OS40000115_activity rdf:type prov:Activity .
-ogham:OS40000115_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000115_activity prov:endedAtTime '2021-05-11T14:47:47.371025Z'^^xsd:dateTime .
+ogham:OS40000115_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000115_activity prov:endedAtTime '2021-05-16T12:38:25.223674Z'^^xsd:dateTime .
 ogham:OS40000115_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000116 rdf:type oghamonto:OghamSite .
@@ -3375,8 +3375,8 @@ ogham:OS40000116 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000116 prov:wasGeneratedBy ogham:OS40000116_activity .
 ogham:OS40000116_activity rdf:type prov:Activity .
-ogham:OS40000116_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000116_activity prov:endedAtTime '2021-05-11T14:47:47.372023Z'^^xsd:dateTime .
+ogham:OS40000116_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000116_activity prov:endedAtTime '2021-05-16T12:38:25.224672Z'^^xsd:dateTime .
 ogham:OS40000116_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000117 rdf:type oghamonto:OghamSite .
@@ -3404,8 +3404,8 @@ ogham:OS40000117 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000117 prov:wasGeneratedBy ogham:OS40000117_activity .
 ogham:OS40000117_activity rdf:type prov:Activity .
-ogham:OS40000117_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000117_activity prov:endedAtTime '2021-05-11T14:47:47.372023Z'^^xsd:dateTime .
+ogham:OS40000117_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000117_activity prov:endedAtTime '2021-05-16T12:38:25.224672Z'^^xsd:dateTime .
 ogham:OS40000117_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000118 rdf:type oghamonto:OghamSite .
@@ -3433,8 +3433,8 @@ ogham:OS40000118 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000118 prov:wasGeneratedBy ogham:OS40000118_activity .
 ogham:OS40000118_activity rdf:type prov:Activity .
-ogham:OS40000118_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000118_activity prov:endedAtTime '2021-05-11T14:47:47.372023Z'^^xsd:dateTime .
+ogham:OS40000118_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000118_activity prov:endedAtTime '2021-05-16T12:38:25.224672Z'^^xsd:dateTime .
 ogham:OS40000118_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000119 rdf:type oghamonto:OghamSite .
@@ -3462,8 +3462,8 @@ ogham:OS40000119 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000119 prov:wasGeneratedBy ogham:OS40000119_activity .
 ogham:OS40000119_activity rdf:type prov:Activity .
-ogham:OS40000119_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000119_activity prov:endedAtTime '2021-05-11T14:47:47.372023Z'^^xsd:dateTime .
+ogham:OS40000119_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000119_activity prov:endedAtTime '2021-05-16T12:38:25.224672Z'^^xsd:dateTime .
 ogham:OS40000119_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000120 rdf:type oghamonto:OghamSite .
@@ -3491,8 +3491,8 @@ ogham:OS40000120 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000120 prov:wasGeneratedBy ogham:OS40000120_activity .
 ogham:OS40000120_activity rdf:type prov:Activity .
-ogham:OS40000120_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000120_activity prov:endedAtTime '2021-05-11T14:47:47.373021Z'^^xsd:dateTime .
+ogham:OS40000120_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000120_activity prov:endedAtTime '2021-05-16T12:38:25.225668Z'^^xsd:dateTime .
 ogham:OS40000120_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000121 rdf:type oghamonto:OghamSite .
@@ -3520,8 +3520,8 @@ ogham:OS40000121 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000121 prov:wasGeneratedBy ogham:OS40000121_activity .
 ogham:OS40000121_activity rdf:type prov:Activity .
-ogham:OS40000121_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000121_activity prov:endedAtTime '2021-05-11T14:47:47.373021Z'^^xsd:dateTime .
+ogham:OS40000121_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000121_activity prov:endedAtTime '2021-05-16T12:38:25.225668Z'^^xsd:dateTime .
 ogham:OS40000121_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000122 rdf:type oghamonto:OghamSite .
@@ -3549,8 +3549,8 @@ ogham:OS40000122 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000122 prov:wasGeneratedBy ogham:OS40000122_activity .
 ogham:OS40000122_activity rdf:type prov:Activity .
-ogham:OS40000122_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000122_activity prov:endedAtTime '2021-05-11T14:47:47.373021Z'^^xsd:dateTime .
+ogham:OS40000122_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000122_activity prov:endedAtTime '2021-05-16T12:38:25.225668Z'^^xsd:dateTime .
 ogham:OS40000122_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000123 rdf:type oghamonto:OghamSite .
@@ -3578,8 +3578,8 @@ ogham:OS40000123 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000123 prov:wasGeneratedBy ogham:OS40000123_activity .
 ogham:OS40000123_activity rdf:type prov:Activity .
-ogham:OS40000123_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000123_activity prov:endedAtTime '2021-05-11T14:47:47.373021Z'^^xsd:dateTime .
+ogham:OS40000123_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000123_activity prov:endedAtTime '2021-05-16T12:38:25.225668Z'^^xsd:dateTime .
 ogham:OS40000123_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000124 rdf:type oghamonto:OghamSite .
@@ -3607,8 +3607,8 @@ ogham:OS40000124 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000124 prov:wasGeneratedBy ogham:OS40000124_activity .
 ogham:OS40000124_activity rdf:type prov:Activity .
-ogham:OS40000124_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000124_activity prov:endedAtTime '2021-05-11T14:47:47.374019Z'^^xsd:dateTime .
+ogham:OS40000124_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000124_activity prov:endedAtTime '2021-05-16T12:38:25.226666Z'^^xsd:dateTime .
 ogham:OS40000124_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000125 rdf:type oghamonto:OghamSite .
@@ -3636,8 +3636,8 @@ ogham:OS40000125 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000125 prov:wasGeneratedBy ogham:OS40000125_activity .
 ogham:OS40000125_activity rdf:type prov:Activity .
-ogham:OS40000125_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000125_activity prov:endedAtTime '2021-05-11T14:47:47.374019Z'^^xsd:dateTime .
+ogham:OS40000125_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000125_activity prov:endedAtTime '2021-05-16T12:38:25.226666Z'^^xsd:dateTime .
 ogham:OS40000125_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000126 rdf:type oghamonto:OghamSite .
@@ -3665,8 +3665,8 @@ ogham:OS40000126 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000126 prov:wasGeneratedBy ogham:OS40000126_activity .
 ogham:OS40000126_activity rdf:type prov:Activity .
-ogham:OS40000126_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000126_activity prov:endedAtTime '2021-05-11T14:47:47.374019Z'^^xsd:dateTime .
+ogham:OS40000126_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000126_activity prov:endedAtTime '2021-05-16T12:38:25.226666Z'^^xsd:dateTime .
 ogham:OS40000126_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000127 rdf:type oghamonto:OghamSite .
@@ -3694,8 +3694,8 @@ ogham:OS40000127 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000127 prov:wasGeneratedBy ogham:OS40000127_activity .
 ogham:OS40000127_activity rdf:type prov:Activity .
-ogham:OS40000127_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000127_activity prov:endedAtTime '2021-05-11T14:47:47.374019Z'^^xsd:dateTime .
+ogham:OS40000127_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000127_activity prov:endedAtTime '2021-05-16T12:38:25.226666Z'^^xsd:dateTime .
 ogham:OS40000127_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000128 rdf:type oghamonto:OghamSite .
@@ -3723,8 +3723,8 @@ ogham:OS40000128 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000128 prov:wasGeneratedBy ogham:OS40000128_activity .
 ogham:OS40000128_activity rdf:type prov:Activity .
-ogham:OS40000128_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000128_activity prov:endedAtTime '2021-05-11T14:47:47.375016Z'^^xsd:dateTime .
+ogham:OS40000128_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000128_activity prov:endedAtTime '2021-05-16T12:38:25.227662Z'^^xsd:dateTime .
 ogham:OS40000128_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000129 rdf:type oghamonto:OghamSite .
@@ -3752,8 +3752,8 @@ ogham:OS40000129 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000129 prov:wasGeneratedBy ogham:OS40000129_activity .
 ogham:OS40000129_activity rdf:type prov:Activity .
-ogham:OS40000129_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000129_activity prov:endedAtTime '2021-05-11T14:47:47.375016Z'^^xsd:dateTime .
+ogham:OS40000129_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000129_activity prov:endedAtTime '2021-05-16T12:38:25.227662Z'^^xsd:dateTime .
 ogham:OS40000129_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000130 rdf:type oghamonto:OghamSite .
@@ -3781,8 +3781,8 @@ ogham:OS40000130 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000130 prov:wasGeneratedBy ogham:OS40000130_activity .
 ogham:OS40000130_activity rdf:type prov:Activity .
-ogham:OS40000130_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000130_activity prov:endedAtTime '2021-05-11T14:47:47.375016Z'^^xsd:dateTime .
+ogham:OS40000130_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000130_activity prov:endedAtTime '2021-05-16T12:38:25.227662Z'^^xsd:dateTime .
 ogham:OS40000130_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000131 rdf:type oghamonto:OghamSite .
@@ -3810,8 +3810,8 @@ ogham:OS40000131 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000131 prov:wasGeneratedBy ogham:OS40000131_activity .
 ogham:OS40000131_activity rdf:type prov:Activity .
-ogham:OS40000131_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000131_activity prov:endedAtTime '2021-05-11T14:47:47.376013Z'^^xsd:dateTime .
+ogham:OS40000131_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000131_activity prov:endedAtTime '2021-05-16T12:38:25.227662Z'^^xsd:dateTime .
 ogham:OS40000131_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000132 rdf:type oghamonto:OghamSite .
@@ -3839,8 +3839,8 @@ ogham:OS40000132 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000132 prov:wasGeneratedBy ogham:OS40000132_activity .
 ogham:OS40000132_activity rdf:type prov:Activity .
-ogham:OS40000132_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000132_activity prov:endedAtTime '2021-05-11T14:47:47.376013Z'^^xsd:dateTime .
+ogham:OS40000132_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000132_activity prov:endedAtTime '2021-05-16T12:38:25.228661Z'^^xsd:dateTime .
 ogham:OS40000132_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000133 rdf:type oghamonto:OghamSite .
@@ -3868,8 +3868,8 @@ ogham:OS40000133 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000133 prov:wasGeneratedBy ogham:OS40000133_activity .
 ogham:OS40000133_activity rdf:type prov:Activity .
-ogham:OS40000133_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000133_activity prov:endedAtTime '2021-05-11T14:47:47.376013Z'^^xsd:dateTime .
+ogham:OS40000133_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000133_activity prov:endedAtTime '2021-05-16T12:38:25.228661Z'^^xsd:dateTime .
 ogham:OS40000133_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000134 rdf:type oghamonto:OghamSite .
@@ -3897,8 +3897,8 @@ ogham:OS40000134 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000134 prov:wasGeneratedBy ogham:OS40000134_activity .
 ogham:OS40000134_activity rdf:type prov:Activity .
-ogham:OS40000134_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000134_activity prov:endedAtTime '2021-05-11T14:47:47.377010Z'^^xsd:dateTime .
+ogham:OS40000134_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000134_activity prov:endedAtTime '2021-05-16T12:38:25.228661Z'^^xsd:dateTime .
 ogham:OS40000134_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000135 rdf:type oghamonto:OghamSite .
@@ -3926,8 +3926,8 @@ ogham:OS40000135 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000135 prov:wasGeneratedBy ogham:OS40000135_activity .
 ogham:OS40000135_activity rdf:type prov:Activity .
-ogham:OS40000135_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000135_activity prov:endedAtTime '2021-05-11T14:47:47.377010Z'^^xsd:dateTime .
+ogham:OS40000135_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000135_activity prov:endedAtTime '2021-05-16T12:38:25.228661Z'^^xsd:dateTime .
 ogham:OS40000135_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000136 rdf:type oghamonto:OghamSite .
@@ -3955,8 +3955,8 @@ ogham:OS40000136 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000136 prov:wasGeneratedBy ogham:OS40000136_activity .
 ogham:OS40000136_activity rdf:type prov:Activity .
-ogham:OS40000136_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000136_activity prov:endedAtTime '2021-05-11T14:47:47.377010Z'^^xsd:dateTime .
+ogham:OS40000136_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000136_activity prov:endedAtTime '2021-05-16T12:38:25.229638Z'^^xsd:dateTime .
 ogham:OS40000136_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000137 rdf:type oghamonto:OghamSite .
@@ -3984,8 +3984,8 @@ ogham:OS40000137 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000137 prov:wasGeneratedBy ogham:OS40000137_activity .
 ogham:OS40000137_activity rdf:type prov:Activity .
-ogham:OS40000137_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000137_activity prov:endedAtTime '2021-05-11T14:47:47.378008Z'^^xsd:dateTime .
+ogham:OS40000137_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000137_activity prov:endedAtTime '2021-05-16T12:38:25.229638Z'^^xsd:dateTime .
 ogham:OS40000137_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000138 rdf:type oghamonto:OghamSite .
@@ -4013,8 +4013,8 @@ ogham:OS40000138 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000138 prov:wasGeneratedBy ogham:OS40000138_activity .
 ogham:OS40000138_activity rdf:type prov:Activity .
-ogham:OS40000138_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000138_activity prov:endedAtTime '2021-05-11T14:47:47.378008Z'^^xsd:dateTime .
+ogham:OS40000138_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000138_activity prov:endedAtTime '2021-05-16T12:38:25.229638Z'^^xsd:dateTime .
 ogham:OS40000138_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000139 rdf:type oghamonto:OghamSite .
@@ -4042,8 +4042,8 @@ ogham:OS40000139 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000139 prov:wasGeneratedBy ogham:OS40000139_activity .
 ogham:OS40000139_activity rdf:type prov:Activity .
-ogham:OS40000139_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000139_activity prov:endedAtTime '2021-05-11T14:47:47.378008Z'^^xsd:dateTime .
+ogham:OS40000139_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000139_activity prov:endedAtTime '2021-05-16T12:38:25.229638Z'^^xsd:dateTime .
 ogham:OS40000139_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000140 rdf:type oghamonto:OghamSite .
@@ -4071,8 +4071,8 @@ ogham:OS40000140 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000140 prov:wasGeneratedBy ogham:OS40000140_activity .
 ogham:OS40000140_activity rdf:type prov:Activity .
-ogham:OS40000140_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000140_activity prov:endedAtTime '2021-05-11T14:47:47.379004Z'^^xsd:dateTime .
+ogham:OS40000140_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000140_activity prov:endedAtTime '2021-05-16T12:38:25.230659Z'^^xsd:dateTime .
 ogham:OS40000140_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000141 rdf:type oghamonto:OghamSite .
@@ -4100,8 +4100,8 @@ ogham:OS40000141 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000141 prov:wasGeneratedBy ogham:OS40000141_activity .
 ogham:OS40000141_activity rdf:type prov:Activity .
-ogham:OS40000141_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000141_activity prov:endedAtTime '2021-05-11T14:47:47.379004Z'^^xsd:dateTime .
+ogham:OS40000141_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000141_activity prov:endedAtTime '2021-05-16T12:38:25.230659Z'^^xsd:dateTime .
 ogham:OS40000141_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000142 rdf:type oghamonto:OghamSite .
@@ -4129,8 +4129,8 @@ ogham:OS40000142 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000142 prov:wasGeneratedBy ogham:OS40000142_activity .
 ogham:OS40000142_activity rdf:type prov:Activity .
-ogham:OS40000142_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000142_activity prov:endedAtTime '2021-05-11T14:47:47.379004Z'^^xsd:dateTime .
+ogham:OS40000142_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000142_activity prov:endedAtTime '2021-05-16T12:38:25.230659Z'^^xsd:dateTime .
 ogham:OS40000142_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000143 rdf:type oghamonto:OghamSite .
@@ -4158,8 +4158,8 @@ ogham:OS40000143 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000143 prov:wasGeneratedBy ogham:OS40000143_activity .
 ogham:OS40000143_activity rdf:type prov:Activity .
-ogham:OS40000143_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000143_activity prov:endedAtTime '2021-05-11T14:47:47.379004Z'^^xsd:dateTime .
+ogham:OS40000143_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000143_activity prov:endedAtTime '2021-05-16T12:38:25.230659Z'^^xsd:dateTime .
 ogham:OS40000143_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000144 rdf:type oghamonto:OghamSite .
@@ -4187,8 +4187,8 @@ ogham:OS40000144 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000144 prov:wasGeneratedBy ogham:OS40000144_activity .
 ogham:OS40000144_activity rdf:type prov:Activity .
-ogham:OS40000144_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000144_activity prov:endedAtTime '2021-05-11T14:47:47.380002Z'^^xsd:dateTime .
+ogham:OS40000144_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000144_activity prov:endedAtTime '2021-05-16T12:38:25.231653Z'^^xsd:dateTime .
 ogham:OS40000144_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000145 rdf:type oghamonto:OghamSite .
@@ -4216,8 +4216,8 @@ ogham:OS40000145 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000145 prov:wasGeneratedBy ogham:OS40000145_activity .
 ogham:OS40000145_activity rdf:type prov:Activity .
-ogham:OS40000145_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000145_activity prov:endedAtTime '2021-05-11T14:47:47.380002Z'^^xsd:dateTime .
+ogham:OS40000145_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000145_activity prov:endedAtTime '2021-05-16T12:38:25.231653Z'^^xsd:dateTime .
 ogham:OS40000145_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000146 rdf:type oghamonto:OghamSite .
@@ -4245,8 +4245,8 @@ ogham:OS40000146 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000146 prov:wasGeneratedBy ogham:OS40000146_activity .
 ogham:OS40000146_activity rdf:type prov:Activity .
-ogham:OS40000146_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000146_activity prov:endedAtTime '2021-05-11T14:47:47.380002Z'^^xsd:dateTime .
+ogham:OS40000146_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000146_activity prov:endedAtTime '2021-05-16T12:38:25.232626Z'^^xsd:dateTime .
 ogham:OS40000146_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000147 rdf:type oghamonto:OghamSite .
@@ -4274,8 +4274,8 @@ ogham:OS40000147 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000147 prov:wasGeneratedBy ogham:OS40000147_activity .
 ogham:OS40000147_activity rdf:type prov:Activity .
-ogham:OS40000147_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000147_activity prov:endedAtTime '2021-05-11T14:47:47.381000Z'^^xsd:dateTime .
+ogham:OS40000147_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000147_activity prov:endedAtTime '2021-05-16T12:38:25.233622Z'^^xsd:dateTime .
 ogham:OS40000147_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000148 rdf:type oghamonto:OghamSite .
@@ -4303,8 +4303,8 @@ ogham:OS40000148 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000148 prov:wasGeneratedBy ogham:OS40000148_activity .
 ogham:OS40000148_activity rdf:type prov:Activity .
-ogham:OS40000148_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000148_activity prov:endedAtTime '2021-05-11T14:47:47.381000Z'^^xsd:dateTime .
+ogham:OS40000148_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000148_activity prov:endedAtTime '2021-05-16T12:38:25.234620Z'^^xsd:dateTime .
 ogham:OS40000148_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000149 rdf:type oghamonto:OghamSite .
@@ -4332,8 +4332,8 @@ ogham:OS40000149 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000149 prov:wasGeneratedBy ogham:OS40000149_activity .
 ogham:OS40000149_activity rdf:type prov:Activity .
-ogham:OS40000149_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000149_activity prov:endedAtTime '2021-05-11T14:47:47.381998Z'^^xsd:dateTime .
+ogham:OS40000149_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000149_activity prov:endedAtTime '2021-05-16T12:38:25.234620Z'^^xsd:dateTime .
 ogham:OS40000149_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000150 rdf:type oghamonto:OghamSite .
@@ -4361,8 +4361,8 @@ ogham:OS40000150 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000150 prov:wasGeneratedBy ogham:OS40000150_activity .
 ogham:OS40000150_activity rdf:type prov:Activity .
-ogham:OS40000150_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000150_activity prov:endedAtTime '2021-05-11T14:47:47.382994Z'^^xsd:dateTime .
+ogham:OS40000150_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000150_activity prov:endedAtTime '2021-05-16T12:38:25.235621Z'^^xsd:dateTime .
 ogham:OS40000150_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000151 rdf:type oghamonto:OghamSite .
@@ -4390,8 +4390,8 @@ ogham:OS40000151 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000151 prov:wasGeneratedBy ogham:OS40000151_activity .
 ogham:OS40000151_activity rdf:type prov:Activity .
-ogham:OS40000151_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000151_activity prov:endedAtTime '2021-05-11T14:47:47.382994Z'^^xsd:dateTime .
+ogham:OS40000151_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000151_activity prov:endedAtTime '2021-05-16T12:38:25.236615Z'^^xsd:dateTime .
 ogham:OS40000151_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000152 rdf:type oghamonto:OghamSite .
@@ -4419,8 +4419,8 @@ ogham:OS40000152 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000152 prov:wasGeneratedBy ogham:OS40000152_activity .
 ogham:OS40000152_activity rdf:type prov:Activity .
-ogham:OS40000152_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000152_activity prov:endedAtTime '2021-05-11T14:47:47.382994Z'^^xsd:dateTime .
+ogham:OS40000152_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000152_activity prov:endedAtTime '2021-05-16T12:38:25.236615Z'^^xsd:dateTime .
 ogham:OS40000152_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000153 rdf:type oghamonto:OghamSite .
@@ -4448,8 +4448,8 @@ ogham:OS40000153 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000153 prov:wasGeneratedBy ogham:OS40000153_activity .
 ogham:OS40000153_activity rdf:type prov:Activity .
-ogham:OS40000153_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000153_activity prov:endedAtTime '2021-05-11T14:47:47.383991Z'^^xsd:dateTime .
+ogham:OS40000153_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000153_activity prov:endedAtTime '2021-05-16T12:38:25.237641Z'^^xsd:dateTime .
 ogham:OS40000153_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000154 rdf:type oghamonto:OghamSite .
@@ -4477,8 +4477,8 @@ ogham:OS40000154 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000154 prov:wasGeneratedBy ogham:OS40000154_activity .
 ogham:OS40000154_activity rdf:type prov:Activity .
-ogham:OS40000154_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000154_activity prov:endedAtTime '2021-05-11T14:47:47.383991Z'^^xsd:dateTime .
+ogham:OS40000154_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000154_activity prov:endedAtTime '2021-05-16T12:38:25.237641Z'^^xsd:dateTime .
 ogham:OS40000154_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000155 rdf:type oghamonto:OghamSite .
@@ -4506,8 +4506,8 @@ ogham:OS40000155 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000155 prov:wasGeneratedBy ogham:OS40000155_activity .
 ogham:OS40000155_activity rdf:type prov:Activity .
-ogham:OS40000155_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000155_activity prov:endedAtTime '2021-05-11T14:47:47.383991Z'^^xsd:dateTime .
+ogham:OS40000155_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000155_activity prov:endedAtTime '2021-05-16T12:38:25.237641Z'^^xsd:dateTime .
 ogham:OS40000155_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000156 rdf:type oghamonto:OghamSite .
@@ -4535,8 +4535,8 @@ ogham:OS40000156 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000156 prov:wasGeneratedBy ogham:OS40000156_activity .
 ogham:OS40000156_activity rdf:type prov:Activity .
-ogham:OS40000156_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000156_activity prov:endedAtTime '2021-05-11T14:47:47.383991Z'^^xsd:dateTime .
+ogham:OS40000156_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000156_activity prov:endedAtTime '2021-05-16T12:38:25.237641Z'^^xsd:dateTime .
 ogham:OS40000156_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000157 rdf:type oghamonto:OghamSite .
@@ -4564,8 +4564,8 @@ ogham:OS40000157 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000157 prov:wasGeneratedBy ogham:OS40000157_activity .
 ogham:OS40000157_activity rdf:type prov:Activity .
-ogham:OS40000157_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000157_activity prov:endedAtTime '2021-05-11T14:47:47.384988Z'^^xsd:dateTime .
+ogham:OS40000157_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000157_activity prov:endedAtTime '2021-05-16T12:38:25.238633Z'^^xsd:dateTime .
 ogham:OS40000157_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000158 rdf:type oghamonto:OghamSite .
@@ -4593,8 +4593,8 @@ ogham:OS40000158 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000158 prov:wasGeneratedBy ogham:OS40000158_activity .
 ogham:OS40000158_activity rdf:type prov:Activity .
-ogham:OS40000158_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000158_activity prov:endedAtTime '2021-05-11T14:47:47.384988Z'^^xsd:dateTime .
+ogham:OS40000158_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000158_activity prov:endedAtTime '2021-05-16T12:38:25.238633Z'^^xsd:dateTime .
 ogham:OS40000158_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000159 rdf:type oghamonto:OghamSite .
@@ -4622,8 +4622,8 @@ ogham:OS40000159 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000159 prov:wasGeneratedBy ogham:OS40000159_activity .
 ogham:OS40000159_activity rdf:type prov:Activity .
-ogham:OS40000159_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000159_activity prov:endedAtTime '2021-05-11T14:47:47.384988Z'^^xsd:dateTime .
+ogham:OS40000159_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000159_activity prov:endedAtTime '2021-05-16T12:38:25.238633Z'^^xsd:dateTime .
 ogham:OS40000159_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000160 rdf:type oghamonto:OghamSite .
@@ -4651,8 +4651,8 @@ ogham:OS40000160 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000160 prov:wasGeneratedBy ogham:OS40000160_activity .
 ogham:OS40000160_activity rdf:type prov:Activity .
-ogham:OS40000160_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000160_activity prov:endedAtTime '2021-05-11T14:47:47.385985Z'^^xsd:dateTime .
+ogham:OS40000160_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000160_activity prov:endedAtTime '2021-05-16T12:38:25.238633Z'^^xsd:dateTime .
 ogham:OS40000160_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000161 rdf:type oghamonto:OghamSite .
@@ -4680,8 +4680,8 @@ ogham:OS40000161 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000161 prov:wasGeneratedBy ogham:OS40000161_activity .
 ogham:OS40000161_activity rdf:type prov:Activity .
-ogham:OS40000161_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000161_activity prov:endedAtTime '2021-05-11T14:47:47.385985Z'^^xsd:dateTime .
+ogham:OS40000161_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000161_activity prov:endedAtTime '2021-05-16T12:38:25.239630Z'^^xsd:dateTime .
 ogham:OS40000161_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000162 rdf:type oghamonto:OghamSite .
@@ -4709,8 +4709,8 @@ ogham:OS40000162 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000162 prov:wasGeneratedBy ogham:OS40000162_activity .
 ogham:OS40000162_activity rdf:type prov:Activity .
-ogham:OS40000162_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000162_activity prov:endedAtTime '2021-05-11T14:47:47.385985Z'^^xsd:dateTime .
+ogham:OS40000162_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000162_activity prov:endedAtTime '2021-05-16T12:38:25.239630Z'^^xsd:dateTime .
 ogham:OS40000162_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000163 rdf:type oghamonto:OghamSite .
@@ -4738,8 +4738,8 @@ ogham:OS40000163 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000163 prov:wasGeneratedBy ogham:OS40000163_activity .
 ogham:OS40000163_activity rdf:type prov:Activity .
-ogham:OS40000163_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000163_activity prov:endedAtTime '2021-05-11T14:47:47.385985Z'^^xsd:dateTime .
+ogham:OS40000163_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000163_activity prov:endedAtTime '2021-05-16T12:38:25.239630Z'^^xsd:dateTime .
 ogham:OS40000163_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000164 rdf:type oghamonto:OghamSite .
@@ -4767,8 +4767,8 @@ ogham:OS40000164 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000164 prov:wasGeneratedBy ogham:OS40000164_activity .
 ogham:OS40000164_activity rdf:type prov:Activity .
-ogham:OS40000164_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000164_activity prov:endedAtTime '2021-05-11T14:47:47.386982Z'^^xsd:dateTime .
+ogham:OS40000164_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000164_activity prov:endedAtTime '2021-05-16T12:38:25.239630Z'^^xsd:dateTime .
 ogham:OS40000164_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000165 rdf:type oghamonto:OghamSite .
@@ -4796,8 +4796,8 @@ ogham:OS40000165 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000165 prov:wasGeneratedBy ogham:OS40000165_activity .
 ogham:OS40000165_activity rdf:type prov:Activity .
-ogham:OS40000165_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000165_activity prov:endedAtTime '2021-05-11T14:47:47.386982Z'^^xsd:dateTime .
+ogham:OS40000165_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000165_activity prov:endedAtTime '2021-05-16T12:38:25.240628Z'^^xsd:dateTime .
 ogham:OS40000165_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000166 rdf:type oghamonto:OghamSite .
@@ -4825,8 +4825,8 @@ ogham:OS40000166 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000166 prov:wasGeneratedBy ogham:OS40000166_activity .
 ogham:OS40000166_activity rdf:type prov:Activity .
-ogham:OS40000166_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000166_activity prov:endedAtTime '2021-05-11T14:47:47.386982Z'^^xsd:dateTime .
+ogham:OS40000166_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000166_activity prov:endedAtTime '2021-05-16T12:38:25.240628Z'^^xsd:dateTime .
 ogham:OS40000166_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000167 rdf:type oghamonto:OghamSite .
@@ -4854,8 +4854,8 @@ ogham:OS40000167 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000167 prov:wasGeneratedBy ogham:OS40000167_activity .
 ogham:OS40000167_activity rdf:type prov:Activity .
-ogham:OS40000167_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000167_activity prov:endedAtTime '2021-05-11T14:47:47.386982Z'^^xsd:dateTime .
+ogham:OS40000167_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000167_activity prov:endedAtTime '2021-05-16T12:38:25.240628Z'^^xsd:dateTime .
 ogham:OS40000167_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000168 rdf:type oghamonto:OghamSite .
@@ -4883,8 +4883,8 @@ ogham:OS40000168 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000168 prov:wasGeneratedBy ogham:OS40000168_activity .
 ogham:OS40000168_activity rdf:type prov:Activity .
-ogham:OS40000168_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000168_activity prov:endedAtTime '2021-05-11T14:47:47.387980Z'^^xsd:dateTime .
+ogham:OS40000168_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000168_activity prov:endedAtTime '2021-05-16T12:38:25.240628Z'^^xsd:dateTime .
 ogham:OS40000168_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000169 rdf:type oghamonto:OghamSite .
@@ -4912,8 +4912,8 @@ ogham:OS40000169 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000169 prov:wasGeneratedBy ogham:OS40000169_activity .
 ogham:OS40000169_activity rdf:type prov:Activity .
-ogham:OS40000169_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000169_activity prov:endedAtTime '2021-05-11T14:47:47.387980Z'^^xsd:dateTime .
+ogham:OS40000169_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000169_activity prov:endedAtTime '2021-05-16T12:38:25.241625Z'^^xsd:dateTime .
 ogham:OS40000169_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000170 rdf:type oghamonto:OghamSite .
@@ -4941,8 +4941,8 @@ ogham:OS40000170 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000170 prov:wasGeneratedBy ogham:OS40000170_activity .
 ogham:OS40000170_activity rdf:type prov:Activity .
-ogham:OS40000170_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000170_activity prov:endedAtTime '2021-05-11T14:47:47.387980Z'^^xsd:dateTime .
+ogham:OS40000170_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000170_activity prov:endedAtTime '2021-05-16T12:38:25.241625Z'^^xsd:dateTime .
 ogham:OS40000170_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000171 rdf:type oghamonto:OghamSite .
@@ -4970,8 +4970,8 @@ ogham:OS40000171 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000171 prov:wasGeneratedBy ogham:OS40000171_activity .
 ogham:OS40000171_activity rdf:type prov:Activity .
-ogham:OS40000171_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000171_activity prov:endedAtTime '2021-05-11T14:47:47.387980Z'^^xsd:dateTime .
+ogham:OS40000171_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000171_activity prov:endedAtTime '2021-05-16T12:38:25.241625Z'^^xsd:dateTime .
 ogham:OS40000171_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000172 rdf:type oghamonto:OghamSite .
@@ -4999,8 +4999,8 @@ ogham:OS40000172 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000172 prov:wasGeneratedBy ogham:OS40000172_activity .
 ogham:OS40000172_activity rdf:type prov:Activity .
-ogham:OS40000172_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000172_activity prov:endedAtTime '2021-05-11T14:47:47.388977Z'^^xsd:dateTime .
+ogham:OS40000172_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000172_activity prov:endedAtTime '2021-05-16T12:38:25.242598Z'^^xsd:dateTime .
 ogham:OS40000172_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000173 rdf:type oghamonto:OghamSite .
@@ -5028,8 +5028,8 @@ ogham:OS40000173 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000173 prov:wasGeneratedBy ogham:OS40000173_activity .
 ogham:OS40000173_activity rdf:type prov:Activity .
-ogham:OS40000173_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000173_activity prov:endedAtTime '2021-05-11T14:47:47.388977Z'^^xsd:dateTime .
+ogham:OS40000173_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000173_activity prov:endedAtTime '2021-05-16T12:38:25.242598Z'^^xsd:dateTime .
 ogham:OS40000173_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000174 rdf:type oghamonto:OghamSite .
@@ -5057,8 +5057,8 @@ ogham:OS40000174 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000174 prov:wasGeneratedBy ogham:OS40000174_activity .
 ogham:OS40000174_activity rdf:type prov:Activity .
-ogham:OS40000174_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000174_activity prov:endedAtTime '2021-05-11T14:47:47.388977Z'^^xsd:dateTime .
+ogham:OS40000174_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000174_activity prov:endedAtTime '2021-05-16T12:38:25.242598Z'^^xsd:dateTime .
 ogham:OS40000174_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000175 rdf:type oghamonto:OghamSite .
@@ -5086,8 +5086,8 @@ ogham:OS40000175 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000175 prov:wasGeneratedBy ogham:OS40000175_activity .
 ogham:OS40000175_activity rdf:type prov:Activity .
-ogham:OS40000175_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000175_activity prov:endedAtTime '2021-05-11T14:47:47.388977Z'^^xsd:dateTime .
+ogham:OS40000175_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000175_activity prov:endedAtTime '2021-05-16T12:38:25.243626Z'^^xsd:dateTime .
 ogham:OS40000175_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000176 rdf:type oghamonto:OghamSite .
@@ -5115,8 +5115,8 @@ ogham:OS40000176 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000176 prov:wasGeneratedBy ogham:OS40000176_activity .
 ogham:OS40000176_activity rdf:type prov:Activity .
-ogham:OS40000176_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000176_activity prov:endedAtTime '2021-05-11T14:47:47.389974Z'^^xsd:dateTime .
+ogham:OS40000176_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000176_activity prov:endedAtTime '2021-05-16T12:38:25.243626Z'^^xsd:dateTime .
 ogham:OS40000176_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000177 rdf:type oghamonto:OghamSite .
@@ -5144,8 +5144,8 @@ ogham:OS40000177 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000177 prov:wasGeneratedBy ogham:OS40000177_activity .
 ogham:OS40000177_activity rdf:type prov:Activity .
-ogham:OS40000177_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000177_activity prov:endedAtTime '2021-05-11T14:47:47.389974Z'^^xsd:dateTime .
+ogham:OS40000177_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000177_activity prov:endedAtTime '2021-05-16T12:38:25.243626Z'^^xsd:dateTime .
 ogham:OS40000177_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000178 rdf:type oghamonto:OghamSite .
@@ -5173,8 +5173,8 @@ ogham:OS40000178 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000178 prov:wasGeneratedBy ogham:OS40000178_activity .
 ogham:OS40000178_activity rdf:type prov:Activity .
-ogham:OS40000178_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000178_activity prov:endedAtTime '2021-05-11T14:47:47.389974Z'^^xsd:dateTime .
+ogham:OS40000178_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000178_activity prov:endedAtTime '2021-05-16T12:38:25.243626Z'^^xsd:dateTime .
 ogham:OS40000178_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000179 rdf:type oghamonto:OghamSite .
@@ -5202,8 +5202,8 @@ ogham:OS40000179 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000179 prov:wasGeneratedBy ogham:OS40000179_activity .
 ogham:OS40000179_activity rdf:type prov:Activity .
-ogham:OS40000179_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000179_activity prov:endedAtTime '2021-05-11T14:47:47.389974Z'^^xsd:dateTime .
+ogham:OS40000179_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000179_activity prov:endedAtTime '2021-05-16T12:38:25.244623Z'^^xsd:dateTime .
 ogham:OS40000179_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000180 rdf:type oghamonto:OghamSite .
@@ -5231,8 +5231,8 @@ ogham:OS40000180 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000180 prov:wasGeneratedBy ogham:OS40000180_activity .
 ogham:OS40000180_activity rdf:type prov:Activity .
-ogham:OS40000180_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000180_activity prov:endedAtTime '2021-05-11T14:47:47.389974Z'^^xsd:dateTime .
+ogham:OS40000180_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000180_activity prov:endedAtTime '2021-05-16T12:38:25.244623Z'^^xsd:dateTime .
 ogham:OS40000180_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000181 rdf:type oghamonto:OghamSite .
@@ -5260,8 +5260,8 @@ ogham:OS40000181 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000181 prov:wasGeneratedBy ogham:OS40000181_activity .
 ogham:OS40000181_activity rdf:type prov:Activity .
-ogham:OS40000181_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000181_activity prov:endedAtTime '2021-05-11T14:47:47.390972Z'^^xsd:dateTime .
+ogham:OS40000181_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000181_activity prov:endedAtTime '2021-05-16T12:38:25.244623Z'^^xsd:dateTime .
 ogham:OS40000181_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000182 rdf:type oghamonto:OghamSite .
@@ -5289,8 +5289,8 @@ ogham:OS40000182 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000182 prov:wasGeneratedBy ogham:OS40000182_activity .
 ogham:OS40000182_activity rdf:type prov:Activity .
-ogham:OS40000182_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000182_activity prov:endedAtTime '2021-05-11T14:47:47.390972Z'^^xsd:dateTime .
+ogham:OS40000182_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000182_activity prov:endedAtTime '2021-05-16T12:38:25.244623Z'^^xsd:dateTime .
 ogham:OS40000182_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000183 rdf:type oghamonto:OghamSite .
@@ -5318,8 +5318,8 @@ ogham:OS40000183 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000183 prov:wasGeneratedBy ogham:OS40000183_activity .
 ogham:OS40000183_activity rdf:type prov:Activity .
-ogham:OS40000183_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000183_activity prov:endedAtTime '2021-05-11T14:47:47.390972Z'^^xsd:dateTime .
+ogham:OS40000183_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000183_activity prov:endedAtTime '2021-05-16T12:38:25.245622Z'^^xsd:dateTime .
 ogham:OS40000183_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000184 rdf:type oghamonto:OghamSite .
@@ -5347,8 +5347,8 @@ ogham:OS40000184 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000184 prov:wasGeneratedBy ogham:OS40000184_activity .
 ogham:OS40000184_activity rdf:type prov:Activity .
-ogham:OS40000184_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000184_activity prov:endedAtTime '2021-05-11T14:47:47.390972Z'^^xsd:dateTime .
+ogham:OS40000184_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000184_activity prov:endedAtTime '2021-05-16T12:38:25.245622Z'^^xsd:dateTime .
 ogham:OS40000184_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000185 rdf:type oghamonto:OghamSite .
@@ -5376,8 +5376,8 @@ ogham:OS40000185 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000185 prov:wasGeneratedBy ogham:OS40000185_activity .
 ogham:OS40000185_activity rdf:type prov:Activity .
-ogham:OS40000185_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000185_activity prov:endedAtTime '2021-05-11T14:47:47.391969Z'^^xsd:dateTime .
+ogham:OS40000185_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000185_activity prov:endedAtTime '2021-05-16T12:38:25.245622Z'^^xsd:dateTime .
 ogham:OS40000185_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000186 rdf:type oghamonto:OghamSite .
@@ -5405,8 +5405,8 @@ ogham:OS40000186 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000186 prov:wasGeneratedBy ogham:OS40000186_activity .
 ogham:OS40000186_activity rdf:type prov:Activity .
-ogham:OS40000186_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000186_activity prov:endedAtTime '2021-05-11T14:47:47.391969Z'^^xsd:dateTime .
+ogham:OS40000186_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000186_activity prov:endedAtTime '2021-05-16T12:38:25.245622Z'^^xsd:dateTime .
 ogham:OS40000186_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000187 rdf:type oghamonto:OghamSite .
@@ -5434,8 +5434,8 @@ ogham:OS40000187 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000187 prov:wasGeneratedBy ogham:OS40000187_activity .
 ogham:OS40000187_activity rdf:type prov:Activity .
-ogham:OS40000187_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000187_activity prov:endedAtTime '2021-05-11T14:47:47.391969Z'^^xsd:dateTime .
+ogham:OS40000187_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000187_activity prov:endedAtTime '2021-05-16T12:38:25.246618Z'^^xsd:dateTime .
 ogham:OS40000187_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000188 rdf:type oghamonto:OghamSite .
@@ -5463,8 +5463,8 @@ ogham:OS40000188 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000188 prov:wasGeneratedBy ogham:OS40000188_activity .
 ogham:OS40000188_activity rdf:type prov:Activity .
-ogham:OS40000188_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000188_activity prov:endedAtTime '2021-05-11T14:47:47.391969Z'^^xsd:dateTime .
+ogham:OS40000188_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000188_activity prov:endedAtTime '2021-05-16T12:38:25.246618Z'^^xsd:dateTime .
 ogham:OS40000188_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000189 rdf:type oghamonto:OghamSite .
@@ -5492,8 +5492,8 @@ ogham:OS40000189 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000189 prov:wasGeneratedBy ogham:OS40000189_activity .
 ogham:OS40000189_activity rdf:type prov:Activity .
-ogham:OS40000189_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000189_activity prov:endedAtTime '2021-05-11T14:47:47.392966Z'^^xsd:dateTime .
+ogham:OS40000189_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000189_activity prov:endedAtTime '2021-05-16T12:38:25.246618Z'^^xsd:dateTime .
 ogham:OS40000189_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000190 rdf:type oghamonto:OghamSite .
@@ -5521,8 +5521,8 @@ ogham:OS40000190 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000190 prov:wasGeneratedBy ogham:OS40000190_activity .
 ogham:OS40000190_activity rdf:type prov:Activity .
-ogham:OS40000190_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000190_activity prov:endedAtTime '2021-05-11T14:47:47.392966Z'^^xsd:dateTime .
+ogham:OS40000190_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000190_activity prov:endedAtTime '2021-05-16T12:38:25.246618Z'^^xsd:dateTime .
 ogham:OS40000190_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000191 rdf:type oghamonto:OghamSite .
@@ -5550,8 +5550,8 @@ ogham:OS40000191 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000191 prov:wasGeneratedBy ogham:OS40000191_activity .
 ogham:OS40000191_activity rdf:type prov:Activity .
-ogham:OS40000191_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000191_activity prov:endedAtTime '2021-05-11T14:47:47.392966Z'^^xsd:dateTime .
+ogham:OS40000191_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000191_activity prov:endedAtTime '2021-05-16T12:38:25.247615Z'^^xsd:dateTime .
 ogham:OS40000191_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000192 rdf:type oghamonto:OghamSite .
@@ -5579,8 +5579,8 @@ ogham:OS40000192 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000192 prov:wasGeneratedBy ogham:OS40000192_activity .
 ogham:OS40000192_activity rdf:type prov:Activity .
-ogham:OS40000192_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000192_activity prov:endedAtTime '2021-05-11T14:47:47.392966Z'^^xsd:dateTime .
+ogham:OS40000192_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000192_activity prov:endedAtTime '2021-05-16T12:38:25.247615Z'^^xsd:dateTime .
 ogham:OS40000192_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000193 rdf:type oghamonto:OghamSite .
@@ -5608,8 +5608,8 @@ ogham:OS40000193 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000193 prov:wasGeneratedBy ogham:OS40000193_activity .
 ogham:OS40000193_activity rdf:type prov:Activity .
-ogham:OS40000193_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000193_activity prov:endedAtTime '2021-05-11T14:47:47.393964Z'^^xsd:dateTime .
+ogham:OS40000193_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000193_activity prov:endedAtTime '2021-05-16T12:38:25.247615Z'^^xsd:dateTime .
 ogham:OS40000193_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000194 rdf:type oghamonto:OghamSite .
@@ -5637,8 +5637,8 @@ ogham:OS40000194 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000194 prov:wasGeneratedBy ogham:OS40000194_activity .
 ogham:OS40000194_activity rdf:type prov:Activity .
-ogham:OS40000194_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000194_activity prov:endedAtTime '2021-05-11T14:47:47.393964Z'^^xsd:dateTime .
+ogham:OS40000194_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000194_activity prov:endedAtTime '2021-05-16T12:38:25.247615Z'^^xsd:dateTime .
 ogham:OS40000194_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000195 rdf:type oghamonto:OghamSite .
@@ -5666,8 +5666,8 @@ ogham:OS40000195 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000195 prov:wasGeneratedBy ogham:OS40000195_activity .
 ogham:OS40000195_activity rdf:type prov:Activity .
-ogham:OS40000195_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000195_activity prov:endedAtTime '2021-05-11T14:47:47.394478Z'^^xsd:dateTime .
+ogham:OS40000195_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000195_activity prov:endedAtTime '2021-05-16T12:38:25.248613Z'^^xsd:dateTime .
 ogham:OS40000195_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000196 rdf:type oghamonto:OghamSite .
@@ -5695,8 +5695,8 @@ ogham:OS40000196 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000196 prov:wasGeneratedBy ogham:OS40000196_activity .
 ogham:OS40000196_activity rdf:type prov:Activity .
-ogham:OS40000196_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000196_activity prov:endedAtTime '2021-05-11T14:47:47.394478Z'^^xsd:dateTime .
+ogham:OS40000196_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000196_activity prov:endedAtTime '2021-05-16T12:38:25.249586Z'^^xsd:dateTime .
 ogham:OS40000196_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000197 rdf:type oghamonto:OghamSite .
@@ -5724,8 +5724,8 @@ ogham:OS40000197 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000197 prov:wasGeneratedBy ogham:OS40000197_activity .
 ogham:OS40000197_activity rdf:type prov:Activity .
-ogham:OS40000197_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000197_activity prov:endedAtTime '2021-05-11T14:47:47.394478Z'^^xsd:dateTime .
+ogham:OS40000197_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000197_activity prov:endedAtTime '2021-05-16T12:38:25.250577Z'^^xsd:dateTime .
 ogham:OS40000197_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000198 rdf:type oghamonto:OghamSite .
@@ -5753,8 +5753,8 @@ ogham:OS40000198 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000198 prov:wasGeneratedBy ogham:OS40000198_activity .
 ogham:OS40000198_activity rdf:type prov:Activity .
-ogham:OS40000198_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000198_activity prov:endedAtTime '2021-05-11T14:47:47.394478Z'^^xsd:dateTime .
+ogham:OS40000198_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000198_activity prov:endedAtTime '2021-05-16T12:38:25.250577Z'^^xsd:dateTime .
 ogham:OS40000198_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000199 rdf:type oghamonto:OghamSite .
@@ -5782,8 +5782,8 @@ ogham:OS40000199 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000199 prov:wasGeneratedBy ogham:OS40000199_activity .
 ogham:OS40000199_activity rdf:type prov:Activity .
-ogham:OS40000199_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000199_activity prov:endedAtTime '2021-05-11T14:47:47.395467Z'^^xsd:dateTime .
+ogham:OS40000199_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000199_activity prov:endedAtTime '2021-05-16T12:38:25.252706Z'^^xsd:dateTime .
 ogham:OS40000199_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000200 rdf:type oghamonto:OghamSite .
@@ -5811,8 +5811,8 @@ ogham:OS40000200 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000200 prov:wasGeneratedBy ogham:OS40000200_activity .
 ogham:OS40000200_activity rdf:type prov:Activity .
-ogham:OS40000200_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000200_activity prov:endedAtTime '2021-05-11T14:47:47.395467Z'^^xsd:dateTime .
+ogham:OS40000200_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000200_activity prov:endedAtTime '2021-05-16T12:38:25.252706Z'^^xsd:dateTime .
 ogham:OS40000200_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000201 rdf:type oghamonto:OghamSite .
@@ -5840,8 +5840,8 @@ ogham:OS40000201 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000201 prov:wasGeneratedBy ogham:OS40000201_activity .
 ogham:OS40000201_activity rdf:type prov:Activity .
-ogham:OS40000201_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000201_activity prov:endedAtTime '2021-05-11T14:47:47.395467Z'^^xsd:dateTime .
+ogham:OS40000201_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000201_activity prov:endedAtTime '2021-05-16T12:38:25.253572Z'^^xsd:dateTime .
 ogham:OS40000201_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000202 rdf:type oghamonto:OghamSite .
@@ -5869,8 +5869,8 @@ ogham:OS40000202 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000202 prov:wasGeneratedBy ogham:OS40000202_activity .
 ogham:OS40000202_activity rdf:type prov:Activity .
-ogham:OS40000202_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000202_activity prov:endedAtTime '2021-05-11T14:47:47.396465Z'^^xsd:dateTime .
+ogham:OS40000202_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000202_activity prov:endedAtTime '2021-05-16T12:38:25.253572Z'^^xsd:dateTime .
 ogham:OS40000202_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000203 rdf:type oghamonto:OghamSite .
@@ -5898,8 +5898,8 @@ ogham:OS40000203 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000203 prov:wasGeneratedBy ogham:OS40000203_activity .
 ogham:OS40000203_activity rdf:type prov:Activity .
-ogham:OS40000203_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000203_activity prov:endedAtTime '2021-05-11T14:47:47.396465Z'^^xsd:dateTime .
+ogham:OS40000203_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000203_activity prov:endedAtTime '2021-05-16T12:38:25.254569Z'^^xsd:dateTime .
 ogham:OS40000203_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000204 rdf:type oghamonto:OghamSite .
@@ -5927,8 +5927,8 @@ ogham:OS40000204 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000204 prov:wasGeneratedBy ogham:OS40000204_activity .
 ogham:OS40000204_activity rdf:type prov:Activity .
-ogham:OS40000204_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000204_activity prov:endedAtTime '2021-05-11T14:47:47.396465Z'^^xsd:dateTime .
+ogham:OS40000204_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000204_activity prov:endedAtTime '2021-05-16T12:38:25.254569Z'^^xsd:dateTime .
 ogham:OS40000204_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000205 rdf:type oghamonto:OghamSite .
@@ -5956,8 +5956,8 @@ ogham:OS40000205 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000205 prov:wasGeneratedBy ogham:OS40000205_activity .
 ogham:OS40000205_activity rdf:type prov:Activity .
-ogham:OS40000205_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000205_activity prov:endedAtTime '2021-05-11T14:47:47.396465Z'^^xsd:dateTime .
+ogham:OS40000205_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000205_activity prov:endedAtTime '2021-05-16T12:38:25.254569Z'^^xsd:dateTime .
 ogham:OS40000205_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000206 rdf:type oghamonto:OghamSite .
@@ -5985,8 +5985,8 @@ ogham:OS40000206 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000206 prov:wasGeneratedBy ogham:OS40000206_activity .
 ogham:OS40000206_activity rdf:type prov:Activity .
-ogham:OS40000206_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000206_activity prov:endedAtTime '2021-05-11T14:47:47.397462Z'^^xsd:dateTime .
+ogham:OS40000206_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000206_activity prov:endedAtTime '2021-05-16T12:38:25.254569Z'^^xsd:dateTime .
 ogham:OS40000206_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000207 rdf:type oghamonto:OghamSite .
@@ -6014,8 +6014,8 @@ ogham:OS40000207 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000207 prov:wasGeneratedBy ogham:OS40000207_activity .
 ogham:OS40000207_activity rdf:type prov:Activity .
-ogham:OS40000207_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000207_activity prov:endedAtTime '2021-05-11T14:47:47.397462Z'^^xsd:dateTime .
+ogham:OS40000207_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000207_activity prov:endedAtTime '2021-05-16T12:38:25.255564Z'^^xsd:dateTime .
 ogham:OS40000207_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000208 rdf:type oghamonto:OghamSite .
@@ -6043,8 +6043,8 @@ ogham:OS40000208 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000208 prov:wasGeneratedBy ogham:OS40000208_activity .
 ogham:OS40000208_activity rdf:type prov:Activity .
-ogham:OS40000208_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000208_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000208_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000208_activity prov:endedAtTime '2021-05-16T12:38:25.255564Z'^^xsd:dateTime .
 ogham:OS40000208_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000209 rdf:type oghamonto:OghamSite .
@@ -6072,8 +6072,8 @@ ogham:OS40000209 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000209 prov:wasGeneratedBy ogham:OS40000209_activity .
 ogham:OS40000209_activity rdf:type prov:Activity .
-ogham:OS40000209_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000209_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000209_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000209_activity prov:endedAtTime '2021-05-16T12:38:25.255564Z'^^xsd:dateTime .
 ogham:OS40000209_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000210 rdf:type oghamonto:OghamSite .
@@ -6101,8 +6101,8 @@ ogham:OS40000210 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000210 prov:wasGeneratedBy ogham:OS40000210_activity .
 ogham:OS40000210_activity rdf:type prov:Activity .
-ogham:OS40000210_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000210_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000210_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000210_activity prov:endedAtTime '2021-05-16T12:38:25.256562Z'^^xsd:dateTime .
 ogham:OS40000210_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000211 rdf:type oghamonto:OghamSite .
@@ -6130,8 +6130,8 @@ ogham:OS40000211 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000211 prov:wasGeneratedBy ogham:OS40000211_activity .
 ogham:OS40000211_activity rdf:type prov:Activity .
-ogham:OS40000211_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000211_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000211_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000211_activity prov:endedAtTime '2021-05-16T12:38:25.256562Z'^^xsd:dateTime .
 ogham:OS40000211_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000212 rdf:type oghamonto:OghamSite .
@@ -6159,8 +6159,8 @@ ogham:OS40000212 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000212 prov:wasGeneratedBy ogham:OS40000212_activity .
 ogham:OS40000212_activity rdf:type prov:Activity .
-ogham:OS40000212_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000212_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000212_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000212_activity prov:endedAtTime '2021-05-16T12:38:25.256562Z'^^xsd:dateTime .
 ogham:OS40000212_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000213 rdf:type oghamonto:OghamSite .
@@ -6188,8 +6188,8 @@ ogham:OS40000213 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000213 prov:wasGeneratedBy ogham:OS40000213_activity .
 ogham:OS40000213_activity rdf:type prov:Activity .
-ogham:OS40000213_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000213_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000213_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000213_activity prov:endedAtTime '2021-05-16T12:38:25.257559Z'^^xsd:dateTime .
 ogham:OS40000213_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000214 rdf:type oghamonto:OghamSite .
@@ -6217,8 +6217,8 @@ ogham:OS40000214 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000214 prov:wasGeneratedBy ogham:OS40000214_activity .
 ogham:OS40000214_activity rdf:type prov:Activity .
-ogham:OS40000214_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000214_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000214_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000214_activity prov:endedAtTime '2021-05-16T12:38:25.257559Z'^^xsd:dateTime .
 ogham:OS40000214_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000215 rdf:type oghamonto:OghamSite .
@@ -6246,8 +6246,8 @@ ogham:OS40000215 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000215 prov:wasGeneratedBy ogham:OS40000215_activity .
 ogham:OS40000215_activity rdf:type prov:Activity .
-ogham:OS40000215_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000215_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000215_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000215_activity prov:endedAtTime '2021-05-16T12:38:25.257559Z'^^xsd:dateTime .
 ogham:OS40000215_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000216 rdf:type oghamonto:OghamSite .
@@ -6275,8 +6275,8 @@ ogham:OS40000216 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000216 prov:wasGeneratedBy ogham:OS40000216_activity .
 ogham:OS40000216_activity rdf:type prov:Activity .
-ogham:OS40000216_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000216_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000216_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000216_activity prov:endedAtTime '2021-05-16T12:38:25.258556Z'^^xsd:dateTime .
 ogham:OS40000216_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000217 rdf:type oghamonto:OghamSite .
@@ -6304,8 +6304,8 @@ ogham:OS40000217 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000217 prov:wasGeneratedBy ogham:OS40000217_activity .
 ogham:OS40000217_activity rdf:type prov:Activity .
-ogham:OS40000217_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000217_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000217_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000217_activity prov:endedAtTime '2021-05-16T12:38:25.258556Z'^^xsd:dateTime .
 ogham:OS40000217_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000218 rdf:type oghamonto:OghamSite .
@@ -6333,8 +6333,8 @@ ogham:OS40000218 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000218 prov:wasGeneratedBy ogham:OS40000218_activity .
 ogham:OS40000218_activity rdf:type prov:Activity .
-ogham:OS40000218_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000218_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000218_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000218_activity prov:endedAtTime '2021-05-16T12:38:25.258556Z'^^xsd:dateTime .
 ogham:OS40000218_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000219 rdf:type oghamonto:OghamSite .
@@ -6362,8 +6362,8 @@ ogham:OS40000219 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000219 prov:wasGeneratedBy ogham:OS40000219_activity .
 ogham:OS40000219_activity rdf:type prov:Activity .
-ogham:OS40000219_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000219_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000219_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000219_activity prov:endedAtTime '2021-05-16T12:38:25.259554Z'^^xsd:dateTime .
 ogham:OS40000219_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000220 rdf:type oghamonto:OghamSite .
@@ -6391,8 +6391,8 @@ ogham:OS40000220 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000220 prov:wasGeneratedBy ogham:OS40000220_activity .
 ogham:OS40000220_activity rdf:type prov:Activity .
-ogham:OS40000220_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000220_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000220_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000220_activity prov:endedAtTime '2021-05-16T12:38:25.259554Z'^^xsd:dateTime .
 ogham:OS40000220_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000221 rdf:type oghamonto:OghamSite .
@@ -6420,8 +6420,8 @@ ogham:OS40000221 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000221 prov:wasGeneratedBy ogham:OS40000221_activity .
 ogham:OS40000221_activity rdf:type prov:Activity .
-ogham:OS40000221_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000221_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000221_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000221_activity prov:endedAtTime '2021-05-16T12:38:25.259554Z'^^xsd:dateTime .
 ogham:OS40000221_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000222 rdf:type oghamonto:OghamSite .
@@ -6449,8 +6449,8 @@ ogham:OS40000222 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000222 prov:wasGeneratedBy ogham:OS40000222_activity .
 ogham:OS40000222_activity rdf:type prov:Activity .
-ogham:OS40000222_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000222_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000222_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000222_activity prov:endedAtTime '2021-05-16T12:38:25.259554Z'^^xsd:dateTime .
 ogham:OS40000222_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000223 rdf:type oghamonto:OghamSite .
@@ -6478,8 +6478,8 @@ ogham:OS40000223 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000223 prov:wasGeneratedBy ogham:OS40000223_activity .
 ogham:OS40000223_activity rdf:type prov:Activity .
-ogham:OS40000223_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000223_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000223_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000223_activity prov:endedAtTime '2021-05-16T12:38:25.260551Z'^^xsd:dateTime .
 ogham:OS40000223_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000224 rdf:type oghamonto:OghamSite .
@@ -6507,8 +6507,8 @@ ogham:OS40000224 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000224 prov:wasGeneratedBy ogham:OS40000224_activity .
 ogham:OS40000224_activity rdf:type prov:Activity .
-ogham:OS40000224_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000224_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000224_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000224_activity prov:endedAtTime '2021-05-16T12:38:25.260551Z'^^xsd:dateTime .
 ogham:OS40000224_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000225 rdf:type oghamonto:OghamSite .
@@ -6536,8 +6536,8 @@ ogham:OS40000225 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000225 prov:wasGeneratedBy ogham:OS40000225_activity .
 ogham:OS40000225_activity rdf:type prov:Activity .
-ogham:OS40000225_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000225_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000225_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000225_activity prov:endedAtTime '2021-05-16T12:38:25.260551Z'^^xsd:dateTime .
 ogham:OS40000225_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000226 rdf:type oghamonto:OghamSite .
@@ -6565,8 +6565,8 @@ ogham:OS40000226 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000226 prov:wasGeneratedBy ogham:OS40000226_activity .
 ogham:OS40000226_activity rdf:type prov:Activity .
-ogham:OS40000226_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000226_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000226_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000226_activity prov:endedAtTime '2021-05-16T12:38:25.261548Z'^^xsd:dateTime .
 ogham:OS40000226_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000227 rdf:type oghamonto:OghamSite .
@@ -6594,8 +6594,8 @@ ogham:OS40000227 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000227 prov:wasGeneratedBy ogham:OS40000227_activity .
 ogham:OS40000227_activity rdf:type prov:Activity .
-ogham:OS40000227_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000227_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000227_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000227_activity prov:endedAtTime '2021-05-16T12:38:25.261548Z'^^xsd:dateTime .
 ogham:OS40000227_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000228 rdf:type oghamonto:OghamSite .
@@ -6623,8 +6623,8 @@ ogham:OS40000228 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000228 prov:wasGeneratedBy ogham:OS40000228_activity .
 ogham:OS40000228_activity rdf:type prov:Activity .
-ogham:OS40000228_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000228_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000228_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000228_activity prov:endedAtTime '2021-05-16T12:38:25.261548Z'^^xsd:dateTime .
 ogham:OS40000228_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000229 rdf:type oghamonto:OghamSite .
@@ -6652,8 +6652,8 @@ ogham:OS40000229 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000229 prov:wasGeneratedBy ogham:OS40000229_activity .
 ogham:OS40000229_activity rdf:type prov:Activity .
-ogham:OS40000229_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000229_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000229_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000229_activity prov:endedAtTime '2021-05-16T12:38:25.262545Z'^^xsd:dateTime .
 ogham:OS40000229_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000230 rdf:type oghamonto:OghamSite .
@@ -6681,8 +6681,8 @@ ogham:OS40000230 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000230 prov:wasGeneratedBy ogham:OS40000230_activity .
 ogham:OS40000230_activity rdf:type prov:Activity .
-ogham:OS40000230_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000230_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000230_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000230_activity prov:endedAtTime '2021-05-16T12:38:25.262545Z'^^xsd:dateTime .
 ogham:OS40000230_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OS40000231 rdf:type oghamonto:OghamSite .
@@ -6710,7 +6710,7 @@ ogham:OS40000231 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_sites.csv> prov:wasAttributedTo wd:Q85384744 .
 ogham:OS40000231 prov:wasGeneratedBy ogham:OS40000231_activity .
 ogham:OS40000231_activity rdf:type prov:Activity .
-ogham:OS40000231_activity prov:startedAtTime '2021-05-11T14:47:47.309849Z'^^xsd:dateTime .
-ogham:OS40000231_activity prov:endedAtTime '2021-05-11T14:47:47.398522Z'^^xsd:dateTime .
+ogham:OS40000231_activity prov:startedAtTime '2021-05-16T12:38:25.162837Z'^^xsd:dateTime .
+ogham:OS40000231_activity prov:endedAtTime '2021-05-16T12:38:25.262545Z'^^xsd:dateTime .
 ogham:OS40000231_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 

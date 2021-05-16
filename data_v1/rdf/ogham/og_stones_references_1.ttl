@@ -1,5 +1,5 @@
 # create triples from og_stones_references.csv 
-# on 2021-05-13 10:54
+# on 2021-05-16 12:39
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .

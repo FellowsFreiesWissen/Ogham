@@ -1,5 +1,5 @@
 # create triples from og_words.csv 
-# on 2021-05-11 14:47
+# on 2021-05-16 12:38
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -38,8 +38,8 @@ ogham:OW1 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/ma
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW1 prov:wasGeneratedBy ogham:OW1_activity .
 ogham:OW1_activity rdf:type prov:Activity .
-ogham:OW1_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW1_activity prov:endedAtTime '2021-05-11T14:47:50.604513Z'^^xsd:dateTime .
+ogham:OW1_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW1_activity prov:endedAtTime '2021-05-16T12:38:30.368071Z'^^xsd:dateTime .
 ogham:OW1_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW2 rdf:type oghamonto:Word .
@@ -65,8 +65,8 @@ ogham:OW2 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/ma
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW2 prov:wasGeneratedBy ogham:OW2_activity .
 ogham:OW2_activity rdf:type prov:Activity .
-ogham:OW2_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW2_activity prov:endedAtTime '2021-05-11T14:47:50.605511Z'^^xsd:dateTime .
+ogham:OW2_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW2_activity prov:endedAtTime '2021-05-16T12:38:30.376121Z'^^xsd:dateTime .
 ogham:OW2_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW3 rdf:type oghamonto:Word .
@@ -92,8 +92,8 @@ ogham:OW3 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/ma
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW3 prov:wasGeneratedBy ogham:OW3_activity .
 ogham:OW3_activity rdf:type prov:Activity .
-ogham:OW3_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW3_activity prov:endedAtTime '2021-05-11T14:47:50.606507Z'^^xsd:dateTime .
+ogham:OW3_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW3_activity prov:endedAtTime '2021-05-16T12:38:30.376121Z'^^xsd:dateTime .
 ogham:OW3_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW4 rdf:type oghamonto:Word .
@@ -121,8 +121,8 @@ ogham:OW4 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/ma
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW4 prov:wasGeneratedBy ogham:OW4_activity .
 ogham:OW4_activity rdf:type prov:Activity .
-ogham:OW4_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW4_activity prov:endedAtTime '2021-05-11T14:47:50.607504Z'^^xsd:dateTime .
+ogham:OW4_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW4_activity prov:endedAtTime '2021-05-16T12:38:30.377119Z'^^xsd:dateTime .
 ogham:OW4_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW5 rdf:type oghamonto:Word .
@@ -148,8 +148,8 @@ ogham:OW5 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/ma
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW5 prov:wasGeneratedBy ogham:OW5_activity .
 ogham:OW5_activity rdf:type prov:Activity .
-ogham:OW5_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW5_activity prov:endedAtTime '2021-05-11T14:47:50.607504Z'^^xsd:dateTime .
+ogham:OW5_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW5_activity prov:endedAtTime '2021-05-16T12:38:30.377119Z'^^xsd:dateTime .
 ogham:OW5_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW6 rdf:type oghamonto:Word .
@@ -187,8 +187,8 @@ ogham:OW6 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/ma
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW6 prov:wasGeneratedBy ogham:OW6_activity .
 ogham:OW6_activity rdf:type prov:Activity .
-ogham:OW6_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW6_activity prov:endedAtTime '2021-05-11T14:47:50.608503Z'^^xsd:dateTime .
+ogham:OW6_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW6_activity prov:endedAtTime '2021-05-16T12:38:30.378115Z'^^xsd:dateTime .
 ogham:OW6_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW7 rdf:type oghamonto:Word .
@@ -214,8 +214,8 @@ ogham:OW7 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/ma
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW7 prov:wasGeneratedBy ogham:OW7_activity .
 ogham:OW7_activity rdf:type prov:Activity .
-ogham:OW7_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW7_activity prov:endedAtTime '2021-05-11T14:47:50.609500Z'^^xsd:dateTime .
+ogham:OW7_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW7_activity prov:endedAtTime '2021-05-16T12:38:30.379114Z'^^xsd:dateTime .
 ogham:OW7_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW8 rdf:type oghamonto:Word .
@@ -249,8 +249,8 @@ ogham:OW8 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/ma
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW8 prov:wasGeneratedBy ogham:OW8_activity .
 ogham:OW8_activity rdf:type prov:Activity .
-ogham:OW8_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW8_activity prov:endedAtTime '2021-05-11T14:47:50.610496Z'^^xsd:dateTime .
+ogham:OW8_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW8_activity prov:endedAtTime '2021-05-16T12:38:30.379114Z'^^xsd:dateTime .
 ogham:OW8_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW9 rdf:type oghamonto:Word .
@@ -280,8 +280,8 @@ ogham:OW9 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/ma
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW9 prov:wasGeneratedBy ogham:OW9_activity .
 ogham:OW9_activity rdf:type prov:Activity .
-ogham:OW9_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW9_activity prov:endedAtTime '2021-05-11T14:47:50.610496Z'^^xsd:dateTime .
+ogham:OW9_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW9_activity prov:endedAtTime '2021-05-16T12:38:30.380110Z'^^xsd:dateTime .
 ogham:OW9_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW10 rdf:type oghamonto:Word .
@@ -323,8 +323,8 @@ ogham:OW10 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW10 prov:wasGeneratedBy ogham:OW10_activity .
 ogham:OW10_activity rdf:type prov:Activity .
-ogham:OW10_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW10_activity prov:endedAtTime '2021-05-11T14:47:50.611495Z'^^xsd:dateTime .
+ogham:OW10_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW10_activity prov:endedAtTime '2021-05-16T12:38:30.381107Z'^^xsd:dateTime .
 ogham:OW10_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW11 rdf:type oghamonto:Word .
@@ -368,8 +368,8 @@ ogham:OW11 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW11 prov:wasGeneratedBy ogham:OW11_activity .
 ogham:OW11_activity rdf:type prov:Activity .
-ogham:OW11_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW11_activity prov:endedAtTime '2021-05-11T14:47:50.611495Z'^^xsd:dateTime .
+ogham:OW11_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW11_activity prov:endedAtTime '2021-05-16T12:38:30.381107Z'^^xsd:dateTime .
 ogham:OW11_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW12 rdf:type oghamonto:Word .
@@ -397,8 +397,8 @@ ogham:OW12 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW12 prov:wasGeneratedBy ogham:OW12_activity .
 ogham:OW12_activity rdf:type prov:Activity .
-ogham:OW12_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW12_activity prov:endedAtTime '2021-05-11T14:47:50.612489Z'^^xsd:dateTime .
+ogham:OW12_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW12_activity prov:endedAtTime '2021-05-16T12:38:30.382104Z'^^xsd:dateTime .
 ogham:OW12_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW13 rdf:type oghamonto:Word .
@@ -424,8 +424,8 @@ ogham:OW13 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW13 prov:wasGeneratedBy ogham:OW13_activity .
 ogham:OW13_activity rdf:type prov:Activity .
-ogham:OW13_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW13_activity prov:endedAtTime '2021-05-11T14:47:50.612489Z'^^xsd:dateTime .
+ogham:OW13_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW13_activity prov:endedAtTime '2021-05-16T12:38:30.382104Z'^^xsd:dateTime .
 ogham:OW13_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW14 rdf:type oghamonto:Word .
@@ -451,8 +451,8 @@ ogham:OW14 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW14 prov:wasGeneratedBy ogham:OW14_activity .
 ogham:OW14_activity rdf:type prov:Activity .
-ogham:OW14_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW14_activity prov:endedAtTime '2021-05-11T14:47:50.613487Z'^^xsd:dateTime .
+ogham:OW14_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW14_activity prov:endedAtTime '2021-05-16T12:38:30.383102Z'^^xsd:dateTime .
 ogham:OW14_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW15 rdf:type oghamonto:Word .
@@ -480,8 +480,8 @@ ogham:OW15 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW15 prov:wasGeneratedBy ogham:OW15_activity .
 ogham:OW15_activity rdf:type prov:Activity .
-ogham:OW15_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW15_activity prov:endedAtTime '2021-05-11T14:47:50.613487Z'^^xsd:dateTime .
+ogham:OW15_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW15_activity prov:endedAtTime '2021-05-16T12:38:30.383102Z'^^xsd:dateTime .
 ogham:OW15_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW16 rdf:type oghamonto:Word .
@@ -509,8 +509,8 @@ ogham:OW16 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW16 prov:wasGeneratedBy ogham:OW16_activity .
 ogham:OW16_activity rdf:type prov:Activity .
-ogham:OW16_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW16_activity prov:endedAtTime '2021-05-11T14:47:50.613487Z'^^xsd:dateTime .
+ogham:OW16_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW16_activity prov:endedAtTime '2021-05-16T12:38:30.384100Z'^^xsd:dateTime .
 ogham:OW16_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW17 rdf:type oghamonto:Word .
@@ -536,8 +536,8 @@ ogham:OW17 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW17 prov:wasGeneratedBy ogham:OW17_activity .
 ogham:OW17_activity rdf:type prov:Activity .
-ogham:OW17_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW17_activity prov:endedAtTime '2021-05-11T14:47:50.614486Z'^^xsd:dateTime .
+ogham:OW17_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW17_activity prov:endedAtTime '2021-05-16T12:38:30.385098Z'^^xsd:dateTime .
 ogham:OW17_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW18 rdf:type oghamonto:Word .
@@ -565,8 +565,8 @@ ogham:OW18 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW18 prov:wasGeneratedBy ogham:OW18_activity .
 ogham:OW18_activity rdf:type prov:Activity .
-ogham:OW18_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW18_activity prov:endedAtTime '2021-05-11T14:47:50.614486Z'^^xsd:dateTime .
+ogham:OW18_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW18_activity prov:endedAtTime '2021-05-16T12:38:30.385098Z'^^xsd:dateTime .
 ogham:OW18_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW19 rdf:type oghamonto:Word .
@@ -596,8 +596,8 @@ ogham:OW19 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW19 prov:wasGeneratedBy ogham:OW19_activity .
 ogham:OW19_activity rdf:type prov:Activity .
-ogham:OW19_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW19_activity prov:endedAtTime '2021-05-11T14:47:50.615482Z'^^xsd:dateTime .
+ogham:OW19_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW19_activity prov:endedAtTime '2021-05-16T12:38:30.388091Z'^^xsd:dateTime .
 ogham:OW19_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW20 rdf:type oghamonto:Word .
@@ -623,8 +623,8 @@ ogham:OW20 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW20 prov:wasGeneratedBy ogham:OW20_activity .
 ogham:OW20_activity rdf:type prov:Activity .
-ogham:OW20_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW20_activity prov:endedAtTime '2021-05-11T14:47:50.616479Z'^^xsd:dateTime .
+ogham:OW20_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW20_activity prov:endedAtTime '2021-05-16T12:38:30.390086Z'^^xsd:dateTime .
 ogham:OW20_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW21 rdf:type oghamonto:Word .
@@ -656,8 +656,8 @@ ogham:OW21 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW21 prov:wasGeneratedBy ogham:OW21_activity .
 ogham:OW21_activity rdf:type prov:Activity .
-ogham:OW21_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW21_activity prov:endedAtTime '2021-05-11T14:47:50.617477Z'^^xsd:dateTime .
+ogham:OW21_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW21_activity prov:endedAtTime '2021-05-16T12:38:30.391610Z'^^xsd:dateTime .
 ogham:OW21_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW22 rdf:type oghamonto:Word .
@@ -685,8 +685,8 @@ ogham:OW22 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW22 prov:wasGeneratedBy ogham:OW22_activity .
 ogham:OW22_activity rdf:type prov:Activity .
-ogham:OW22_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW22_activity prov:endedAtTime '2021-05-11T14:47:50.618490Z'^^xsd:dateTime .
+ogham:OW22_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW22_activity prov:endedAtTime '2021-05-16T12:38:30.393119Z'^^xsd:dateTime .
 ogham:OW22_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW23 rdf:type oghamonto:Word .
@@ -714,8 +714,8 @@ ogham:OW23 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW23 prov:wasGeneratedBy ogham:OW23_activity .
 ogham:OW23_activity rdf:type prov:Activity .
-ogham:OW23_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW23_activity prov:endedAtTime '2021-05-11T14:47:50.619472Z'^^xsd:dateTime .
+ogham:OW23_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW23_activity prov:endedAtTime '2021-05-16T12:38:30.393119Z'^^xsd:dateTime .
 ogham:OW23_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW24 rdf:type oghamonto:Word .
@@ -740,8 +740,8 @@ ogham:OW24 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW24 prov:wasGeneratedBy ogham:OW24_activity .
 ogham:OW24_activity rdf:type prov:Activity .
-ogham:OW24_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW24_activity prov:endedAtTime '2021-05-11T14:47:50.619472Z'^^xsd:dateTime .
+ogham:OW24_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW24_activity prov:endedAtTime '2021-05-16T12:38:30.394114Z'^^xsd:dateTime .
 ogham:OW24_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW25 rdf:type oghamonto:Word .
@@ -766,8 +766,8 @@ ogham:OW25 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW25 prov:wasGeneratedBy ogham:OW25_activity .
 ogham:OW25_activity rdf:type prov:Activity .
-ogham:OW25_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW25_activity prov:endedAtTime '2021-05-11T14:47:50.620469Z'^^xsd:dateTime .
+ogham:OW25_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW25_activity prov:endedAtTime '2021-05-16T12:38:30.395111Z'^^xsd:dateTime .
 ogham:OW25_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW26 rdf:type oghamonto:Word .
@@ -792,8 +792,8 @@ ogham:OW26 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW26 prov:wasGeneratedBy ogham:OW26_activity .
 ogham:OW26_activity rdf:type prov:Activity .
-ogham:OW26_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW26_activity prov:endedAtTime '2021-05-11T14:47:50.620469Z'^^xsd:dateTime .
+ogham:OW26_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW26_activity prov:endedAtTime '2021-05-16T12:38:30.395111Z'^^xsd:dateTime .
 ogham:OW26_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW27 rdf:type oghamonto:Word .
@@ -818,8 +818,8 @@ ogham:OW27 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW27 prov:wasGeneratedBy ogham:OW27_activity .
 ogham:OW27_activity rdf:type prov:Activity .
-ogham:OW27_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW27_activity prov:endedAtTime '2021-05-11T14:47:50.621466Z'^^xsd:dateTime .
+ogham:OW27_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW27_activity prov:endedAtTime '2021-05-16T12:38:30.396109Z'^^xsd:dateTime .
 ogham:OW27_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW28 rdf:type oghamonto:Word .
@@ -846,8 +846,8 @@ ogham:OW28 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW28 prov:wasGeneratedBy ogham:OW28_activity .
 ogham:OW28_activity rdf:type prov:Activity .
-ogham:OW28_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW28_activity prov:endedAtTime '2021-05-11T14:47:50.621466Z'^^xsd:dateTime .
+ogham:OW28_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW28_activity prov:endedAtTime '2021-05-16T12:38:30.397106Z'^^xsd:dateTime .
 ogham:OW28_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW29 rdf:type oghamonto:Word .
@@ -872,8 +872,8 @@ ogham:OW29 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW29 prov:wasGeneratedBy ogham:OW29_activity .
 ogham:OW29_activity rdf:type prov:Activity .
-ogham:OW29_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW29_activity prov:endedAtTime '2021-05-11T14:47:50.622463Z'^^xsd:dateTime .
+ogham:OW29_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW29_activity prov:endedAtTime '2021-05-16T12:38:30.397106Z'^^xsd:dateTime .
 ogham:OW29_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW30 rdf:type oghamonto:Word .
@@ -898,8 +898,8 @@ ogham:OW30 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW30 prov:wasGeneratedBy ogham:OW30_activity .
 ogham:OW30_activity rdf:type prov:Activity .
-ogham:OW30_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW30_activity prov:endedAtTime '2021-05-11T14:47:50.623461Z'^^xsd:dateTime .
+ogham:OW30_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW30_activity prov:endedAtTime '2021-05-16T12:38:30.398104Z'^^xsd:dateTime .
 ogham:OW30_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW31 rdf:type oghamonto:Word .
@@ -924,8 +924,8 @@ ogham:OW31 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW31 prov:wasGeneratedBy ogham:OW31_activity .
 ogham:OW31_activity rdf:type prov:Activity .
-ogham:OW31_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW31_activity prov:endedAtTime '2021-05-11T14:47:50.624460Z'^^xsd:dateTime .
+ogham:OW31_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW31_activity prov:endedAtTime '2021-05-16T12:38:30.399103Z'^^xsd:dateTime .
 ogham:OW31_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW32 rdf:type oghamonto:Word .
@@ -950,8 +950,8 @@ ogham:OW32 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW32 prov:wasGeneratedBy ogham:OW32_activity .
 ogham:OW32_activity rdf:type prov:Activity .
-ogham:OW32_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW32_activity prov:endedAtTime '2021-05-11T14:47:50.624460Z'^^xsd:dateTime .
+ogham:OW32_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW32_activity prov:endedAtTime '2021-05-16T12:38:30.400098Z'^^xsd:dateTime .
 ogham:OW32_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW33 rdf:type oghamonto:Word .
@@ -976,8 +976,8 @@ ogham:OW33 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW33 prov:wasGeneratedBy ogham:OW33_activity .
 ogham:OW33_activity rdf:type prov:Activity .
-ogham:OW33_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW33_activity prov:endedAtTime '2021-05-11T14:47:50.626454Z'^^xsd:dateTime .
+ogham:OW33_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW33_activity prov:endedAtTime '2021-05-16T12:38:30.400098Z'^^xsd:dateTime .
 ogham:OW33_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW34 rdf:type oghamonto:Word .
@@ -1002,8 +1002,8 @@ ogham:OW34 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW34 prov:wasGeneratedBy ogham:OW34_activity .
 ogham:OW34_activity rdf:type prov:Activity .
-ogham:OW34_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW34_activity prov:endedAtTime '2021-05-11T14:47:50.626454Z'^^xsd:dateTime .
+ogham:OW34_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW34_activity prov:endedAtTime '2021-05-16T12:38:30.401096Z'^^xsd:dateTime .
 ogham:OW34_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW35 rdf:type oghamonto:Word .
@@ -1028,8 +1028,8 @@ ogham:OW35 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW35 prov:wasGeneratedBy ogham:OW35_activity .
 ogham:OW35_activity rdf:type prov:Activity .
-ogham:OW35_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW35_activity prov:endedAtTime '2021-05-11T14:47:50.626454Z'^^xsd:dateTime .
+ogham:OW35_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW35_activity prov:endedAtTime '2021-05-16T12:38:30.401622Z'^^xsd:dateTime .
 ogham:OW35_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW36 rdf:type oghamonto:Word .
@@ -1054,8 +1054,8 @@ ogham:OW36 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW36 prov:wasGeneratedBy ogham:OW36_activity .
 ogham:OW36_activity rdf:type prov:Activity .
-ogham:OW36_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW36_activity prov:endedAtTime '2021-05-11T14:47:50.627451Z'^^xsd:dateTime .
+ogham:OW36_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW36_activity prov:endedAtTime '2021-05-16T12:38:30.402146Z'^^xsd:dateTime .
 ogham:OW36_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW37 rdf:type oghamonto:Word .
@@ -1080,8 +1080,8 @@ ogham:OW37 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW37 prov:wasGeneratedBy ogham:OW37_activity .
 ogham:OW37_activity rdf:type prov:Activity .
-ogham:OW37_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW37_activity prov:endedAtTime '2021-05-11T14:47:50.627451Z'^^xsd:dateTime .
+ogham:OW37_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW37_activity prov:endedAtTime '2021-05-16T12:38:30.406122Z'^^xsd:dateTime .
 ogham:OW37_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW38 rdf:type oghamonto:Word .
@@ -1108,8 +1108,8 @@ ogham:OW38 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW38 prov:wasGeneratedBy ogham:OW38_activity .
 ogham:OW38_activity rdf:type prov:Activity .
-ogham:OW38_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW38_activity prov:endedAtTime '2021-05-11T14:47:50.627451Z'^^xsd:dateTime .
+ogham:OW38_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW38_activity prov:endedAtTime '2021-05-16T12:38:30.407120Z'^^xsd:dateTime .
 ogham:OW38_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW39 rdf:type oghamonto:Word .
@@ -1134,8 +1134,8 @@ ogham:OW39 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW39 prov:wasGeneratedBy ogham:OW39_activity .
 ogham:OW39_activity rdf:type prov:Activity .
-ogham:OW39_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW39_activity prov:endedAtTime '2021-05-11T14:47:50.628448Z'^^xsd:dateTime .
+ogham:OW39_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW39_activity prov:endedAtTime '2021-05-16T12:38:30.407120Z'^^xsd:dateTime .
 ogham:OW39_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW40 rdf:type oghamonto:Word .
@@ -1160,8 +1160,8 @@ ogham:OW40 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW40 prov:wasGeneratedBy ogham:OW40_activity .
 ogham:OW40_activity rdf:type prov:Activity .
-ogham:OW40_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW40_activity prov:endedAtTime '2021-05-11T14:47:50.628448Z'^^xsd:dateTime .
+ogham:OW40_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW40_activity prov:endedAtTime '2021-05-16T12:38:30.408118Z'^^xsd:dateTime .
 ogham:OW40_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW41 rdf:type oghamonto:Word .
@@ -1186,8 +1186,8 @@ ogham:OW41 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW41 prov:wasGeneratedBy ogham:OW41_activity .
 ogham:OW41_activity rdf:type prov:Activity .
-ogham:OW41_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW41_activity prov:endedAtTime '2021-05-11T14:47:50.628448Z'^^xsd:dateTime .
+ogham:OW41_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW41_activity prov:endedAtTime '2021-05-16T12:38:30.409114Z'^^xsd:dateTime .
 ogham:OW41_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW42 rdf:type oghamonto:Word .
@@ -1214,8 +1214,8 @@ ogham:OW42 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW42 prov:wasGeneratedBy ogham:OW42_activity .
 ogham:OW42_activity rdf:type prov:Activity .
-ogham:OW42_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW42_activity prov:endedAtTime '2021-05-11T14:47:50.628448Z'^^xsd:dateTime .
+ogham:OW42_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW42_activity prov:endedAtTime '2021-05-16T12:38:30.410112Z'^^xsd:dateTime .
 ogham:OW42_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW43 rdf:type oghamonto:Word .
@@ -1242,8 +1242,8 @@ ogham:OW43 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW43 prov:wasGeneratedBy ogham:OW43_activity .
 ogham:OW43_activity rdf:type prov:Activity .
-ogham:OW43_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW43_activity prov:endedAtTime '2021-05-11T14:47:50.629445Z'^^xsd:dateTime .
+ogham:OW43_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW43_activity prov:endedAtTime '2021-05-16T12:38:30.411109Z'^^xsd:dateTime .
 ogham:OW43_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW44 rdf:type oghamonto:Word .
@@ -1268,8 +1268,8 @@ ogham:OW44 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW44 prov:wasGeneratedBy ogham:OW44_activity .
 ogham:OW44_activity rdf:type prov:Activity .
-ogham:OW44_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW44_activity prov:endedAtTime '2021-05-11T14:47:50.629445Z'^^xsd:dateTime .
+ogham:OW44_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW44_activity prov:endedAtTime '2021-05-16T12:38:30.411109Z'^^xsd:dateTime .
 ogham:OW44_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW45 rdf:type oghamonto:Word .
@@ -1294,8 +1294,8 @@ ogham:OW45 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW45 prov:wasGeneratedBy ogham:OW45_activity .
 ogham:OW45_activity rdf:type prov:Activity .
-ogham:OW45_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW45_activity prov:endedAtTime '2021-05-11T14:47:50.629445Z'^^xsd:dateTime .
+ogham:OW45_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW45_activity prov:endedAtTime '2021-05-16T12:38:30.412106Z'^^xsd:dateTime .
 ogham:OW45_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW46 rdf:type oghamonto:Word .
@@ -1320,8 +1320,8 @@ ogham:OW46 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW46 prov:wasGeneratedBy ogham:OW46_activity .
 ogham:OW46_activity rdf:type prov:Activity .
-ogham:OW46_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW46_activity prov:endedAtTime '2021-05-11T14:47:50.630443Z'^^xsd:dateTime .
+ogham:OW46_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW46_activity prov:endedAtTime '2021-05-16T12:38:30.412106Z'^^xsd:dateTime .
 ogham:OW46_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW47 rdf:type oghamonto:Word .
@@ -1346,8 +1346,8 @@ ogham:OW47 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW47 prov:wasGeneratedBy ogham:OW47_activity .
 ogham:OW47_activity rdf:type prov:Activity .
-ogham:OW47_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW47_activity prov:endedAtTime '2021-05-11T14:47:50.630443Z'^^xsd:dateTime .
+ogham:OW47_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW47_activity prov:endedAtTime '2021-05-16T12:38:30.413103Z'^^xsd:dateTime .
 ogham:OW47_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW48 rdf:type oghamonto:Word .
@@ -1374,8 +1374,8 @@ ogham:OW48 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW48 prov:wasGeneratedBy ogham:OW48_activity .
 ogham:OW48_activity rdf:type prov:Activity .
-ogham:OW48_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW48_activity prov:endedAtTime '2021-05-11T14:47:50.630443Z'^^xsd:dateTime .
+ogham:OW48_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW48_activity prov:endedAtTime '2021-05-16T12:38:30.413103Z'^^xsd:dateTime .
 ogham:OW48_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW49 rdf:type oghamonto:Word .
@@ -1402,8 +1402,8 @@ ogham:OW49 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW49 prov:wasGeneratedBy ogham:OW49_activity .
 ogham:OW49_activity rdf:type prov:Activity .
-ogham:OW49_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW49_activity prov:endedAtTime '2021-05-11T14:47:50.630443Z'^^xsd:dateTime .
+ogham:OW49_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW49_activity prov:endedAtTime '2021-05-16T12:38:30.414101Z'^^xsd:dateTime .
 ogham:OW49_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW50 rdf:type oghamonto:Word .
@@ -1428,8 +1428,8 @@ ogham:OW50 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW50 prov:wasGeneratedBy ogham:OW50_activity .
 ogham:OW50_activity rdf:type prov:Activity .
-ogham:OW50_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW50_activity prov:endedAtTime '2021-05-11T14:47:50.630443Z'^^xsd:dateTime .
+ogham:OW50_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW50_activity prov:endedAtTime '2021-05-16T12:38:30.415098Z'^^xsd:dateTime .
 ogham:OW50_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW51 rdf:type oghamonto:Word .
@@ -1456,8 +1456,8 @@ ogham:OW51 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW51 prov:wasGeneratedBy ogham:OW51_activity .
 ogham:OW51_activity rdf:type prov:Activity .
-ogham:OW51_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW51_activity prov:endedAtTime '2021-05-11T14:47:50.631440Z'^^xsd:dateTime .
+ogham:OW51_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW51_activity prov:endedAtTime '2021-05-16T12:38:30.415098Z'^^xsd:dateTime .
 ogham:OW51_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW52 rdf:type oghamonto:Word .
@@ -1482,8 +1482,8 @@ ogham:OW52 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW52 prov:wasGeneratedBy ogham:OW52_activity .
 ogham:OW52_activity rdf:type prov:Activity .
-ogham:OW52_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW52_activity prov:endedAtTime '2021-05-11T14:47:50.631440Z'^^xsd:dateTime .
+ogham:OW52_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW52_activity prov:endedAtTime '2021-05-16T12:38:30.416094Z'^^xsd:dateTime .
 ogham:OW52_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW53 rdf:type oghamonto:Word .
@@ -1508,8 +1508,8 @@ ogham:OW53 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW53 prov:wasGeneratedBy ogham:OW53_activity .
 ogham:OW53_activity rdf:type prov:Activity .
-ogham:OW53_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW53_activity prov:endedAtTime '2021-05-11T14:47:50.631440Z'^^xsd:dateTime .
+ogham:OW53_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW53_activity prov:endedAtTime '2021-05-16T12:38:30.416094Z'^^xsd:dateTime .
 ogham:OW53_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW54 rdf:type oghamonto:Word .
@@ -1534,8 +1534,8 @@ ogham:OW54 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW54 prov:wasGeneratedBy ogham:OW54_activity .
 ogham:OW54_activity rdf:type prov:Activity .
-ogham:OW54_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW54_activity prov:endedAtTime '2021-05-11T14:47:50.632437Z'^^xsd:dateTime .
+ogham:OW54_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW54_activity prov:endedAtTime '2021-05-16T12:38:30.416094Z'^^xsd:dateTime .
 ogham:OW54_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW55 rdf:type oghamonto:Word .
@@ -1562,8 +1562,8 @@ ogham:OW55 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW55 prov:wasGeneratedBy ogham:OW55_activity .
 ogham:OW55_activity rdf:type prov:Activity .
-ogham:OW55_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW55_activity prov:endedAtTime '2021-05-11T14:47:50.632437Z'^^xsd:dateTime .
+ogham:OW55_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW55_activity prov:endedAtTime '2021-05-16T12:38:30.417092Z'^^xsd:dateTime .
 ogham:OW55_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW56 rdf:type oghamonto:Word .
@@ -1588,8 +1588,8 @@ ogham:OW56 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW56 prov:wasGeneratedBy ogham:OW56_activity .
 ogham:OW56_activity rdf:type prov:Activity .
-ogham:OW56_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW56_activity prov:endedAtTime '2021-05-11T14:47:50.632437Z'^^xsd:dateTime .
+ogham:OW56_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW56_activity prov:endedAtTime '2021-05-16T12:38:30.417092Z'^^xsd:dateTime .
 ogham:OW56_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW57 rdf:type oghamonto:Word .
@@ -1614,8 +1614,8 @@ ogham:OW57 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW57 prov:wasGeneratedBy ogham:OW57_activity .
 ogham:OW57_activity rdf:type prov:Activity .
-ogham:OW57_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW57_activity prov:endedAtTime '2021-05-11T14:47:50.632437Z'^^xsd:dateTime .
+ogham:OW57_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW57_activity prov:endedAtTime '2021-05-16T12:38:30.418089Z'^^xsd:dateTime .
 ogham:OW57_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW58 rdf:type oghamonto:Word .
@@ -1640,8 +1640,8 @@ ogham:OW58 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW58 prov:wasGeneratedBy ogham:OW58_activity .
 ogham:OW58_activity rdf:type prov:Activity .
-ogham:OW58_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW58_activity prov:endedAtTime '2021-05-11T14:47:50.633434Z'^^xsd:dateTime .
+ogham:OW58_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW58_activity prov:endedAtTime '2021-05-16T12:38:30.418089Z'^^xsd:dateTime .
 ogham:OW58_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW59 rdf:type oghamonto:Word .
@@ -1666,8 +1666,8 @@ ogham:OW59 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW59 prov:wasGeneratedBy ogham:OW59_activity .
 ogham:OW59_activity rdf:type prov:Activity .
-ogham:OW59_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW59_activity prov:endedAtTime '2021-05-11T14:47:50.634432Z'^^xsd:dateTime .
+ogham:OW59_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW59_activity prov:endedAtTime '2021-05-16T12:38:30.418089Z'^^xsd:dateTime .
 ogham:OW59_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW60 rdf:type oghamonto:Word .
@@ -1692,8 +1692,8 @@ ogham:OW60 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW60 prov:wasGeneratedBy ogham:OW60_activity .
 ogham:OW60_activity rdf:type prov:Activity .
-ogham:OW60_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW60_activity prov:endedAtTime '2021-05-11T14:47:50.635429Z'^^xsd:dateTime .
+ogham:OW60_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW60_activity prov:endedAtTime '2021-05-16T12:38:30.419086Z'^^xsd:dateTime .
 ogham:OW60_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW61 rdf:type oghamonto:Word .
@@ -1718,8 +1718,8 @@ ogham:OW61 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW61 prov:wasGeneratedBy ogham:OW61_activity .
 ogham:OW61_activity rdf:type prov:Activity .
-ogham:OW61_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW61_activity prov:endedAtTime '2021-05-11T14:47:50.636426Z'^^xsd:dateTime .
+ogham:OW61_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW61_activity prov:endedAtTime '2021-05-16T12:38:30.425115Z'^^xsd:dateTime .
 ogham:OW61_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW62 rdf:type oghamonto:Word .
@@ -1748,8 +1748,8 @@ ogham:OW62 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW62 prov:wasGeneratedBy ogham:OW62_activity .
 ogham:OW62_activity rdf:type prov:Activity .
-ogham:OW62_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW62_activity prov:endedAtTime '2021-05-11T14:47:50.636426Z'^^xsd:dateTime .
+ogham:OW62_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW62_activity prov:endedAtTime '2021-05-16T12:38:30.425115Z'^^xsd:dateTime .
 ogham:OW62_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW63 rdf:type oghamonto:Word .
@@ -1776,8 +1776,8 @@ ogham:OW63 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW63 prov:wasGeneratedBy ogham:OW63_activity .
 ogham:OW63_activity rdf:type prov:Activity .
-ogham:OW63_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW63_activity prov:endedAtTime '2021-05-11T14:47:50.636426Z'^^xsd:dateTime .
+ogham:OW63_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW63_activity prov:endedAtTime '2021-05-16T12:38:30.426105Z'^^xsd:dateTime .
 ogham:OW63_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW64 rdf:type oghamonto:Word .
@@ -1802,8 +1802,8 @@ ogham:OW64 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW64 prov:wasGeneratedBy ogham:OW64_activity .
 ogham:OW64_activity rdf:type prov:Activity .
-ogham:OW64_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW64_activity prov:endedAtTime '2021-05-11T14:47:50.636426Z'^^xsd:dateTime .
+ogham:OW64_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW64_activity prov:endedAtTime '2021-05-16T12:38:30.426105Z'^^xsd:dateTime .
 ogham:OW64_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW65 rdf:type oghamonto:Word .
@@ -1828,8 +1828,8 @@ ogham:OW65 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW65 prov:wasGeneratedBy ogham:OW65_activity .
 ogham:OW65_activity rdf:type prov:Activity .
-ogham:OW65_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW65_activity prov:endedAtTime '2021-05-11T14:47:50.637422Z'^^xsd:dateTime .
+ogham:OW65_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW65_activity prov:endedAtTime '2021-05-16T12:38:30.427102Z'^^xsd:dateTime .
 ogham:OW65_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW66 rdf:type oghamonto:Word .
@@ -1856,8 +1856,8 @@ ogham:OW66 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW66 prov:wasGeneratedBy ogham:OW66_activity .
 ogham:OW66_activity rdf:type prov:Activity .
-ogham:OW66_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW66_activity prov:endedAtTime '2021-05-11T14:47:50.637422Z'^^xsd:dateTime .
+ogham:OW66_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW66_activity prov:endedAtTime '2021-05-16T12:38:30.427102Z'^^xsd:dateTime .
 ogham:OW66_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW67 rdf:type oghamonto:Word .
@@ -1882,8 +1882,8 @@ ogham:OW67 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW67 prov:wasGeneratedBy ogham:OW67_activity .
 ogham:OW67_activity rdf:type prov:Activity .
-ogham:OW67_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW67_activity prov:endedAtTime '2021-05-11T14:47:50.637422Z'^^xsd:dateTime .
+ogham:OW67_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW67_activity prov:endedAtTime '2021-05-16T12:38:30.427102Z'^^xsd:dateTime .
 ogham:OW67_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW68 rdf:type oghamonto:Word .
@@ -1908,8 +1908,8 @@ ogham:OW68 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW68 prov:wasGeneratedBy ogham:OW68_activity .
 ogham:OW68_activity rdf:type prov:Activity .
-ogham:OW68_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW68_activity prov:endedAtTime '2021-05-11T14:47:50.638421Z'^^xsd:dateTime .
+ogham:OW68_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW68_activity prov:endedAtTime '2021-05-16T12:38:30.428099Z'^^xsd:dateTime .
 ogham:OW68_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW69 rdf:type oghamonto:Word .
@@ -1938,8 +1938,8 @@ ogham:OW69 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW69 prov:wasGeneratedBy ogham:OW69_activity .
 ogham:OW69_activity rdf:type prov:Activity .
-ogham:OW69_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW69_activity prov:endedAtTime '2021-05-11T14:47:50.638421Z'^^xsd:dateTime .
+ogham:OW69_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW69_activity prov:endedAtTime '2021-05-16T12:38:30.428099Z'^^xsd:dateTime .
 ogham:OW69_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW70 rdf:type oghamonto:Word .
@@ -1964,8 +1964,8 @@ ogham:OW70 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW70 prov:wasGeneratedBy ogham:OW70_activity .
 ogham:OW70_activity rdf:type prov:Activity .
-ogham:OW70_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW70_activity prov:endedAtTime '2021-05-11T14:47:50.638421Z'^^xsd:dateTime .
+ogham:OW70_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW70_activity prov:endedAtTime '2021-05-16T12:38:30.429096Z'^^xsd:dateTime .
 ogham:OW70_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW71 rdf:type oghamonto:Word .
@@ -1992,8 +1992,8 @@ ogham:OW71 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW71 prov:wasGeneratedBy ogham:OW71_activity .
 ogham:OW71_activity rdf:type prov:Activity .
-ogham:OW71_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW71_activity prov:endedAtTime '2021-05-11T14:47:50.638421Z'^^xsd:dateTime .
+ogham:OW71_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW71_activity prov:endedAtTime '2021-05-16T12:38:30.430095Z'^^xsd:dateTime .
 ogham:OW71_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW72 rdf:type oghamonto:Word .
@@ -2020,8 +2020,8 @@ ogham:OW72 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW72 prov:wasGeneratedBy ogham:OW72_activity .
 ogham:OW72_activity rdf:type prov:Activity .
-ogham:OW72_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW72_activity prov:endedAtTime '2021-05-11T14:47:50.639418Z'^^xsd:dateTime .
+ogham:OW72_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW72_activity prov:endedAtTime '2021-05-16T12:38:30.430095Z'^^xsd:dateTime .
 ogham:OW72_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW73 rdf:type oghamonto:Word .
@@ -2046,8 +2046,8 @@ ogham:OW73 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW73 prov:wasGeneratedBy ogham:OW73_activity .
 ogham:OW73_activity rdf:type prov:Activity .
-ogham:OW73_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW73_activity prov:endedAtTime '2021-05-11T14:47:50.639418Z'^^xsd:dateTime .
+ogham:OW73_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW73_activity prov:endedAtTime '2021-05-16T12:38:30.431091Z'^^xsd:dateTime .
 ogham:OW73_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW74 rdf:type oghamonto:Word .
@@ -2072,8 +2072,8 @@ ogham:OW74 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW74 prov:wasGeneratedBy ogham:OW74_activity .
 ogham:OW74_activity rdf:type prov:Activity .
-ogham:OW74_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW74_activity prov:endedAtTime '2021-05-11T14:47:50.639418Z'^^xsd:dateTime .
+ogham:OW74_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW74_activity prov:endedAtTime '2021-05-16T12:38:30.431091Z'^^xsd:dateTime .
 ogham:OW74_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW75 rdf:type oghamonto:Word .
@@ -2100,8 +2100,8 @@ ogham:OW75 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW75 prov:wasGeneratedBy ogham:OW75_activity .
 ogham:OW75_activity rdf:type prov:Activity .
-ogham:OW75_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW75_activity prov:endedAtTime '2021-05-11T14:47:50.640415Z'^^xsd:dateTime .
+ogham:OW75_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW75_activity prov:endedAtTime '2021-05-16T12:38:30.432127Z'^^xsd:dateTime .
 ogham:OW75_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW76 rdf:type oghamonto:Word .
@@ -2128,8 +2128,8 @@ ogham:OW76 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW76 prov:wasGeneratedBy ogham:OW76_activity .
 ogham:OW76_activity rdf:type prov:Activity .
-ogham:OW76_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW76_activity prov:endedAtTime '2021-05-11T14:47:50.640415Z'^^xsd:dateTime .
+ogham:OW76_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW76_activity prov:endedAtTime '2021-05-16T12:38:30.433117Z'^^xsd:dateTime .
 ogham:OW76_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW77 rdf:type oghamonto:Word .
@@ -2156,8 +2156,8 @@ ogham:OW77 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW77 prov:wasGeneratedBy ogham:OW77_activity .
 ogham:OW77_activity rdf:type prov:Activity .
-ogham:OW77_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW77_activity prov:endedAtTime '2021-05-11T14:47:50.641413Z'^^xsd:dateTime .
+ogham:OW77_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW77_activity prov:endedAtTime '2021-05-16T12:38:30.433117Z'^^xsd:dateTime .
 ogham:OW77_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW78 rdf:type oghamonto:Word .
@@ -2184,8 +2184,8 @@ ogham:OW78 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW78 prov:wasGeneratedBy ogham:OW78_activity .
 ogham:OW78_activity rdf:type prov:Activity .
-ogham:OW78_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW78_activity prov:endedAtTime '2021-05-11T14:47:50.641413Z'^^xsd:dateTime .
+ogham:OW78_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW78_activity prov:endedAtTime '2021-05-16T12:38:30.434114Z'^^xsd:dateTime .
 ogham:OW78_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW79 rdf:type oghamonto:Word .
@@ -2210,8 +2210,8 @@ ogham:OW79 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW79 prov:wasGeneratedBy ogham:OW79_activity .
 ogham:OW79_activity rdf:type prov:Activity .
-ogham:OW79_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW79_activity prov:endedAtTime '2021-05-11T14:47:50.641413Z'^^xsd:dateTime .
+ogham:OW79_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW79_activity prov:endedAtTime '2021-05-16T12:38:30.434114Z'^^xsd:dateTime .
 ogham:OW79_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW80 rdf:type oghamonto:Word .
@@ -2236,8 +2236,8 @@ ogham:OW80 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW80 prov:wasGeneratedBy ogham:OW80_activity .
 ogham:OW80_activity rdf:type prov:Activity .
-ogham:OW80_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW80_activity prov:endedAtTime '2021-05-11T14:47:50.641413Z'^^xsd:dateTime .
+ogham:OW80_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW80_activity prov:endedAtTime '2021-05-16T12:38:30.434114Z'^^xsd:dateTime .
 ogham:OW80_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW81 rdf:type oghamonto:Word .
@@ -2264,8 +2264,8 @@ ogham:OW81 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW81 prov:wasGeneratedBy ogham:OW81_activity .
 ogham:OW81_activity rdf:type prov:Activity .
-ogham:OW81_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW81_activity prov:endedAtTime '2021-05-11T14:47:50.642409Z'^^xsd:dateTime .
+ogham:OW81_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW81_activity prov:endedAtTime '2021-05-16T12:38:30.435112Z'^^xsd:dateTime .
 ogham:OW81_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW82 rdf:type oghamonto:Word .
@@ -2290,8 +2290,8 @@ ogham:OW82 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW82 prov:wasGeneratedBy ogham:OW82_activity .
 ogham:OW82_activity rdf:type prov:Activity .
-ogham:OW82_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW82_activity prov:endedAtTime '2021-05-11T14:47:50.642409Z'^^xsd:dateTime .
+ogham:OW82_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW82_activity prov:endedAtTime '2021-05-16T12:38:30.435112Z'^^xsd:dateTime .
 ogham:OW82_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW83 rdf:type oghamonto:Word .
@@ -2316,8 +2316,8 @@ ogham:OW83 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW83 prov:wasGeneratedBy ogham:OW83_activity .
 ogham:OW83_activity rdf:type prov:Activity .
-ogham:OW83_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW83_activity prov:endedAtTime '2021-05-11T14:47:50.642409Z'^^xsd:dateTime .
+ogham:OW83_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW83_activity prov:endedAtTime '2021-05-16T12:38:30.436108Z'^^xsd:dateTime .
 ogham:OW83_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW84 rdf:type oghamonto:Word .
@@ -2342,8 +2342,8 @@ ogham:OW84 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW84 prov:wasGeneratedBy ogham:OW84_activity .
 ogham:OW84_activity rdf:type prov:Activity .
-ogham:OW84_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW84_activity prov:endedAtTime '2021-05-11T14:47:50.643410Z'^^xsd:dateTime .
+ogham:OW84_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW84_activity prov:endedAtTime '2021-05-16T12:38:30.437107Z'^^xsd:dateTime .
 ogham:OW84_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW85 rdf:type oghamonto:Word .
@@ -2368,8 +2368,8 @@ ogham:OW85 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW85 prov:wasGeneratedBy ogham:OW85_activity .
 ogham:OW85_activity rdf:type prov:Activity .
-ogham:OW85_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW85_activity prov:endedAtTime '2021-05-11T14:47:50.643410Z'^^xsd:dateTime .
+ogham:OW85_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW85_activity prov:endedAtTime '2021-05-16T12:38:30.438103Z'^^xsd:dateTime .
 ogham:OW85_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW86 rdf:type oghamonto:Word .
@@ -2394,8 +2394,8 @@ ogham:OW86 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW86 prov:wasGeneratedBy ogham:OW86_activity .
 ogham:OW86_activity rdf:type prov:Activity .
-ogham:OW86_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW86_activity prov:endedAtTime '2021-05-11T14:47:50.643410Z'^^xsd:dateTime .
+ogham:OW86_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW86_activity prov:endedAtTime '2021-05-16T12:38:30.439100Z'^^xsd:dateTime .
 ogham:OW86_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW87 rdf:type oghamonto:Word .
@@ -2420,8 +2420,8 @@ ogham:OW87 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW87 prov:wasGeneratedBy ogham:OW87_activity .
 ogham:OW87_activity rdf:type prov:Activity .
-ogham:OW87_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW87_activity prov:endedAtTime '2021-05-11T14:47:50.643410Z'^^xsd:dateTime .
+ogham:OW87_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW87_activity prov:endedAtTime '2021-05-16T12:38:30.439100Z'^^xsd:dateTime .
 ogham:OW87_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW88 rdf:type oghamonto:Word .
@@ -2446,8 +2446,8 @@ ogham:OW88 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW88 prov:wasGeneratedBy ogham:OW88_activity .
 ogham:OW88_activity rdf:type prov:Activity .
-ogham:OW88_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW88_activity prov:endedAtTime '2021-05-11T14:47:50.644404Z'^^xsd:dateTime .
+ogham:OW88_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW88_activity prov:endedAtTime '2021-05-16T12:38:30.440097Z'^^xsd:dateTime .
 ogham:OW88_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW89 rdf:type oghamonto:Word .
@@ -2472,8 +2472,8 @@ ogham:OW89 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW89 prov:wasGeneratedBy ogham:OW89_activity .
 ogham:OW89_activity rdf:type prov:Activity .
-ogham:OW89_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW89_activity prov:endedAtTime '2021-05-11T14:47:50.644404Z'^^xsd:dateTime .
+ogham:OW89_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW89_activity prov:endedAtTime '2021-05-16T12:38:30.440097Z'^^xsd:dateTime .
 ogham:OW89_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW90 rdf:type oghamonto:Word .
@@ -2498,8 +2498,8 @@ ogham:OW90 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW90 prov:wasGeneratedBy ogham:OW90_activity .
 ogham:OW90_activity rdf:type prov:Activity .
-ogham:OW90_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW90_activity prov:endedAtTime '2021-05-11T14:47:50.644404Z'^^xsd:dateTime .
+ogham:OW90_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW90_activity prov:endedAtTime '2021-05-16T12:38:30.441094Z'^^xsd:dateTime .
 ogham:OW90_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW91 rdf:type oghamonto:Word .
@@ -2524,8 +2524,8 @@ ogham:OW91 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW91 prov:wasGeneratedBy ogham:OW91_activity .
 ogham:OW91_activity rdf:type prov:Activity .
-ogham:OW91_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW91_activity prov:endedAtTime '2021-05-11T14:47:50.644404Z'^^xsd:dateTime .
+ogham:OW91_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW91_activity prov:endedAtTime '2021-05-16T12:38:30.441614Z'^^xsd:dateTime .
 ogham:OW91_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW92 rdf:type oghamonto:Word .
@@ -2550,8 +2550,8 @@ ogham:OW92 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW92 prov:wasGeneratedBy ogham:OW92_activity .
 ogham:OW92_activity rdf:type prov:Activity .
-ogham:OW92_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW92_activity prov:endedAtTime '2021-05-11T14:47:50.645400Z'^^xsd:dateTime .
+ogham:OW92_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW92_activity prov:endedAtTime '2021-05-16T12:38:30.442132Z'^^xsd:dateTime .
 ogham:OW92_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW93 rdf:type oghamonto:Word .
@@ -2578,8 +2578,8 @@ ogham:OW93 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW93 prov:wasGeneratedBy ogham:OW93_activity .
 ogham:OW93_activity rdf:type prov:Activity .
-ogham:OW93_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW93_activity prov:endedAtTime '2021-05-11T14:47:50.645400Z'^^xsd:dateTime .
+ogham:OW93_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW93_activity prov:endedAtTime '2021-05-16T12:38:30.442132Z'^^xsd:dateTime .
 ogham:OW93_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW94 rdf:type oghamonto:Word .
@@ -2604,8 +2604,8 @@ ogham:OW94 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW94 prov:wasGeneratedBy ogham:OW94_activity .
 ogham:OW94_activity rdf:type prov:Activity .
-ogham:OW94_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW94_activity prov:endedAtTime '2021-05-11T14:47:50.646398Z'^^xsd:dateTime .
+ogham:OW94_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW94_activity prov:endedAtTime '2021-05-16T12:38:30.443120Z'^^xsd:dateTime .
 ogham:OW94_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW95 rdf:type oghamonto:Word .
@@ -2632,8 +2632,8 @@ ogham:OW95 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW95 prov:wasGeneratedBy ogham:OW95_activity .
 ogham:OW95_activity rdf:type prov:Activity .
-ogham:OW95_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW95_activity prov:endedAtTime '2021-05-11T14:47:50.647398Z'^^xsd:dateTime .
+ogham:OW95_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW95_activity prov:endedAtTime '2021-05-16T12:38:30.443120Z'^^xsd:dateTime .
 ogham:OW95_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW96 rdf:type oghamonto:Word .
@@ -2658,8 +2658,8 @@ ogham:OW96 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW96 prov:wasGeneratedBy ogham:OW96_activity .
 ogham:OW96_activity rdf:type prov:Activity .
-ogham:OW96_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW96_activity prov:endedAtTime '2021-05-11T14:47:50.647398Z'^^xsd:dateTime .
+ogham:OW96_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW96_activity prov:endedAtTime '2021-05-16T12:38:30.443120Z'^^xsd:dateTime .
 ogham:OW96_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW97 rdf:type oghamonto:Word .
@@ -2684,8 +2684,8 @@ ogham:OW97 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW97 prov:wasGeneratedBy ogham:OW97_activity .
 ogham:OW97_activity rdf:type prov:Activity .
-ogham:OW97_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW97_activity prov:endedAtTime '2021-05-11T14:47:50.648395Z'^^xsd:dateTime .
+ogham:OW97_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW97_activity prov:endedAtTime '2021-05-16T12:38:30.445115Z'^^xsd:dateTime .
 ogham:OW97_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW98 rdf:type oghamonto:Word .
@@ -2710,8 +2710,8 @@ ogham:OW98 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW98 prov:wasGeneratedBy ogham:OW98_activity .
 ogham:OW98_activity rdf:type prov:Activity .
-ogham:OW98_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW98_activity prov:endedAtTime '2021-05-11T14:47:50.649393Z'^^xsd:dateTime .
+ogham:OW98_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW98_activity prov:endedAtTime '2021-05-16T12:38:30.445115Z'^^xsd:dateTime .
 ogham:OW98_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW99 rdf:type oghamonto:Word .
@@ -2736,8 +2736,8 @@ ogham:OW99 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/m
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW99 prov:wasGeneratedBy ogham:OW99_activity .
 ogham:OW99_activity rdf:type prov:Activity .
-ogham:OW99_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW99_activity prov:endedAtTime '2021-05-11T14:47:50.649393Z'^^xsd:dateTime .
+ogham:OW99_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW99_activity prov:endedAtTime '2021-05-16T12:38:30.446111Z'^^xsd:dateTime .
 ogham:OW99_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW100 rdf:type oghamonto:Word .
@@ -2762,8 +2762,8 @@ ogham:OW100 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW100 prov:wasGeneratedBy ogham:OW100_activity .
 ogham:OW100_activity rdf:type prov:Activity .
-ogham:OW100_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW100_activity prov:endedAtTime '2021-05-11T14:47:50.651386Z'^^xsd:dateTime .
+ogham:OW100_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW100_activity prov:endedAtTime '2021-05-16T12:38:30.446111Z'^^xsd:dateTime .
 ogham:OW100_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW101 rdf:type oghamonto:Word .
@@ -2790,8 +2790,8 @@ ogham:OW101 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW101 prov:wasGeneratedBy ogham:OW101_activity .
 ogham:OW101_activity rdf:type prov:Activity .
-ogham:OW101_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW101_activity prov:endedAtTime '2021-05-11T14:47:50.651386Z'^^xsd:dateTime .
+ogham:OW101_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW101_activity prov:endedAtTime '2021-05-16T12:38:30.447108Z'^^xsd:dateTime .
 ogham:OW101_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW102 rdf:type oghamonto:Word .
@@ -2816,8 +2816,8 @@ ogham:OW102 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW102 prov:wasGeneratedBy ogham:OW102_activity .
 ogham:OW102_activity rdf:type prov:Activity .
-ogham:OW102_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW102_activity prov:endedAtTime '2021-05-11T14:47:50.652383Z'^^xsd:dateTime .
+ogham:OW102_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW102_activity prov:endedAtTime '2021-05-16T12:38:30.447108Z'^^xsd:dateTime .
 ogham:OW102_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW103 rdf:type oghamonto:Word .
@@ -2842,8 +2842,8 @@ ogham:OW103 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW103 prov:wasGeneratedBy ogham:OW103_activity .
 ogham:OW103_activity rdf:type prov:Activity .
-ogham:OW103_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW103_activity prov:endedAtTime '2021-05-11T14:47:50.653385Z'^^xsd:dateTime .
+ogham:OW103_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW103_activity prov:endedAtTime '2021-05-16T12:38:30.448108Z'^^xsd:dateTime .
 ogham:OW103_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 
 ogham:OW104 rdf:type oghamonto:Word .
@@ -2872,7 +2872,7 @@ ogham:OW104 prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/
 <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> prov:wasAttributedTo wd:Q106729180 .
 ogham:OW104 prov:wasGeneratedBy ogham:OW104_activity .
 ogham:OW104_activity rdf:type prov:Activity .
-ogham:OW104_activity prov:startedAtTime '2021-05-11T14:47:50.580580Z'^^xsd:dateTime .
-ogham:OW104_activity prov:endedAtTime '2021-05-11T14:47:50.654379Z'^^xsd:dateTime .
+ogham:OW104_activity prov:startedAtTime '2021-05-16T12:38:30.340075Z'^^xsd:dateTime .
+ogham:OW104_activity prov:endedAtTime '2021-05-16T12:38:30.449103Z'^^xsd:dateTime .
 ogham:OW104_activity prov:wasAssociatedWith ogham:PythonStonesCIIC .
 

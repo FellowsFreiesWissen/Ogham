@@ -1,5 +1,5 @@
 # create triples from ct_stone_site.csv 
-# on 2021-05-11 14:48
+# on 2021-05-16 12:39
 
 @prefix oghamonto: <http://ontology.ogham.link/> .
 @prefix ogham: <http://lod.ogham.link/data/> .
