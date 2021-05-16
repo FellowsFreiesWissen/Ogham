@@ -14,6 +14,7 @@
      xmlns:prov="http://www.w3.org/ns/prov#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:crmtex="http://www.cidoc-crm.org/cidoc-crm/crmtex/"
      xmlns:dcmitype="http://purl.org/dc/dcmitype/"
      xmlns:geonames="http://sws.geonames.org/"
      xmlns:ontology="http://ontology.ogham.link/"
@@ -26,9 +27,10 @@
         <dc:publisher>Florian Thiery</dc:publisher>
         <dc:rights>CC BY 4.0</dc:rights>
         <dc:subject>ogham</dc:subject>
+        <dc:title xml:lang="en">Ogham Ontology</dc:title>
         <rdfs:label xml:lang="en">Ogham Ontology</rdfs:label>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
-        <owl:versionInfo>13/05/2021</owl:versionInfo>
+        <owl:versionInfo>16/05/2021</owl:versionInfo>
         <skos:definition xml:lang="en">This ontology contains classes to describe data from Linked Ogham Data.</skos:definition>
     </owl:Ontology>
     
@@ -96,6 +98,12 @@
     <!-- http://purl.org/dc/elements/1.1/subject -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
     
 
 
@@ -439,6 +447,15 @@
         <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <rdfs:range rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
         <rdfs:label xml:lang="en">st_within()</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/crmtex/TXP7_has_item -->
+
+    <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/crmtex/TXP7_has_item">
+        <rdfs:comment xml:lang="en">This property is used to state the (conceptual) belonging of a TX8 Grapheme to a given TX3 Writing System.</rdfs:comment>
+        <rdfs:label xml:lang="en">TXP7 has item</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1032,15 +1049,6 @@
     
 
 
-    <!-- http://ontology.ogham.link/CISP -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/CISP">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Repository"/>
-        <rdfs:label xml:lang="en">Celtic Inscribed Stones Project (CISP)</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://ontology.ogham.link/CivilParish -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/CivilParish">
@@ -1098,7 +1106,7 @@
     <!-- http://ontology.ogham.link/Inscription -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/Inscription">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX1_Written_Text"/>
         <rdfs:label xml:lang="en">Inscription</rdfs:label>
     </owl:Class>
     
@@ -1136,15 +1144,6 @@
     <owl:Class rdf:about="http://ontology.ogham.link/OghamCollection">
         <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/InformationCarrier"/>
         <rdfs:label xml:lang="en">Ogham Collection</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/OghamIn3D -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/OghamIn3D">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Repository"/>
-        <rdfs:label xml:lang="en">Ogham in 3D Project</rdfs:label>
     </owl:Class>
     
 
@@ -1260,7 +1259,7 @@
     <!-- http://ontology.ogham.link/Reading -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/Reading">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Inscription"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX6_Transcription"/>
         <rdfs:label xml:lang="en">Reading</rdfs:label>
     </owl:Class>
     
@@ -1302,15 +1301,6 @@
     
 
 
-    <!-- http://ontology.ogham.link/SquirrelOgham -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/SquirrelOgham">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Repository"/>
-        <rdfs:label xml:lang="en">Ogham Squirrel Project</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://ontology.ogham.link/State -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/State">
@@ -1343,176 +1333,6 @@
     <owl:Class rdf:about="http://ontology.ogham.link/Word">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
         <rdfs:label xml:lang="en">Word</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/brash_1879 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/brash_1879">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Brash, R. R. (1879) The Ogam Inscribed Monuments of the Gaedhil in the British Isles. London.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Brash (1879)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/brikil_1993 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/brikil_1993">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Brindley, A, Kilfeather, A. (1993), An Archaeological Inventory of County Carlow, Dublin: Stationery Office.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Brindley / Kilfeather (1993)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/cuppage_1986 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/cuppage_1986">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Cuppage, J. et al (1986) Archaeological Survey of the Dingle Peninsula. Ballyferrier: Oidrheacht Chorca Dhuibhne.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Cuppage (1986)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/ferguson_1887 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/ferguson_1887">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Ferguson, S. (1887) Ogham Inscriptions in Ireland, Wales and Scotland: Edinburgh.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Ferguson (1887)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/macalister_1897 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/macalister_1897">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1897) Studies in Irish Epigraphy. A Collection of Revised Readings of the Ancient Inscriptions of Ireland, with Introduction and Notes. Part I. London: David Nutt.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Macalister (1897)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/macalister_1902 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/macalister_1902">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1902) Studies in Irish Epigraphy. A Collection of Revised Readings of the Ancient Inscriptions of Ireland, with Introduction and Notes. Part II. London: David Nutt.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Macalister (1902)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/macalister_1907 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/macalister_1907">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1907) Studies in Irish Epigraphy. A Collection of Revised Readings of the Ancient Inscriptions of Ireland, with Introduction and Notes Part III. London: David Nutt.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Macalister (1907)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/macalister_1909 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/macalister_1909">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Macalister, R.A.S. (1909) The Memorial Slabs of Clonmacnois, King&apos;s County. Dublin.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Macalister (1909)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/macalister_1945 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/macalister_1945">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1945) Corpus Inscriptionum Insularum Celticarum Vol. I. Dublin: Stationery Office.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Macalister (1945)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/macalister_1949 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/macalister_1949">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1949) Corpus Inscriptionum Insularum Celticarum Vol. II. Dublin: Stationery Office.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Macalister (1949)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/mcmanus_1991 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/mcmanus_1991">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">McManus, D. (1991) A Guide to Ogam Maynooth Monographs 4. Maynooth: An Sagart.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">McManus (1991)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/okasha_forsyth_2001 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/okasha_forsyth_2001">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Okasha, E. and Forsyth, K. (2001) Early Christian Inscriptions of Munster. A Corpus of the Inscribed Stones. Cork: Cork University Press.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Okasha / Forsyth (2001)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/osullivan_1996 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/osullivan_1996">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">O&apos;Sullivan, A., Sheehan, J. (1996) The Iveragh Peninsula. An Archaeological Survey of South Kerry. Cork: Cork University Press.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">O&apos;Sullivan (1996)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/petrie_1872 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/petrie_1872">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Petrie, G. (1872) Christian Inscriptions in the Irish Language, M. Stokes (ed.), Vol. 1. Dublin: Royal Historical and Archaeological Association.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Petrie (1872)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/power_1992 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/power_1992">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Power, D, E. Byrne, U. Egan, S. Lane and M.Sleeman (1992) Archaeological Inventory of County Cork Volume 1: West Cork. Dublin: Stationery Office.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Power / Byrne / Egan / Lane / Sleeman (1992)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/power_1997 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/power_1997">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Power, D., E. Byrne, U. Egan, S. Lane and M.Sleeman (1997) Archaeological Inventory of County Cork Volume 3: Mid Cork. Dublin: Stationery Office.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Power / Byrne / Egan / Lane / Sleeman (1997)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/raftery_1960 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/raftery_1960">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Raftery, B. (1960) `National Museum of Ireland, Arch. acquisitions 1958&apos; Journal of the Royal Society of Antiquaries of Ireland 90: 1--40.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Raftery (1960)</rdfs:label>
     </owl:Class>
     
 
@@ -1649,6 +1469,66 @@
     
 
 
+    <!-- http://www.cidoc-crm.org/cidoc-crm/crmtex/TX1_Written_Text -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX1_Written_Text">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature"/>
+        <rdfs:comment xml:lang="en">This class comprises visible set of symbols (glyphs or graphs) intentionally traced (i.e. “written”) on some kind of physical support by using specific techniques and having semiotic significance and the purpose of conveying a message towards a given addressee or group of addressees.</rdfs:comment>
+        <rdfs:label xml:lang="en">TX1 Written Text</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/crmtex/TX3_Writing_System -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX3_Writing_System">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+        <rdfs:comment xml:lang="en">Subclass of E29 Design or Procedure refers to a conventional system consisting of a set of signs (graphemes, TX8) used to codify a natural language, by means of specific rules in the combination and phonological value assignment of the chosen graphemes. As each code, a writing systems requires shared understanding between writers and readers allowing the transmission of the message. It is used to produce a TX1 Written Text during a TX2 Writing event.</rdfs:comment>
+        <rdfs:label xml:lang="en">TX3 Writing System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/crmtex/TX5_Reading -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX5_Reading">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX7_Written_Text_Segment"/>
+        <rdfs:comment xml:lang="en">Subclass of the S4 Observation, referring to the semiotic procedure of decoding (and therefore understanding) a written text. This procedure can be carried out for scientific purposes, in order to analyse and study the text according to different disciplinary perspectives. The reading activity, thus, is intended as a specific observation (S4) in which the decoding of the signs is performed, i.e. the linguistic value is recognised and the message is understood. Cases in which decoding does not happen (e.g., the observer is able to describe the signs but not to assign a specific linguist value to them), the S4 class could be used as it is. For study purposes, the reading procedure requires a scientific autoptic examination of the text as preparatory action for the study. An autoptic examination consists of an accurate analysis of the surface and the signs and prescribes the use of specific tools and procedures, for establishing as faithfully as possible the exact value of each sign drawn on the physical feature.</rdfs:comment>
+        <rdfs:label xml:lang="en">TX5 Reading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/crmtex/TX6_Transcription -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX6_Transcription">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX5_Reading"/>
+        <rdfs:comment xml:lang="en">Subclass of E7 Activity, referring to the activity of re-writing the text conducted by an editor. This operation could involve a writing system (TX3) different from that of the original text, implying a transposition of the sounds of a language from a writing system to another one (e.g., Latin letters to render a Mycenaean text). For scientific purposes, this operation often consists in a ‘transliteration’, because it implies a 1:1 relation between the signs of the two writing systems. The P16 used specific object (was used for) property can be used to specify the role of the original graphemes during the commuting operations.</rdfs:comment>
+        <rdfs:label xml:lang="en">TX6 Transcription</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/crmtex/TX7_Written_Text_Segment -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX7_Written_Text_Segment">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Inscription"/>
+        <rdfs:comment xml:lang="en">Subclass of TX1 Written Text intended to identify portions of text considered to be of particular significance by scholars, as witnesses of a certain meaning or bearers of a particular phenomenon relevant to the investigation, study and understanding of the ancient text. Examples of such text portions are: columns, fragments, sections, paragraphs, as well as single words or letters, or other components of the written text. To each of these entities can be associated a single production event (TX2) or destruction event (E6), as in the case of letters or words damaged or worn by atmospheric agents or human interventions, as well as specific conditions (E3) for documenting its status during the observation process (S4). The relationship between a written text (TX1) and its components is documented through the TXP4 has segment property.</rdfs:comment>
+        <rdfs:label xml:lang="en">TX7 Written Text Segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/crmtex/TX8_Grapheme -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX8_Grapheme">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+        <rdfs:comment xml:lang="en">Subclass of E90 Symbolic Object used to represent the abstract units with distinctive value in a given writing system. A grapheme is a character or sequence of characters that functions as a distinct unit within an orthography. It may be a single character, a multigraph, or a diacritic, but in all cases graphemes are defined in relation to the particular orthography. Most graphemes represent a single phoneme, but some represent a sequence of phonemes. For instance, the character sequence ‹ch› is often used to represent the phoneme /tʃ/ in English, while the single letter ‹x› usually represents the phoneme sequence /ks/. In a highly phonemic writing system, there is a close correspondence between graphemes and phonemes. English (written with Latin script) is an example of a writing system that is not highly phonemic, and therefore the mappings between graphemes and phonemes are more complex. Graphemes are often written enclosed in angle brackets (‹›).</rdfs:comment>
+        <rdfs:label xml:lang="en">TX8 Grapheme</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object -->
 
     <owl:Class rdf:about="http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object">
@@ -1673,6 +1553,7 @@
     <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#Geometry">
         <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
         <rdfs:label xml:lang="en">Geometry</rdfs:label>
+        <skos:definition xml:lang="en">The class represents the top-level geometry type. This class is equivalent to the UML class GM_Object defined in ISO 19107, and it is superclass of all geometry types.</skos:definition>
     </owl:Class>
     
 
@@ -1686,11 +1567,25 @@
     
 
 
+    <!-- http://www.opengis.net/ont/sf#Geometry -->
+
+    <owl:Class rdf:about="http://www.opengis.net/ont/sf#Geometry">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+        <rdfs:comment xml:lang="en">Geometry is the root class of the hierarchy.
+The instantiable subclasses of Geometry are restricted to 0, 1 and 2-dimensional geometric objects that exist in 2, 3 or 4-dimensional coordinate space (R2, R3 or R4). Geometry values in R2 have points with coordinate values for x and y. Geometry values in R3 have points with coordinate values for x, y and z or for x, y and m. Geometry values in R4 have points with coordinate values for x, y, z and m.
+The interpretation of the coordinates is subject to the coordinate reference systems associated to the point. All coordinates within a geometry object should be in the same coordinate reference systems. Each coordinate shall be unambiguously associated to a coordinate reference system either directly or through its containing geometry. The z coordinate of a point is typically, but not necessarily, represents altitude or elevation. The m coordinate represents a measurement.
+All Geometry classes described in this specification are defined so that instances of Geometry are topologically closed, i.e. all represented geometries include their boundary as point sets. This does not affect their representation, and open version of the same classes may be used in other circumstances, such as topological representations.</rdfs:comment>
+        <rdfs:label xml:lang="en">Geometry</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.opengis.net/ont/sf#MultiLineString -->
 
     <owl:Class rdf:about="http://www.opengis.net/ont/sf#MultiLineString">
-        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
-        <rdfs:label xml:lang="en">Multi Line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/sf#Geometry"/>
+        <rdfs:comment xml:lang="en">A MultiLineString is a MultiCurve whose elements are LineStrings.</rdfs:comment>
+        <rdfs:label xml:lang="en">Multi Line String</rdfs:label>
     </owl:Class>
     
 
@@ -1698,7 +1593,11 @@
     <!-- http://www.opengis.net/ont/sf#MultiPoint -->
 
     <owl:Class rdf:about="http://www.opengis.net/ont/sf#MultiPoint">
-        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/sf#Geometry"/>
+        <rdfs:comment xml:lang="en">A MultiPoint is a 0-dimensional GeometryCollection. The elements of a MultiPoint are restricted to Points. ThePoints are not connected or ordered in any semantically important way.
+A MultiPoint is simple if no two Points in the MultiPoint are equal (have identical coordinate values in X and Y).
+Every MultiPoint is spatially equal to a simple Multipoint.
+The boundary of a MultiPoint is the empty set.</rdfs:comment>
         <rdfs:label xml:lang="en">Mulit Point</rdfs:label>
     </owl:Class>
     
@@ -1707,7 +1606,15 @@
     <!-- http://www.opengis.net/ont/sf#MultiPolygon -->
 
     <owl:Class rdf:about="http://www.opengis.net/ont/sf#MultiPolygon">
-        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/sf#Geometry"/>
+        <rdfs:comment xml:lang="en">A MultiPolygon is a MultiSurface whose elements are Polygons.
+The assertions for MultiPolygons are as follows.
+a) The interiors of 2 Polygons that are elements of a MultiPolygon may not intersect.
+b) The boundaries of any 2 Polygons that are elements of a MultiPolygon may not cross and may touch at only a finite number of Points.
+c) A MultiPolygon is defined as topologically closed.
+d) A MultiPolygon may not have cut lines, spikes or punctures, a MultiPolygon is a regular closed Point set,
+e) The interior of a MultiPolygon with more than 1 Polygon is not connected; the number of connected components of the interior of a MultiPolygon is equal to the number of Polygons in the MultiPolygon. 
+The boundary of a MultiPolygon is a set of closed Curves (LineStrings) corresponding to the boundaries of its element Polygons. Each Curve in the boundary of the MultiPolygon is in the boundary of exactly 1 element Polygon, and every Curve in the boundary of an element Polygon is in the boundary of the MultiPolygon.</rdfs:comment>
         <rdfs:label xml:lang="en">Multi Polygon</rdfs:label>
     </owl:Class>
     
@@ -1716,7 +1623,10 @@
     <!-- http://www.opengis.net/ont/sf#Point -->
 
     <owl:Class rdf:about="http://www.opengis.net/ont/sf#Point">
-        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/sf#Geometry"/>
+        <rdfs:comment xml:lang="en">A Point is a 0-dimensional geometric object and represents a single location in coordinate space. 
+A Point has an x-coordinate value, a y-coordinate value. If called for by the associated Spatial Reference System, it may also have coordinate values for z and m.
+The boundary of a Point is the empty set.</rdfs:comment>
         <rdfs:label xml:lang="en">Point</rdfs:label>
     </owl:Class>
     
@@ -1940,11 +1850,227 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
     
 
 
+    <!-- http://ontology.ogham.link/CISP -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/CISP">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Repository"/>
+        <rdfs:label xml:lang="en">Celtic Inscribed Stones Project (CISP)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/OghamAlphabet -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/OghamAlphabet">
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX3_Writing_System"/>
+        <crmtex:TXP7_has_item rdf:resource="http://ontology.ogham.link/OghamChar"/>
+        <rdfs:label xml:lang="en">Ogham Alphabet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/OghamChar -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/OghamChar">
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX8_Grapheme"/>
+        <rdfs:label xml:lang="en">Ogham Char</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/OghamIn3D -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/OghamIn3D">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Repository"/>
+        <rdfs:label xml:lang="en">Ogham in 3D Project</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/SquirrelOgham -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/SquirrelOgham">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Repository"/>
+        <rdfs:label xml:lang="en">Ogham Squirrel Project</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/brash_1879 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/brash_1879">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Brash, R. R. (1879) The Ogam Inscribed Monuments of the Gaedhil in the British Isles. London.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Brash (1879)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/brikil_1993 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/brikil_1993">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Brindley, A, Kilfeather, A. (1993), An Archaeological Inventory of County Carlow, Dublin: Stationery Office.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Brindley / Kilfeather (1993)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/cuppage_1986 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/cuppage_1986">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Cuppage, J. et al (1986) Archaeological Survey of the Dingle Peninsula. Ballyferrier: Oidrheacht Chorca Dhuibhne.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Cuppage (1986)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/ferguson_1887 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/ferguson_1887">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Ferguson, S. (1887) Ogham Inscriptions in Ireland, Wales and Scotland: Edinburgh.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Ferguson (1887)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/macalister_1897 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/macalister_1897">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1897) Studies in Irish Epigraphy. A Collection of Revised Readings of the Ancient Inscriptions of Ireland, with Introduction and Notes. Part I. London: David Nutt.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Macalister (1897)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/macalister_1902 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/macalister_1902">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1902) Studies in Irish Epigraphy. A Collection of Revised Readings of the Ancient Inscriptions of Ireland, with Introduction and Notes. Part II. London: David Nutt.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Macalister (1902)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/macalister_1907 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/macalister_1907">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1907) Studies in Irish Epigraphy. A Collection of Revised Readings of the Ancient Inscriptions of Ireland, with Introduction and Notes Part III. London: David Nutt.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Macalister (1907)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/macalister_1909 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/macalister_1909">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Macalister, R.A.S. (1909) The Memorial Slabs of Clonmacnois, King&apos;s County. Dublin.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Macalister (1909)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/macalister_1945 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/macalister_1945">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1945) Corpus Inscriptionum Insularum Celticarum Vol. I. Dublin: Stationery Office.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Macalister (1945)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/macalister_1949 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/macalister_1949">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1949) Corpus Inscriptionum Insularum Celticarum Vol. II. Dublin: Stationery Office.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Macalister (1949)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/mcmanus_1991 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/mcmanus_1991">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">McManus, D. (1991) A Guide to Ogam Maynooth Monographs 4. Maynooth: An Sagart.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">McManus (1991)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/okasha_forsyth_2001 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/okasha_forsyth_2001">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Okasha, E. and Forsyth, K. (2001) Early Christian Inscriptions of Munster. A Corpus of the Inscribed Stones. Cork: Cork University Press.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Okasha / Forsyth (2001)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/osullivan_1996 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/osullivan_1996">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">O&apos;Sullivan, A., Sheehan, J. (1996) The Iveragh Peninsula. An Archaeological Survey of South Kerry. Cork: Cork University Press.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">O&apos;Sullivan (1996)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/petrie_1872 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/petrie_1872">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Petrie, G. (1872) Christian Inscriptions in the Irish Language, M. Stokes (ed.), Vol. 1. Dublin: Royal Historical and Archaeological Association.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Petrie (1872)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/power_1992 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/power_1992">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Power, D, E. Byrne, U. Egan, S. Lane and M.Sleeman (1992) Archaeological Inventory of County Cork Volume 1: West Cork. Dublin: Stationery Office.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Power / Byrne / Egan / Lane / Sleeman (1992)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/power_1997 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/power_1997">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Power, D., E. Byrne, U. Egan, S. Lane and M.Sleeman (1997) Archaeological Inventory of County Cork Volume 3: Mid Cork. Dublin: Stationery Office.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Power / Byrne / Egan / Lane / Sleeman (1997)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/raftery_1960 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/raftery_1960">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Raftery, B. (1960) `National Museum of Ireland, Arch. acquisitions 1958&apos; Journal of the Royal Society of Antiquaries of Ireland 90: 1--40.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Raftery (1960)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.wikidata.org/entity/Q106628017 -->
 
     <owl:NamedIndividual rdf:about="http://www.wikidata.org/entity/Q106628017">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
-        <rdfs:label xml:lang="en">Celtic Inscribed Stones Project</rdfs:label>
+        <rdfs:label xml:lang="en">Celtic Inscribed Stones Project (Wikidata)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1953,7 +2079,7 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
 
     <owl:NamedIndividual rdf:about="http://www.wikidata.org/entity/Q106674066">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
-        <rdfs:label xml:lang="en">Ogham in 3D Project</rdfs:label>
+        <rdfs:label xml:lang="en">Ogham in 3D Project (Wikidata)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1962,7 +2088,7 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
 
     <owl:NamedIndividual rdf:about="http://www.wikidata.org/entity/Q70256237">
         <rdf:type rdf:resource="http://www.wikidata.org/entity/Q7725634"/>
-        <rdfs:label xml:lang="en">Corpus Inscriptionum Insularum Celticarum Vol.1</rdfs:label>
+        <rdfs:label xml:lang="en">Corpus Inscriptionum Insularum Celticarum Vol.1 (Wikidata)</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1971,7 +2097,7 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
 
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-3246-3531">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-        <rdfs:label xml:lang="en">Florian Thiery</rdfs:label>
+        <rdfs:label xml:lang="en">Florian Thiery (ORCID)</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 
