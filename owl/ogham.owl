@@ -1680,6 +1680,7 @@
     <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#Geometry">
         <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
         <rdfs:label xml:lang="en">Geometry</rdfs:label>
+        <skos:definition xml:lang="en">The class represents the top-level geometry type. This class is equivalent to the UML class GM_Object defined in ISO 19107, and it is superclass of all geometry types.</skos:definition>
     </owl:Class>
     
 
@@ -1693,11 +1694,25 @@
     
 
 
+    <!-- http://www.opengis.net/ont/sf#Geometry -->
+
+    <owl:Class rdf:about="http://www.opengis.net/ont/sf#Geometry">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+        <rdfs:comment xml:lang="en">Geometry is the root class of the hierarchy.
+The instantiable subclasses of Geometry are restricted to 0, 1 and 2-dimensional geometric objects that exist in 2, 3 or 4-dimensional coordinate space (R2, R3 or R4). Geometry values in R2 have points with coordinate values for x and y. Geometry values in R3 have points with coordinate values for x, y and z or for x, y and m. Geometry values in R4 have points with coordinate values for x, y, z and m.
+The interpretation of the coordinates is subject to the coordinate reference systems associated to the point. All coordinates within a geometry object should be in the same coordinate reference systems. Each coordinate shall be unambiguously associated to a coordinate reference system either directly or through its containing geometry. The z coordinate of a point is typically, but not necessarily, represents altitude or elevation. The m coordinate represents a measurement.
+All Geometry classes described in this specification are defined so that instances of Geometry are topologically closed, i.e. all represented geometries include their boundary as point sets. This does not affect their representation, and open version of the same classes may be used in other circumstances, such as topological representations.</rdfs:comment>
+        <rdfs:label xml:lang="en">Geometry</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.opengis.net/ont/sf#MultiLineString -->
 
     <owl:Class rdf:about="http://www.opengis.net/ont/sf#MultiLineString">
-        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
-        <rdfs:label xml:lang="en">Multi Line</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/sf#Geometry"/>
+        <rdfs:comment xml:lang="en">A MultiLineString is a MultiCurve whose elements are LineStrings.</rdfs:comment>
+        <rdfs:label xml:lang="en">Multi Line String</rdfs:label>
     </owl:Class>
     
 
@@ -1705,7 +1720,11 @@
     <!-- http://www.opengis.net/ont/sf#MultiPoint -->
 
     <owl:Class rdf:about="http://www.opengis.net/ont/sf#MultiPoint">
-        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/sf#Geometry"/>
+        <rdfs:comment xml:lang="en">A MultiPoint is a 0-dimensional GeometryCollection. The elements of a MultiPoint are restricted to Points. ThePoints are not connected or ordered in any semantically important way.
+A MultiPoint is simple if no two Points in the MultiPoint are equal (have identical coordinate values in X and Y).
+Every MultiPoint is spatially equal to a simple Multipoint.
+The boundary of a MultiPoint is the empty set.</rdfs:comment>
         <rdfs:label xml:lang="en">Mulit Point</rdfs:label>
     </owl:Class>
     
@@ -1714,7 +1733,15 @@
     <!-- http://www.opengis.net/ont/sf#MultiPolygon -->
 
     <owl:Class rdf:about="http://www.opengis.net/ont/sf#MultiPolygon">
-        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/sf#Geometry"/>
+        <rdfs:comment xml:lang="en">A MultiPolygon is a MultiSurface whose elements are Polygons.
+The assertions for MultiPolygons are as follows.
+a) The interiors of 2 Polygons that are elements of a MultiPolygon may not intersect.
+b) The boundaries of any 2 Polygons that are elements of a MultiPolygon may not cross and may touch at only a finite number of Points.
+c) A MultiPolygon is defined as topologically closed.
+d) A MultiPolygon may not have cut lines, spikes or punctures, a MultiPolygon is a regular closed Point set,
+e) The interior of a MultiPolygon with more than 1 Polygon is not connected; the number of connected components of the interior of a MultiPolygon is equal to the number of Polygons in the MultiPolygon. 
+The boundary of a MultiPolygon is a set of closed Curves (LineStrings) corresponding to the boundaries of its element Polygons. Each Curve in the boundary of the MultiPolygon is in the boundary of exactly 1 element Polygon, and every Curve in the boundary of an element Polygon is in the boundary of the MultiPolygon.</rdfs:comment>
         <rdfs:label xml:lang="en">Multi Polygon</rdfs:label>
     </owl:Class>
     
@@ -1723,7 +1750,10 @@
     <!-- http://www.opengis.net/ont/sf#Point -->
 
     <owl:Class rdf:about="http://www.opengis.net/ont/sf#Point">
-        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/sf#Geometry"/>
+        <rdfs:comment xml:lang="en">A Point is a 0-dimensional geometric object and represents a single location in coordinate space. 
+A Point has an x-coordinate value, a y-coordinate value. If called for by the associated Spatial Reference System, it may also have coordinate values for z and m.
+The boundary of a Point is the empty set.</rdfs:comment>
         <rdfs:label xml:lang="en">Point</rdfs:label>
     </owl:Class>
     
