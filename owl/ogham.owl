@@ -30,7 +30,7 @@
         <dc:title xml:lang="en">Ogham Ontology</dc:title>
         <rdfs:label xml:lang="en">Ogham Ontology</rdfs:label>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
-        <owl:versionInfo>15/05/2021</owl:versionInfo>
+        <owl:versionInfo>16/05/2021</owl:versionInfo>
         <skos:definition xml:lang="en">This ontology contains classes to describe data from Linked Ogham Data.</skos:definition>
     </owl:Ontology>
     
@@ -1337,176 +1337,6 @@
     
 
 
-    <!-- http://ontology.ogham.link/brash_1879 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/brash_1879">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Brash, R. R. (1879) The Ogam Inscribed Monuments of the Gaedhil in the British Isles. London.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Brash (1879)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/brikil_1993 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/brikil_1993">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Brindley, A, Kilfeather, A. (1993), An Archaeological Inventory of County Carlow, Dublin: Stationery Office.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Brindley / Kilfeather (1993)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/cuppage_1986 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/cuppage_1986">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Cuppage, J. et al (1986) Archaeological Survey of the Dingle Peninsula. Ballyferrier: Oidrheacht Chorca Dhuibhne.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Cuppage (1986)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/ferguson_1887 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/ferguson_1887">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Ferguson, S. (1887) Ogham Inscriptions in Ireland, Wales and Scotland: Edinburgh.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Ferguson (1887)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/macalister_1897 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/macalister_1897">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1897) Studies in Irish Epigraphy. A Collection of Revised Readings of the Ancient Inscriptions of Ireland, with Introduction and Notes. Part I. London: David Nutt.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Macalister (1897)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/macalister_1902 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/macalister_1902">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1902) Studies in Irish Epigraphy. A Collection of Revised Readings of the Ancient Inscriptions of Ireland, with Introduction and Notes. Part II. London: David Nutt.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Macalister (1902)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/macalister_1907 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/macalister_1907">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1907) Studies in Irish Epigraphy. A Collection of Revised Readings of the Ancient Inscriptions of Ireland, with Introduction and Notes Part III. London: David Nutt.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Macalister (1907)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/macalister_1909 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/macalister_1909">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Macalister, R.A.S. (1909) The Memorial Slabs of Clonmacnois, King&apos;s County. Dublin.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Macalister (1909)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/macalister_1945 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/macalister_1945">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1945) Corpus Inscriptionum Insularum Celticarum Vol. I. Dublin: Stationery Office.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Macalister (1945)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/macalister_1949 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/macalister_1949">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1949) Corpus Inscriptionum Insularum Celticarum Vol. II. Dublin: Stationery Office.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Macalister (1949)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/mcmanus_1991 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/mcmanus_1991">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">McManus, D. (1991) A Guide to Ogam Maynooth Monographs 4. Maynooth: An Sagart.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">McManus (1991)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/okasha_forsyth_2001 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/okasha_forsyth_2001">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Okasha, E. and Forsyth, K. (2001) Early Christian Inscriptions of Munster. A Corpus of the Inscribed Stones. Cork: Cork University Press.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Okasha / Forsyth (2001)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/osullivan_1996 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/osullivan_1996">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">O&apos;Sullivan, A., Sheehan, J. (1996) The Iveragh Peninsula. An Archaeological Survey of South Kerry. Cork: Cork University Press.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">O&apos;Sullivan (1996)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/petrie_1872 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/petrie_1872">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Petrie, G. (1872) Christian Inscriptions in the Irish Language, M. Stokes (ed.), Vol. 1. Dublin: Royal Historical and Archaeological Association.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Petrie (1872)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/power_1992 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/power_1992">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Power, D, E. Byrne, U. Egan, S. Lane and M.Sleeman (1992) Archaeological Inventory of County Cork Volume 1: West Cork. Dublin: Stationery Office.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Power / Byrne / Egan / Lane / Sleeman (1992)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/power_1997 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/power_1997">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Power, D., E. Byrne, U. Egan, S. Lane and M.Sleeman (1997) Archaeological Inventory of County Cork Volume 3: Mid Cork. Dublin: Stationery Office.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Power / Byrne / Egan / Lane / Sleeman (1997)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://ontology.ogham.link/raftery_1960 -->
-
-    <owl:Class rdf:about="http://ontology.ogham.link/raftery_1960">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Book"/>
-        <rdfs:isDefinedBy xml:lang="en">Raftery, B. (1960) `National Museum of Ireland, Arch. acquisitions 1958&apos; Journal of the Royal Society of Antiquaries of Ireland 90: 1--40.</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Raftery (1960)</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity -->
 
     <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity">
@@ -2062,6 +1892,176 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
     <owl:NamedIndividual rdf:about="http://ontology.ogham.link/SquirrelOgham">
         <rdf:type rdf:resource="http://ontology.ogham.link/Repository"/>
         <rdfs:label xml:lang="en">Ogham Squirrel Project</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/brash_1879 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/brash_1879">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Brash, R. R. (1879) The Ogam Inscribed Monuments of the Gaedhil in the British Isles. London.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Brash (1879)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/brikil_1993 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/brikil_1993">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Brindley, A, Kilfeather, A. (1993), An Archaeological Inventory of County Carlow, Dublin: Stationery Office.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Brindley / Kilfeather (1993)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/cuppage_1986 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/cuppage_1986">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Cuppage, J. et al (1986) Archaeological Survey of the Dingle Peninsula. Ballyferrier: Oidrheacht Chorca Dhuibhne.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Cuppage (1986)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/ferguson_1887 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/ferguson_1887">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Ferguson, S. (1887) Ogham Inscriptions in Ireland, Wales and Scotland: Edinburgh.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Ferguson (1887)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/macalister_1897 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/macalister_1897">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1897) Studies in Irish Epigraphy. A Collection of Revised Readings of the Ancient Inscriptions of Ireland, with Introduction and Notes. Part I. London: David Nutt.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Macalister (1897)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/macalister_1902 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/macalister_1902">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1902) Studies in Irish Epigraphy. A Collection of Revised Readings of the Ancient Inscriptions of Ireland, with Introduction and Notes. Part II. London: David Nutt.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Macalister (1902)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/macalister_1907 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/macalister_1907">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1907) Studies in Irish Epigraphy. A Collection of Revised Readings of the Ancient Inscriptions of Ireland, with Introduction and Notes Part III. London: David Nutt.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Macalister (1907)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/macalister_1909 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/macalister_1909">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Macalister, R.A.S. (1909) The Memorial Slabs of Clonmacnois, King&apos;s County. Dublin.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Macalister (1909)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/macalister_1945 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/macalister_1945">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1945) Corpus Inscriptionum Insularum Celticarum Vol. I. Dublin: Stationery Office.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Macalister (1945)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/macalister_1949 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/macalister_1949">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Macalister, R. A. S. (1949) Corpus Inscriptionum Insularum Celticarum Vol. II. Dublin: Stationery Office.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Macalister (1949)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/mcmanus_1991 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/mcmanus_1991">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">McManus, D. (1991) A Guide to Ogam Maynooth Monographs 4. Maynooth: An Sagart.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">McManus (1991)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/okasha_forsyth_2001 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/okasha_forsyth_2001">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Okasha, E. and Forsyth, K. (2001) Early Christian Inscriptions of Munster. A Corpus of the Inscribed Stones. Cork: Cork University Press.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Okasha / Forsyth (2001)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/osullivan_1996 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/osullivan_1996">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">O&apos;Sullivan, A., Sheehan, J. (1996) The Iveragh Peninsula. An Archaeological Survey of South Kerry. Cork: Cork University Press.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">O&apos;Sullivan (1996)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/petrie_1872 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/petrie_1872">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Petrie, G. (1872) Christian Inscriptions in the Irish Language, M. Stokes (ed.), Vol. 1. Dublin: Royal Historical and Archaeological Association.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Petrie (1872)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/power_1992 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/power_1992">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Power, D, E. Byrne, U. Egan, S. Lane and M.Sleeman (1992) Archaeological Inventory of County Cork Volume 1: West Cork. Dublin: Stationery Office.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Power / Byrne / Egan / Lane / Sleeman (1992)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/power_1997 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/power_1997">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Power, D., E. Byrne, U. Egan, S. Lane and M.Sleeman (1997) Archaeological Inventory of County Cork Volume 3: Mid Cork. Dublin: Stationery Office.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Power / Byrne / Egan / Lane / Sleeman (1997)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/raftery_1960 -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/raftery_1960">
+        <rdf:type rdf:resource="http://ontology.ogham.link/Book"/>
+        <rdfs:isDefinedBy xml:lang="en">Raftery, B. (1960) `National Museum of Ireland, Arch. acquisitions 1958&apos; Journal of the Royal Society of Antiquaries of Ireland 90: 1--40.</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Raftery (1960)</rdfs:label>
     </owl:NamedIndividual>
     
 
