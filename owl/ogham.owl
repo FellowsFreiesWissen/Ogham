@@ -14,6 +14,7 @@
      xmlns:prov="http://www.w3.org/ns/prov#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:crmtex="http://www.cidoc-crm.org/cidoc-crm/crmtex/"
      xmlns:dcmitype="http://purl.org/dc/dcmitype/"
      xmlns:geonames="http://sws.geonames.org/"
      xmlns:ontology="http://ontology.ogham.link/"
@@ -446,6 +447,15 @@
         <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <rdfs:range rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
         <rdfs:label xml:lang="en">st_within()</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/crmtex/TXP7_has_item -->
+
+    <owl:ObjectProperty rdf:about="http://www.cidoc-crm.org/cidoc-crm/crmtex/TXP7_has_item">
+        <rdfs:comment xml:lang="en">This property is used to state the (conceptual) belonging of a TX8 Grapheme to a given TX3 Writing System.</rdfs:comment>
+        <rdfs:label xml:lang="en">TXP7 has item</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1105,7 +1115,7 @@
     <!-- http://ontology.ogham.link/Inscription -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/Inscription">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX1_Written_Text"/>
         <rdfs:label xml:lang="en">Inscription</rdfs:label>
     </owl:Class>
     
@@ -1267,7 +1277,7 @@
     <!-- http://ontology.ogham.link/Reading -->
 
     <owl:Class rdf:about="http://ontology.ogham.link/Reading">
-        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Inscription"/>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX6_Transcription"/>
         <rdfs:label xml:lang="en">Reading</rdfs:label>
     </owl:Class>
     
@@ -1656,6 +1666,66 @@
     
 
 
+    <!-- http://www.cidoc-crm.org/cidoc-crm/crmtex/TX1_Written_Text -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX1_Written_Text">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature"/>
+        <rdfs:comment xml:lang="en">This class comprises visible set of symbols (glyphs or graphs) intentionally traced (i.e. “written”) on some kind of physical support by using specific techniques and having semiotic significance and the purpose of conveying a message towards a given addressee or group of addressees.</rdfs:comment>
+        <rdfs:label xml:lang="en">TX1 Written Text</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/crmtex/TX3_Writing_System -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX3_Writing_System">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+        <rdfs:comment xml:lang="en">Subclass of E29 Design or Procedure refers to a conventional system consisting of a set of signs (graphemes, TX8) used to codify a natural language, by means of specific rules in the combination and phonological value assignment of the chosen graphemes. As each code, a writing systems requires shared understanding between writers and readers allowing the transmission of the message. It is used to produce a TX1 Written Text during a TX2 Writing event.</rdfs:comment>
+        <rdfs:label xml:lang="en">TX3 Writing System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/crmtex/TX5_Reading -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX5_Reading">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX7_Written_Text_Segment"/>
+        <rdfs:comment xml:lang="en">Subclass of the S4 Observation, referring to the semiotic procedure of decoding (and therefore understanding) a written text. This procedure can be carried out for scientific purposes, in order to analyse and study the text according to different disciplinary perspectives. The reading activity, thus, is intended as a specific observation (S4) in which the decoding of the signs is performed, i.e. the linguistic value is recognised and the message is understood. Cases in which decoding does not happen (e.g., the observer is able to describe the signs but not to assign a specific linguist value to them), the S4 class could be used as it is. For study purposes, the reading procedure requires a scientific autoptic examination of the text as preparatory action for the study. An autoptic examination consists of an accurate analysis of the surface and the signs and prescribes the use of specific tools and procedures, for establishing as faithfully as possible the exact value of each sign drawn on the physical feature.</rdfs:comment>
+        <rdfs:label xml:lang="en">TX5 Reading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/crmtex/TX6_Transcription -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX6_Transcription">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX5_Reading"/>
+        <rdfs:comment xml:lang="en">Subclass of E7 Activity, referring to the activity of re-writing the text conducted by an editor. This operation could involve a writing system (TX3) different from that of the original text, implying a transposition of the sounds of a language from a writing system to another one (e.g., Latin letters to render a Mycenaean text). For scientific purposes, this operation often consists in a ‘transliteration’, because it implies a 1:1 relation between the signs of the two writing systems. The P16 used specific object (was used for) property can be used to specify the role of the original graphemes during the commuting operations.</rdfs:comment>
+        <rdfs:label xml:lang="en">TX6 Transcription</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/crmtex/TX7_Written_Text_Segment -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX7_Written_Text_Segment">
+        <rdfs:subClassOf rdf:resource="http://ontology.ogham.link/Inscription"/>
+        <rdfs:comment xml:lang="en">Subclass of TX1 Written Text intended to identify portions of text considered to be of particular significance by scholars, as witnesses of a certain meaning or bearers of a particular phenomenon relevant to the investigation, study and understanding of the ancient text. Examples of such text portions are: columns, fragments, sections, paragraphs, as well as single words or letters, or other components of the written text. To each of these entities can be associated a single production event (TX2) or destruction event (E6), as in the case of letters or words damaged or worn by atmospheric agents or human interventions, as well as specific conditions (E3) for documenting its status during the observation process (S4). The relationship between a written text (TX1) and its components is documented through the TXP4 has segment property.</rdfs:comment>
+        <rdfs:label xml:lang="en">TX7 Written Text Segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cidoc-crm.org/cidoc-crm/crmtex/TX8_Grapheme -->
+
+    <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX8_Grapheme">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+        <rdfs:comment xml:lang="en">Subclass of E90 Symbolic Object used to represent the abstract units with distinctive value in a given writing system. A grapheme is a character or sequence of characters that functions as a distinct unit within an orthography. It may be a single character, a multigraph, or a diacritic, but in all cases graphemes are defined in relation to the particular orthography. Most graphemes represent a single phoneme, but some represent a sequence of phonemes. For instance, the character sequence ‹ch› is often used to represent the phoneme /tʃ/ in English, while the single letter ‹x› usually represents the phoneme sequence /ks/. In a highly phonemic writing system, there is a close correspondence between graphemes and phonemes. English (written with Latin script) is an example of a writing system that is not highly phonemic, and therefore the mappings between graphemes and phonemes are more complex. Graphemes are often written enclosed in angle brackets (‹›).</rdfs:comment>
+        <rdfs:label xml:lang="en">TX8 Grapheme</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object -->
 
     <owl:Class rdf:about="http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object">
@@ -1973,6 +2043,25 @@ The notion of a SKOS concept is useful when describing the conceptual or intelle
     <owl:NamedIndividual rdf:about="http://lod.ogham.link/data/ResearchSquirrelEngineers">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
         <rdfs:label xml:lang="en">Research Squirrel Engineers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/OghamAlphabet -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/OghamAlphabet">
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX3_Writing_System"/>
+        <crmtex:TXP7_has_item rdf:resource="http://ontology.ogham.link/OghamChar"/>
+        <rdfs:label xml:lang="en">Ogham Alphabet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://ontology.ogham.link/OghamChar -->
+
+    <owl:NamedIndividual rdf:about="http://ontology.ogham.link/OghamChar">
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/crmtex/TX8_Grapheme"/>
+        <rdfs:label xml:lang="en">Ogham Char</rdfs:label>
     </owl:NamedIndividual>
     
 
