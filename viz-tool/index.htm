@@ -6,7 +6,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="vis-network.min.js"></script>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <style type="text/css">
         #mynetwork {
@@ -14,51 +14,53 @@
             height: 600px;
             border: 1px solid lightgray;
         }
-		#ids {
-		width: 600px;
-		}
-		body {
-			padding-left:20px !important;
-		}
+
+        #ids {
+            width: 600px;
+        }
+
+        body {
+            padding-left: 20px !important;
+        }
     </style>
 </head>
 
 <body>
-	<br>
-	<h1>Ogham Stone Reference Minion</h1>
-	<br>
-	<select id="ids" class="form-select" aria-label="Default select example"></select>
-	<br>
-	<div id="mynetwork"></div>
-	<hr style="width:600px;" />
-	<p>&nbsp;&nbsp;&nbsp;&#10132; developed by Florian Thiery M.Sc. | CC BY 4.0</p>
+    <br>
+    <h1>Ogham Stone Reference Minion</h1>
+    <br>
+    <select id="ids" class="form-select" aria-label="Default select example"></select>
+    <br>
+    <div id="mynetwork"></div>
+    <hr style="width:600px;" />
+    <p>&nbsp;&nbsp;&nbsp;&#10132; developed by Florian Thiery M.Sc. | CC BY 4.0</p>
 
     <script type="text/javascript">
         let nodes = new vis.DataSet([]);
         let edges = new vis.DataSet([]);
-		let nodes1 = [];
-		
-		let findGetParameter = (parameterName) => {
-    let result = null;
-    let tmp = [];
-    location.search
-        .substr(1)
-        .split("&")
-        .forEach(function(item) {
-            tmp = item.split("=");
-            if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
-        });
-    return result;
-};
-		
-		let RDF4J = {};
+        let nodes1 = [];
+
+        let findGetParameter = (parameterName) => {
+            let result = null;
+            let tmp = [];
+            location.search
+                .substr(1)
+                .split("&")
+                .forEach(function(item) {
+                    tmp = item.split("=");
+                    if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+                });
+            return result;
+        };
+
+        let RDF4J = {};
         RDF4J.queryData = (sparql, callback, step) => {
-			let thisNode = findGetParameter("node");
-			if (thisNode === null) {
-				thisNode = "macalister_1945:141";
-			}
-			$("#ids").val(thisNode);
-			//let thisNode = $('#ids').find(":selected").text();
+            let thisNode = findGetParameter("node");
+            if (thisNode === null) {
+                thisNode = "macalister_1945:141";
+            }
+            $("#ids").val(thisNode);
+            //let thisNode = $('#ids').find(":selected").text();
             setTimeout(function() {
                 $.ajax({
                     async: false,
@@ -67,7 +69,7 @@
                     type: 'GET',
                     data: {
                         queryLn: 'SPARQL',
-                        query: sparql.replace("#query#",thisNode),
+                        query: sparql.replace("#query#", thisNode),
                         Accept: 'application/json'
                     },
                     error: function(jqXHR, textStatus, errorThrown) {
@@ -105,8 +107,8 @@
                 });
             }, 100);
         };
-		
-		queryLabels = (sparql) => {
+
+        queryLabels = (sparql) => {
             setTimeout(function() {
                 $.ajax({
                     async: false,
@@ -145,21 +147,22 @@
                         }
                         response.results.bindings = bindings_copy;
                         for (let x in bindings_copy) {
-							var o = new Option(bindings_copy[x].label.value, bindings_copy[x].label.value);
-							$(o).html(bindings_copy[x].label.value);
-							if (bindings_copy[x].label.value.includes("ciic:") || bindings_copy[x].label.value.includes("cisp:200") || bindings_copy[x].label.value.includes("squirrel:") || bindings_copy[x].label.value.includes("o3d:300")) {} else {
-								$("#ids").append(o);
-							}
-						}
-						RDF4J.queryData(query_nodes, setNodes, 0);
+                            var o = new Option(bindings_copy[x].label.value, bindings_copy[x].label.value);
+                            $(o).html(bindings_copy[x].label.value);
+                            if (bindings_copy[x].label.value.includes("ciic:") || bindings_copy[x].label.value.includes("cisp:200") || bindings_copy[x].label.value.includes("squirrel:") || bindings_copy[x].label.value.includes(
+                                    "o3d:300")) {} else {
+                                $("#ids").append(o);
+                            }
+                        }
+                        RDF4J.queryData(query_nodes, setNodes, 0);
                     }
                 });
-            }, 100);			
+            }, 100);
         };
 
         let setNodes = (data) => {
             nodes1 = [];
-			let bindings = data.results.bindings;
+            let bindings = data.results.bindings;
             console.log(bindings);
             for (let x in bindings) {
                 let tmp_node = {};
@@ -175,12 +178,12 @@
                     tmp_node.color = "#cc3399";
                 }
                 if (tmp_node.id.includes("ciic:") || tmp_node.id.includes("cisp:200") || tmp_node.id.includes("squirrel:") || tmp_node.id.includes("o3d:300")) {} else {
-					if (!nodes1.find(o => o.id === bindings[x].label1.value)) {
-						nodes1.push(tmp_node);
-					}
+                    if (!nodes1.find(o => o.id === bindings[x].label1.value)) {
+                        nodes1.push(tmp_node);
+                    }
                 }
             }
-			for (let x in bindings) {
+            for (let x in bindings) {
                 let tmp_node = {};
                 tmp_node.id = bindings[x].label2.value;
                 tmp_node.label = bindings[x].label2.value;
@@ -194,13 +197,13 @@
                     tmp_node.color = "#cc3399";
                 }
                 if (tmp_node.id.includes("ciic:") || tmp_node.id.includes("cisp:200") || tmp_node.id.includes("squirrel:") || tmp_node.id.includes("o3d:300")) {} else {
-					if (!nodes1.find(o => o.id === bindings[x].label2.value)) {
-						nodes1.push(tmp_node);
-					}
+                    if (!nodes1.find(o => o.id === bindings[x].label2.value)) {
+                        nodes1.push(tmp_node);
+                    }
                 }
             }
-			console.log("nodes1",nodes1);
-			nodes.add(nodes1);
+            console.log("nodes1", nodes1);
+            nodes.add(nodes1);
             RDF4J.queryData(query_edges, setEdges);
         }
 
@@ -216,8 +219,8 @@
             setNetwork();
         }
 
-		var network = 0;
-		let setNetwork = (data) => {
+        var network = 0;
+        let setNetwork = (data) => {
             var data = {
                 nodes: nodes,
                 edges: edges,
@@ -244,17 +247,18 @@
             });
         }
 
-        let query_nodes = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX oghamonto: <http://ontology.ogham.link/> SELECT DISTINCT * WHERE { ?stone1 rdfs:label ?label1. ?stone2 rdfs:label ?label2. ?stone1 oghamonto:equals ?stone2. FILTER (?label1 = '#query#') OPTIONAL { ?stone3 rdfs:label ?label3. ?stone2 oghamonto:equals ?stone3. } OPTIONAL { ?stone4 rdfs:label ?label4. ?stone2 oghamonto:equals ?stone4. } }";
-		let query_edges = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX oghamonto: <http://ontology.ogham.link/> SELECT DISTINCT ?alabel ?blabel WHERE { ?a oghamonto:equals ?b. ?a rdfs:label ?alabel. ?b rdfs:label ?blabel. }";
-		let query_labels = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX oghamonto: <http://ontology.ogham.link/> SELECT DISTINCT * WHERE { ?stone rdfs:label ?label. } ORDER BY ASC(?label)";
-		queryLabels(query_labels);
+        let query_nodes =
+            "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX oghamonto: <http://ontology.ogham.link/> SELECT DISTINCT * WHERE { ?stone1 rdfs:label ?label1. ?stone2 rdfs:label ?label2. ?stone1 oghamonto:equals ?stone2. FILTER (?label1 = '#query#') OPTIONAL { ?stone3 rdfs:label ?label3. ?stone2 oghamonto:equals ?stone3. } OPTIONAL { ?stone4 rdfs:label ?label4. ?stone2 oghamonto:equals ?stone4. } }";
+        let query_edges = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX oghamonto: <http://ontology.ogham.link/> SELECT DISTINCT ?alabel ?blabel WHERE { ?a oghamonto:equals ?b. ?a rdfs:label ?alabel. ?b rdfs:label ?blabel. }";
+        let query_labels = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX oghamonto: <http://ontology.ogham.link/> SELECT DISTINCT * WHERE { ?stone rdfs:label ?label. } ORDER BY ASC(?label)";
+        queryLabels(query_labels);
 
         // create a network
         var container = document.getElementById("mynetwork");
-		
-		$('#ids').on('change', function() {
-		  window.open("?node=" + $('#ids').find(":selected").text(),"_self");
-		});
+
+        $('#ids').on('change', function() {
+            window.open("?node=" + $('#ids').find(":selected").text(), "_self");
+        });
     </script>
 </body>
 
