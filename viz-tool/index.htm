@@ -47,29 +47,31 @@
             </h2>
             <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                 <div class="accordion-body">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-                    gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-                    vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    Ogham Stones have various reference numbers. One of the most popular numbering schemes is the CIIC scheme by <a href="https://en.wikipedia.org/wiki/R._A._Stewart_Macalister" target="_blank">R.A.S. Macálister</a>. The Celtic
+                    Inscribed Stones Project (<a href="https://www.ucl.ac.uk/archaeology/cisp/database/" target="_blank">CISP</a>) has stored a lot of cross references. The `Ogham Stones in the Wikimedia Universe` project extended these data and <a
+                        href="https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_stones_references.csv" target="_blank">published them openly</a>. This tools shows the cross references of Ogham Stones. Just choose one starting point
+                    and explore the data!
                 </div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
-                    Project Information
+                    Data Information
                 </button>
             </h2>
             <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo">
                 <div class="accordion-body">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-                    gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-                    vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    The data belongs to the <a href="http://ogham.squirrel.link/" target="_blank">Irish ᚑᚌᚆᚐᚋ Stones in the Wikimedia Universe</a> project. This project is funded by Wikimedia Deutschland and the <a href="https://en.wikiversity.org/wiki/Wikimedia_Deutschland/Open_Science_Fellows_Program"
+                        target="_blank">Open Science Fellows Program</a>.
+                    <br>
+                    <center><img src="https://github.com/ogi-ogham/ogham-datav1/raw/main/img/Fellowship.png" width="300"></center>
                 </div>
             </div>
         </div>
     </div>
     <hr style="width:800px;" />
-    <p>&nbsp;&nbsp;&nbsp;&#10132; developed by Florian Thiery M.Sc. | CC BY 4.0 | <a href="https://github.com/FellowsFreiesWissen/Ogham" target="_blank">GitHub</a></p>
+    <p>&nbsp;&nbsp;&nbsp;&#10132; developed by <strong>Florian Thiery M.Sc.</strong> | CC BY 4.0 | <a href="https://github.com/FellowsFreiesWissen/Ogham" target="_blank">GitHub</a></p>
 
     <script type="text/javascript">
         let nodes = new vis.DataSet([]);
@@ -214,7 +216,8 @@
                 if (tmp_node.label.includes("o3d")) {
                     tmp_node.color = "#cc3399";
                 }
-                if (tmp_node.id.includes("ciic:") || tmp_node.id.includes("cisp:200") || tmp_node.id.includes("squirrel:") || tmp_node.id.includes("o3d:300")) {} else {
+                //if (tmp_node.id.includes("ciic:") || tmp_node.id.includes("cisp:200") || tmp_node.id.includes("squirrel:") || tmp_node.id.includes("o3d:300")) {} else {
+                if (tmp_node.id.includes("ciic:") || tmp_node.id.includes("cisp:200") || tmp_node.id.includes("o3d:300")) {} else {
                     if (!nodes1.find(o => o.id === bindings[x].label1.value)) {
                         nodes1.push(tmp_node);
                     }
@@ -233,7 +236,8 @@
                 if (tmp_node.label.includes("o3d")) {
                     tmp_node.color = "#cc3399";
                 }
-                if (tmp_node.id.includes("ciic:") || tmp_node.id.includes("cisp:200") || tmp_node.id.includes("squirrel:") || tmp_node.id.includes("o3d:300")) {} else {
+                //if (tmp_node.id.includes("ciic:") || tmp_node.id.includes("cisp:200") || tmp_node.id.includes("squirrel:") || tmp_node.id.includes("o3d:300")) {} else {
+                if (tmp_node.id.includes("ciic:") || tmp_node.id.includes("cisp:200") || tmp_node.id.includes("o3d:300")) {} else {
                     if (!nodes1.find(o => o.id === bindings[x].label2.value)) {
                         nodes1.push(tmp_node);
                     }
