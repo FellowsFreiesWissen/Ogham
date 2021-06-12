@@ -75,6 +75,7 @@
         let nodes = new vis.DataSet([]);
         let edges = new vis.DataSet([]);
         let nodes1 = [];
+        let triplestore = "https://java-dev.rgzm.de/rdf4j-server/repositories/zz";
 
         let findGetParameter = (parameterName) => {
             let result = null;
@@ -100,7 +101,7 @@
             setTimeout(function() {
                 $.ajax({
                     async: false,
-                    url: "https://java-dev.rgzm.de/rdf4j-server/repositories/zz",
+                    url: triplestore,
                     dataType: 'jsonp',
                     type: 'GET',
                     data: {
@@ -148,7 +149,7 @@
             setTimeout(function() {
                 $.ajax({
                     async: false,
-                    url: "https://java-dev.rgzm.de/rdf4j-server/repositories/zz",
+                    url: triplestore,
                     dataType: 'jsonp',
                     type: 'GET',
                     data: {
