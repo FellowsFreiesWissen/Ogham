@@ -64,6 +64,8 @@
                 <div class="accordion-body">
                     The data belongs to the <a href="http://ogham.squirrel.link/" target="_blank">Irish ᚑᚌᚆᚐᚋ Stones in the Wikimedia Universe</a> project. This project is funded by Wikimedia Deutschland and the <a href="https://en.wikiversity.org/wiki/Wikimedia_Deutschland/Open_Science_Fellows_Program"
                         target="_blank">Open Science Fellows Program</a>.
+                    <br><br>
+                    <center><img src="http://lookup.ogham.link/Wiki_Ogham_Logo.png" width="300"></center>
                     <br>
                     <center><img src="https://github.com/ogi-ogham/ogham-datav1/raw/main/img/Fellowship.png" width="300"></center>
                 </div>
@@ -239,6 +241,26 @@
                 //if (tmp_node.id.includes("ciic:") || tmp_node.id.includes("cisp:200") || tmp_node.id.includes("squirrel:") || tmp_node.id.includes("o3d:300")) {} else {
                 if (tmp_node.id.includes("ciic:") || tmp_node.id.includes("cisp:200") || tmp_node.id.includes("o3d:300")) {} else {
                     if (!nodes1.find(o => o.id === bindings[x].label2.value)) {
+                        nodes1.push(tmp_node);
+                    }
+                }
+            }
+            for (let x in bindings) {
+                let tmp_node = {};
+                tmp_node.id = bindings[x].label3.value;
+                tmp_node.label = bindings[x].label3.value;
+                if (tmp_node.label.includes("macalister")) {
+                    tmp_node.color = "#00ff99";
+                }
+                if (tmp_node.label.includes("cisp")) {
+                    tmp_node.color = "#cc6600";
+                }
+                if (tmp_node.label.includes("o3d")) {
+                    tmp_node.color = "#cc3399";
+                }
+                //if (tmp_node.id.includes("ciic:") || tmp_node.id.includes("cisp:200") || tmp_node.id.includes("squirrel:") || tmp_node.id.includes("o3d:300")) {} else {
+                if (tmp_node.id.includes("ciic:") || tmp_node.id.includes("cisp:200") || tmp_node.id.includes("o3d:300")) {} else {
+                    if (!nodes1.find(o => o.id === bindings[x].label3.value)) {
                         nodes1.push(tmp_node);
                     }
                 }
