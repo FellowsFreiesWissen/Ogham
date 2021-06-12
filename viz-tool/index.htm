@@ -265,6 +265,26 @@
                     }
                 }
             }
+            for (let x in bindings) {
+                let tmp_node = {};
+                tmp_node.id = bindings[x].label4.value;
+                tmp_node.label = bindings[x].label4.value;
+                if (tmp_node.label.includes("macalister")) {
+                    tmp_node.color = "#00ff99";
+                }
+                if (tmp_node.label.includes("cisp")) {
+                    tmp_node.color = "#cc6600";
+                }
+                if (tmp_node.label.includes("o3d")) {
+                    tmp_node.color = "#cc3399";
+                }
+                //if (tmp_node.id.includes("ciic:") || tmp_node.id.includes("cisp:200") || tmp_node.id.includes("squirrel:") || tmp_node.id.includes("o3d:300")) {} else {
+                if (tmp_node.id.includes("ciic:") || tmp_node.id.includes("cisp:200") || tmp_node.id.includes("o3d:300")) {} else {
+                    if (!nodes1.find(o => o.id === bindings[x].label4.value)) {
+                        nodes1.push(tmp_node);
+                    }
+                }
+            }
             console.log("nodes1", nodes1);
             nodes.add(nodes1);
             RDF4J.queryData(query_edges, setEdges);
